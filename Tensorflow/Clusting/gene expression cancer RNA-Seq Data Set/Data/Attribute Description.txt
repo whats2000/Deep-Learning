@@ -1,0 +1,3 @@
+A dummy name (gene_XX) is given to each attribute. Check the original submission ([Web Link]#!Synapse:syn4301332), or the platform specs for the complete list of probes name. The attributes are ordered consitently with the original submission.
+
+Web Link: https://www.synapse.org/
