@@ -5,19 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a956827f-5a6f-47bd-8f75-81ed29281486" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/Clusting.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gene expression cancer RNA-Seq Data Set/Data/train_data.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gene expression cancer RNA-Seq Data Set/Model/CNN_Gene_2023-05-15_15-31-43.h5" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../.idea/Deep-Learning.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/Deep-Learning.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gene expression cancer RNA-Seq Data Set/CNN_Gene_2023-05-11_18-14-51.h5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gene expression cancer RNA-Seq Data Set/cnn_train_data.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/gene expression cancer RNA-Seq Data Set/cnn_train_data.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gene expression cancer RNA-Seq Data Set/test_data.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/gene expression cancer RNA-Seq Data Set/test_data.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gene expression cancer RNA-Seq Data Set/Data/Data.zip" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,12 +17,16 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="ProjectId" id="2PuU3erbTUTb8Vy7j2dAb274kMi" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
@@ -61,10 +54,17 @@
       <updated>1684306265659</updated>
       <workItem from="1684306267069" duration="2901000" />
       <workItem from="1684309573647" duration="76000" />
+      <workItem from="1684310852883" duration="97000" />
+      <workItem from="1684396546822" duration="2419000" />
+      <workItem from="1684399010056" duration="477000" />
+      <workItem from="1684810429501" duration="690000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
