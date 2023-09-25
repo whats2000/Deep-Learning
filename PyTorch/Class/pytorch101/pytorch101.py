@@ -356,7 +356,7 @@ def make_one_hot(x: List[int]) -> Tensor:
     return y
 
 
-def sum_positive_entries(x: Tensor) -> Tensor:
+def sum_positive_entries(x: Tensor) -> int:
     """
     Return the sum of all the positive values in the input tensor x.
 
