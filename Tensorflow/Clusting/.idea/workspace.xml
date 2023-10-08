@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a956827f-5a6f-47bd-8f75-81ed29281486" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gene expression cancer RNA-Seq Data Set/Data/Data.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PyTorch/Class/pytorch102/A2_multi_class_classification.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../PyTorch/Class/pytorch102/A2_multi_class_classification.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PyTorch/Class/pytorch102/result.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../../PyTorch/Class/pytorch102/data/result.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PyTorch/Class/pytorch102/result.pt" beforeDir="false" afterPath="$PROJECT_DIR$/../../PyTorch/Class/pytorch102/data/result.pt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +59,7 @@
       <workItem from="1684396546822" duration="2419000" />
       <workItem from="1684399010056" duration="477000" />
       <workItem from="1684810429501" duration="690000" />
+      <workItem from="1696670291715" duration="200000" />
     </task>
     <servers />
   </component>
