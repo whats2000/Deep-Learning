@@ -52,7 +52,7 @@ strict digraph model {
 	subgraph cluster_3 {
 		fontsize=12 label=Sequential labeljust=l style=dashed
 		subgraph cluster_4 {
-			fontsize=12 label=MBConvWithSE labeljust=l style=dashed
+			fontsize=12 label=IBConvWithSE labeljust=l style=dashed
 			4 [label=<
                     <TABLE BORDER="0" CELLBORDER="1"
                     CELLSPACING="0" CELLPADDING="4">
@@ -120,7 +120,7 @@ strict digraph model {
                     </TABLE>> fillcolor=darkseagreen1]
 		}
 		subgraph cluster_5 {
-			fontsize=12 label=MBConvWithSE labeljust=l style=dashed
+			fontsize=12 label=IBConvWithSE labeljust=l style=dashed
 			9 [label=<
                     <TABLE BORDER="0" CELLBORDER="1"
                     CELLSPACING="0" CELLPADDING="4">
@@ -188,7 +188,7 @@ strict digraph model {
                     </TABLE>> fillcolor=darkseagreen1]
 		}
 		subgraph cluster_6 {
-			fontsize=12 label=MBConvWithSE labeljust=l style=dashed
+			fontsize=12 label=IBConvWithSE labeljust=l style=dashed
 			14 [label=<
                     <TABLE BORDER="0" CELLBORDER="1"
                     CELLSPACING="0" CELLPADDING="4">
@@ -282,7 +282,7 @@ strict digraph model {
                     </TABLE>> fillcolor=darkseagreen1]
 		}
 		subgraph cluster_7 {
-			fontsize=12 label=MBConvWithSE labeljust=l style=dashed
+			fontsize=12 label=IBConvWithSE labeljust=l style=dashed
 			21 [label=<
                     <TABLE BORDER="0" CELLBORDER="1"
                     CELLSPACING="0" CELLPADDING="4">
@@ -350,7 +350,7 @@ strict digraph model {
                     </TABLE>> fillcolor=darkseagreen1]
 		}
 		subgraph cluster_8 {
-			fontsize=12 label=MBConvWithSE labeljust=l style=dashed
+			fontsize=12 label=IBConvWithSE labeljust=l style=dashed
 			26 [label=<
                     <TABLE BORDER="0" CELLBORDER="1"
                     CELLSPACING="0" CELLPADDING="4">
@@ -444,7 +444,7 @@ strict digraph model {
                     </TABLE>> fillcolor=darkseagreen1]
 		}
 		subgraph cluster_9 {
-			fontsize=12 label=MBConvWithSE labeljust=l style=dashed
+			fontsize=12 label=IBConvWithSE labeljust=l style=dashed
 			33 [label=<
                     <TABLE BORDER="0" CELLBORDER="1"
                     CELLSPACING="0" CELLPADDING="4">
@@ -512,7 +512,7 @@ strict digraph model {
                     </TABLE>> fillcolor=darkseagreen1]
 		}
 		subgraph cluster_10 {
-			fontsize=12 label=MBConvWithSE labeljust=l style=dashed
+			fontsize=12 label=IBConvWithSE labeljust=l style=dashed
 			38 [label=<
                     <TABLE BORDER="0" CELLBORDER="1"
                     CELLSPACING="0" CELLPADDING="4">
@@ -606,7 +606,7 @@ strict digraph model {
                     </TABLE>> fillcolor=darkseagreen1]
 		}
 		subgraph cluster_11 {
-			fontsize=12 label=MBConvWithSE labeljust=l style=dashed
+			fontsize=12 label=IBConvWithSE labeljust=l style=dashed
 			45 [label=<
                     <TABLE BORDER="0" CELLBORDER="1"
                     CELLSPACING="0" CELLPADDING="4">
