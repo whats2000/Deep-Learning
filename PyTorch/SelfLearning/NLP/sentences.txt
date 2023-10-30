@@ -1,0 +1,713 @@
+The boy ate.
+The boy lay.
+The boy sat.
+The cat ate.
+The cat lay.
+The cat sat.
+The dog ate.
+The dog lay.
+The dog sat.
+The jar sat.
+The mouse lay.
+The mouse sat.
+The pickle lay.
+The pickle sat.
+The pickle jar sat.
+The boy ate in bed.
+The boy ate the pickle.
+The boy chased the mouse.
+The cat ate the mouse.
+The cat chased the boy.
+The cat chased the mouse.
+The dog chased the boy.
+The dog chased the cat.
+The dog chased the mouse.
+The mouse chased the boy.
+At the table sat the boy.
+At the table sat the cat.
+In the bed ate the boy.
+On the bed ate the boy.
+The bed sat on the floor.
+The boy at the table ate.
+The boy at the table sat.
+The boy ate at the table.
+The boy ate in the bed.
+The boy ate in the chair.
+The boy in the bed ate.
+The boy in the bed lay.
+The boy in the bed sat.
+The boy in the chair ate.
+The boy in the chair sat.
+The boy on the bed ate.
+The boy on the bed lay.
+The boy on the bed sat.
+The boy on the floor ate.
+The boy on the floor lay.
+The boy on the floor sat.
+The boy sat at the table.
+The boy sat in the bed.
+The boy sat in the chair.
+The boy sat on the bed.
+The boy sat on the chair.
+The boy under the bed ate.
+The boy under the bed lay.
+The boy under the table ate.
+The boy under the table lay.
+The boy under the table sat.
+The cat at the table sat.
+The cat ate on the floor.
+The cat ate on the table.
+The cat ate under the chair.
+The cat ate under the table.
+The cat in the chair sat.
+The cat on the bed lay.
+The cat on the bed sat.
+The cat on the boy lay.
+The cat on the boy sat.
+The cat on the chair lay.
+The cat on the chair sat.
+The cat on the floor ate.
+The cat on the floor lay.
+The cat on the floor sat.
+The cat on the refrigerator lay.
+The cat on the refrigerator sat.
+The cat on the table ate.
+The cat on the table lay.
+The cat on the table sat.
+The cat sat in the bed.
+The cat sat in the chair.
+The cat sat on the bed.
+The cat sat on the boy.
+The cat sat on the chair.
+The cat sat on the floor.
+The cat sat on the refrigerator.
+The cat sat on the table.
+The cat sat under the bed.
+The cat sat under the chair.
+The cat sat under the table.
+The cat under the bed ate.
+The cat under the bed lay.
+The cat under the chair ate.
+The cat under the chair lay.
+The cat under the table ate.
+The cat under the table lay.
+The chair sat at the table.
+The chair sat on the floor.
+The chair sat under the table.
+The dog ate on the floor.
+The dog ate under the chair.
+The dog ate under the table.
+The dog on the bed lay.
+The dog on the bed sat.
+The dog on the boy lay.
+The dog on the floor ate.
+The dog on the floor lay.
+The dog on the floor sat.
+The dog sat in the bed.
+The dog sat on the bed.
+The dog sat on the floor.
+The dog sat under the table.
+The dog under the bed ate.
+The dog under the bed lay.
+The dog under the chair ate.
+The dog under the chair lay.
+The dog under the table ate.
+The dog under the table lay.
+The dog under the table sat.
+The jar in the refrigerator lay.
+The jar in the refrigerator sat.
+The jar on the bed lay.
+The jar on the bed sat.
+The jar on the chair lay.
+The jar on the chair sat.
+The jar on the refrigerator lay.
+The jar on the refrigerator sat.
+The jar on the table lay.
+The jar on the table sat.
+The jar sat in the refrigerator.
+The jar sat on the bed.
+The jar sat on the chair.
+The jar sat on the floor.
+The jar sat on the refrigerator.
+The jar sat on the table.
+The jar sat under the bed.
+The jar sat under the chair.
+The jar sat under the table.
+The mouse on the floor lay.
+The mouse on the floor sat.
+The mouse sat on the floor.
+The mouse sat under the bed.
+The mouse sat under the chair.
+The mouse sat under the refrigerator.
+The mouse sat under the table.
+The mouse under the bed lay.
+The mouse under the bed sat.
+The mouse under the chair lay.
+The mouse under the chair sat.
+The mouse under the refrigerator lay.
+The mouse under the refrigerator sat.
+The mouse under the table lay.
+The mouse under the table sat.
+The pickle on the bed lay.
+The pickle on the chair lay.
+The pickle on the chair sat.
+The pickle on the floor lay.
+The pickle on the refrigerator lay.
+The pickle on the refrigerator sat.
+The pickle on the table lay.
+The pickle on the table sat.
+The pickle sat in the jar.
+The pickle sat in the refrigerator.
+The pickle under the bed lay.
+The pickle under the chair lay.
+The pickle under the table lay.
+The refrigerator sat on the floor.
+The table sat on the floor.
+The boy ate the pickle in bed.
+The pickle jar in the refrigerator lay.
+The pickle jar in the refrigerator sat.
+The pickle jar on the bed lay.
+The pickle jar on the bed sat.
+The pickle jar on the chair lay.
+The pickle jar on the chair sat.
+The pickle jar on the refrigerator lay.
+The pickle jar on the refrigerator sat.
+The pickle jar on the table lay.
+The pickle jar on the table sat.
+The pickle jar sat in the refrigerator.
+The pickle jar sat on the bed.
+The pickle jar sat on the chair.
+The pickle jar sat on the floor.
+The pickle jar sat on the refrigerator.
+The pickle jar sat on the table.
+The pickle jar sat under the bed.
+The pickle jar sat under the chair.
+The pickle jar sat under the table.
+In the bed the boy ate the pickle.
+On the bed the boy ate the pickle.
+The boy at the table ate the pickle.
+The boy ate the pickle at the table.
+The boy ate the pickle in the bed.
+The boy ate the pickle in the jar.
+The boy ate the pickle in the refrigerator.
+The boy ate the pickle on the table.
+The boy chased the mouse on the floor.
+The boy chased the mouse under the bed.
+The boy chased the mouse under the chair.
+The boy chased the mouse under the refrigerator.
+The boy chased the mouse under the table.
+The boy in the bed ate the pickle.
+The boy in the chair ate the pickle.
+The boy on the bed ate the pickle.
+The boy on the floor ate the pickle.
+The boy on the floor chased the mouse.
+The boy under the table ate the pickle.
+The cat ate the mouse on the floor.
+The cat ate the mouse under the chair.
+The cat ate the mouse under the table.
+The cat chased the boy on the floor.
+The cat chased the mouse on the floor.
+The cat chased the mouse under the bed.
+The cat chased the mouse under the chair.
+The cat chased the mouse under the refrigerator.
+The cat chased the mouse under the table.
+The cat on the boy in bed lay.
+The cat on the boy in bed sat.
+The cat on the floor ate the mouse.
+The cat on the floor chased the boy.
+The cat on the floor chased the mouse.
+The cat under the bed chased the mouse.
+The cat under the chair ate the mouse.
+The cat under the chair chased the mouse.
+The cat under the table ate the mouse.
+The cat under the table chased the mouse.
+The dog chased the cat under the bed.
+The dog chased the cat under the table.
+The dog chased the mouse under the bed.
+The dog chased the mouse under the refrigerator.
+The dog chased the mouse under the table.
+The dog on the boy in bed lay.
+The dog on the floor chased the boy.
+The dog on the floor chased the cat.
+The dog on the floor chased the mouse.
+The mouse chased the boy on the floor.
+The mouse on the floor chased the boy.
+At the table sat the boy in the chair.
+At the table sat the boy on the chair.
+At the table sat the cat in the chair.
+At the table sat the cat on the chair.
+The boy at the table sat in the chair.
+The boy at the table sat on the chair.
+The boy in the chair at the table ate.
+The boy in the chair at the table sat.
+The boy in the chair ate at the table.
+The boy in the chair sat at the table.
+The boy under the table sat on the floor.
+The cat at the table sat in the chair.
+The cat at the table sat on the chair.
+The cat on the boy in the bed lay.
+The cat on the boy in the bed sat.
+The cat on the boy in the chair lay.
+The cat on the boy in the chair sat.
+The cat on the boy on the bed lay.
+The cat on the boy on the bed sat.
+The cat on the boy on the floor lay.
+The cat on the boy on the floor sat.
+The cat on the boy under the bed lay.
+The cat on the boy under the bed sat.
+The cat on the boy under the table lay.
+The cat on the boy under the table sat.
+The cat on the floor ate under the table.
+The cat on the floor sat under the bed.
+The cat on the floor sat under the table.
+The cat sat under the bed on the floor.
+The cat sat under the bed under the table.
+The cat sat under the table on the floor.
+The cat under the bed sat on the floor.
+The cat under the chair sat on the floor.
+The cat under the table sat on the floor.
+The chair on the floor sat under the table.
+The dog on the boy in the bed lay.
+The dog on the boy in the chair lay.
+The dog on the boy on the bed lay.
+The dog on the boy on the floor lay.
+The dog on the boy under the table lay.
+The dog on the floor ate under the table.
+The dog on the floor sat under the table.
+The dog under the table sat on the floor.
+The jar on the floor sat under the bed.
+The jar on the floor sat under the chair.
+The jar on the floor sat under the table.
+The mouse on the floor sat under the bed.
+The mouse on the floor sat under the refrigerator.
+The mouse on the floor sat under the table.
+The mouse under the bed sat on the floor.
+The mouse under the chair sat on the floor.
+The mouse under the refrigerator sat on the floor.
+The mouse under the table sat on the floor.
+The pickle in the jar in the refrigerator lay.
+The pickle in the jar in the refrigerator sat.
+The pickle in the jar on the bed lay.
+The pickle in the jar on the bed sat.
+The pickle in the jar on the chair lay.
+The pickle in the jar on the chair sat.
+The pickle in the jar on the refrigerator lay.
+The pickle in the jar on the refrigerator sat.
+The pickle in the jar on the table lay.
+The pickle in the jar on the table sat.
+The pickle on the bed sat in the jar.
+The pickle on the floor sat in the jar.
+The pickle sat in the jar in the refrigerator.
+The pickle sat in the jar on the bed.
+The pickle sat in the jar on the chair.
+The pickle sat in the jar on the floor.
+The pickle sat in the jar on the table.
+The pickle sat in the jar under the bed.
+The pickle sat in the jar under the chair.
+The pickle sat in the jar under the table.
+The pickle under the bed sat in the jar.
+The pickle under the chair sat in the jar.
+The pickle under the table sat in the jar.
+The pickle jar on the floor sat under the bed.
+The pickle jar on the floor sat under the chair.
+The pickle jar on the floor sat under the table.
+In the bed lay the boy.
+In the bed sat the boy.
+In the bed the boy ate the pickle in the jar.
+In the chair sat the cat.
+In the jar lay the pickle.
+In the jar sat the pickle.
+In the refrigerator lay the jar.
+In the refrigerator sat the jar.
+In the refrigerator sat the pickle.
+On the bed lay the boy.
+On the bed lay the cat.
+On the bed lay the dog.
+On the bed lay the jar.
+On the bed lay the pickle.
+On the bed sat the boy.
+On the bed sat the cat.
+On the bed sat the dog.
+On the bed sat the jar.
+On the bed sat the pickle.
+On the bed the boy ate the pickle in the jar.
+On the boy lay the cat.
+On the boy lay the dog.
+On the boy sat the cat.
+On the chair lay the cat.
+On the chair lay the jar.
+On the chair lay the pickle.
+On the chair sat the cat.
+On the chair sat the jar.
+On the chair sat the pickle.
+On the floor lay the cat.
+On the floor lay the dog.
+On the floor lay the mouse.
+On the floor sat the cat.
+On the floor sat the dog.
+On the floor sat the jar.
+On the floor sat the mouse.
+On the floor sat the pickle.
+On the refrigerator lay the cat.
+On the refrigerator lay the jar.
+On the refrigerator lay the pickle.
+On the refrigerator sat the cat.
+On the refrigerator sat the jar.
+On the refrigerator sat the pickle.
+On the table lay the cat.
+On the table lay the jar.
+On the table lay the pickle.
+On the table sat the cat.
+On the table sat the jar.
+On the table sat the pickle.
+The boy at the table ate the pickle in the jar.
+The boy at the table ate the pickle on the table.
+The boy ate the pickle in the jar in the refrigerator.
+The boy ate the pickle in the jar on the chair.
+The boy ate the pickle in the jar on the floor.
+The boy ate the pickle in the jar on the table.
+The boy ate the pickle in the jar under the chair.
+The boy ate the pickle in the jar under the table.
+The boy in the bed ate the pickle in the jar.
+The boy in the chair at the table ate the pickle.
+The boy in the chair ate the pickle in the jar.
+The boy in the chair ate the pickle on the table.
+The boy lay in the bed.
+The boy lay on the bed.
+The boy lay on the floor.
+The boy lay under the bed.
+The boy lay under the table.
+The boy on the bed ate the pickle in the jar.
+The boy on the floor ate the pickle in the jar.
+The boy on the floor ate the pickle in the refrigerator.
+The boy on the floor ate the pickle under the chair.
+The boy on the floor ate the pickle under the table.
+The boy on the floor chased the mouse under the bed.
+The boy on the floor chased the mouse under the refrigerator.
+The boy on the floor chased the mouse under the table.
+The boy under the table ate the pickle in the jar.
+The cat ate under the bed.
+The cat lay in the bed.
+The cat lay in the chair.
+The cat lay on the bed.
+The cat lay on the boy.
+The cat lay on the chair.
+The cat lay on the floor.
+The cat lay on the table.
+The cat lay under the bed.
+The cat lay under the chair.
+The cat lay under the table.
+The cat on the floor ate the mouse under the table.
+The cat on the floor chased the mouse under the bed.
+The cat on the floor chased the mouse under the refrigerator.
+The cat on the floor chased the mouse under the table.
+The chair lay on the floor.
+The chair lay under the table.
+The dog ate under the bed.
+The dog lay in the bed.
+The dog lay on the bed.
+The dog lay on the boy.
+The dog lay on the floor.
+The dog lay under the bed.
+The dog lay under the chair.
+The dog lay under the table.
+The dog on the floor chased the cat under the bed.
+The dog on the floor chased the cat under the table.
+The dog on the floor chased the mouse under the bed.
+The dog on the floor chased the mouse under the refrigerator.
+The dog on the floor chased the mouse under the table.
+The floor lay under the bed.
+The floor lay under the boy.
+The floor lay under the cat.
+The floor lay under the chair.
+The floor lay under the dog.
+The floor lay under the mouse.
+The floor lay under the refrigerator.
+The floor lay under the table.
+The jar lay in the refrigerator.
+The jar lay on the bed.
+The jar lay on the chair.
+The jar lay on the floor.
+The jar lay on the refrigerator.
+The jar lay on the table.
+The jar lay under the bed.
+The jar lay under the chair.
+The jar lay under the table.
+The mouse lay on the floor.
+The mouse lay under the bed.
+The mouse lay under the chair.
+The mouse lay under the refrigerator.
+The mouse lay under the table.
+The pickle lay in the jar.
+The pickle lay in the refrigerator.
+The pickle lay on the bed.
+The pickle lay on the chair.
+The pickle lay on the refrigerator.
+The pickle lay on the table.
+The pickle lay under the bed.
+The pickle lay under the chair.
+The pickle lay under the refrigerator.
+Under the table lay the cat.
+Under the table lay the dog.
+Under the table lay the mouse.
+Under the table sat the cat.
+Under the table sat the dog.
+Under the table sat the jar.
+Under the table sat the mouse.
+Under the table sat the pickle.
+In the pickle jar lay the pickle.
+In the pickle jar sat the pickle.
+In the refrigerator lay the pickle jar.
+In the refrigerator sat the pickle jar.
+On the bed lay the pickle jar.
+On the bed sat the pickle jar.
+On the chair lay the pickle jar.
+On the chair sat the pickle jar.
+On the floor sat the pickle jar.
+On the refrigerator lay the pickle jar.
+On the refrigerator sat the pickle jar.
+On the table lay the pickle jar.
+On the table sat the pickle jar.
+The cat on the floor sat under the bed on the floor.
+The cat on the floor sat under the table on the floor.
+The pickle jar lay in the refrigerator.
+The pickle jar lay on the bed.
+The pickle jar lay on the chair.
+The pickle jar lay on the floor.
+The pickle jar lay on the refrigerator.
+The pickle jar lay on the table.
+The pickle jar lay under the bed.
+The pickle jar lay under the chair.
+The pickle jar lay under the table.
+The pickle on the floor sat in the jar under the bed.
+The pickle on the floor sat in the jar under the chair.
+The pickle on the floor sat in the jar under the table.
+The pickle sat in the pickle jar.
+Under the table sat the pickle jar.
+On the boy in bed lay the cat.
+On the boy in bed lay the dog.
+On the boy in bed sat the cat.
+The boy under the bed ate the pickle.
+The cat ate the mouse under the bed.
+The cat under the bed ate the mouse.
+In the bed lay the dog on the boy.
+In the chair at the table sat the boy.
+In the chair at the table sat the cat.
+In the jar in the refrigerator lay the pickle.
+In the jar in the refrigerator sat the pickle.
+In the jar on the bed lay the pickle.
+In the jar on the bed sat the pickle.
+In the jar on the chair lay the pickle.
+In the jar on the chair sat the pickle.
+In the jar on the floor sat the pickle.
+In the jar on the refrigerator lay the pickle.
+In the jar on the refrigerator sat the pickle.
+In the jar on the table lay the pickle.
+In the jar on the table sat the pickle.
+In the jar under the bed sat the pickle.
+In the jar under the chair sat the pickle.
+In the jar under the table sat the pickle.
+In the refrigerator sat the pickle in the jar.
+On the bed lay the dog on the boy.
+On the bed lay the pickle in the jar.
+On the bed sat the pickle in the jar.
+On the boy at the table lay the cat.
+On the boy at the table sat the cat.
+On the boy in the bed lay the cat.
+On the boy in the bed lay the dog.
+On the boy in the bed sat the cat.
+On the boy in the chair lay the cat.
+On the boy in the chair lay the dog.
+On the boy in the chair sat the cat.
+On the boy on the bed lay the cat.
+On the boy on the bed lay the dog.
+On the boy on the bed sat the cat.
+On the boy on the floor lay the cat.
+On the boy on the floor lay the dog.
+On the boy on the floor sat the cat.
+On the boy under the bed lay the cat.
+On the boy under the bed sat the cat.
+On the boy under the table lay the cat.
+On the boy under the table lay the dog.
+On the boy under the table sat the cat.
+On the chair at the table sat the boy.
+On the chair at the table sat the cat.
+On the chair sat the pickle in the jar.
+On the floor sat the pickle in the jar.
+On the refrigerator sat the pickle in the jar.
+On the table sat the pickle in the jar.
+The boy at the table ate the pickle in the jar on the table.
+The boy ate the pickle in the pickle jar.
+The boy in the chair at the table ate the pickle in the jar.
+The boy in the chair at the table ate the pickle on the table.
+The boy in the chair ate the pickle in the jar on the table.
+The boy on the floor ate the pickle in the jar in the refrigerator.
+The boy on the floor ate the pickle in the jar on the floor.
+The boy on the floor ate the pickle in the jar under the chair.
+The boy on the floor ate the pickle in the jar under the table.
+The boy on the floor lay under the bed.
+The boy on the floor lay under the table.
+The boy under the bed lay on the floor.
+The boy under the table ate the pickle in the jar on the floor.
+The boy under the table ate the pickle in the jar under the table.
+The boy under the table lay on the floor.
+The cat lay on the boy at the table.
+The cat lay on the boy in the chair.
+The cat lay on the boy on the floor.
+The cat lay on the boy under the bed.
+The cat lay on the boy under the table.
+The cat on the bed lay on the boy.
+The cat on the floor ate under the bed.
+The cat on the floor lay under the bed.
+The cat on the floor lay under the table.
+The cat under the bed lay on the floor.
+The cat under the chair lay on the floor.
+The cat under the table lay on the floor.
+The chair on the floor lay under the table.
+The dog lay on the boy in the bed.
+The dog lay on the boy on the bed.
+The dog lay on the boy on the floor.
+The dog lay on the boy under the table.
+The dog on the bed lay on the boy.
+The dog on the floor lay under the bed.
+The dog on the floor lay under the table.
+The dog under the bed lay on the floor.
+The dog under the chair lay on the floor.
+The dog under the table lay on the floor.
+The jar on the floor lay under the bed.
+The jar on the floor lay under the chair.
+The jar on the floor lay under the table.
+The mouse on the floor lay under the bed.
+The mouse on the floor lay under the refrigerator.
+The mouse on the floor lay under the table.
+The mouse under the bed lay on the floor.
+The mouse under the chair lay on the floor.
+The mouse under the refrigerator lay on the floor.
+The mouse under the table lay on the floor.
+The pickle lay in the jar in the refrigerator.
+The pickle lay in the jar on the bed.
+The pickle lay in the jar on the chair.
+The pickle lay in the jar on the floor.
+The pickle lay in the jar on the table.
+The pickle lay in the jar under the bed.
+The pickle lay in the jar under the chair.
+The pickle lay in the jar under the table.
+The pickle on the bed lay in the jar.
+The pickle on the floor lay in the jar.
+The pickle on the floor lay under the bed.
+The pickle on the floor lay under the chair.
+The pickle on the floor lay under the refrigerator.
+The pickle under the bed lay in the jar.
+The pickle under the chair lay in the jar.
+The pickle under the table lay in the jar.
+Under the table sat the pickle in the jar.
+In the pickle jar in the refrigerator lay the pickle.
+In the pickle jar in the refrigerator sat the pickle.
+In the pickle jar on the bed lay the pickle.
+In the pickle jar on the bed sat the pickle.
+In the pickle jar on the chair lay the pickle.
+In the pickle jar on the chair sat the pickle.
+In the pickle jar on the floor sat the pickle.
+In the pickle jar on the refrigerator lay the pickle.
+In the pickle jar on the refrigerator sat the pickle.
+In the pickle jar on the table lay the pickle.
+In the pickle jar on the table sat the pickle.
+In the pickle jar under the bed sat the pickle.
+In the pickle jar under the chair sat the pickle.
+In the pickle jar under the table sat the pickle.
+The pickle in the pickle jar in the refrigerator lay.
+The pickle in the pickle jar in the refrigerator sat.
+The pickle in the pickle jar on the bed lay.
+The pickle in the pickle jar on the bed sat.
+The pickle in the pickle jar on the chair lay.
+The pickle in the pickle jar on the chair sat.
+The pickle in the pickle jar on the refrigerator lay.
+The pickle in the pickle jar on the refrigerator sat.
+The pickle in the pickle jar on the table lay.
+The pickle in the pickle jar on the table sat.
+The pickle jar on the floor lay under the bed.
+The pickle jar on the floor lay under the chair.
+The pickle jar on the floor lay under the table.
+The pickle on the bed sat in the pickle jar.
+The pickle on the floor sat in the pickle jar.
+The pickle sat in the pickle jar in the refrigerator.
+The pickle sat in the pickle jar on the bed.
+The pickle sat in the pickle jar on the chair.
+The pickle sat in the pickle jar on the floor.
+The pickle sat in the pickle jar on the table.
+The pickle sat in the pickle jar under the bed.
+The pickle sat in the pickle jar under the chair.
+The pickle sat in the pickle jar under the table.
+The pickle under the bed sat in the pickle jar.
+The pickle under the chair sat in the pickle jar.
+The pickle under the table sat in the pickle jar.
+The boy ate the pickle in the jar under the bed.
+The boy on the floor ate the pickle under the bed.
+The boy under the bed ate the pickle in the jar.
+The cat on the floor ate the mouse under the bed.
+In the bed the boy ate the pickle in the pickle jar.
+On the bed ate the pickle in the pickle jar the boy.
+On the bed the boy ate the pickle in the pickle jar.
+The boy ate the pickle in the pickle jar in the refrigerator.
+The boy ate the pickle in the pickle jar on the chair.
+The boy ate the pickle in the pickle jar on the floor.
+The boy ate the pickle in the pickle jar on the table.
+The boy ate the pickle in the pickle jar under the bed.
+The boy ate the pickle in the pickle jar under the chair.
+The boy ate the pickle in the pickle jar under the table.
+The boy in the bed ate the pickle in the pickle jar.
+The boy in the chair at the table ate the pickle in the jar on the table.
+The boy on the bed ate the pickle in the pickle jar.
+The boy on the floor ate the pickle in the pickle jar.
+The boy under the bed ate the pickle in the pickle jar.
+The boy under the table ate the pickle in the pickle jar.
+The cat on the bed lay on the boy in the bed.
+The cat on the bed lay on the boy on the bed.
+The dog on the bed lay on the boy in the bed.
+The dog on the bed lay on the boy on the bed.
+The pickle lay in the pickle jar.
+The pickle on the floor lay in the jar under the bed.
+The pickle on the floor lay in the jar under the chair.
+The pickle on the floor lay in the jar under the table.
+The pickle on the floor sat in the pickle jar under the bed.
+The pickle on the floor sat in the pickle jar under the chair.
+The pickle on the floor sat in the pickle jar under the table.
+The boy on the floor ate the pickle in the jar under the bed.
+The boy under the bed ate the pickle in the jar on the floor.
+The boy under the bed ate the pickle in the jar under the bed.
+The boy under the bed ate the pickle in the jar under the table.
+In the refrigerator sat the pickle in the pickle jar.
+On the bed lay in the pickle jar the pickle.
+On the bed lay the pickle in the pickle jar.
+On the bed sat in the pickle jar the pickle.
+On the bed sat the pickle in the pickle jar.
+On the chair sat the pickle in the pickle jar.
+On the floor sat the pickle in the pickle jar.
+On the refrigerator sat the pickle in the pickle jar.
+On the table sat the pickle in the pickle jar.
+The boy on the floor ate the pickle in the pickle jar in the refrigerator.
+The boy on the floor ate the pickle in the pickle jar on the floor.
+The boy on the floor ate the pickle in the pickle jar under the bed.
+The boy on the floor ate the pickle in the pickle jar under the chair.
+The boy on the floor ate the pickle in the pickle jar under the table.
+The boy under the bed ate the pickle in the pickle jar on the floor.
+The boy under the bed ate the pickle in the pickle jar under the bed.
+The boy under the table ate the pickle in the pickle jar on the floor.
+The boy under the table ate the pickle in the pickle jar under the table.
+The pickle lay in the pickle jar in the refrigerator.
+The pickle lay in the pickle jar on the bed.
+The pickle lay in the pickle jar on the chair.
+The pickle lay in the pickle jar on the floor.
+The pickle lay in the pickle jar on the table.
+The pickle lay in the pickle jar under the bed.
+The pickle lay in the pickle jar under the chair.
+The pickle lay in the pickle jar under the table.
+The pickle on the bed lay in the pickle jar.
+The pickle on the floor lay in the pickle jar.
+The pickle under the bed lay in the pickle jar.
+The pickle under the chair lay in the pickle jar.
+The pickle under the table lay in the pickle jar.
+Under the table sat the pickle in the pickle jar.
+The pickle on the floor lay in the pickle jar under the bed.
+The pickle on the floor lay in the pickle jar under the chair.
+The pickle on the floor lay in the pickle jar under the table.
