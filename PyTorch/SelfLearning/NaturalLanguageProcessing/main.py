@@ -2,7 +2,6 @@
 import random
 from time import sleep
 from collections import Counter
-
 import numpy as np
 import pandas as pd
 
@@ -22,6 +21,8 @@ with open('Resource/tokens.txt', 'r') as f:
 # Reading the file line by line to treat each line as a tokenized sentence
 with open(file_path, 'r') as f:
     tokenized_sentences = f.readlines()
+
+f.close()
 
 # Converting the list of tokenized sentences to a pandas.Series
 tokenized_sentences_series = pd.Series(tokenized_sentences).map(lambda x: x.strip('\n'))
