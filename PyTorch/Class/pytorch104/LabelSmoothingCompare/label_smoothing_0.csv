@@ -1,0 +1,246 @@
+Experiment Type,Epoch,Train Accuracy,Train Loss,Valid Accuracy,Valid Loss
+Self-Supervise Rotation Model,1,44.306,1.2728073453659292,50.91,1.1193546
+Self-Supervise Rotation Model,2,52.482,1.1000620282214622,55.59,1.0276629
+Self-Supervise Rotation Model,3,55.736,1.0310040424242044,56.64,1.0100396
+Self-Supervise Rotation Model,4,58.364,0.9830056901478097,60.71,0.9312009
+Self-Supervise Rotation Model,5,60.446,0.939589251947525,61.43,0.91205347
+Self-Supervise Rotation Model,6,62.148,0.9082485502943054,62.37,0.9126294
+Self-Supervise Rotation Model,7,63.132,0.8879851926013332,64.76,0.852276
+Self-Supervise Rotation Model,8,64.252,0.8644553035726328,66.39,0.81067044
+Self-Supervise Rotation Model,9,65.152,0.8433139731207162,66.45,0.8023457
+Self-Supervise Rotation Model,10,66.12,0.8249757855444613,67.39,0.79321635
+Self-Supervise Rotation Model,11,67.024,0.8061085238176233,66.94,0.7892039
+Self-Supervise Rotation Model,12,67.486,0.79661777104868,67.68,0.78187144
+Self-Supervise Rotation Model,13,68.284,0.7780716108239215,70.28,0.72446734
+Self-Supervise Rotation Model,14,69.618,0.7565778455770839,71.14,0.7175389
+Self-Supervise Rotation Model,15,70.22,0.743512664914436,71.55,0.70993644
+Self-Supervise Rotation Model,16,72.888,0.6830288269330779,74.62,0.63521045
+Self-Supervise Rotation Model,17,74.076,0.6565838324291932,75.31,0.6264063
+Self-Supervise Rotation Model,18,74.13,0.649826545697039,75.54,0.61881
+Self-Supervise Rotation Model,19,74.68,0.640500721419254,75.42,0.6132945
+Self-Supervise Rotation Model,20,74.884,0.633805866893905,76.04,0.6092554
+Self-Supervise Rotation Model,21,75.282,0.626107406128398,76.15,0.6036296
+Self-Supervise Rotation Model,22,75.302,0.6238426866433809,76.28,0.6039768
+Self-Supervise Rotation Model,23,75.698,0.6163085478041178,76.68,0.5966205
+Self-Supervise Rotation Model,24,75.64,0.6134192618110296,76.78,0.58881956
+Self-Supervise Rotation Model,25,76.056,0.6082958924343519,77.27,0.585349
+Self-Supervise Rotation Model,26,76.342,0.5997818391341383,77.07,0.5806992
+Self-Supervise Rotation Model,27,76.38,0.5983724072766121,77.26,0.574938
+Self-Supervise Rotation Model,28,76.516,0.5955758578789508,77.35,0.5705371
+Self-Supervise Rotation Model,29,76.994,0.5873179003558195,77.15,0.5701103
+Self-Supervise Rotation Model,30,77.03,0.5864881748890938,77.77,0.5652168
+Self-Supervise Rotation Model,31,77.446,0.5744181908762364,77.55,0.56421965
+Self-Supervise Rotation Model,32,77.594,0.5746658849136909,78.01,0.564528
+Self-Supervise Rotation Model,33,77.408,0.5726108748437194,78.34,0.56036377
+Self-Supervise Rotation Model,34,77.72,0.5694313111055233,78.23,0.5550922
+Self-Supervise Rotation Model,35,77.464,0.5724293337301221,77.73,0.56796634
+Self-Supervise Rotation Model,36,77.808,0.5682337503603963,77.95,0.55792814
+Self-Supervise Rotation Model,37,77.632,0.5707150708379038,78.27,0.5547863
+Self-Supervise Rotation Model,38,77.714,0.569541001792454,78.38,0.55216515
+Self-Supervise Rotation Model,39,77.816,0.5676440734540105,78.47,0.5546483
+Self-Supervise Rotation Model,40,77.784,0.5678919008015977,78.28,0.5562331
+Self-Supervise Rotation Model,41,77.97,0.5676385568993171,78.02,0.5523032
+Self-Supervise Rotation Model,42,77.724,0.567151199216428,78.24,0.55283946
+Self-Supervise Rotation Model,43,77.892,0.5634760949617762,78.01,0.5545976
+Self-Supervise Rotation Model,44,77.702,0.5673197574170349,78.78,0.5539119
+Self-Supervise Rotation Model,45,78.02,0.5637251842204872,78.44,0.5497979
+Fine-tuning Pre-trained Model,1,40.508,1.5965946007262715,47.4,1.4645733
+Fine-tuning Pre-trained Model,2,48.366,1.4074537065023047,50.5,1.3612194
+Fine-tuning Pre-trained Model,3,50.002,1.3660270987874101,53.0,1.2864655
+Fine-tuning Pre-trained Model,4,50.768,1.3452538078093468,51.71,1.3079809
+Fine-tuning Pre-trained Model,5,51.734,1.317669717552107,52.84,1.3085091
+Fine-tuning Pre-trained Model,6,52.388,1.3094748313469655,55.38,1.2290187
+Fine-tuning Pre-trained Model,7,52.688,1.2979928599599073,54.79,1.2526217
+Fine-tuning Pre-trained Model,8,53.606,1.2793683124625164,56.01,1.2274951
+Fine-tuning Pre-trained Model,9,53.724,1.2734633223784855,56.44,1.2037344
+Fine-tuning Pre-trained Model,10,53.91,1.270024181631825,56.13,1.2210261
+Fine-tuning Pre-trained Model,11,55.818,1.2106315085040333,58.65,1.1438091
+Fine-tuning Pre-trained Model,12,56.912,1.1984921131292572,58.99,1.1394244
+Fine-tuning Pre-trained Model,13,57.054,1.192348025339034,58.7,1.136926
+Fine-tuning Pre-trained Model,14,56.762,1.1892975722737325,58.93,1.129015
+Fine-tuning Pre-trained Model,15,57.244,1.1836626227859341,59.18,1.1257807
+Fine-tuning Pre-trained Model,16,57.066,1.1838963117136065,59.18,1.1269385
+Fine-tuning Pre-trained Model,17,57.046,1.1810490501201367,59.13,1.1262906
+Fine-tuning Pre-trained Model,18,57.366,1.177561242867004,59.1,1.1198121
+Fine-tuning Pre-trained Model,19,57.446,1.1764271164794102,58.84,1.1215136
+Fine-tuning Pre-trained Model,20,57.696,1.170731742516198,59.05,1.1225252
+Fine-tuning Pre-trained Model,21,57.842,1.1633745730685456,58.94,1.1183219
+Fine-tuning Pre-trained Model,22,57.844,1.160830564053772,59.4,1.1162137
+Fine-tuning Pre-trained Model,23,57.618,1.1679005961284004,59.25,1.1153538
+Fine-tuning Pre-trained Model,24,57.784,1.165436396361007,59.25,1.1196488
+Fine-tuning Pre-trained Model,25,57.89,1.1626172224274072,59.32,1.1163075
+Fine-tuning Pre-trained Model,26,57.766,1.1647359923938352,59.04,1.1180241
+Fine-tuning Pre-trained Model,27,57.772,1.1621375872046136,59.13,1.1170205
+Fine-tuning Pre-trained Model,28,57.886,1.1580207767084127,59.46,1.1141721
+Fine-tuning Pre-trained Model,29,58.434,1.1620310453502722,59.31,1.1135035
+Fine-tuning Pre-trained Model,30,57.912,1.161638192051207,59.38,1.1122044
+Fine-tuning Pre-trained Model,31,57.71,1.1606598435460453,59.03,1.1189116
+Fine-tuning Pre-trained Model,32,57.894,1.1608646172086905,59.45,1.1117702
+Fine-tuning Pre-trained Model,33,57.96,1.1601662282138834,59.31,1.1149473
+Fine-tuning Pre-trained Model,34,58.256,1.1562904746026335,59.24,1.1162306
+Fine-tuning Pre-trained Model,35,57.998,1.162560928813027,59.36,1.1138985
+Fine-tuning Pre-trained Model,36,57.81,1.1628211439418061,59.45,1.1123836
+Fine-tuning Pre-trained Model,37,57.97,1.1627652666452901,59.01,1.1177981
+Fine-tuning Pre-trained Model,38,58.196,1.1543893550363038,59.0,1.1198632
+Fine-tuning Pre-trained Model,39,58.15,1.1619343865862892,59.25,1.1125778
+Fine-tuning Pre-trained Model,40,57.834,1.1594309142178587,59.41,1.1135032
+Fine-tuning Pre-trained Model,41,57.684,1.1637577233107195,59.2,1.1148511
+Fine-tuning Pre-trained Model,42,57.704,1.1647486996162884,59.3,1.1153758
+Fine-tuning Pre-trained Model,43,58.152,1.1572687990220307,59.49,1.113844
+Fine-tuning Pre-trained Model,44,57.946,1.1574552479912252,59.27,1.1158649
+Fine-tuning Pre-trained Model,45,57.832,1.1605390926151324,59.37,1.1138301
+Fine-tuning Pre-trained Model,46,58.118,1.1566890135140675,59.32,1.1132324
+Fine-tuning Pre-trained Model,47,58.052,1.1577657035854467,59.47,1.1124921
+Fine-tuning Pre-trained Model,48,58.136,1.157170887340975,59.22,1.113685
+Fine-tuning Pre-trained Model,49,58.074,1.156799759706268,59.55,1.1111495
+Fine-tuning Pre-trained Model,50,57.86,1.1552326128915753,59.16,1.1150758
+Fine-tuning Randomly Initialized Model,1,29.914,1.9845139044325064,36.24,1.7525933
+Fine-tuning Randomly Initialized Model,2,35.024,1.7905174018172048,39.32,1.6661644
+Fine-tuning Randomly Initialized Model,3,36.414,1.746879826421323,39.93,1.6735504
+Fine-tuning Randomly Initialized Model,4,37.372,1.726993278469271,41.06,1.6317697
+Fine-tuning Randomly Initialized Model,5,38.678,1.699588052756951,40.42,1.6487519
+Fine-tuning Randomly Initialized Model,6,38.97,1.6906316182802401,41.23,1.6287674
+Fine-tuning Randomly Initialized Model,7,39.33,1.6760751283382211,41.64,1.6085241
+Fine-tuning Randomly Initialized Model,8,39.674,1.6723813406951593,42.88,1.5915349
+Fine-tuning Randomly Initialized Model,9,40.146,1.655427568099078,43.25,1.5837344
+Fine-tuning Randomly Initialized Model,10,40.394,1.6517435242148006,43.42,1.579723
+Fine-tuning Randomly Initialized Model,11,42.268,1.6062778585097368,44.79,1.5435809
+Fine-tuning Randomly Initialized Model,12,43.074,1.5885609802992449,44.92,1.5397177
+Fine-tuning Randomly Initialized Model,13,43.192,1.5800815021900265,45.22,1.5317084
+Fine-tuning Randomly Initialized Model,14,43.262,1.5787587217662646,45.11,1.5323377
+Fine-tuning Randomly Initialized Model,15,43.598,1.5676813598179147,45.51,1.5212867
+Fine-tuning Randomly Initialized Model,16,43.984,1.5580523776276338,45.94,1.520739
+Fine-tuning Randomly Initialized Model,17,44.048,1.5549766398451823,45.95,1.516193
+Fine-tuning Randomly Initialized Model,18,44.198,1.5521639820254978,46.3,1.5121145
+Fine-tuning Randomly Initialized Model,19,44.388,1.5509142241514553,46.21,1.5127614
+Fine-tuning Randomly Initialized Model,20,44.442,1.547363956566052,46.12,1.5087831
+Fine-tuning Randomly Initialized Model,21,44.878,1.5443173756684794,46.22,1.5040208
+Fine-tuning Randomly Initialized Model,22,44.724,1.5367940801488773,46.51,1.503869
+Fine-tuning Randomly Initialized Model,23,44.464,1.5420764678579462,46.35,1.5049623
+Fine-tuning Randomly Initialized Model,24,44.7,1.5414444787423018,46.35,1.50405
+Fine-tuning Randomly Initialized Model,25,44.966,1.5374105510199467,46.42,1.5038106
+Fine-tuning Randomly Initialized Model,26,44.766,1.5378608886543137,46.36,1.502707
+Fine-tuning Randomly Initialized Model,27,44.49,1.5387264980989344,46.15,1.5036062
+Fine-tuning Randomly Initialized Model,28,44.832,1.5374400018121275,46.43,1.5016123
+Fine-tuning Randomly Initialized Model,29,44.984,1.5325404064124808,46.28,1.5013213
+Fine-tuning Randomly Initialized Model,30,44.966,1.536646849359088,46.53,1.5007212
+Fine-tuning Randomly Initialized Model,31,44.822,1.5369721068750561,46.53,1.5005182
+Fine-tuning Randomly Initialized Model,32,44.876,1.5350616136780175,46.66,1.4980667
+Fine-tuning Randomly Initialized Model,33,45.01,1.533282453751625,46.71,1.4992455
+Fine-tuning Randomly Initialized Model,34,44.518,1.5397421264892344,46.33,1.5015295
+Fine-tuning Randomly Initialized Model,35,44.856,1.53292402434532,46.38,1.5012016
+Fine-tuning Randomly Initialized Model,36,44.938,1.5329349092815234,46.17,1.5035076
+Fine-tuning Randomly Initialized Model,37,45.014,1.5281737109889155,46.15,1.5002588
+Fine-tuning Randomly Initialized Model,38,44.756,1.5320698501508865,46.4,1.4989014
+Fine-tuning Randomly Initialized Model,39,45.12,1.5307655557037314,46.26,1.501319
+Fine-tuning Randomly Initialized Model,40,44.806,1.5339548444504019,46.43,1.5001436
+Fine-tuning Randomly Initialized Model,41,45.076,1.5308113552420342,46.3,1.5037535
+Fine-tuning Randomly Initialized Model,42,45.11,1.533800355613689,46.34,1.4995108
+Fine-tuning Randomly Initialized Model,43,44.966,1.533877584025683,46.62,1.4977262
+Fine-tuning Randomly Initialized Model,44,45.08,1.5321436227130159,46.44,1.502631
+Fine-tuning Randomly Initialized Model,45,45.132,1.5294388340562202,46.46,1.4998889
+Fine-tuning Randomly Initialized Model,46,44.622,1.5347787324729782,46.33,1.4993086
+Fine-tuning Randomly Initialized Model,47,45.024,1.5333930458254217,46.39,1.5020297
+Fine-tuning Randomly Initialized Model,48,44.452,1.533703030222822,46.2,1.501455
+Fine-tuning Randomly Initialized Model,49,44.778,1.5391381061290537,46.36,1.5012748
+Fine-tuning Randomly Initialized Model,50,45.186,1.531288452465516,46.35,1.5008538
+Supervised Pre-trained Model,1,58.606,1.1536402327325337,68.49,0.9159098
+Supervised Pre-trained Model,2,69.668,0.8789007122559316,71.83,0.82393765
+Supervised Pre-trained Model,3,73.19,0.7783970887703664,73.77,0.746537
+Supervised Pre-trained Model,4,75.376,0.7147711612989226,75.49,0.71197385
+Supervised Pre-trained Model,5,77.084,0.6677516076875769,76.48,0.6905137
+Supervised Pre-trained Model,6,78.306,0.6268758739504363,78.41,0.62985516
+Supervised Pre-trained Model,7,79.384,0.5992227380385484,76.91,0.67075413
+Supervised Pre-trained Model,8,80.606,0.5737315154898807,79.73,0.61021155
+Supervised Pre-trained Model,9,81.188,0.5503478709541624,79.0,0.6406938
+Supervised Pre-trained Model,10,81.66,0.5355651592811965,80.0,0.5913359
+Supervised Pre-trained Model,11,84.972,0.43255596449765404,83.64,0.4903475
+Supervised Pre-trained Model,12,86.282,0.4000839388279049,83.67,0.48489818
+Supervised Pre-trained Model,13,86.246,0.3934997803795978,83.99,0.48072368
+Supervised Pre-trained Model,14,86.832,0.37935767507614077,83.91,0.48219728
+Supervised Pre-trained Model,15,87.13,0.37042597694622587,84.25,0.48086858
+Supervised Pre-trained Model,16,87.246,0.368595806915132,84.32,0.4777091
+Supervised Pre-trained Model,17,87.646,0.35699476987657036,84.04,0.4771664
+Supervised Pre-trained Model,18,87.704,0.3566941821285526,83.93,0.47630244
+Supervised Pre-trained Model,19,87.842,0.35060063000682673,84.25,0.47751772
+Supervised Pre-trained Model,20,87.916,0.34467855606542525,84.29,0.47512043
+Supervised Pre-trained Model,21,88.532,0.33195155100596835,84.44,0.4728914
+Supervised Pre-trained Model,22,88.652,0.32869831337343397,84.36,0.4705816
+Supervised Pre-trained Model,23,88.448,0.3290363175179952,84.48,0.4727918
+Supervised Pre-trained Model,24,88.526,0.32926353800784597,84.36,0.47065386
+Supervised Pre-trained Model,25,88.732,0.3251300901936753,84.46,0.4729038
+Supervised Pre-trained Model,26,88.516,0.32411750653744353,84.5,0.47395816
+Supervised Pre-trained Model,27,88.704,0.3257410891373139,84.49,0.47191027
+Supervised Pre-trained Model,28,88.74,0.3227759707156959,84.33,0.46994516
+Supervised Pre-trained Model,29,88.672,0.32448303794769373,84.43,0.47071028
+Supervised Pre-trained Model,30,88.582,0.3243464861074677,84.42,0.4727509
+Supervised Pre-trained Model,31,88.866,0.3201496893792506,84.49,0.47155708
+Supervised Pre-trained Model,32,88.81,0.32275925046952486,84.41,0.47258076
+Supervised Pre-trained Model,33,88.976,0.3190150386308465,84.52,0.47003576
+Supervised Pre-trained Model,34,88.84,0.32111157629343556,84.44,0.47056156
+Supervised Pre-trained Model,35,88.96,0.31959768211292794,84.49,0.47082335
+Supervised Pre-trained Model,36,88.932,0.31777816507822415,84.39,0.47347498
+Supervised Pre-trained Model,37,88.844,0.321629840204173,84.55,0.47265673
+Supervised Pre-trained Model,38,88.788,0.32105652606853136,84.49,0.47192344
+Supervised Pre-trained Model,39,88.942,0.31887070411611396,84.47,0.46912414
+Supervised Pre-trained Model,40,88.85,0.32183566742845815,84.34,0.4724117
+Supervised Pre-trained Model,41,88.744,0.3213523769622569,84.45,0.47263333
+Supervised Pre-trained Model,42,88.948,0.3169532803547047,84.52,0.47164845
+Supervised Pre-trained Model,43,88.824,0.32044270204003816,84.47,0.4708176
+Supervised Pre-trained Model,44,88.662,0.321587915577547,84.42,0.4722473
+Supervised Pre-trained Model,45,88.792,0.32064275866579217,84.42,0.47398344
+Supervised Pre-trained Model,46,88.776,0.3184022684688763,84.42,0.47282946
+Supervised Pre-trained Model,47,88.898,0.31727097192993553,84.5,0.47198436
+Supervised Pre-trained Model,48,88.828,0.3219261987282492,84.56,0.4700386
+Supervised Pre-trained Model,49,88.744,0.3217984060649677,84.34,0.4700123
+Supervised Pre-trained Model,50,88.738,0.32047170492084437,84.35,0.47234192
+Supervised Randomly Initialized Model,1,33.35,1.8563672871235997,44.22,1.5024815
+Supervised Randomly Initialized Model,2,46.942,1.4547462393255794,54.66,1.2564901
+Supervised Randomly Initialized Model,3,56.386,1.217310162151561,58.42,1.1725173
+Supervised Randomly Initialized Model,4,62.118,1.0704060876765824,63.99,1.088114
+Supervised Randomly Initialized Model,5,65.756,0.9677136883406383,68.17,0.94229716
+Supervised Randomly Initialized Model,6,68.746,0.8948445213420312,69.59,0.9065954
+Supervised Randomly Initialized Model,7,71.016,0.833566841566959,72.94,0.79458374
+Supervised Randomly Initialized Model,8,72.554,0.7834036376165308,74.27,0.749411
+Supervised Randomly Initialized Model,9,74.022,0.7489918226476215,72.99,0.78133357
+Supervised Randomly Initialized Model,10,75.35,0.7086033993364905,76.21,0.70290655
+Supervised Randomly Initialized Model,11,79.584,0.5854161307025139,79.85,0.5867035
+Supervised Randomly Initialized Model,12,81.054,0.5470974078721098,80.04,0.5730834
+Supervised Randomly Initialized Model,13,81.308,0.5321270260207184,80.6,0.5729736
+Supervised Randomly Initialized Model,14,81.966,0.5130976062753926,80.83,0.5580809
+Supervised Randomly Initialized Model,15,82.498,0.5011014215019353,81.26,0.55239534
+Supervised Randomly Initialized Model,16,82.676,0.493909219570477,81.45,0.55282253
+Supervised Randomly Initialized Model,17,83.154,0.4819150349063337,81.62,0.5533378
+Supervised Randomly Initialized Model,18,83.478,0.47154250588563396,81.35,0.54397905
+Supervised Randomly Initialized Model,19,83.704,0.46560462710954953,81.58,0.5388219
+Supervised Randomly Initialized Model,20,83.958,0.452680346339255,81.94,0.53831667
+Supervised Randomly Initialized Model,21,84.784,0.4335792391272762,82.14,0.5301189
+Supervised Randomly Initialized Model,22,84.83,0.42989635025448814,82.48,0.52882534
+Supervised Randomly Initialized Model,23,85.236,0.4249430126546289,82.37,0.52723485
+Supervised Randomly Initialized Model,24,85.092,0.42242186617515887,82.2,0.5300242
+Supervised Randomly Initialized Model,25,85.31,0.4173462353932583,82.19,0.52874744
+Supervised Randomly Initialized Model,26,85.148,0.4196396055428878,82.38,0.52817416
+Supervised Randomly Initialized Model,27,85.52,0.4141799785444499,82.61,0.5282821
+Supervised Randomly Initialized Model,28,85.396,0.4175802370547638,82.43,0.530132
+Supervised Randomly Initialized Model,29,85.346,0.41550985626552417,82.33,0.5297107
+Supervised Randomly Initialized Model,30,85.488,0.41572295902940015,82.49,0.52571976
+Supervised Randomly Initialized Model,31,85.376,0.4132931994660126,82.5,0.5264296
+Supervised Randomly Initialized Model,32,85.46,0.4117233019198298,82.25,0.52752316
+Supervised Randomly Initialized Model,33,85.63,0.41026149168038917,82.45,0.5261066
+Supervised Randomly Initialized Model,34,85.632,0.4077518381883421,82.56,0.5248239
+Supervised Randomly Initialized Model,35,85.578,0.4126525466018321,82.53,0.52757585
+Supervised Randomly Initialized Model,36,85.638,0.4076656129430322,82.42,0.52666783
+Supervised Randomly Initialized Model,37,85.564,0.41030771782636033,82.43,0.5260657
+Supervised Randomly Initialized Model,38,85.58,0.4095150452593099,82.58,0.523747
+Supervised Randomly Initialized Model,39,85.64,0.4112226679501936,82.53,0.5246067
+Supervised Randomly Initialized Model,40,85.586,0.411030457757623,82.54,0.52420706
+Supervised Randomly Initialized Model,41,85.548,0.410284898279573,82.42,0.5258849
+Supervised Randomly Initialized Model,42,85.596,0.4124876080114213,82.54,0.523263
+Supervised Randomly Initialized Model,43,85.53,0.40979222903776047,82.47,0.52507937
+Supervised Randomly Initialized Model,44,85.536,0.4098468472052108,82.41,0.5237949
+Supervised Randomly Initialized Model,45,85.37,0.4128310973839382,82.61,0.52763504
+Supervised Randomly Initialized Model,46,85.69,0.40637308332468847,82.45,0.5242522
+Supervised Randomly Initialized Model,47,85.614,0.4086376808564681,82.59,0.5303015
+Supervised Randomly Initialized Model,48,85.61,0.40980632001024375,82.49,0.5249665
+Supervised Randomly Initialized Model,49,85.61,0.4080816987149246,82.47,0.52695507
+Supervised Randomly Initialized Model,50,85.73,0.4099802866463771,82.49,0.52722615
