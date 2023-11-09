@@ -1,1121 +1,1121 @@
 Experiment Type,Epoch,Train Accuracy,Train Loss,Valid Accuracy,Valid Loss
-Pre-trained Model Sample Per Class 20,1,10,2.284506321,14.05,2.2582657
-Pre-trained Model Sample Per Class 20,2,17,2.220328212,15.1,2.2289608
-Pre-trained Model Sample Per Class 20,3,22,2.169561267,16.55,2.2221062
-Pre-trained Model Sample Per Class 20,4,18,2.107640386,17.32,2.2229807
-Pre-trained Model Sample Per Class 20,5,24,2.051496267,17.2,2.223895
-Pre-trained Model Sample Per Class 20,6,30,2.014006615,17.56,2.215699
-Pre-trained Model Sample Per Class 20,7,23.5,1.970552206,19.66,2.207234
-Pre-trained Model Sample Per Class 20,8,27.5,1.907673597,21.7,2.2066784
-Pre-trained Model Sample Per Class 20,9,32,1.892854512,20.65,2.2212682
-Pre-trained Model Sample Per Class 20,10,33.5,1.876936913,22.03,2.2079325
-Pre-trained Model Sample Per Class 20,11,42,1.797648072,23.27,2.1816947
-Pre-trained Model Sample Per Class 20,12,34.5,1.787619293,24.45,2.164922
-Pre-trained Model Sample Per Class 20,13,39.5,1.815671682,25.75,2.1654491
-Pre-trained Model Sample Per Class 20,14,44,1.706961155,26.3,2.1526802
-Pre-trained Model Sample Per Class 20,15,42.5,1.667672098,26.92,2.150718
-Pre-trained Model Sample Per Class 20,16,41.5,1.683661103,27.28,2.1512337
-Pre-trained Model Sample Per Class 20,17,48,1.658268213,27.52,2.1472633
-Pre-trained Model Sample Per Class 20,18,47,1.656348228,27.8,2.1450434
-Pre-trained Model Sample Per Class 20,19,43.5,1.649018526,28.11,2.1475067
-Pre-trained Model Sample Per Class 20,20,49.5,1.680817485,28.33,2.1434777
-Pre-trained Model Sample Per Class 20,21,50.5,1.616818905,28.27,2.1420248
-Pre-trained Model Sample Per Class 20,22,48.5,1.578469515,28.36,2.1402142
-Pre-trained Model Sample Per Class 20,23,48,1.598034382,28.36,2.1378813
-Pre-trained Model Sample Per Class 20,24,50,1.617201149,28.54,2.1380646
-Pre-trained Model Sample Per Class 20,25,50,1.580703974,28.46,2.1406703
-Pre-trained Model Sample Per Class 20,26,52.5,1.547866344,28.62,2.1416557
-Pre-trained Model Sample Per Class 20,27,50.5,1.550522745,28.77,2.1355565
-Pre-trained Model Sample Per Class 20,28,48.5,1.528269291,28.8,2.1353405
-Pre-trained Model Sample Per Class 20,29,52,1.541441083,28.79,2.1354144
-Pre-trained Model Sample Per Class 20,30,51.5,1.517293155,28.69,2.1425729
-Pre-trained Model Sample Per Class 20,31,50.5,1.52968353,28.77,2.1466432
-Pre-trained Model Sample Per Class 20,32,47.5,1.549339116,28.85,2.1434376
-Pre-trained Model Sample Per Class 20,33,51,1.56049931,28.81,2.1488614
-Pre-trained Model Sample Per Class 20,34,49.5,1.56281805,28.96,2.1457074
-Pre-trained Model Sample Per Class 20,35,53,1.549465001,28.88,2.155049
-Pre-trained Model Sample Per Class 20,36,54,1.569340467,28.89,2.1494346
-Pre-trained Model Sample Per Class 20,37,55.5,1.515828609,29.02,2.1505075
-Pre-trained Model Sample Per Class 20,38,52.5,1.543165207,29.11,2.1480234
-Pre-trained Model Sample Per Class 20,39,54,1.533174694,28.95,2.1483204
-Pre-trained Model Sample Per Class 20,40,55.5,1.534294724,28.86,2.145611
-Pre-trained Model Sample Per Class 20,41,51.5,1.51413703,28.97,2.1429658
-Pre-trained Model Sample Per Class 20,42,52,1.527902842,28.94,2.1445045
-Pre-trained Model Sample Per Class 20,43,51.5,1.529883504,29.02,2.1476521
-Pre-trained Model Sample Per Class 20,44,52.5,1.523887932,28.97,2.1484337
-Pre-trained Model Sample Per Class 20,45,53,1.602257013,29.03,2.1463716
-Pre-trained Model Sample Per Class 20,46,55.5,1.495572865,29.08,2.1463838
-Pre-trained Model Sample Per Class 20,47,52,1.560356855,29.36,2.1452265
-Pre-trained Model Sample Per Class 20,48,53,1.547807395,29.08,2.1480894
-Pre-trained Model Sample Per Class 20,49,49.5,1.570824981,29.19,2.153032
-Pre-trained Model Sample Per Class 20,50,49,1.565080523,29.06,2.155912
-Pre-trained Model Sample Per Class 20,51,52,1.544182479,29.13,2.148027
-Pre-trained Model Sample Per Class 20,52,51.5,1.551953018,29.13,2.1566875
-Pre-trained Model Sample Per Class 20,53,52.5,1.576147258,29.04,2.1640358
-Pre-trained Model Sample Per Class 20,54,51.5,1.552402914,29.03,2.1608596
-Pre-trained Model Sample Per Class 20,55,52.5,1.511071861,29.12,2.159162
-Pre-trained Model Sample Per Class 20,56,54,1.499434233,28.89,2.1688082
-Pre-trained Model Sample Per Class 20,57,56,1.53456533,29.02,2.161326
-Pre-trained Model Sample Per Class 20,58,51,1.525303125,29.18,2.1607065
-Pre-trained Model Sample Per Class 20,59,52,1.588934004,29.03,2.1686678
-Pre-trained Model Sample Per Class 20,60,53.5,1.504579067,29.12,2.1567466
-Pre-trained Model Sample Per Class 20,61,53.5,1.526974499,29.06,2.1517804
-Pre-trained Model Sample Per Class 20,62,48.5,1.57126826,29.14,2.146369
-Pre-trained Model Sample Per Class 20,63,56.5,1.520257831,29.03,2.1546612
-Pre-trained Model Sample Per Class 20,64,48.5,1.563143194,29.08,2.152955
-Pre-trained Model Sample Per Class 20,65,47.5,1.551987767,29.14,2.1546555
-Pre-trained Model Sample Per Class 20,66,57,1.500755548,29.16,2.157163
-Pre-trained Model Sample Per Class 20,67,51.5,1.481532872,29.06,2.1608074
-Pre-trained Model Sample Per Class 20,68,56.5,1.519981086,28.93,2.16883
-Pre-trained Model Sample Per Class 20,69,50.5,1.52551496,28.99,2.1702828
-Pre-trained Model Sample Per Class 20,70,53.5,1.54067266,28.98,2.1646583
-Pre-trained Model Sample Per Class 20,71,52,1.54352504,29.1,2.1645563
-Pre-trained Model Sample Per Class 20,72,51,1.594991148,29.21,2.159478
-Pre-trained Model Sample Per Class 20,73,45.5,1.590400934,29.33,2.1584933
-Pre-trained Model Sample Per Class 20,74,52,1.523886561,29.22,2.1536968
-Pre-trained Model Sample Per Class 20,75,53,1.56071341,29.34,2.1453
-Pre-trained Model Sample Per Class 20,76,52.5,1.506162524,29.3,2.147306
-Pre-trained Model Sample Per Class 20,77,52.5,1.500519693,29.28,2.1558335
-Pre-trained Model Sample Per Class 20,78,53.5,1.584619999,29.3,2.1610754
-Pre-trained Model Sample Per Class 20,79,56,1.527588904,29.28,2.1681926
-Pre-trained Model Sample Per Class 20,80,53,1.541569173,29.24,2.1611888
-Random Init Model Sample Per Class 20,1,10,3.50257349,10,85178.21
-Random Init Model Sample Per Class 20,2,8,4.244965792,10,2312567
-Random Init Model Sample Per Class 20,3,13,2.871286035,10,522238.25
-Random Init Model Sample Per Class 20,4,15.5,2.773273826,10,77462.234
-Random Init Model Sample Per Class 20,5,16,2.959111691,10,17288.86
-Random Init Model Sample Per Class 20,6,16.5,2.881907701,10,4144.87
-Random Init Model Sample Per Class 20,7,15,2.711537838,10.18,1737.8337
-Random Init Model Sample Per Class 20,8,18,2.427397966,10.4,792.0242
-Random Init Model Sample Per Class 20,9,22.5,2.259023547,10.23,266.61978
-Random Init Model Sample Per Class 20,10,19.5,2.193382382,11.7,145.10072
-Random Init Model Sample Per Class 20,11,22,2.213832617,12.63,118.69798
-Random Init Model Sample Per Class 20,12,26,2.136581063,14.75,89.719864
-Random Init Model Sample Per Class 20,13,27.5,2.162669778,15.08,76.73353
-Random Init Model Sample Per Class 20,14,31,2.090409398,16.69,23.861881
-Random Init Model Sample Per Class 20,15,26.5,2.061629295,16.26,16.505447
-Random Init Model Sample Per Class 20,16,29,2.038096666,17.77,9.6581955
-Random Init Model Sample Per Class 20,17,30.5,2.019915581,20.56,6.5859165
-Random Init Model Sample Per Class 20,18,30.5,1.951693892,21.52,5.0960755
-Random Init Model Sample Per Class 20,19,32,1.954961538,22,4.150174
-Random Init Model Sample Per Class 20,20,31.5,1.965347171,22.13,3.7064114
-Random Init Model Sample Per Class 20,21,33,2.053464949,22.25,3.3561785
-Random Init Model Sample Per Class 20,22,33.5,1.967843413,21.5,3.0471504
-Random Init Model Sample Per Class 20,23,35,1.913332045,21.92,2.81692
-Random Init Model Sample Per Class 20,24,31.5,2.005534828,22.52,2.6284025
-Random Init Model Sample Per Class 20,25,36.5,1.866391182,22.77,2.5301244
-Random Init Model Sample Per Class 20,26,34,1.899563193,23.06,2.459102
-Random Init Model Sample Per Class 20,27,35,1.863013089,23.1,2.400687
-Random Init Model Sample Per Class 20,28,37.5,1.852319658,22.84,2.3788605
-Random Init Model Sample Per Class 20,29,39.5,1.860210896,22.74,2.3537056
-Random Init Model Sample Per Class 20,30,35.5,1.93051368,22.37,2.401864
-Random Init Model Sample Per Class 20,31,35.5,1.873059571,22.44,2.4349573
-Random Init Model Sample Per Class 20,32,36.5,1.833542645,22.63,2.4031901
-Random Init Model Sample Per Class 20,33,40.5,1.872799039,22.71,2.4060142
-Random Init Model Sample Per Class 20,34,34,1.876404464,22.78,2.4386728
-Random Init Model Sample Per Class 20,35,35.5,1.881297529,22.94,2.4228323
-Random Init Model Sample Per Class 20,36,39.5,1.820765436,23.08,2.4305189
-Random Init Model Sample Per Class 20,37,39.5,1.862637699,23.16,2.4406378
-Random Init Model Sample Per Class 20,38,38.5,1.831560671,23.23,2.4524524
-Random Init Model Sample Per Class 20,39,42,1.8239429,23.43,2.4641545
-Random Init Model Sample Per Class 20,40,38,1.829395473,23.52,2.4391234
-Random Init Model Sample Per Class 20,41,38.5,1.798892319,23.64,2.4223683
-Random Init Model Sample Per Class 20,42,38.5,1.824160695,23.64,2.407746
-Random Init Model Sample Per Class 20,43,35,1.865159452,23.74,2.4122937
-Random Init Model Sample Per Class 20,44,41,1.818561435,23.66,2.4390879
-Random Init Model Sample Per Class 20,45,37.5,1.842292726,23.65,2.4325194
-Random Init Model Sample Per Class 20,46,40.5,1.835453331,23.56,2.4281218
-Random Init Model Sample Per Class 20,47,42.5,1.815029621,23.72,2.4386384
-Random Init Model Sample Per Class 20,48,44,1.794858873,23.72,2.459854
-Random Init Model Sample Per Class 20,49,41.5,1.77700597,23.75,2.4509127
-Random Init Model Sample Per Class 20,50,42,1.787952185,23.78,2.4233763
-Random Init Model Sample Per Class 20,51,40.5,1.785927474,23.79,2.4188936
-Random Init Model Sample Per Class 20,52,38,2.013056934,23.71,2.446162
-Random Init Model Sample Per Class 20,53,41,1.833388865,23.7,2.4427679
-Random Init Model Sample Per Class 20,54,38,1.840422928,23.69,2.4239693
-Random Init Model Sample Per Class 20,55,39.5,1.811540008,23.58,2.442436
-Random Init Model Sample Per Class 20,56,40.5,1.81108588,23.56,2.4399302
-Random Init Model Sample Per Class 20,57,45,1.794326961,23.65,2.4324453
-Random Init Model Sample Per Class 20,58,35.5,1.836737037,23.65,2.4143353
-Random Init Model Sample Per Class 20,59,37.5,1.82643348,23.73,2.3991313
-Random Init Model Sample Per Class 20,60,38.5,1.832640111,23.84,2.3887954
-Random Init Model Sample Per Class 20,61,34.5,1.819246829,23.79,2.399097
-Random Init Model Sample Per Class 20,62,37,1.820439398,23.61,2.4235783
-Random Init Model Sample Per Class 20,63,35.5,1.820136428,23.72,2.4214864
-Random Init Model Sample Per Class 20,64,36,1.817208767,23.55,2.4365435
-Random Init Model Sample Per Class 20,65,39.5,1.811785519,23.51,2.4221036
-Random Init Model Sample Per Class 20,66,38.5,1.834349751,23.55,2.4287648
-Random Init Model Sample Per Class 20,67,40,1.826322794,23.77,2.4000869
-Random Init Model Sample Per Class 20,68,42.5,1.817926109,23.8,2.3921514
-Random Init Model Sample Per Class 20,69,39,1.923972368,23.57,2.425538
-Random Init Model Sample Per Class 20,70,39,1.850442171,23.56,2.429045
-Random Init Model Sample Per Class 20,71,40,1.794669211,23.69,2.419827
-Random Init Model Sample Per Class 20,72,42,1.819736063,23.67,2.4159348
-Random Init Model Sample Per Class 20,73,39.5,1.798505068,23.67,2.414759
-Random Init Model Sample Per Class 20,74,36,1.83793956,23.7,2.4126918
-Random Init Model Sample Per Class 20,75,37,1.802715421,23.63,2.421976
-Random Init Model Sample Per Class 20,76,39,1.824991703,23.57,2.4429696
-Random Init Model Sample Per Class 20,77,40,1.835012436,23.58,2.4591181
-Random Init Model Sample Per Class 20,78,37.5,1.820500135,23.65,2.4277198
-Random Init Model Sample Per Class 20,79,37.5,1.814655185,23.79,2.4078753
-Random Init Model Sample Per Class 20,80,37,1.806006134,23.73,2.4034646
-Pre-trained Model Sample Per Class 50,1,14.2,2.277435124,14.79,2.2275724
-Pre-trained Model Sample Per Class 50,2,20.8,2.178900898,18.72,2.1796799
-Pre-trained Model Sample Per Class 50,3,21.6,2.137324214,20.57,2.1580608
-Pre-trained Model Sample Per Class 50,4,23,2.063038111,23.32,2.1002252
-Pre-trained Model Sample Per Class 50,5,26.6,2.027870446,26.15,2.0580807
-Pre-trained Model Sample Per Class 50,6,31.4,1.944330037,25.42,2.0479925
-Pre-trained Model Sample Per Class 50,7,33,1.912698358,29.93,1.974621
-Pre-trained Model Sample Per Class 50,8,35,1.868112206,30.97,1.9717053
-Pre-trained Model Sample Per Class 50,9,35.4,1.862276554,30.41,1.9958719
-Pre-trained Model Sample Per Class 50,10,36.4,1.821287423,32.01,1.9519653
-Pre-trained Model Sample Per Class 50,11,36.6,1.759112895,33.13,1.9381995
-Pre-trained Model Sample Per Class 50,12,40.4,1.746598452,33.96,1.930584
-Pre-trained Model Sample Per Class 50,13,43.4,1.73411417,32.01,2.0004895
-Pre-trained Model Sample Per Class 50,14,41.8,1.700735539,33.59,1.9250474
-Pre-trained Model Sample Per Class 50,15,42.4,1.717967927,35.53,1.8956612
-Pre-trained Model Sample Per Class 50,16,50.4,1.609856844,36.16,1.8891641
-Pre-trained Model Sample Per Class 50,17,48.2,1.604853183,36.45,1.8850054
-Pre-trained Model Sample Per Class 50,18,49.2,1.59424305,36.63,1.88399
-Pre-trained Model Sample Per Class 50,19,48.2,1.602825075,36.95,1.8811053
-Pre-trained Model Sample Per Class 50,20,48.4,1.594369173,36.93,1.8849639
-Pre-trained Model Sample Per Class 50,21,50.4,1.568946362,37.05,1.8762574
-Pre-trained Model Sample Per Class 50,22,47.6,1.6073488,37.14,1.8738816
-Pre-trained Model Sample Per Class 50,23,52.2,1.545932919,37.1,1.8789028
-Pre-trained Model Sample Per Class 50,24,45.8,1.587813973,37.28,1.8763912
-Pre-trained Model Sample Per Class 50,25,50.2,1.546902835,37.3,1.8741968
-Pre-trained Model Sample Per Class 50,26,51,1.547355801,37.35,1.8694388
-Pre-trained Model Sample Per Class 50,27,48.8,1.582536429,37.35,1.8674687
-Pre-trained Model Sample Per Class 50,28,50.4,1.560617954,37.63,1.8669988
-Pre-trained Model Sample Per Class 50,29,49.6,1.543020755,37.73,1.8645813
-Pre-trained Model Sample Per Class 50,30,50.4,1.539818585,37.95,1.8607454
-Pre-trained Model Sample Per Class 50,31,50.2,1.547558695,38.02,1.8601487
-Pre-trained Model Sample Per Class 50,32,51.6,1.53547734,38.04,1.860682
-Pre-trained Model Sample Per Class 50,33,54.2,1.53697592,38.1,1.8581135
-Pre-trained Model Sample Per Class 50,34,53.4,1.513784409,38.09,1.8579565
-Pre-trained Model Sample Per Class 50,35,52,1.529299885,38.04,1.8628042
-Pre-trained Model Sample Per Class 50,36,54.2,1.487033069,38.14,1.8635334
-Pre-trained Model Sample Per Class 50,37,51.4,1.491229326,38.01,1.867643
-Pre-trained Model Sample Per Class 50,38,51.8,1.556393236,38.08,1.8656499
-Pre-trained Model Sample Per Class 50,39,54,1.507333308,38.04,1.8658719
-Pre-trained Model Sample Per Class 50,40,51.8,1.538454801,38.12,1.8634287
-Pre-trained Model Sample Per Class 50,41,51.4,1.538806796,38.15,1.867378
-Pre-trained Model Sample Per Class 50,42,52,1.531704634,38.2,1.8640441
-Pre-trained Model Sample Per Class 50,43,52.4,1.523697913,38.2,1.8628246
-Pre-trained Model Sample Per Class 50,44,51.4,1.560681581,38.13,1.8607858
-Pre-trained Model Sample Per Class 50,45,49.2,1.554100335,38.16,1.8661312
-Pre-trained Model Sample Per Class 50,46,55.6,1.512139589,38.2,1.8680577
-Pre-trained Model Sample Per Class 50,47,51.8,1.520371109,38.16,1.8689593
-Pre-trained Model Sample Per Class 50,48,49.6,1.568357378,38.07,1.8681204
-Pre-trained Model Sample Per Class 50,49,49.6,1.526022851,38.09,1.8680942
-Pre-trained Model Sample Per Class 50,50,52.6,1.516659856,38.14,1.8689272
-Pre-trained Model Sample Per Class 50,51,55.6,1.50046283,38.13,1.8709662
-Pre-trained Model Sample Per Class 50,52,52.6,1.492905885,38.04,1.8710393
-Pre-trained Model Sample Per Class 50,53,52.2,1.494937599,37.98,1.8740802
-Pre-trained Model Sample Per Class 50,54,53.8,1.528472513,37.97,1.8707931
-Pre-trained Model Sample Per Class 50,55,52,1.505986631,37.92,1.8742977
-Pre-trained Model Sample Per Class 50,56,50,1.514845431,37.92,1.8770977
-Pre-trained Model Sample Per Class 50,57,55.2,1.481898069,38.08,1.8688654
-Pre-trained Model Sample Per Class 50,58,52.6,1.518947005,38.18,1.8710091
-Pre-trained Model Sample Per Class 50,59,50.8,1.547572017,38.07,1.8681353
-Pre-trained Model Sample Per Class 50,60,55,1.483792961,38.13,1.8730235
-Pre-trained Model Sample Per Class 50,61,53.8,1.492254674,38.08,1.8661153
-Pre-trained Model Sample Per Class 50,62,50.4,1.514424235,38.06,1.8667676
-Pre-trained Model Sample Per Class 50,63,52.4,1.515731841,37.98,1.8749548
-Pre-trained Model Sample Per Class 50,64,55,1.499387681,37.9,1.8733025
-Pre-trained Model Sample Per Class 50,65,52.8,1.536907971,38,1.8694981
-Pre-trained Model Sample Per Class 50,66,52.6,1.531287998,38,1.8688248
-Pre-trained Model Sample Per Class 50,67,52.6,1.509577751,38.04,1.8689433
-Pre-trained Model Sample Per Class 50,68,54.4,1.502554417,37.96,1.8703043
-Pre-trained Model Sample Per Class 50,69,54.6,1.506035298,38.18,1.8733743
-Pre-trained Model Sample Per Class 50,70,53.8,1.519119769,38.14,1.8766351
-Pre-trained Model Sample Per Class 50,71,52.4,1.516596079,38.1,1.8731133
-Pre-trained Model Sample Per Class 50,72,54.2,1.524496675,38.15,1.8735008
-Pre-trained Model Sample Per Class 50,73,52.2,1.525186002,38.04,1.8736292
-Pre-trained Model Sample Per Class 50,74,54.8,1.50630489,38.05,1.868036
-Pre-trained Model Sample Per Class 50,75,54.4,1.513261735,37.97,1.8666487
-Pre-trained Model Sample Per Class 50,76,48.8,1.549280316,38,1.8637775
-Pre-trained Model Sample Per Class 50,77,52.6,1.515349448,37.93,1.8669591
-Pre-trained Model Sample Per Class 50,78,51.6,1.535890847,38.06,1.8688333
-Pre-trained Model Sample Per Class 50,79,49.6,1.53894794,37.98,1.8702075
-Pre-trained Model Sample Per Class 50,80,53.8,1.487106085,38.06,1.8743623
-Random Init Model Sample Per Class 50,1,11.4,3.703916132,10,119930.586
-Random Init Model Sample Per Class 50,2,13.2,2.884128094,10,4354.9287
-Random Init Model Sample Per Class 50,3,15.6,2.545873642,10.15,685.99835
-Random Init Model Sample Per Class 50,4,19.4,2.365839303,14.02,79.431244
-Random Init Model Sample Per Class 50,5,19.4,2.545533419,16.96,19.9269
-Random Init Model Sample Per Class 50,6,26.6,2.170093417,15.96,45.003353
-Random Init Model Sample Per Class 50,7,25.4,2.425209105,21.44,9.747532
-Random Init Model Sample Per Class 50,8,25.8,2.158783257,22.81,2.6451042
-Random Init Model Sample Per Class 50,9,23,2.069710135,21.76,3.0478544
-Random Init Model Sample Per Class 50,10,25.4,2.031485081,24.52,2.852666
-Random Init Model Sample Per Class 50,11,28.8,2.002829343,25.51,2.3990967
-Random Init Model Sample Per Class 50,12,31.2,1.952537835,27.25,2.409674
-Random Init Model Sample Per Class 50,13,33.4,1.941996932,27.36,2.2064974
-Random Init Model Sample Per Class 50,14,34.8,1.890702575,27.33,2.1451232
-Random Init Model Sample Per Class 50,15,34.8,1.864251286,27.19,2.1524081
-Random Init Model Sample Per Class 50,16,35.6,1.864184052,27.78,2.1163359
-Random Init Model Sample Per Class 50,17,38.4,1.826723695,28.39,2.0769749
-Random Init Model Sample Per Class 50,18,39.2,1.778786957,28.77,2.0426247
-Random Init Model Sample Per Class 50,19,39.6,1.769054294,29.84,2.0515532
-Random Init Model Sample Per Class 50,20,38.4,1.773439974,29.4,2.0778642
-Random Init Model Sample Per Class 50,21,38.8,1.763396591,29.33,2.0831342
-Random Init Model Sample Per Class 50,22,38.8,1.737121552,29.56,2.0338366
-Random Init Model Sample Per Class 50,23,41.6,1.737787008,30.3,2.0184765
-Random Init Model Sample Per Class 50,24,41.4,1.744649351,30.33,2.0388336
-Random Init Model Sample Per Class 50,25,41.8,1.754730195,30.32,2.0565917
-Random Init Model Sample Per Class 50,26,42.4,1.725694776,30.29,2.0252054
-Random Init Model Sample Per Class 50,27,41.6,1.734172553,30.9,2.0110855
-Random Init Model Sample Per Class 50,28,42.4,1.737545133,30.87,1.9987317
-Random Init Model Sample Per Class 50,29,43.2,1.70977366,30.77,2.0038679
-Random Init Model Sample Per Class 50,30,44.6,1.691017568,31.3,1.9867593
-Random Init Model Sample Per Class 50,31,45.4,1.690641612,31.3,1.9872484
-Random Init Model Sample Per Class 50,32,43.6,1.69284758,31.34,1.9946232
-Random Init Model Sample Per Class 50,33,44,1.67743513,31.3,1.9972168
-Random Init Model Sample Per Class 50,34,44.8,1.665222555,31.21,2.000556
-Random Init Model Sample Per Class 50,35,43.2,1.683041424,31.01,2.0105748
-Random Init Model Sample Per Class 50,36,42.2,1.698067516,30.94,2.0173926
-Random Init Model Sample Per Class 50,37,44.2,1.667722136,31.05,2.014691
-Random Init Model Sample Per Class 50,38,42.8,1.667942226,31.2,2.0286539
-Random Init Model Sample Per Class 50,39,43.4,1.688654125,31.07,2.046637
-Random Init Model Sample Per Class 50,40,43.8,1.684998065,31.33,2.0419943
-Random Init Model Sample Per Class 50,41,45,1.660641462,31.56,2.0277326
-Random Init Model Sample Per Class 50,42,47.2,1.669118762,31.6,2.0138242
-Random Init Model Sample Per Class 50,43,44.6,1.671872497,31.77,2.0009527
-Random Init Model Sample Per Class 50,44,45.4,1.676549792,31.43,2.001408
-Random Init Model Sample Per Class 50,45,44.6,1.692667931,31.25,2.0165644
-Random Init Model Sample Per Class 50,46,47.2,1.655855209,31.04,2.0354197
-Random Init Model Sample Per Class 50,47,46.4,1.654973358,31.17,2.0150495
-Random Init Model Sample Per Class 50,48,45.2,1.640766382,31.15,2.020663
-Random Init Model Sample Per Class 50,49,45,1.662632644,31.31,2.0156116
-Random Init Model Sample Per Class 50,50,45.8,1.646796912,31.2,2.02869
-Random Init Model Sample Per Class 50,51,44.8,1.676818579,31.14,2.0541945
-Random Init Model Sample Per Class 50,52,46.8,1.642764002,31.16,2.0409913
-Random Init Model Sample Per Class 50,53,45.6,1.673463643,31.19,2.012579
-Random Init Model Sample Per Class 50,54,45.4,1.640797317,31.21,2.0348465
-Random Init Model Sample Per Class 50,55,47.2,1.667412996,31.09,2.0565653
-Random Init Model Sample Per Class 50,56,44.2,1.665661335,31.08,2.0321538
-Random Init Model Sample Per Class 50,57,45.4,1.676052779,31.11,2.0163496
-Random Init Model Sample Per Class 50,58,44.6,1.668005168,31.26,2.0038047
-Random Init Model Sample Per Class 50,59,42.4,1.663066745,31.18,2.0232189
-Random Init Model Sample Per Class 50,60,46.8,1.671283156,31.11,2.0338285
-Random Init Model Sample Per Class 50,61,45,1.689338267,31.11,2.040217
-Random Init Model Sample Per Class 50,62,45.2,1.679729611,31.01,2.0511045
-Random Init Model Sample Per Class 50,63,44.8,1.667837441,31.05,2.0427957
-Random Init Model Sample Per Class 50,64,45.4,1.688190669,31.18,2.0283377
-Random Init Model Sample Per Class 50,65,48.2,1.618523836,31.16,2.0272183
-Random Init Model Sample Per Class 50,66,43.8,1.683844209,31.2,2.0249
-Random Init Model Sample Per Class 50,67,44.8,1.671682656,31.33,2.0106916
-Random Init Model Sample Per Class 50,68,45,1.682693899,31.23,2.0105495
-Random Init Model Sample Per Class 50,69,44.4,1.68080461,31.21,2.0146163
-Random Init Model Sample Per Class 50,70,43,1.675221115,31.2,2.0079012
-Random Init Model Sample Per Class 50,71,45.4,1.656634688,31.3,1.9986733
-Random Init Model Sample Per Class 50,72,45.4,1.653872967,31.21,2.0135942
-Random Init Model Sample Per Class 50,73,48.2,1.645690143,31.24,2.0277655
-Random Init Model Sample Per Class 50,74,43.4,1.662857473,31.18,2.0394325
-Random Init Model Sample Per Class 50,75,45.2,1.667226553,31.3,2.0175004
-Random Init Model Sample Per Class 50,76,46.8,1.64233914,31.4,2.0120938
-Random Init Model Sample Per Class 50,77,43,1.684222102,31.17,2.024115
-Random Init Model Sample Per Class 50,78,45.6,1.659290165,31.18,2.0131948
-Random Init Model Sample Per Class 50,79,45.8,1.660579652,31.26,2.0252182
-Random Init Model Sample Per Class 50,80,44.6,1.655214489,31.16,2.0180292
-Pre-trained Model Sample Per Class 100,1,13.8,2.237109393,19.35,2.1596725
-Pre-trained Model Sample Per Class 100,2,21.1,2.126429975,22.8,2.063643
-Pre-trained Model Sample Per Class 100,3,26,2.016192764,26.95,2.028146
-Pre-trained Model Sample Per Class 100,4,29.4,1.941287771,29.61,1.9728175
-Pre-trained Model Sample Per Class 100,5,31.2,1.907319739,32.47,1.9346485
-Pre-trained Model Sample Per Class 100,6,35.2,1.859176904,33.66,1.9117894
-Pre-trained Model Sample Per Class 100,7,36.8,1.822371483,34.43,1.8714957
-Pre-trained Model Sample Per Class 100,8,37.8,1.798553273,36.49,1.8699831
-Pre-trained Model Sample Per Class 100,9,37.8,1.79028891,37.76,1.8285108
-Pre-trained Model Sample Per Class 100,10,39.6,1.753459394,37.68,1.843125
-Pre-trained Model Sample Per Class 100,11,44.2,1.714995533,39.24,1.8115563
-Pre-trained Model Sample Per Class 100,12,43.2,1.6845676,38.72,1.8221375
-Pre-trained Model Sample Per Class 100,13,47,1.648965582,40.86,1.7789646
-Pre-trained Model Sample Per Class 100,14,46.3,1.632575825,40.28,1.8192629
-Pre-trained Model Sample Per Class 100,15,45.5,1.671020091,41.26,1.7986004
-Pre-trained Model Sample Per Class 100,16,48.6,1.603751719,42.79,1.7485176
-Pre-trained Model Sample Per Class 100,17,49.6,1.577011988,43.15,1.7317154
-Pre-trained Model Sample Per Class 100,18,51.1,1.540146366,43.25,1.7326931
-Pre-trained Model Sample Per Class 100,19,50.9,1.549050167,43.35,1.740653
-Pre-trained Model Sample Per Class 100,20,52,1.539549172,43.46,1.7396215
-Pre-trained Model Sample Per Class 100,21,52.7,1.512027562,43.55,1.7408974
-Pre-trained Model Sample Per Class 100,22,54.1,1.506114453,43.48,1.7398919
-Pre-trained Model Sample Per Class 100,23,51.6,1.519915372,44.07,1.7334701
-Pre-trained Model Sample Per Class 100,24,52.1,1.504442856,43.88,1.7366145
-Pre-trained Model Sample Per Class 100,25,52.6,1.518653214,43.95,1.7388816
-Pre-trained Model Sample Per Class 100,26,52.1,1.514583275,44.2,1.7338471
-Pre-trained Model Sample Per Class 100,27,52.1,1.505968973,44.06,1.7377003
-Pre-trained Model Sample Per Class 100,28,53.6,1.50250195,44.31,1.730813
-Pre-trained Model Sample Per Class 100,29,54.9,1.499071062,44.16,1.7300799
-Pre-trained Model Sample Per Class 100,30,54.1,1.496255919,44.31,1.7267956
-Pre-trained Model Sample Per Class 100,31,53.3,1.494830757,44.21,1.7272815
-Pre-trained Model Sample Per Class 100,32,54.1,1.484054312,44.29,1.7276275
-Pre-trained Model Sample Per Class 100,33,52.8,1.474809691,44.22,1.730585
-Pre-trained Model Sample Per Class 100,34,54.4,1.481816128,44.29,1.7292932
-Pre-trained Model Sample Per Class 100,35,53.3,1.484465376,44.19,1.7337109
-Pre-trained Model Sample Per Class 100,36,53.7,1.4710311,44.32,1.7312022
-Pre-trained Model Sample Per Class 100,37,53.6,1.481640384,44.34,1.7295713
-Pre-trained Model Sample Per Class 100,38,54.1,1.485953376,44.35,1.7304474
-Pre-trained Model Sample Per Class 100,39,54.8,1.486857638,44.37,1.7284416
-Pre-trained Model Sample Per Class 100,40,53.6,1.473652557,44.41,1.7255343
-Pre-trained Model Sample Per Class 100,41,52.6,1.494228452,44.45,1.7286662
-Pre-trained Model Sample Per Class 100,42,52.6,1.492051199,44.57,1.7229526
-Pre-trained Model Sample Per Class 100,43,57.2,1.469135836,44.71,1.7198818
-Pre-trained Model Sample Per Class 100,44,53.7,1.47269617,44.53,1.725322
-Pre-trained Model Sample Per Class 100,45,53.6,1.49723953,44.36,1.7322985
-Pre-trained Model Sample Per Class 100,46,55.6,1.47292845,44.57,1.7283391
-Pre-trained Model Sample Per Class 100,47,52.5,1.478156433,44.52,1.7299725
-Pre-trained Model Sample Per Class 100,48,56,1.472664461,44.41,1.731936
-Pre-trained Model Sample Per Class 100,49,54.7,1.476012081,44.51,1.725037
-Pre-trained Model Sample Per Class 100,50,54.6,1.479976565,44.44,1.7285872
-Pre-trained Model Sample Per Class 100,51,55,1.455153912,44.46,1.7312009
-Pre-trained Model Sample Per Class 100,52,53.6,1.47767818,44.37,1.7317283
-Pre-trained Model Sample Per Class 100,53,54.1,1.477642447,44.68,1.7297143
-Pre-trained Model Sample Per Class 100,54,54.6,1.458054617,44.42,1.7261432
-Pre-trained Model Sample Per Class 100,55,54.1,1.465474173,44.4,1.7266215
-Pre-trained Model Sample Per Class 100,56,53.6,1.483771235,44.41,1.7269742
-Pre-trained Model Sample Per Class 100,57,54.1,1.479789019,44.44,1.7270476
-Pre-trained Model Sample Per Class 100,58,54.9,1.446221069,44.67,1.7268167
-Pre-trained Model Sample Per Class 100,59,51.3,1.500571817,44.64,1.724271
-Pre-trained Model Sample Per Class 100,60,53.1,1.480498716,44.59,1.727051
-Pre-trained Model Sample Per Class 100,61,55.3,1.490381449,44.53,1.7246466
-Pre-trained Model Sample Per Class 100,62,53.2,1.494593337,44.52,1.72398
-Pre-trained Model Sample Per Class 100,63,55,1.464316458,44.52,1.7274274
-Pre-trained Model Sample Per Class 100,64,54.1,1.492553547,44.54,1.726718
-Pre-trained Model Sample Per Class 100,65,52.4,1.490555227,44.48,1.7250077
-Pre-trained Model Sample Per Class 100,66,53.8,1.468129218,44.44,1.7282193
-Pre-trained Model Sample Per Class 100,67,52.1,1.502593756,44.42,1.7305317
-Pre-trained Model Sample Per Class 100,68,55.7,1.461070925,44.31,1.7302055
-Pre-trained Model Sample Per Class 100,69,55.7,1.469766632,44.39,1.7302238
-Pre-trained Model Sample Per Class 100,70,54.4,1.487073198,44.39,1.7299441
-Pre-trained Model Sample Per Class 100,71,54.7,1.467894658,44.48,1.7269884
-Pre-trained Model Sample Per Class 100,72,55.4,1.451390103,44.45,1.7296054
-Pre-trained Model Sample Per Class 100,73,53.7,1.484257787,44.38,1.7305194
-Pre-trained Model Sample Per Class 100,74,53.6,1.499583498,44.39,1.7315865
-Pre-trained Model Sample Per Class 100,75,55.3,1.483700871,44.4,1.731258
-Pre-trained Model Sample Per Class 100,76,54.6,1.450072676,44.48,1.7285012
-Pre-trained Model Sample Per Class 100,77,55,1.469678283,44.37,1.7306895
-Pre-trained Model Sample Per Class 100,78,52,1.489137039,44.49,1.7283828
-Pre-trained Model Sample Per Class 100,79,54.1,1.490001649,44.52,1.7285435
-Pre-trained Model Sample Per Class 100,80,55.3,1.460269511,44.46,1.7285659
-Random Init Model Sample Per Class 100,1,11.8,3.633379906,10,42398.113
-Random Init Model Sample Per Class 100,2,17.1,2.93140623,10.12,562.6593
-Random Init Model Sample Per Class 100,3,17.3,2.462828785,15.28,3.3465612
-Random Init Model Sample Per Class 100,4,18.6,2.341124654,17.43,2.3819582
-Random Init Model Sample Per Class 100,5,23,2.17283833,20.76,9.094972
-Random Init Model Sample Per Class 100,6,23.9,2.240478814,18.21,3.219242
-Random Init Model Sample Per Class 100,7,28.8,2.117434829,23.87,2.406789
-Random Init Model Sample Per Class 100,8,29.7,2.035462782,26.71,2.1786854
-Random Init Model Sample Per Class 100,9,30.3,2.006035149,30.09,2.1805854
-Random Init Model Sample Per Class 100,10,31,1.926081032,29.91,2.089707
-Random Init Model Sample Per Class 100,11,34.2,1.931738615,31.15,2.0826373
-Random Init Model Sample Per Class 100,12,36.5,1.869698822,33.59,1.9811418
-Random Init Model Sample Per Class 100,13,35.5,1.876042113,32.69,2.6260786
-Random Init Model Sample Per Class 100,14,37.9,1.932458818,34.76,1.907933
-Random Init Model Sample Per Class 100,15,36.8,1.878118306,30.58,2.527603
-Random Init Model Sample Per Class 100,16,38.3,1.848353744,33.96,2.09483
-Random Init Model Sample Per Class 100,17,39.7,1.765002623,36.48,1.8971065
-Random Init Model Sample Per Class 100,18,43.7,1.694875494,36.66,1.8838232
-Random Init Model Sample Per Class 100,19,43.2,1.68546164,37.14,1.9265027
-Random Init Model Sample Per Class 100,20,42.6,1.671250284,36.93,1.8877163
-Random Init Model Sample Per Class 100,21,45.4,1.647549704,36.94,1.8729111
-Random Init Model Sample Per Class 100,22,49.1,1.621209741,38.12,1.8750973
-Random Init Model Sample Per Class 100,23,46.7,1.610998869,38.29,1.8700784
-Random Init Model Sample Per Class 100,24,47.9,1.641347319,37.95,2.0218763
-Random Init Model Sample Per Class 100,25,45,1.640222818,37.22,1.9823885
-Random Init Model Sample Per Class 100,26,47.3,1.608258739,37.69,1.9290532
-Random Init Model Sample Per Class 100,27,47.9,1.607183218,38.32,1.8679383
-Random Init Model Sample Per Class 100,28,45.8,1.577300042,38.05,1.8890582
-Random Init Model Sample Per Class 100,29,48.7,1.577264816,39.54,1.8257214
-Random Init Model Sample Per Class 100,30,50.9,1.535157412,39.43,1.841334
-Random Init Model Sample Per Class 100,31,52.2,1.542676955,39.68,1.8358257
-Random Init Model Sample Per Class 100,32,51,1.536678687,40,1.8264277
-Random Init Model Sample Per Class 100,33,52.1,1.534024104,39.31,1.8313856
-Random Init Model Sample Per Class 100,34,52.8,1.516404971,39.23,1.8401984
-Random Init Model Sample Per Class 100,35,51.7,1.525872871,39.29,1.8267677
-Random Init Model Sample Per Class 100,36,51.4,1.534721673,39.52,1.8225757
-Random Init Model Sample Per Class 100,37,51.6,1.501306027,39.64,1.829059
-Random Init Model Sample Per Class 100,38,51.7,1.511750326,39.52,1.8317131
-Random Init Model Sample Per Class 100,39,50.4,1.53704749,39.66,1.8306942
-Random Init Model Sample Per Class 100,40,51.6,1.488503784,39.67,1.8284793
-Random Init Model Sample Per Class 100,41,50,1.513254791,39.84,1.8345447
-Random Init Model Sample Per Class 100,42,52.8,1.522882923,39.7,1.8355832
-Random Init Model Sample Per Class 100,43,51.9,1.513379052,39.72,1.8355262
-Random Init Model Sample Per Class 100,44,51.6,1.538721234,39.56,1.8423766
-Random Init Model Sample Per Class 100,45,53.7,1.489484817,39.43,1.8439664
-Random Init Model Sample Per Class 100,46,54,1.499164015,39.59,1.8308136
-Random Init Model Sample Per Class 100,47,52.8,1.492086157,39.54,1.8303921
-Random Init Model Sample Per Class 100,48,53.3,1.496216282,39.49,1.8412395
-Random Init Model Sample Per Class 100,49,54.7,1.484936208,39.43,1.8335903
-Random Init Model Sample Per Class 100,50,51.8,1.505066633,39.61,1.8231478
-Random Init Model Sample Per Class 100,51,53.2,1.503169417,39.68,1.8195494
-Random Init Model Sample Per Class 100,52,53.3,1.503942221,39.57,1.8341439
-Random Init Model Sample Per Class 100,53,53,1.503235087,39.67,1.8333088
-Random Init Model Sample Per Class 100,54,52.1,1.48875317,39.7,1.8325598
-Random Init Model Sample Per Class 100,55,53.2,1.49771753,39.59,1.8336679
-Random Init Model Sample Per Class 100,56,52.8,1.479149982,39.47,1.8358241
-Random Init Model Sample Per Class 100,57,53.4,1.475632682,39.58,1.8350589
-Random Init Model Sample Per Class 100,58,52.9,1.488640472,39.51,1.8373209
-Random Init Model Sample Per Class 100,59,54.4,1.490340814,39.74,1.8261411
-Random Init Model Sample Per Class 100,60,53.2,1.496609375,39.43,1.836336
-Random Init Model Sample Per Class 100,61,52.4,1.487101048,39.78,1.8251644
-Random Init Model Sample Per Class 100,62,51.4,1.515134871,39.54,1.8463596
-Random Init Model Sample Per Class 100,63,51.1,1.518261448,39.52,1.8503139
-Random Init Model Sample Per Class 100,64,55.6,1.461310878,39.44,1.851392
-Random Init Model Sample Per Class 100,65,52.2,1.495476305,39.33,1.8499339
-Random Init Model Sample Per Class 100,66,53,1.506840825,39.41,1.8439854
-Random Init Model Sample Per Class 100,67,51,1.519564018,39.57,1.8364437
-Random Init Model Sample Per Class 100,68,52.9,1.487664327,39.78,1.8269354
-Random Init Model Sample Per Class 100,69,51.9,1.50107722,39.66,1.8347567
-Random Init Model Sample Per Class 100,70,54.6,1.476895988,39.32,1.8591411
-Random Init Model Sample Per Class 100,71,50,1.519759119,39.44,1.8451043
-Random Init Model Sample Per Class 100,72,52.7,1.497429058,39.3,1.8527508
-Random Init Model Sample Per Class 100,73,51.7,1.501960486,39.47,1.8390564
-Random Init Model Sample Per Class 100,74,53.8,1.463739693,39.58,1.8331271
-Random Init Model Sample Per Class 100,75,53,1.508476421,39.36,1.8340757
-Random Init Model Sample Per Class 100,76,53.6,1.492235303,39.23,1.838414
-Random Init Model Sample Per Class 100,77,54.5,1.495503217,39.67,1.8377345
-Random Init Model Sample Per Class 100,78,52.1,1.509740904,39.71,1.8328687
-Random Init Model Sample Per Class 100,79,52.4,1.49908933,39.5,1.8380961
-Random Init Model Sample Per Class 100,80,53.1,1.51625888,39.37,1.8456235
-Pre-trained Model Sample Per Class 250,1,19.92,2.168501627,24.21,2.0977647
-Pre-trained Model Sample Per Class 250,2,30.36,1.96457234,33.29,1.9327437
-Pre-trained Model Sample Per Class 250,3,33.32,1.881701219,35.1,1.8565015
-Pre-trained Model Sample Per Class 250,4,35.72,1.844818634,36.2,1.8636078
-Pre-trained Model Sample Per Class 250,5,39.56,1.773256952,40.12,1.7809786
-Pre-trained Model Sample Per Class 250,6,41.76,1.732780069,42.76,1.7330377
-Pre-trained Model Sample Per Class 250,7,43.8,1.691398156,41.52,1.7883652
-Pre-trained Model Sample Per Class 250,8,42.96,1.674612045,44.82,1.6945205
-Pre-trained Model Sample Per Class 250,9,45.52,1.65112192,44.8,1.6817477
-Pre-trained Model Sample Per Class 250,10,46.52,1.627725506,44.81,1.6822125
-Pre-trained Model Sample Per Class 250,11,47.92,1.619815511,45.79,1.6653965
-Pre-trained Model Sample Per Class 250,12,48.16,1.593576783,46.98,1.6442493
-Pre-trained Model Sample Per Class 250,13,50.32,1.567221427,46.06,1.691624
-Pre-trained Model Sample Per Class 250,14,51.6,1.55182507,46.28,1.702188
-Pre-trained Model Sample Per Class 250,15,49.76,1.563443708,48.22,1.6241179
-Pre-trained Model Sample Per Class 250,16,51.68,1.545530295,48.92,1.5967807
-Pre-trained Model Sample Per Class 250,17,53.16,1.507845002,49.51,1.5839065
-Pre-trained Model Sample Per Class 250,18,54.04,1.4962722,50.01,1.5757052
-Pre-trained Model Sample Per Class 250,19,54,1.47967602,49.8,1.5832539
-Pre-trained Model Sample Per Class 250,20,54.68,1.474187863,50.04,1.580852
-Pre-trained Model Sample Per Class 250,21,54.72,1.466624606,49.98,1.5799699
-Pre-trained Model Sample Per Class 250,22,54.92,1.46378721,50.15,1.5833983
-Pre-trained Model Sample Per Class 250,23,55.12,1.478950793,50.23,1.5847653
-Pre-trained Model Sample Per Class 250,24,54.96,1.461985511,50.68,1.5775518
-Pre-trained Model Sample Per Class 250,25,55,1.450834119,50.78,1.5766038
-Pre-trained Model Sample Per Class 250,26,55.84,1.450914538,50.6,1.5808249
-Pre-trained Model Sample Per Class 250,27,56,1.454236948,50.61,1.5769597
-Pre-trained Model Sample Per Class 250,28,55.44,1.458503735,50.48,1.583684
-Pre-trained Model Sample Per Class 250,29,55.88,1.431419683,50.57,1.5845553
-Pre-trained Model Sample Per Class 250,30,55.52,1.445869768,51.04,1.5731384
-Pre-trained Model Sample Per Class 250,31,56.12,1.440157115,50.76,1.5742599
-Pre-trained Model Sample Per Class 250,32,56.32,1.441698378,50.93,1.5739101
-Pre-trained Model Sample Per Class 250,33,55.96,1.442891258,51,1.5694331
-Pre-trained Model Sample Per Class 250,34,55.44,1.431688797,51.01,1.5755866
-Pre-trained Model Sample Per Class 250,35,56.68,1.434586525,50.89,1.5700405
-Pre-trained Model Sample Per Class 250,36,56.12,1.433796722,50.9,1.574802
-Pre-trained Model Sample Per Class 250,37,57.24,1.422073281,50.98,1.5722027
-Pre-trained Model Sample Per Class 250,38,56.48,1.428534061,50.92,1.5709584
-Pre-trained Model Sample Per Class 250,39,56.4,1.426614523,50.94,1.5715789
-Pre-trained Model Sample Per Class 250,40,57.24,1.41809237,50.9,1.57154
-Pre-trained Model Sample Per Class 250,41,56.52,1.43677088,50.96,1.5754013
-Pre-trained Model Sample Per Class 250,42,55.44,1.44425692,50.82,1.5744491
-Pre-trained Model Sample Per Class 250,43,57.04,1.436723173,50.82,1.576006
-Pre-trained Model Sample Per Class 250,44,54.88,1.44714309,50.9,1.5727867
-Pre-trained Model Sample Per Class 250,45,55.84,1.430215985,51.09,1.5748127
-Pre-trained Model Sample Per Class 250,46,58.56,1.416290623,50.99,1.5748236
-Pre-trained Model Sample Per Class 250,47,57.04,1.439832419,50.92,1.5726844
-Pre-trained Model Sample Per Class 250,48,56.92,1.444411743,51.03,1.573047
-Pre-trained Model Sample Per Class 250,49,56,1.440486604,50.96,1.5711452
-Pre-trained Model Sample Per Class 250,50,55.52,1.438515151,51.06,1.572031
-Pre-trained Model Sample Per Class 250,51,56.8,1.420581794,51.06,1.5695993
-Pre-trained Model Sample Per Class 250,52,55.4,1.438215709,51.12,1.5708345
-Pre-trained Model Sample Per Class 250,53,56.2,1.431476158,51.02,1.5722283
-Pre-trained Model Sample Per Class 250,54,57.8,1.431600243,51.02,1.5714469
-Pre-trained Model Sample Per Class 250,55,56.76,1.429656672,50.9,1.5724666
-Pre-trained Model Sample Per Class 250,56,56.16,1.434061652,51,1.568888
-Pre-trained Model Sample Per Class 250,57,57.16,1.422419459,51.05,1.5712392
-Pre-trained Model Sample Per Class 250,58,57.64,1.41299212,50.92,1.5736207
-Pre-trained Model Sample Per Class 250,59,56.8,1.434555459,51.03,1.5734082
-Pre-trained Model Sample Per Class 250,60,56.56,1.418459684,50.96,1.5740719
-Pre-trained Model Sample Per Class 250,61,56.08,1.438897949,50.85,1.5725001
-Pre-trained Model Sample Per Class 250,62,56.12,1.433517945,50.89,1.5717834
-Pre-trained Model Sample Per Class 250,63,55.8,1.438025367,51.01,1.5718844
-Pre-trained Model Sample Per Class 250,64,56.2,1.425751966,51.02,1.5705606
-Pre-trained Model Sample Per Class 250,65,56.88,1.425128329,51.02,1.5740507
-Pre-trained Model Sample Per Class 250,66,56.28,1.431520915,51.05,1.5701177
-Pre-trained Model Sample Per Class 250,67,56.2,1.430379015,51.04,1.5717602
-Pre-trained Model Sample Per Class 250,68,56.52,1.438713485,51.11,1.5716294
-Pre-trained Model Sample Per Class 250,69,54.28,1.475209153,51.12,1.571242
-Pre-trained Model Sample Per Class 250,70,56.68,1.431708694,51.12,1.5756464
-Pre-trained Model Sample Per Class 250,71,55.68,1.433237982,50.96,1.573267
-Pre-trained Model Sample Per Class 250,72,56.84,1.423974866,50.91,1.5744163
-Pre-trained Model Sample Per Class 250,73,57.48,1.422236937,51.11,1.5718466
-Pre-trained Model Sample Per Class 250,74,56.84,1.42314713,51.09,1.5708609
-Pre-trained Model Sample Per Class 250,75,55.88,1.440487152,51.12,1.5721083
-Pre-trained Model Sample Per Class 250,76,55.12,1.436916095,51.28,1.5694567
-Pre-trained Model Sample Per Class 250,77,57,1.432337916,50.9,1.5723813
-Pre-trained Model Sample Per Class 250,78,55.6,1.438524634,50.78,1.5740932
-Pre-trained Model Sample Per Class 250,79,56.84,1.438766187,50.96,1.5750299
-Pre-trained Model Sample Per Class 250,80,54.88,1.444182628,50.94,1.575287
-Random Init Model Sample Per Class 250,1,14.4,3.05124526,11.26,67.039665
-Random Init Model Sample Per Class 250,2,24.88,2.199305642,25.94,2.2446127
-Random Init Model Sample Per Class 250,3,29.96,2.093023777,21.08,6.304553
-Random Init Model Sample Per Class 250,4,29.04,2.085901153,27.48,2.2712817
-Random Init Model Sample Per Class 250,5,30.16,2.013105285,34.6,2.065296
-Random Init Model Sample Per Class 250,6,35.24,1.892653525,33.93,2.0305507
-Random Init Model Sample Per Class 250,7,35.44,1.908697498,36.53,1.8726355
-Random Init Model Sample Per Class 250,8,37.32,1.928466886,29.09,5.2973814
-Random Init Model Sample Per Class 250,9,36.08,1.889886969,37.78,1.8695713
-Random Init Model Sample Per Class 250,10,39,1.827720934,37.03,1.9346467
-Random Init Model Sample Per Class 250,11,38.72,1.832403958,38.91,2.143223
-Random Init Model Sample Per Class 250,12,42.32,1.763823587,39.32,1.9942287
-Random Init Model Sample Per Class 250,13,42.48,1.735292131,39.8,1.7999809
-Random Init Model Sample Per Class 250,14,42.6,1.714340454,43.47,1.8328576
-Random Init Model Sample Per Class 250,15,43.6,1.690970916,42.46,1.7180316
-Random Init Model Sample Per Class 250,16,47.36,1.593937397,44.81,1.6672735
-Random Init Model Sample Per Class 250,17,50.96,1.555771494,45.95,1.646427
-Random Init Model Sample Per Class 250,18,49.32,1.544326985,45.88,1.6456059
-Random Init Model Sample Per Class 250,19,51.88,1.526817226,46.11,1.643677
-Random Init Model Sample Per Class 250,20,52.4,1.513992441,46.91,1.6426481
-Random Init Model Sample Per Class 250,21,52.84,1.505585188,46.83,1.64148
-Random Init Model Sample Per Class 250,22,53.28,1.493760872,47.03,1.6531444
-Random Init Model Sample Per Class 250,23,53.8,1.488608074,46.54,1.6465756
-Random Init Model Sample Per Class 250,24,54.92,1.472734547,47.2,1.6467621
-Random Init Model Sample Per Class 250,25,54.48,1.467834979,47.12,1.6431546
-Random Init Model Sample Per Class 250,26,55.64,1.444791526,47.67,1.6208819
-Random Init Model Sample Per Class 250,27,55.6,1.439613771,47.22,1.659148
-Random Init Model Sample Per Class 250,28,55.72,1.446011692,48.33,1.6312099
-Random Init Model Sample Per Class 250,29,55.68,1.422613382,48.71,1.6069297
-Random Init Model Sample Per Class 250,30,56.64,1.42338953,49.05,1.6197636
-Random Init Model Sample Per Class 250,31,59.68,1.379944211,49.15,1.6121358
-Random Init Model Sample Per Class 250,32,59.64,1.381773674,49.09,1.6104147
-Random Init Model Sample Per Class 250,33,58.2,1.380528927,49.27,1.6119846
-Random Init Model Sample Per Class 250,34,59.36,1.364057779,49.6,1.6073025
-Random Init Model Sample Per Class 250,35,60.08,1.364243066,49.19,1.6197561
-Random Init Model Sample Per Class 250,36,59.12,1.369596595,49.33,1.6130149
-Random Init Model Sample Per Class 250,37,59.68,1.358575624,49.76,1.5976716
-Random Init Model Sample Per Class 250,38,60.72,1.365418804,49.55,1.6108797
-Random Init Model Sample Per Class 250,39,60.52,1.373889464,49.68,1.6063179
-Random Init Model Sample Per Class 250,40,60.04,1.368259978,49.86,1.6114693
-Random Init Model Sample Per Class 250,41,58.52,1.378894591,49.51,1.6146219
-Random Init Model Sample Per Class 250,42,59.4,1.369290912,49.79,1.6119765
-Random Init Model Sample Per Class 250,43,59.76,1.365246439,49.84,1.6092114
-Random Init Model Sample Per Class 250,44,59.88,1.352099901,49.78,1.6134343
-Random Init Model Sample Per Class 250,45,59.6,1.361143321,49.71,1.6149182
-Random Init Model Sample Per Class 250,46,61.04,1.346351296,49.91,1.6109198
-Random Init Model Sample Per Class 250,47,60,1.359690708,50.14,1.6085167
-Random Init Model Sample Per Class 250,48,59.8,1.356238472,49.87,1.6076009
-Random Init Model Sample Per Class 250,49,61.36,1.340373993,49.94,1.6143942
-Random Init Model Sample Per Class 250,50,61,1.346801597,50.03,1.6082888
-Random Init Model Sample Per Class 250,51,61.16,1.341577721,49.88,1.607796
-Random Init Model Sample Per Class 250,52,59.52,1.357083559,49.88,1.6079035
-Random Init Model Sample Per Class 250,53,60.76,1.355061042,49.95,1.6102035
-Random Init Model Sample Per Class 250,54,60.76,1.347334599,49.99,1.6079506
-Random Init Model Sample Per Class 250,55,60.48,1.347195536,50.23,1.6019782
-Random Init Model Sample Per Class 250,56,59.92,1.335027707,50.14,1.6034088
-Random Init Model Sample Per Class 250,57,60.6,1.342147827,49.88,1.6068052
-Random Init Model Sample Per Class 250,58,59.36,1.35751071,50.21,1.5991888
-Random Init Model Sample Per Class 250,59,60.28,1.338439375,50.03,1.6069638
-Random Init Model Sample Per Class 250,60,61.36,1.344393682,50.04,1.6073289
-Random Init Model Sample Per Class 250,61,60.52,1.35753181,50.14,1.5985473
-Random Init Model Sample Per Class 250,62,61.16,1.33704837,50,1.6130073
-Random Init Model Sample Per Class 250,63,60.96,1.34771077,50.04,1.6037656
-Random Init Model Sample Per Class 250,64,61.36,1.337999833,50.19,1.6106247
-Random Init Model Sample Per Class 250,65,60.92,1.347746038,50.21,1.6057314
-Random Init Model Sample Per Class 250,66,60.68,1.349216813,50.24,1.6096474
-Random Init Model Sample Per Class 250,67,60.12,1.353517544,50.17,1.6088849
-Random Init Model Sample Per Class 250,68,61.04,1.335567492,50.04,1.6073014
-Random Init Model Sample Per Class 250,69,60.36,1.355861717,50.04,1.6075786
-Random Init Model Sample Per Class 250,70,61.32,1.33768872,49.98,1.617774
-Random Init Model Sample Per Class 250,71,60.88,1.339643157,50.14,1.6049844
-Random Init Model Sample Per Class 250,72,60.52,1.356569815,50.14,1.6050434
-Random Init Model Sample Per Class 250,73,60.36,1.34610731,50.05,1.607728
-Random Init Model Sample Per Class 250,74,59.48,1.358665133,50.06,1.6135343
-Random Init Model Sample Per Class 250,75,60.68,1.344769067,50.16,1.6082051
-Random Init Model Sample Per Class 250,76,60.68,1.352240753,50.11,1.6062176
-Random Init Model Sample Per Class 250,77,60.76,1.349268061,50,1.6057311
-Random Init Model Sample Per Class 250,78,59.76,1.359436876,49.94,1.6111661
-Random Init Model Sample Per Class 250,79,60.16,1.347559536,50.09,1.6115775
-Random Init Model Sample Per Class 250,80,61.28,1.340719271,49.96,1.6085473
-Pre-trained Model Sample Per Class 400,1,21.525,2.1244733,28.78,1.9945676
-Pre-trained Model Sample Per Class 400,2,32.2,1.91675033,34.65,1.8628082
-Pre-trained Model Sample Per Class 400,3,37.45,1.814764205,39.09,1.7822653
-Pre-trained Model Sample Per Class 400,4,40.45,1.756703138,41.99,1.731364
-Pre-trained Model Sample Per Class 400,5,42.75,1.70923344,40.09,1.8089638
-Pre-trained Model Sample Per Class 400,6,45.475,1.669399023,46.54,1.6512437
-Pre-trained Model Sample Per Class 400,7,47.3,1.647085149,45.29,1.6665789
-Pre-trained Model Sample Per Class 400,8,47.775,1.636645619,46.55,1.6454461
-Pre-trained Model Sample Per Class 400,9,47.725,1.620355237,47.06,1.6448721
-Pre-trained Model Sample Per Class 400,10,48.8,1.592163581,47.72,1.6277667
-Pre-trained Model Sample Per Class 400,11,47.625,1.60838018,47.4,1.6292999
-Pre-trained Model Sample Per Class 400,12,50.175,1.572589159,47.69,1.6196319
-Pre-trained Model Sample Per Class 400,13,49.675,1.582408328,49.5,1.596018
-Pre-trained Model Sample Per Class 400,14,50.675,1.573175743,47.51,1.6251454
-Pre-trained Model Sample Per Class 400,15,50.875,1.55195237,48.76,1.6179172
-Pre-trained Model Sample Per Class 400,16,52.125,1.512313668,51.17,1.5478241
-Pre-trained Model Sample Per Class 400,17,53.125,1.496558949,51.39,1.5486994
-Pre-trained Model Sample Per Class 400,18,53.275,1.496748179,52.19,1.5392711
-Pre-trained Model Sample Per Class 400,19,54.075,1.484508634,51.71,1.5426027
-Pre-trained Model Sample Per Class 400,20,53.675,1.478065901,52.07,1.5410438
-Pre-trained Model Sample Per Class 400,21,55.225,1.47730029,52.16,1.5341847
-Pre-trained Model Sample Per Class 400,22,54.675,1.469232354,52.63,1.5298471
-Pre-trained Model Sample Per Class 400,23,55.075,1.457138319,52.57,1.5311965
-Pre-trained Model Sample Per Class 400,24,55.075,1.468880113,52.54,1.5343324
-Pre-trained Model Sample Per Class 400,25,55.125,1.458488062,52.93,1.5299515
-Pre-trained Model Sample Per Class 400,26,55.125,1.456589177,52.9,1.528281
-Pre-trained Model Sample Per Class 400,27,54.7,1.458470844,52.94,1.5251913
-Pre-trained Model Sample Per Class 400,28,55.85,1.449071374,52.52,1.5365752
-Pre-trained Model Sample Per Class 400,29,55.35,1.453544986,53.21,1.5232689
-Pre-trained Model Sample Per Class 400,30,54.7,1.461057827,52.8,1.5265086
-Pre-trained Model Sample Per Class 400,31,56.65,1.437295143,53.41,1.5201108
-Pre-trained Model Sample Per Class 400,32,56.875,1.440435551,53.09,1.5233289
-Pre-trained Model Sample Per Class 400,33,56.025,1.451513063,53.07,1.5260999
-Pre-trained Model Sample Per Class 400,34,56.05,1.451396305,53.2,1.5221176
-Pre-trained Model Sample Per Class 400,35,55.5,1.444922201,53.09,1.5232638
-Pre-trained Model Sample Per Class 400,36,56.8,1.432380065,53.11,1.5233413
-Pre-trained Model Sample Per Class 400,37,56.9,1.434242133,53.19,1.5233082
-Pre-trained Model Sample Per Class 400,38,55.75,1.432151988,53.23,1.519194
-Pre-trained Model Sample Per Class 400,39,56.65,1.42879856,53.13,1.5236918
-Pre-trained Model Sample Per Class 400,40,54.95,1.445481751,53.24,1.5224781
-Pre-trained Model Sample Per Class 400,41,56.15,1.445546523,53.33,1.5218451
-Pre-trained Model Sample Per Class 400,42,56.35,1.430783555,53.1,1.5238267
-Pre-trained Model Sample Per Class 400,43,54.95,1.445517171,52.94,1.5247619
-Pre-trained Model Sample Per Class 400,44,56.15,1.433511835,53.43,1.5190872
-Pre-trained Model Sample Per Class 400,45,56.05,1.427892305,53.29,1.5193086
-Pre-trained Model Sample Per Class 400,46,56.6,1.441900253,52.98,1.5273055
-Pre-trained Model Sample Per Class 400,47,55.775,1.421553131,53.09,1.523314
-Pre-trained Model Sample Per Class 400,48,55.325,1.435940739,53.23,1.5202686
-Pre-trained Model Sample Per Class 400,49,56,1.432343103,53.18,1.5237128
-Pre-trained Model Sample Per Class 400,50,55.675,1.430788267,53.08,1.5235486
-Pre-trained Model Sample Per Class 400,51,56.475,1.418131612,53.11,1.5248926
-Pre-trained Model Sample Per Class 400,52,56.95,1.434414178,52.99,1.5261009
-Pre-trained Model Sample Per Class 400,53,55.45,1.453217685,53.15,1.5234416
-Pre-trained Model Sample Per Class 400,54,56.275,1.443137564,53.05,1.5268657
-Pre-trained Model Sample Per Class 400,55,56.275,1.442924742,53.12,1.5254728
-Pre-trained Model Sample Per Class 400,56,56,1.443223339,52.97,1.5263343
-Pre-trained Model Sample Per Class 400,57,56.7,1.433809049,53.24,1.5219195
-Pre-trained Model Sample Per Class 400,58,55.2,1.447961066,53.27,1.5208906
-Pre-trained Model Sample Per Class 400,59,56.125,1.437588122,53.06,1.5206347
-Pre-trained Model Sample Per Class 400,60,56.2,1.434757508,53.27,1.5215553
-Pre-trained Model Sample Per Class 400,61,56.325,1.432588208,53.37,1.5210158
-Pre-trained Model Sample Per Class 400,62,55.825,1.444991972,53.39,1.522808
-Pre-trained Model Sample Per Class 400,63,55.525,1.449177612,53.05,1.5296532
-Pre-trained Model Sample Per Class 400,64,55.95,1.434082586,52.83,1.5285633
-Pre-trained Model Sample Per Class 400,65,56.775,1.438611411,53.16,1.5241632
-Pre-trained Model Sample Per Class 400,66,55.775,1.42773746,53.23,1.5211495
-Pre-trained Model Sample Per Class 400,67,56.375,1.431194771,53.36,1.5207831
-Pre-trained Model Sample Per Class 400,68,55.9,1.433991112,53.2,1.5229338
-Pre-trained Model Sample Per Class 400,69,56.2,1.438920867,53.37,1.5204773
-Pre-trained Model Sample Per Class 400,70,55.25,1.448149648,53.1,1.5192804
-Pre-trained Model Sample Per Class 400,71,55.8,1.429010049,53.45,1.5207223
-Pre-trained Model Sample Per Class 400,72,55.625,1.441658489,52.98,1.5289503
-Pre-trained Model Sample Per Class 400,73,56.3,1.440946493,53.09,1.5216075
-Pre-trained Model Sample Per Class 400,74,56.85,1.436567646,53.29,1.5233612
-Pre-trained Model Sample Per Class 400,75,57.1,1.427654583,53.02,1.5246233
-Pre-trained Model Sample Per Class 400,76,55.65,1.442850649,53.02,1.5217476
-Pre-trained Model Sample Per Class 400,77,56.3,1.444063071,53.42,1.5205951
-Pre-trained Model Sample Per Class 400,78,55.9,1.442593597,53.18,1.5240201
-Pre-trained Model Sample Per Class 400,79,54.875,1.451742873,53.26,1.5235922
-Pre-trained Model Sample Per Class 400,80,56.825,1.449375838,53.12,1.5225123
-Random Init Model Sample Per Class 400,1,17.075,2.781827807,17.94,8.034524
-Random Init Model Sample Per Class 400,2,21.525,2.23167181,23.78,2.173007
-Random Init Model Sample Per Class 400,3,24.7,2.120704569,27.46,2.2560759
-Random Init Model Sample Per Class 400,4,29.2,1.985897906,31.52,1.9241533
-Random Init Model Sample Per Class 400,5,33.625,1.922430687,34.53,1.9844074
-Random Init Model Sample Per Class 400,6,34.725,1.906266998,36.45,1.8908246
-Random Init Model Sample Per Class 400,7,36.125,1.839463424,39.86,1.7884806
-Random Init Model Sample Per Class 400,8,39.65,1.827071048,38.08,2.1326706
-Random Init Model Sample Per Class 400,9,39.95,1.827709664,39.07,1.9383891
-Random Init Model Sample Per Class 400,10,42.05,1.756368089,39.81,1.81441
-Random Init Model Sample Per Class 400,11,42.925,1.721019905,43.5,1.6864141
-Random Init Model Sample Per Class 400,12,44.35,1.684322793,45.86,1.6501349
-Random Init Model Sample Per Class 400,13,45.475,1.680415977,42.01,1.8554484
-Random Init Model Sample Per Class 400,14,47.1,1.637729272,46.96,1.6377518
-Random Init Model Sample Per Class 400,15,47.875,1.611660257,48.53,1.6189264
-Random Init Model Sample Per Class 400,16,51.775,1.511193864,49.53,1.578889
-Random Init Model Sample Per Class 400,17,54.875,1.487602074,50.95,1.547151
-Random Init Model Sample Per Class 400,18,55.375,1.452664826,51.21,1.5500066
-Random Init Model Sample Per Class 400,19,56.85,1.447373964,52.33,1.5278289
-Random Init Model Sample Per Class 400,20,57.325,1.426195174,52.62,1.534172
-Random Init Model Sample Per Class 400,21,57.175,1.416498907,52.36,1.5310315
-Random Init Model Sample Per Class 400,22,58.725,1.409754619,53,1.5233796
-Random Init Model Sample Per Class 400,23,58.975,1.393724062,53.15,1.5251757
-Random Init Model Sample Per Class 400,24,58.15,1.397268049,53.24,1.5266114
-Random Init Model Sample Per Class 400,25,58.875,1.392573059,53.22,1.5163461
-Random Init Model Sample Per Class 400,26,59.675,1.364084836,53.6,1.5125391
-Random Init Model Sample Per Class 400,27,60.4,1.359054051,53.9,1.5158609
-Random Init Model Sample Per Class 400,28,61.425,1.339251276,53.06,1.5270177
-Random Init Model Sample Per Class 400,29,60.875,1.336883727,54.81,1.498937
-Random Init Model Sample Per Class 400,30,62.325,1.326367907,54.43,1.5127326
-Random Init Model Sample Per Class 400,31,63.05,1.296856757,55.56,1.4906147
-Random Init Model Sample Per Class 400,32,63.9,1.279862452,55.57,1.4979776
-Random Init Model Sample Per Class 400,33,63.175,1.291769106,55.66,1.4871377
-Random Init Model Sample Per Class 400,34,64.625,1.283785384,55.8,1.4903207
-Random Init Model Sample Per Class 400,35,63.75,1.278358977,55.81,1.4842001
-Random Init Model Sample Per Class 400,36,65.225,1.270131364,55.63,1.490725
-Random Init Model Sample Per Class 400,37,63.875,1.262935504,55.98,1.4877927
-Random Init Model Sample Per Class 400,38,64.825,1.269182999,56.07,1.4881325
-Random Init Model Sample Per Class 400,39,65.55,1.253917057,55.94,1.4856671
-Random Init Model Sample Per Class 400,40,66.375,1.255944319,55.81,1.494188
-Random Init Model Sample Per Class 400,41,65.075,1.255488012,55.9,1.4936117
-Random Init Model Sample Per Class 400,42,65.15,1.251925245,55.93,1.4838508
-Random Init Model Sample Per Class 400,43,65.85,1.248552758,56.03,1.4933167
-Random Init Model Sample Per Class 400,44,66.45,1.254450794,55.99,1.4866195
-Random Init Model Sample Per Class 400,45,65.025,1.248280369,55.9,1.4899801
-Random Init Model Sample Per Class 400,46,65.55,1.256271694,56.2,1.4870732
-Random Init Model Sample Per Class 400,47,67,1.241003022,56.23,1.4850073
-Random Init Model Sample Per Class 400,48,66.625,1.245034173,56.34,1.4856838
-Random Init Model Sample Per Class 400,49,65.4,1.24139335,56.17,1.484286
-Random Init Model Sample Per Class 400,50,66.15,1.246082366,55.98,1.4921263
-Random Init Model Sample Per Class 400,51,65.825,1.250236578,56.36,1.48533
-Random Init Model Sample Per Class 400,52,65.925,1.248944238,56.1,1.4900522
-Random Init Model Sample Per Class 400,53,66.5,1.242369067,56.18,1.4892926
-Random Init Model Sample Per Class 400,54,66.775,1.228772137,55.87,1.4947566
-Random Init Model Sample Per Class 400,55,66.35,1.245460328,56.33,1.487575
-Random Init Model Sample Per Class 400,56,65.65,1.253368709,55.94,1.4971142
-Random Init Model Sample Per Class 400,57,66.325,1.232567012,56.33,1.4835439
-Random Init Model Sample Per Class 400,58,65.95,1.239090927,56.08,1.4879501
-Random Init Model Sample Per Class 400,59,66.45,1.25463688,56.31,1.4885015
-Random Init Model Sample Per Class 400,60,67.2,1.244675357,56.18,1.4894079
-Random Init Model Sample Per Class 400,61,67.075,1.234355737,55.87,1.4968486
-Random Init Model Sample Per Class 400,62,67.075,1.243980579,55.81,1.5071975
-Random Init Model Sample Per Class 400,63,66.35,1.245375223,56.15,1.4885514
-Random Init Model Sample Per Class 400,64,67.5,1.241899524,56.13,1.4955424
-Random Init Model Sample Per Class 400,65,66,1.229423605,56.27,1.48255
-Random Init Model Sample Per Class 400,66,66.7,1.257311009,56.13,1.4872663
-Random Init Model Sample Per Class 400,67,66.6,1.234709758,56.32,1.4868218
-Random Init Model Sample Per Class 400,68,66.425,1.239451967,55.96,1.4921701
-Random Init Model Sample Per Class 400,69,67.175,1.231494244,56.29,1.4890751
-Random Init Model Sample Per Class 400,70,67.5,1.227763977,56.02,1.4914889
-Random Init Model Sample Per Class 400,71,67.45,1.247670248,56.35,1.4842316
-Random Init Model Sample Per Class 400,72,66.6,1.230858661,56.17,1.4894757
-Random Init Model Sample Per Class 400,73,66.75,1.241019782,56.27,1.4841973
-Random Init Model Sample Per Class 400,74,66.575,1.236224994,56.17,1.485647
-Random Init Model Sample Per Class 400,75,66.45,1.240804195,56.12,1.4944916
-Random Init Model Sample Per Class 400,76,65.525,1.238970395,56.34,1.4911515
-Random Init Model Sample Per Class 400,77,66.025,1.245740619,56.27,1.4849665
-Random Init Model Sample Per Class 400,78,66.275,1.238325465,56.1,1.4909422
-Random Init Model Sample Per Class 400,79,66.775,1.237485472,56.09,1.4894474
-Random Init Model Sample Per Class 400,80,66.775,1.237131696,56.43,1.4870579
-Pre-trained Model Sample Per Class 700,1,27.27142857,2.027204117,33.88,1.8904095
-Pre-trained Model Sample Per Class 700,2,37.11428571,1.828395503,38.66,1.8122337
-Pre-trained Model Sample Per Class 700,3,41.28571429,1.745531507,43.42,1.7136822
-Pre-trained Model Sample Per Class 700,4,44.88571429,1.680003227,46.1,1.6447453
-Pre-trained Model Sample Per Class 700,5,45.1,1.662512461,47.9,1.6151226
-Pre-trained Model Sample Per Class 700,6,47.34285714,1.627159882,47.46,1.636552
-Pre-trained Model Sample Per Class 700,7,48.7,1.608062651,49.01,1.5994878
-Pre-trained Model Sample Per Class 700,8,48.94285714,1.600502699,48.48,1.6147141
-Pre-trained Model Sample Per Class 700,9,48.28571429,1.597350404,50.09,1.5761276
-Pre-trained Model Sample Per Class 700,10,49.51428571,1.572979832,49.81,1.5698951
-Pre-trained Model Sample Per Class 700,11,51,1.547737536,50.07,1.5724226
-Pre-trained Model Sample Per Class 700,12,50.2,1.553300363,51.29,1.5549265
-Pre-trained Model Sample Per Class 700,13,51.15714286,1.550284518,48.98,1.61722
-Pre-trained Model Sample Per Class 700,14,51.25714286,1.537617055,51.07,1.568595
-Pre-trained Model Sample Per Class 700,15,51.44285714,1.536260429,49.88,1.5831025
-Pre-trained Model Sample Per Class 700,16,53.57142857,1.492423818,54.33,1.5001953
-Pre-trained Model Sample Per Class 700,17,55.02857143,1.472043623,54.41,1.4997784
-Pre-trained Model Sample Per Class 700,18,54.38571429,1.468855723,54.71,1.492714
-Pre-trained Model Sample Per Class 700,19,54.95714286,1.463536126,54.67,1.4892989
-Pre-trained Model Sample Per Class 700,20,55.51428571,1.447414801,54.77,1.4898893
-Pre-trained Model Sample Per Class 700,21,55.98571429,1.449585078,54.84,1.4869186
-Pre-trained Model Sample Per Class 700,22,55.01428571,1.457269101,54.6,1.4947226
-Pre-trained Model Sample Per Class 700,23,55.78571429,1.44353196,54.53,1.4878663
-Pre-trained Model Sample Per Class 700,24,55.6,1.446702381,54.85,1.4811559
-Pre-trained Model Sample Per Class 700,25,56.47142857,1.441370552,54.6,1.4829673
-Pre-trained Model Sample Per Class 700,26,55.5,1.442902513,54.82,1.480912
-Pre-trained Model Sample Per Class 700,27,55.91428571,1.447403058,55.04,1.4804722
-Pre-trained Model Sample Per Class 700,28,56.41428571,1.443094464,54.82,1.4802074
-Pre-trained Model Sample Per Class 700,29,55.71428571,1.44196051,54.83,1.4800973
-Pre-trained Model Sample Per Class 700,30,56.94285714,1.438132501,54.86,1.47917
-Pre-trained Model Sample Per Class 700,31,56.5,1.428534393,55.13,1.4777375
-Pre-trained Model Sample Per Class 700,32,56.91428571,1.422785018,55.23,1.4763315
-Pre-trained Model Sample Per Class 700,33,57.15714286,1.421649395,55.22,1.4768692
-Pre-trained Model Sample Per Class 700,34,56.05714286,1.438232472,55.53,1.4733027
-Pre-trained Model Sample Per Class 700,35,55.94285714,1.424281948,55.42,1.4763674
-Pre-trained Model Sample Per Class 700,36,56.8,1.426510416,55.12,1.4771072
-Pre-trained Model Sample Per Class 700,37,57.17142857,1.422608141,55.22,1.4759208
-Pre-trained Model Sample Per Class 700,38,56.72857143,1.426687676,55.33,1.4738702
-Pre-trained Model Sample Per Class 700,39,56.44285714,1.434810446,55.33,1.4744159
-Pre-trained Model Sample Per Class 700,40,56.41428571,1.428506817,55.41,1.4748538
-Pre-trained Model Sample Per Class 700,41,56.1,1.423766682,55.15,1.47594
-Pre-trained Model Sample Per Class 700,42,57.12857143,1.421549851,55.31,1.4755919
-Pre-trained Model Sample Per Class 700,43,55.95714286,1.435682986,55.36,1.4741542
-Pre-trained Model Sample Per Class 700,44,57.1,1.419047767,55.35,1.4754514
-Pre-trained Model Sample Per Class 700,45,56.77142857,1.417233662,55.39,1.4784511
-Pre-trained Model Sample Per Class 700,46,56.92857143,1.427051067,55.27,1.4752042
-Pre-trained Model Sample Per Class 700,47,57.61428571,1.416558493,55.6,1.4745175
-Pre-trained Model Sample Per Class 700,48,56.7,1.42471825,55.26,1.4756894
-Pre-trained Model Sample Per Class 700,49,56.8,1.422967596,55.47,1.4743629
-Pre-trained Model Sample Per Class 700,50,57.02857143,1.419388695,55.35,1.4737511
-Pre-trained Model Sample Per Class 700,51,56.75714286,1.419573964,55.27,1.4724002
-Pre-trained Model Sample Per Class 700,52,55.61428571,1.425546969,55.37,1.4760162
-Pre-trained Model Sample Per Class 700,53,56.71428571,1.427766499,55.46,1.4736986
-Pre-trained Model Sample Per Class 700,54,56.4,1.432814975,55.32,1.4754385
-Pre-trained Model Sample Per Class 700,55,56.97142857,1.424800203,55.32,1.4755546
-Pre-trained Model Sample Per Class 700,56,56.57142857,1.424428981,55.2,1.4761182
-Pre-trained Model Sample Per Class 700,57,57.87142857,1.408327768,55.19,1.4776789
-Pre-trained Model Sample Per Class 700,58,56.51428571,1.432206015,55.24,1.4738978
-Pre-trained Model Sample Per Class 700,59,57.62857143,1.415810964,55.37,1.4762293
-Pre-trained Model Sample Per Class 700,60,57.28571429,1.415813108,55.27,1.4765735
-Pre-trained Model Sample Per Class 700,61,57,1.424354289,55.24,1.4751736
-Pre-trained Model Sample Per Class 700,62,57.02857143,1.419442027,55.11,1.474851
-Pre-trained Model Sample Per Class 700,63,56.8,1.418232395,55.31,1.477448
-Pre-trained Model Sample Per Class 700,64,57.44285714,1.419964181,55.16,1.4758303
-Pre-trained Model Sample Per Class 700,65,57.18571429,1.421416835,55.39,1.4743253
-Pre-trained Model Sample Per Class 700,66,57.25714286,1.42341213,55.35,1.4756655
-Pre-trained Model Sample Per Class 700,67,56.4,1.425486333,55.52,1.4745239
-Pre-trained Model Sample Per Class 700,68,56.82857143,1.427405043,55.28,1.4772176
-Pre-trained Model Sample Per Class 700,69,57.01428571,1.41747991,55.12,1.4776942
-Pre-trained Model Sample Per Class 700,70,55.85714286,1.426066947,55.35,1.4766473
-Pre-trained Model Sample Per Class 700,71,57.02857143,1.423365112,55.11,1.4753944
-Pre-trained Model Sample Per Class 700,72,57.15714286,1.420649091,55.58,1.4739403
-Pre-trained Model Sample Per Class 700,73,56.9,1.417971017,55.35,1.475957
-Pre-trained Model Sample Per Class 700,74,56.55714286,1.421337871,55.3,1.4750624
-Pre-trained Model Sample Per Class 700,75,57.01428571,1.41601579,55.24,1.4750181
-Pre-trained Model Sample Per Class 700,76,56.95714286,1.427809191,55.3,1.475922
-Pre-trained Model Sample Per Class 700,77,56.92857143,1.42419542,55.25,1.4750879
-Pre-trained Model Sample Per Class 700,78,57.2,1.427555349,55.39,1.4748656
-Pre-trained Model Sample Per Class 700,79,56.68571429,1.428326321,55.13,1.4772041
-Pre-trained Model Sample Per Class 700,80,56.87142857,1.420160645,55.32,1.4759936
-Random Init Model Sample Per Class 700,1,18.55714286,2.548844129,24.2,2.4285083
-Random Init Model Sample Per Class 700,2,27.52857143,2.082324316,25.01,2.1822596
-Random Init Model Sample Per Class 700,3,29.8,1.999174528,34.58,1.9336251
-Random Init Model Sample Per Class 700,4,36.62857143,1.863064931,38.47,1.8806094
-Random Init Model Sample Per Class 700,5,38.44285714,1.822100501,39.68,2.5554867
-Random Init Model Sample Per Class 700,6,40.02857143,1.767905133,42.08,1.7283425
-Random Init Model Sample Per Class 700,7,42.78571429,1.723559618,40.37,1.7675294
-Random Init Model Sample Per Class 700,8,45.75714286,1.66905746,45.98,1.684507
-Random Init Model Sample Per Class 700,9,47.32857143,1.626178715,44.94,1.7029148
-Random Init Model Sample Per Class 700,10,49,1.594924387,45.06,1.6817013
-Random Init Model Sample Per Class 700,11,50.94285714,1.570917147,46.03,1.8209846
-Random Init Model Sample Per Class 700,12,52.2,1.537919365,51.47,1.5513719
-Random Init Model Sample Per Class 700,13,54.17142857,1.486658666,54.69,1.5028077
-Random Init Model Sample Per Class 700,14,54.21428571,1.480741828,50.91,1.691369
-Random Init Model Sample Per Class 700,15,56.07142857,1.445752863,54.2,1.5241578
-Random Init Model Sample Per Class 700,16,61.91428571,1.338619885,61.17,1.3682166
-Random Init Model Sample Per Class 700,17,64.24285714,1.28129559,61.98,1.3471793
-Random Init Model Sample Per Class 700,18,65.42857143,1.259451162,62.68,1.3483093
-Random Init Model Sample Per Class 700,19,65.75714286,1.244308925,62.8,1.3373041
-Random Init Model Sample Per Class 700,20,67.25714286,1.226385047,63.1,1.3274908
-Random Init Model Sample Per Class 700,21,67.44285714,1.210078133,62.91,1.3394262
-Random Init Model Sample Per Class 700,22,68.14285714,1.193991427,63.2,1.3335665
-Random Init Model Sample Per Class 700,23,68.72857143,1.182867971,64.1,1.3319998
-Random Init Model Sample Per Class 700,24,70.24285714,1.168935063,64.74,1.3080215
-Random Init Model Sample Per Class 700,25,69.62857143,1.167033291,64.6,1.3068804
-Random Init Model Sample Per Class 700,26,70.87142857,1.155328187,64.8,1.2960407
-Random Init Model Sample Per Class 700,27,71.14285714,1.132755066,65,1.3019226
-Random Init Model Sample Per Class 700,28,70.64285714,1.136781248,65.49,1.2855278
-Random Init Model Sample Per Class 700,29,72.32857143,1.10896268,65.24,1.3130901
-Random Init Model Sample Per Class 700,30,73.3,1.095282674,65.22,1.3054789
-Random Init Model Sample Per Class 700,31,75.07142857,1.060509447,66.27,1.2772373
-Random Init Model Sample Per Class 700,32,74.78571429,1.052228014,66.53,1.2708187
-Random Init Model Sample Per Class 700,33,75.81428571,1.039007444,66.78,1.2706286
-Random Init Model Sample Per Class 700,34,76.78571429,1.033058426,66.86,1.2852125
-Random Init Model Sample Per Class 700,35,76.27142857,1.034144685,66.95,1.2735969
-Random Init Model Sample Per Class 700,36,75.32857143,1.038928317,66.94,1.2789546
-Random Init Model Sample Per Class 700,37,76.82857143,1.022979158,66.6,1.283556
-Random Init Model Sample Per Class 700,38,76,1.032924176,66.92,1.2737913
-Random Init Model Sample Per Class 700,39,77,1.022624843,66.89,1.2698027
-Random Init Model Sample Per Class 700,40,76.67142857,1.023653592,66.84,1.2738433
-Random Init Model Sample Per Class 700,41,76.85714286,1.017379131,66.98,1.2747347
-Random Init Model Sample Per Class 700,42,76.98571429,1.015286916,66.95,1.2798043
-Random Init Model Sample Per Class 700,43,77,1.009452741,66.99,1.2767506
-Random Init Model Sample Per Class 700,44,77.28571429,1.0061434,67.15,1.2784958
-Random Init Model Sample Per Class 700,45,77.28571429,1.008153903,67.07,1.2800469
-Random Init Model Sample Per Class 700,46,78.24285714,0.998950316,67.11,1.2687463
-Random Init Model Sample Per Class 700,47,77.57142857,0.998640064,67.16,1.2774513
-Random Init Model Sample Per Class 700,48,77.92857143,0.995845399,67.03,1.2771069
-Random Init Model Sample Per Class 700,49,77.82857143,1.006900185,67,1.2732719
-Random Init Model Sample Per Class 700,50,78.17142857,1.003830387,67.08,1.2704574
-Random Init Model Sample Per Class 700,51,77.45714286,1.009193627,67.15,1.2760177
-Random Init Model Sample Per Class 700,52,77.67142857,1.005460342,67.18,1.2747722
-Random Init Model Sample Per Class 700,53,77.7,1.002913695,67.04,1.2809063
-Random Init Model Sample Per Class 700,54,77.98571429,0.996809535,67.21,1.2731417
-Random Init Model Sample Per Class 700,55,77.82857143,0.998589983,67.05,1.2735925
-Random Init Model Sample Per Class 700,56,78.08571429,1.00031597,67.21,1.278167
-Random Init Model Sample Per Class 700,57,78.12857143,0.995941693,67.1,1.2709444
-Random Init Model Sample Per Class 700,58,77.77142857,0.999158857,67.2,1.2687024
-Random Init Model Sample Per Class 700,59,78.37142857,0.991642349,67.06,1.2792547
-Random Init Model Sample Per Class 700,60,77.8,0.998707356,67.12,1.2769943
-Random Init Model Sample Per Class 700,61,78.22857143,0.99750607,67.15,1.2705299
-Random Init Model Sample Per Class 700,62,78.04285714,0.997182881,67.21,1.2668508
-Random Init Model Sample Per Class 700,63,77.54285714,1.000542296,67.27,1.2741706
-Random Init Model Sample Per Class 700,64,78.08571429,0.998012447,67.16,1.2810397
-Random Init Model Sample Per Class 700,65,77.27142857,1.002369625,67.22,1.2696803
-Random Init Model Sample Per Class 700,66,78.15714286,0.998845165,67.32,1.2741247
-Random Init Model Sample Per Class 700,67,78.51428571,0.988857149,67.15,1.2710079
-Random Init Model Sample Per Class 700,68,77.54285714,1.000718086,67.19,1.2745668
-Random Init Model Sample Per Class 700,69,78.2,0.997297098,67.26,1.2716427
-Random Init Model Sample Per Class 700,70,78.02857143,0.99050597,67.09,1.2724267
-Random Init Model Sample Per Class 700,71,78.42857143,0.991272336,67.25,1.271025
-Random Init Model Sample Per Class 700,72,77.98571429,0.995958168,67.17,1.2744805
-Random Init Model Sample Per Class 700,73,78.31428571,0.996227997,67.13,1.2711174
-Random Init Model Sample Per Class 700,74,78.64285714,0.987667368,67.15,1.2798142
-Random Init Model Sample Per Class 700,75,77.9,0.99978248,67.16,1.2786349
-Random Init Model Sample Per Class 700,76,78.2,0.995210243,67.3,1.2723464
-Random Init Model Sample Per Class 700,77,77.9,0.999555027,67.22,1.2695223
-Random Init Model Sample Per Class 700,78,78.11428571,0.999181957,67.11,1.2845182
-Random Init Model Sample Per Class 700,79,78.27142857,0.989485538,67.32,1.2690659
-Random Init Model Sample Per Class 700,80,77.84285714,0.996920827,67.2,1.2733964
-Pre-trained Model Sample Per Class 1000,1,29.05,1.986250981,37.74,1.8185385
-Pre-trained Model Sample Per Class 1000,2,39.6,1.775716424,42.47,1.7382764
-Pre-trained Model Sample Per Class 1000,3,43.97,1.701421997,44.92,1.6702998
-Pre-trained Model Sample Per Class 1000,4,46.86,1.649749428,47.94,1.622394
-Pre-trained Model Sample Per Class 1000,5,47.95,1.617706072,48.05,1.6529769
-Pre-trained Model Sample Per Class 1000,6,48.22,1.607284728,49.07,1.5900505
-Pre-trained Model Sample Per Class 1000,7,48.96,1.606741542,49.66,1.5621355
-Pre-trained Model Sample Per Class 1000,8,48.96,1.594280397,48.05,1.6261816
-Pre-trained Model Sample Per Class 1000,9,49.23,1.583774881,51.25,1.5511236
-Pre-trained Model Sample Per Class 1000,10,50.52,1.569863822,51.29,1.5529414
-Pre-trained Model Sample Per Class 1000,11,50.69,1.554967544,51.5,1.5408926
-Pre-trained Model Sample Per Class 1000,12,51.09,1.552739755,52.69,1.5172254
-Pre-trained Model Sample Per Class 1000,13,51.74,1.54498545,52.34,1.5333126
-Pre-trained Model Sample Per Class 1000,14,52.12,1.539204027,52.86,1.5248295
-Pre-trained Model Sample Per Class 1000,15,52.26,1.527957882,52.62,1.539753
-Pre-trained Model Sample Per Class 1000,16,54.09,1.495258387,54.62,1.4793408
-Pre-trained Model Sample Per Class 1000,17,54.76,1.477901118,55.19,1.470668
-Pre-trained Model Sample Per Class 1000,18,55.1,1.462588078,55.82,1.4635143
-Pre-trained Model Sample Per Class 1000,19,55.58,1.466848289,55.55,1.4638337
-Pre-trained Model Sample Per Class 1000,20,55.3,1.468792288,55.62,1.457344
-Pre-trained Model Sample Per Class 1000,21,55.39,1.46102225,55.45,1.4635026
-Pre-trained Model Sample Per Class 1000,22,55.66,1.459423921,55.92,1.4602466
-Pre-trained Model Sample Per Class 1000,23,55.95,1.450089773,55.77,1.4627848
-Pre-trained Model Sample Per Class 1000,24,55.79,1.445425058,56.01,1.4592738
-Pre-trained Model Sample Per Class 1000,25,56.34,1.446398023,56.1,1.4581492
-Pre-trained Model Sample Per Class 1000,26,56.15,1.451272601,56.08,1.4570537
-Pre-trained Model Sample Per Class 1000,27,55.54,1.453984685,55.74,1.4572407
-Pre-trained Model Sample Per Class 1000,28,56.31,1.43869446,55.76,1.4558897
-Pre-trained Model Sample Per Class 1000,29,55.5,1.460270154,55.52,1.4562594
-Pre-trained Model Sample Per Class 1000,30,56.18,1.444316872,55.83,1.4529278
-Pre-trained Model Sample Per Class 1000,31,55.97,1.435257104,56.37,1.449436
-Pre-trained Model Sample Per Class 1000,32,56.45,1.439240504,56.46,1.4464239
-Pre-trained Model Sample Per Class 1000,33,56.87,1.433574511,56.18,1.4492954
-Pre-trained Model Sample Per Class 1000,34,56.73,1.431639442,56.47,1.4452988
-Pre-trained Model Sample Per Class 1000,35,57.29,1.432138939,55.79,1.4623026
-Pre-trained Model Sample Per Class 1000,36,57.02,1.432394147,56.43,1.4509808
-Pre-trained Model Sample Per Class 1000,37,56.21,1.440206449,56.01,1.4509985
-Pre-trained Model Sample Per Class 1000,38,56.57,1.428044644,56.45,1.4473823
-Pre-trained Model Sample Per Class 1000,39,56.49,1.431005445,56.36,1.45055
-Pre-trained Model Sample Per Class 1000,40,56.66,1.425973904,55.88,1.4571354
-Pre-trained Model Sample Per Class 1000,41,56.76,1.426400316,56.12,1.4501052
-Pre-trained Model Sample Per Class 1000,42,57.01,1.427201822,56.44,1.4481323
-Pre-trained Model Sample Per Class 1000,43,56.88,1.427860916,56.08,1.4501338
-Pre-trained Model Sample Per Class 1000,44,56.77,1.426974847,55.91,1.4521202
-Pre-trained Model Sample Per Class 1000,45,57.21,1.424448108,56.35,1.4469862
-Pre-trained Model Sample Per Class 1000,46,57.5,1.418515335,56.27,1.4475789
-Pre-trained Model Sample Per Class 1000,47,56.55,1.426599742,56.33,1.4456273
-Pre-trained Model Sample Per Class 1000,48,56.85,1.432217102,56.06,1.4517065
-Pre-trained Model Sample Per Class 1000,49,56.77,1.425927977,56.35,1.4480942
-Pre-trained Model Sample Per Class 1000,50,57.72,1.426007687,56.21,1.4478282
-Pre-trained Model Sample Per Class 1000,51,57.07,1.426480391,56.28,1.4522884
-Pre-trained Model Sample Per Class 1000,52,56.75,1.435959175,56.21,1.4487784
-Pre-trained Model Sample Per Class 1000,53,57.44,1.426251848,55.71,1.4549515
-Pre-trained Model Sample Per Class 1000,54,57.11,1.427453586,56.39,1.446845
-Pre-trained Model Sample Per Class 1000,55,57.19,1.42666686,56.22,1.4497079
-Pre-trained Model Sample Per Class 1000,56,57.49,1.423265308,56.09,1.4489485
-Pre-trained Model Sample Per Class 1000,57,57.49,1.423219279,56.27,1.4473954
-Pre-trained Model Sample Per Class 1000,58,57.27,1.423651401,56.21,1.447175
-Pre-trained Model Sample Per Class 1000,59,57.01,1.425992243,56.28,1.4521803
-Pre-trained Model Sample Per Class 1000,60,57.03,1.43911987,56.14,1.4512267
-Pre-trained Model Sample Per Class 1000,61,56.8,1.429417047,56.29,1.4496711
-Pre-trained Model Sample Per Class 1000,62,56.47,1.438378832,56.54,1.4444134
-Pre-trained Model Sample Per Class 1000,63,56.72,1.42540495,56.12,1.4509656
-Pre-trained Model Sample Per Class 1000,64,57.29,1.42233784,56.31,1.4469802
-Pre-trained Model Sample Per Class 1000,65,56.72,1.430723408,55.89,1.4507452
-Pre-trained Model Sample Per Class 1000,66,57.25,1.428896975,56.18,1.4470499
-Pre-trained Model Sample Per Class 1000,67,56.9,1.430636315,56.64,1.4443165
-Pre-trained Model Sample Per Class 1000,68,56.89,1.434659323,56.21,1.4530077
-Pre-trained Model Sample Per Class 1000,69,57.09,1.433435876,56.09,1.4493533
-Pre-trained Model Sample Per Class 1000,70,57.08,1.432076134,56.35,1.4467856
-Pre-trained Model Sample Per Class 1000,71,56.92,1.429304292,56.11,1.4514576
-Pre-trained Model Sample Per Class 1000,72,57,1.427148147,56.34,1.4490426
-Pre-trained Model Sample Per Class 1000,73,57.32,1.428002207,56.39,1.4455802
-Pre-trained Model Sample Per Class 1000,74,57.01,1.422429897,56.31,1.4457386
-Pre-trained Model Sample Per Class 1000,75,57.56,1.426983574,56.04,1.4508277
-Pre-trained Model Sample Per Class 1000,76,57.6,1.419139252,56.09,1.4514635
-Pre-trained Model Sample Per Class 1000,77,56.89,1.432034167,56.41,1.4438756
-Pre-trained Model Sample Per Class 1000,78,56.69,1.429388609,56.24,1.445665
-Pre-trained Model Sample Per Class 1000,79,56.89,1.425526035,56.12,1.4499394
-Pre-trained Model Sample Per Class 1000,80,57.54,1.427837302,55.99,1.4512048
-Random Init Model Sample Per Class 1000,1,20.2,2.408343314,24.62,3.7075527
-Random Init Model Sample Per Class 1000,2,26.12,2.107819373,27.43,2.0915997
-Random Init Model Sample Per Class 1000,3,31.05,1.932148193,35.08,1.921789
-Random Init Model Sample Per Class 1000,4,36.46,1.862384448,36.92,1.9555275
-Random Init Model Sample Per Class 1000,5,39.04,1.808963158,41.44,1.8723202
-Random Init Model Sample Per Class 1000,6,42.36,1.750479006,41.25,1.7546072
-Random Init Model Sample Per Class 1000,7,43.86,1.692886174,46.21,1.6430184
-Random Init Model Sample Per Class 1000,8,46.95,1.640062646,45.53,1.8034707
-Random Init Model Sample Per Class 1000,9,48.51,1.599127985,48.33,1.620257
-Random Init Model Sample Per Class 1000,10,49.99,1.571889728,47.75,1.6550854
-Random Init Model Sample Per Class 1000,11,52.78,1.520001309,52.2,1.5536915
-Random Init Model Sample Per Class 1000,12,52.71,1.507615824,50.73,1.6050494
-Random Init Model Sample Per Class 1000,13,51.2,1.549430823,52.3,1.5455348
-Random Init Model Sample Per Class 1000,14,56.67,1.455985757,56.24,1.474859
-Random Init Model Sample Per Class 1000,15,59.23,1.397484426,59.79,1.3859372
-Random Init Model Sample Per Class 1000,16,64.5,1.287463466,64.38,1.2821791
-Random Init Model Sample Per Class 1000,17,65.8,1.245049988,65.52,1.2753298
-Random Init Model Sample Per Class 1000,18,67.15,1.232121019,65.46,1.2684733
-Random Init Model Sample Per Class 1000,19,67.36,1.219139778,65.88,1.2585202
-Random Init Model Sample Per Class 1000,20,68.65,1.192175138,66.08,1.2579639
-Random Init Model Sample Per Class 1000,21,69.16,1.18261504,66.57,1.2454695
-Random Init Model Sample Per Class 1000,22,69.67,1.179673516,67.04,1.2431701
-Random Init Model Sample Per Class 1000,23,69.73,1.16336569,66.64,1.2476152
-Random Init Model Sample Per Class 1000,24,70.3,1.155141059,66.77,1.2453641
-Random Init Model Sample Per Class 1000,25,71.86,1.137113564,67.64,1.2250514
-Random Init Model Sample Per Class 1000,26,70.99,1.137442178,67.29,1.2327074
-Random Init Model Sample Per Class 1000,27,72.26,1.121796722,67.98,1.2119905
-Random Init Model Sample Per Class 1000,28,72.84,1.11539452,68.06,1.2246256
-Random Init Model Sample Per Class 1000,29,73.22,1.104742562,68.55,1.2092273
-Random Init Model Sample Per Class 1000,30,73.48,1.084758138,68.8,1.2034498
-Random Init Model Sample Per Class 1000,31,75.32,1.060641328,69.19,1.1943849
-Random Init Model Sample Per Class 1000,32,74.95,1.051131638,69.2,1.1935434
-Random Init Model Sample Per Class 1000,33,75.61,1.038450262,69.18,1.197135
-Random Init Model Sample Per Class 1000,34,75.83,1.04365729,69.03,1.1974156
-Random Init Model Sample Per Class 1000,35,75.96,1.039453599,69.35,1.1986666
-Random Init Model Sample Per Class 1000,36,76.32,1.036465368,69.34,1.1950123
-Random Init Model Sample Per Class 1000,37,75.99,1.042397031,69.04,1.196001
-Random Init Model Sample Per Class 1000,38,75.96,1.041080842,69.35,1.1948272
-Random Init Model Sample Per Class 1000,39,76.15,1.031384618,69.25,1.19305
-Random Init Model Sample Per Class 1000,40,76.32,1.033358803,69.31,1.1951017
-Random Init Model Sample Per Class 1000,41,76.01,1.0322682,69.64,1.1923324
-Random Init Model Sample Per Class 1000,42,76.58,1.0219176,69.61,1.1912906
-Random Init Model Sample Per Class 1000,43,76.56,1.022824456,69.28,1.2045802
-Random Init Model Sample Per Class 1000,44,77,1.014964778,69.42,1.1939889
-Random Init Model Sample Per Class 1000,45,76.59,1.026869602,69.48,1.1953439
-Random Init Model Sample Per Class 1000,46,77.01,1.025858802,69.31,1.2011971
-Random Init Model Sample Per Class 1000,47,76.42,1.021735855,69.39,1.1952659
-Random Init Model Sample Per Class 1000,48,77.06,1.019601224,69.51,1.19656
-Random Init Model Sample Per Class 1000,49,76.57,1.022222284,69.66,1.192419
-Random Init Model Sample Per Class 1000,50,77.67,1.009125151,69.3,1.1940805
-Random Init Model Sample Per Class 1000,51,76.47,1.024176113,69.64,1.1933343
-Random Init Model Sample Per Class 1000,52,77.35,1.011505033,69.45,1.1950843
-Random Init Model Sample Per Class 1000,53,76.99,1.013532909,69.27,1.1973176
-Random Init Model Sample Per Class 1000,54,76.64,1.021421966,69.67,1.1916138
-Random Init Model Sample Per Class 1000,55,77.75,1.00622696,69.53,1.1932626
-Random Init Model Sample Per Class 1000,56,76.7,1.015415561,69.51,1.1949637
-Random Init Model Sample Per Class 1000,57,76.61,1.016657652,69.49,1.1981394
-Random Init Model Sample Per Class 1000,58,77.37,1.014354697,69.41,1.1978774
-Random Init Model Sample Per Class 1000,59,76.67,1.024005669,69.46,1.1987399
-Random Init Model Sample Per Class 1000,60,77.62,1.005239372,69.57,1.18941
-Random Init Model Sample Per Class 1000,61,76.89,1.01762155,69.48,1.1934053
-Random Init Model Sample Per Class 1000,62,76.98,1.016912454,69.34,1.199701
-Random Init Model Sample Per Class 1000,63,77.55,1.012786768,69.35,1.1946325
-Random Init Model Sample Per Class 1000,64,77.36,1.009331844,69.68,1.1948217
-Random Init Model Sample Per Class 1000,65,76.86,1.013276142,69.31,1.199029
-Random Init Model Sample Per Class 1000,66,77.15,1.008682664,69.32,1.1979339
-Random Init Model Sample Per Class 1000,67,76.43,1.019993771,69.44,1.1971332
-Random Init Model Sample Per Class 1000,68,77.16,1.008873943,69.52,1.1943567
-Random Init Model Sample Per Class 1000,69,77.63,1.006996984,69.41,1.199149
-Random Init Model Sample Per Class 1000,70,77.17,1.005275261,69.36,1.1929477
-Random Init Model Sample Per Class 1000,71,77.61,1.007917675,69.24,1.1970766
-Random Init Model Sample Per Class 1000,72,77.1,1.023844129,69.26,1.196092
-Random Init Model Sample Per Class 1000,73,77.32,1.012670407,69.52,1.1963838
-Random Init Model Sample Per Class 1000,74,76.86,1.018904085,69.39,1.1945674
-Random Init Model Sample Per Class 1000,75,77.25,1.017293552,69.56,1.192361
-Random Init Model Sample Per Class 1000,76,76.99,1.013933198,69.45,1.1986967
-Random Init Model Sample Per Class 1000,77,76.56,1.014957873,69.5,1.1940361
-Random Init Model Sample Per Class 1000,78,76.68,1.01992431,69.64,1.1917237
-Random Init Model Sample Per Class 1000,79,76.9,1.018962908,69.65,1.194761
-Random Init Model Sample Per Class 1000,80,77.14,1.011980472,69.5,1.1980978
+Pre-trained Model Sample Per Class 20,1,12.0,2.294804811477661,13.28,2.2572327
+Pre-trained Model Sample Per Class 20,2,16.0,2.217527985572815,14.37,2.221031
+Pre-trained Model Sample Per Class 20,3,23.5,2.133584141731262,17.37,2.204279
+Pre-trained Model Sample Per Class 20,4,21.0,2.0697227716445923,18.23,2.2065055
+Pre-trained Model Sample Per Class 20,5,24.0,2.0301014184951782,20.89,2.1984549
+Pre-trained Model Sample Per Class 20,6,32.0,1.9864253401756287,20.77,2.195823
+Pre-trained Model Sample Per Class 20,7,26.0,1.9731176495552063,19.85,2.1902003
+Pre-trained Model Sample Per Class 20,8,34.5,1.933029055595398,20.76,2.1674902
+Pre-trained Model Sample Per Class 20,9,32.0,1.8797472715377808,22.14,2.1568825
+Pre-trained Model Sample Per Class 20,10,30.5,1.8720266222953796,22.96,2.1408155
+Pre-trained Model Sample Per Class 20,11,37.0,1.8064345717430115,24.22,2.1472902
+Pre-trained Model Sample Per Class 20,12,43.0,1.7388103008270264,25.31,2.1580052
+Pre-trained Model Sample Per Class 20,13,44.5,1.6817459464073181,25.73,2.1856103
+Pre-trained Model Sample Per Class 20,14,38.5,1.722841739654541,25.32,2.1849768
+Pre-trained Model Sample Per Class 20,15,47.5,1.6421931982040405,25.42,2.1974807
+Pre-trained Model Sample Per Class 20,16,43.5,1.6857444047927856,25.52,2.1884587
+Pre-trained Model Sample Per Class 20,17,51.5,1.6085904836654663,26.09,2.1803539
+Pre-trained Model Sample Per Class 20,18,45.5,1.6930728554725647,26.75,2.1694221
+Pre-trained Model Sample Per Class 20,19,50.5,1.624668538570404,27.31,2.1612046
+Pre-trained Model Sample Per Class 20,20,49.0,1.6581159830093384,27.52,2.154296
+Pre-trained Model Sample Per Class 20,21,47.0,1.6040351390838623,27.89,2.1539984
+Pre-trained Model Sample Per Class 20,22,50.0,1.5690012574195862,28.24,2.1512687
+Pre-trained Model Sample Per Class 20,23,49.0,1.604392409324646,28.27,2.1595354
+Pre-trained Model Sample Per Class 20,24,51.0,1.6087061762809753,28.43,2.1588025
+Pre-trained Model Sample Per Class 20,25,45.0,1.5750752687454224,28.42,2.1581187
+Pre-trained Model Sample Per Class 20,26,50.5,1.574336290359497,28.5,2.162209
+Pre-trained Model Sample Per Class 20,27,50.0,1.6055512428283691,28.52,2.1591182
+Pre-trained Model Sample Per Class 20,28,48.0,1.5367546677589417,28.55,2.164822
+Pre-trained Model Sample Per Class 20,29,48.0,1.574534833431244,28.6,2.158027
+Pre-trained Model Sample Per Class 20,30,51.5,1.523674190044403,28.91,2.15403
+Pre-trained Model Sample Per Class 20,31,47.0,1.5731732249259949,29.15,2.158675
+Pre-trained Model Sample Per Class 20,32,51.5,1.5490316152572632,29.07,2.148668
+Pre-trained Model Sample Per Class 20,33,53.5,1.544704794883728,29.08,2.1494143
+Pre-trained Model Sample Per Class 20,34,51.0,1.5394859313964844,28.98,2.1500497
+Pre-trained Model Sample Per Class 20,35,61.0,1.5472594499588013,29.16,2.1630225
+Pre-trained Model Sample Per Class 20,36,46.5,1.5733309984207153,29.0,2.1595397
+Pre-trained Model Sample Per Class 20,37,55.5,1.4869918823242188,29.0,2.159329
+Pre-trained Model Sample Per Class 20,38,50.5,1.5003697872161865,28.92,2.159698
+Pre-trained Model Sample Per Class 20,39,50.0,1.5057498216629028,28.93,2.1603408
+Pre-trained Model Sample Per Class 20,40,51.0,1.4941951036453247,28.9,2.1644564
+Pre-trained Model Sample Per Class 20,41,53.0,1.4970839023590088,28.76,2.1537993
+Pre-trained Model Sample Per Class 20,42,50.0,1.538649082183838,28.88,2.1549537
+Pre-trained Model Sample Per Class 20,43,46.5,1.6208853125572205,28.96,2.146865
+Pre-trained Model Sample Per Class 20,44,49.0,1.6143397092819214,29.12,2.1422958
+Pre-trained Model Sample Per Class 20,45,54.0,1.5452504754066467,29.18,2.143348
+Pre-trained Model Sample Per Class 20,46,50.5,1.5566599369049072,29.04,2.1510377
+Pre-trained Model Sample Per Class 20,47,54.5,1.4831589460372925,29.07,2.157039
+Pre-trained Model Sample Per Class 20,48,50.5,1.5386545062065125,29.11,2.1473854
+Pre-trained Model Sample Per Class 20,49,52.0,1.5419303178787231,29.12,2.1381533
+Pre-trained Model Sample Per Class 20,50,52.5,1.557681918144226,29.02,2.145258
+Pre-trained Model Sample Per Class 20,51,52.5,1.5253115892410278,29.13,2.1382914
+Pre-trained Model Sample Per Class 20,52,45.5,1.5828545689582825,29.1,2.1410882
+Pre-trained Model Sample Per Class 20,53,51.0,1.5062602758407593,29.02,2.1445165
+Pre-trained Model Sample Per Class 20,54,56.5,1.519492745399475,28.85,2.155989
+Pre-trained Model Sample Per Class 20,55,51.0,1.5547639727592468,28.86,2.157131
+Pre-trained Model Sample Per Class 20,56,54.0,1.5152391195297241,28.95,2.1497612
+Pre-trained Model Sample Per Class 20,57,53.0,1.546246349811554,28.94,2.1518817
+Pre-trained Model Sample Per Class 20,58,47.0,1.5607367157936096,29.01,2.1502492
+Pre-trained Model Sample Per Class 20,59,56.0,1.4925524592399597,28.89,2.1555943
+Pre-trained Model Sample Per Class 20,60,53.0,1.514660358428955,28.81,2.1606987
+Pre-trained Model Sample Per Class 20,61,52.0,1.5053923726081848,28.91,2.1540565
+Pre-trained Model Sample Per Class 20,62,47.5,1.59302818775177,29.23,2.1410823
+Pre-trained Model Sample Per Class 20,63,52.5,1.5010303258895874,29.14,2.1380324
+Pre-trained Model Sample Per Class 20,64,58.0,1.5295798182487488,29.11,2.1449668
+Pre-trained Model Sample Per Class 20,65,52.0,1.532848596572876,29.03,2.145554
+Pre-trained Model Sample Per Class 20,66,50.0,1.6016908288002014,29.04,2.148708
+Pre-trained Model Sample Per Class 20,67,49.5,1.581060528755188,29.15,2.144867
+Pre-trained Model Sample Per Class 20,68,49.0,1.5946978330612183,29.03,2.1461415
+Pre-trained Model Sample Per Class 20,69,52.0,1.5355169177055359,28.94,2.1507795
+Pre-trained Model Sample Per Class 20,70,45.5,1.5340090990066528,28.94,2.1483572
+Pre-trained Model Sample Per Class 20,71,52.0,1.5544922947883606,28.99,2.1490355
+Pre-trained Model Sample Per Class 20,72,57.0,1.4981058239936829,29.05,2.1434917
+Pre-trained Model Sample Per Class 20,73,55.0,1.5229782462120056,29.07,2.1424756
+Pre-trained Model Sample Per Class 20,74,50.5,1.5608126521110535,28.95,2.1504653
+Pre-trained Model Sample Per Class 20,75,54.5,1.5149450898170471,28.98,2.1488185
+Pre-trained Model Sample Per Class 20,76,50.5,1.5659522414207458,29.0,2.1625946
+Pre-trained Model Sample Per Class 20,77,53.0,1.539874792098999,28.75,2.1544576
+Pre-trained Model Sample Per Class 20,78,51.5,1.5001965165138245,28.83,2.1480074
+Pre-trained Model Sample Per Class 20,79,49.5,1.5357017517089844,28.91,2.1567562
+Pre-trained Model Sample Per Class 20,80,50.0,1.5910523533821106,28.87,2.1552544
+Random Init Model Sample Per Class 20,1,11.5,3.764636993408203,10.0,21911.504
+Random Init Model Sample Per Class 20,2,8.0,4.235628128051758,10.0,896655.0
+Random Init Model Sample Per Class 20,3,17.0,2.9724971055984497,10.0,241934.22
+Random Init Model Sample Per Class 20,4,18.5,2.447420597076416,10.0,56451.594
+Random Init Model Sample Per Class 20,5,21.5,2.443844199180603,10.0,21903.695
+Random Init Model Sample Per Class 20,6,25.0,2.3458880186080933,10.0,8282.464
+Random Init Model Sample Per Class 20,7,22.0,2.287795305252075,10.02,3536.5984
+Random Init Model Sample Per Class 20,8,25.5,2.143577456474304,10.06,1476.8947
+Random Init Model Sample Per Class 20,9,22.0,2.210520625114441,10.18,681.2512
+Random Init Model Sample Per Class 20,10,28.0,2.1196974515914917,10.72,244.97408
+Random Init Model Sample Per Class 20,11,28.5,2.177457809448242,12.19,121.752884
+Random Init Model Sample Per Class 20,12,31.0,2.0469401478767395,12.17,96.28759
+Random Init Model Sample Per Class 20,13,31.0,2.008301258087158,14.07,87.943565
+Random Init Model Sample Per Class 20,14,30.0,1.999534249305725,15.38,59.761528
+Random Init Model Sample Per Class 20,15,33.0,1.9820009469985962,16.92,33.80167
+Random Init Model Sample Per Class 20,16,32.0,1.90687757730484,18.75,18.66623
+Random Init Model Sample Per Class 20,17,37.0,1.8908905386924744,19.69,11.617944
+Random Init Model Sample Per Class 20,18,35.5,1.9038437604904175,21.22,7.8600025
+Random Init Model Sample Per Class 20,19,38.5,1.8475099205970764,22.29,5.664293
+Random Init Model Sample Per Class 20,20,40.0,1.8212943077087402,22.18,4.4165645
+Random Init Model Sample Per Class 20,21,37.0,1.8228469491004944,22.3,3.7662363
+Random Init Model Sample Per Class 20,22,41.0,1.8027451634407043,23.34,3.335617
+Random Init Model Sample Per Class 20,23,39.0,1.7786298990249634,24.04,3.1302896
+Random Init Model Sample Per Class 20,24,38.5,1.8209921717643738,24.34,2.9463115
+Random Init Model Sample Per Class 20,25,41.5,1.750634491443634,24.48,2.8438396
+Random Init Model Sample Per Class 20,26,37.5,1.7739036679267883,24.71,2.720291
+Random Init Model Sample Per Class 20,27,39.0,1.7595793008804321,24.85,2.6684132
+Random Init Model Sample Per Class 20,28,38.0,1.7660861015319824,24.88,2.6412492
+Random Init Model Sample Per Class 20,29,42.0,1.7618815898895264,24.77,2.6249802
+Random Init Model Sample Per Class 20,30,40.5,1.730967938899994,24.84,2.6462083
+Random Init Model Sample Per Class 20,31,45.0,1.6986631751060486,24.85,2.6415932
+Random Init Model Sample Per Class 20,32,38.5,1.7150511741638184,24.78,2.6127448
+Random Init Model Sample Per Class 20,33,43.5,1.7030791640281677,24.68,2.5717745
+Random Init Model Sample Per Class 20,34,37.5,1.7286471128463745,24.85,2.5779624
+Random Init Model Sample Per Class 20,35,44.0,1.7022395730018616,24.88,2.5419269
+Random Init Model Sample Per Class 20,36,41.5,1.7161474823951721,25.07,2.5645726
+Random Init Model Sample Per Class 20,37,39.0,1.6800898313522339,25.08,2.5565727
+Random Init Model Sample Per Class 20,38,42.5,1.6968420147895813,25.19,2.541841
+Random Init Model Sample Per Class 20,39,44.0,1.712007999420166,25.32,2.5343165
+Random Init Model Sample Per Class 20,40,43.5,1.6767845153808594,25.25,2.508859
+Random Init Model Sample Per Class 20,41,48.0,1.7208468317985535,25.33,2.5063868
+Random Init Model Sample Per Class 20,42,43.0,1.7024478316307068,25.35,2.5114462
+Random Init Model Sample Per Class 20,43,45.5,1.6766130924224854,25.49,2.5155792
+Random Init Model Sample Per Class 20,44,45.0,1.698833167552948,25.36,2.4959812
+Random Init Model Sample Per Class 20,45,39.5,1.6844981908798218,25.38,2.5003994
+Random Init Model Sample Per Class 20,46,42.0,1.7008810639381409,25.38,2.5077755
+Random Init Model Sample Per Class 20,47,46.0,1.7106428146362305,25.49,2.5071182
+Random Init Model Sample Per Class 20,48,43.0,1.7016526460647583,25.43,2.4977157
+Random Init Model Sample Per Class 20,49,43.5,1.6811215281486511,25.48,2.52059
+Random Init Model Sample Per Class 20,50,48.5,1.647370457649231,25.44,2.5590189
+Random Init Model Sample Per Class 20,51,42.0,1.695211410522461,25.45,2.5404773
+Random Init Model Sample Per Class 20,52,44.0,1.6762250661849976,25.49,2.5432127
+Random Init Model Sample Per Class 20,53,41.5,1.7045551538467407,25.49,2.5447993
+Random Init Model Sample Per Class 20,54,47.5,1.662381649017334,25.5,2.5394382
+Random Init Model Sample Per Class 20,55,45.0,1.6924944519996643,25.43,2.5196166
+Random Init Model Sample Per Class 20,56,44.5,1.6582114696502686,25.4,2.5116363
+Random Init Model Sample Per Class 20,57,43.5,1.6635550260543823,25.38,2.4967668
+Random Init Model Sample Per Class 20,58,43.0,1.6780339479446411,25.42,2.5022578
+Random Init Model Sample Per Class 20,59,45.0,1.6661879420280457,25.5,2.5165188
+Random Init Model Sample Per Class 20,60,42.5,1.6628167629241943,25.44,2.51111
+Random Init Model Sample Per Class 20,61,41.5,1.6684078574180603,25.42,2.505228
+Random Init Model Sample Per Class 20,62,47.0,1.642147958278656,25.4,2.5051126
+Random Init Model Sample Per Class 20,63,43.0,1.6573466658592224,25.45,2.5311978
+Random Init Model Sample Per Class 20,64,45.5,1.6787461638450623,25.57,2.5332615
+Random Init Model Sample Per Class 20,65,43.0,1.6775938272476196,25.5,2.5206828
+Random Init Model Sample Per Class 20,66,44.0,1.6886578798294067,25.47,2.5131836
+Random Init Model Sample Per Class 20,67,42.5,1.6892554759979248,25.46,2.5357413
+Random Init Model Sample Per Class 20,68,41.5,1.7387385368347168,25.51,2.5253725
+Random Init Model Sample Per Class 20,69,44.5,1.6721765995025635,25.57,2.5101285
+Random Init Model Sample Per Class 20,70,46.0,1.6616278886795044,25.49,2.5176723
+Random Init Model Sample Per Class 20,71,47.0,1.6546815633773804,25.4,2.5124137
+Random Init Model Sample Per Class 20,72,45.5,1.6807398200035095,25.36,2.490848
+Random Init Model Sample Per Class 20,73,40.0,1.6774645447731018,25.39,2.4881802
+Random Init Model Sample Per Class 20,74,40.5,1.6981631517410278,25.47,2.4994428
+Random Init Model Sample Per Class 20,75,41.5,1.7150174379348755,25.55,2.5345693
+Random Init Model Sample Per Class 20,76,44.0,1.6564393043518066,25.58,2.5342634
+Random Init Model Sample Per Class 20,77,43.5,1.7333640456199646,25.48,2.58105
+Random Init Model Sample Per Class 20,78,41.5,1.704602837562561,25.49,2.58966
+Random Init Model Sample Per Class 20,79,46.5,1.7131961584091187,25.5,2.570589
+Random Init Model Sample Per Class 20,80,46.5,1.6772076487541199,25.44,2.5537565
+Pre-trained Model Sample Per Class 50,1,14.0,2.2782135605812073,16.95,2.2303507
+Pre-trained Model Sample Per Class 50,2,17.4,2.189348340034485,19.31,2.1749952
+Pre-trained Model Sample Per Class 50,3,25.0,2.084021031856537,21.04,2.1476727
+Pre-trained Model Sample Per Class 50,4,25.6,2.0624834299087524,24.88,2.074992
+Pre-trained Model Sample Per Class 50,5,27.6,1.991137683391571,26.28,2.0247242
+Pre-trained Model Sample Per Class 50,6,30.8,1.9114361703395844,26.94,2.0417624
+Pre-trained Model Sample Per Class 50,7,30.4,1.8975537717342377,28.07,2.0081935
+Pre-trained Model Sample Per Class 50,8,32.4,1.8644134104251862,28.7,2.0043426
+Pre-trained Model Sample Per Class 50,9,34.8,1.840957760810852,30.09,1.9868766
+Pre-trained Model Sample Per Class 50,10,34.6,1.8489215970039368,31.6,1.9378636
+Pre-trained Model Sample Per Class 50,11,39.4,1.7927996218204498,30.56,1.9661133
+Pre-trained Model Sample Per Class 50,12,38.8,1.7809390723705292,31.92,1.9553853
+Pre-trained Model Sample Per Class 50,13,42.8,1.7305552661418915,33.94,1.934121
+Pre-trained Model Sample Per Class 50,14,45.0,1.7089343070983887,35.05,1.9349062
+Pre-trained Model Sample Per Class 50,15,46.0,1.6532131433486938,35.29,1.9188677
+Pre-trained Model Sample Per Class 50,16,43.2,1.662235975265503,36.08,1.9053503
+Pre-trained Model Sample Per Class 50,17,48.2,1.6101340651512146,36.95,1.885825
+Pre-trained Model Sample Per Class 50,18,48.2,1.6115565598011017,37.33,1.8743582
+Pre-trained Model Sample Per Class 50,19,46.4,1.6142475008964539,37.38,1.8699384
+Pre-trained Model Sample Per Class 50,20,49.2,1.6108025014400482,38.04,1.856588
+Pre-trained Model Sample Per Class 50,21,45.4,1.602158099412918,38.01,1.8594648
+Pre-trained Model Sample Per Class 50,22,47.8,1.5870617926120758,37.93,1.8536105
+Pre-trained Model Sample Per Class 50,23,49.8,1.5925685167312622,37.9,1.8515533
+Pre-trained Model Sample Per Class 50,24,48.8,1.5762272477149963,37.95,1.8497739
+Pre-trained Model Sample Per Class 50,25,51.2,1.5347636342048645,37.88,1.8508979
+Pre-trained Model Sample Per Class 50,26,53.2,1.5774507224559784,37.83,1.8512642
+Pre-trained Model Sample Per Class 50,27,50.8,1.5570095479488373,38.12,1.8476185
+Pre-trained Model Sample Per Class 50,28,49.6,1.5789405405521393,38.32,1.8458073
+Pre-trained Model Sample Per Class 50,29,53.6,1.5283438861370087,38.25,1.847555
+Pre-trained Model Sample Per Class 50,30,49.6,1.5605067908763885,38.48,1.8526347
+Pre-trained Model Sample Per Class 50,31,53.2,1.5444355607032776,38.42,1.8478186
+Pre-trained Model Sample Per Class 50,32,52.6,1.5498349964618683,38.52,1.8465542
+Pre-trained Model Sample Per Class 50,33,47.4,1.5838506519794464,38.52,1.8509635
+Pre-trained Model Sample Per Class 50,34,49.4,1.564797431230545,38.47,1.8447793
+Pre-trained Model Sample Per Class 50,35,49.0,1.5593552589416504,38.6,1.8457155
+Pre-trained Model Sample Per Class 50,36,50.8,1.5554084181785583,38.63,1.8452716
+Pre-trained Model Sample Per Class 50,37,52.2,1.5442868769168854,38.56,1.8433213
+Pre-trained Model Sample Per Class 50,38,52.2,1.5413574278354645,38.68,1.844682
+Pre-trained Model Sample Per Class 50,39,54.2,1.5498496890068054,38.74,1.8474852
+Pre-trained Model Sample Per Class 50,40,51.2,1.554215908050537,38.67,1.8474128
+Pre-trained Model Sample Per Class 50,41,51.8,1.5296891331672668,38.57,1.8468765
+Pre-trained Model Sample Per Class 50,42,52.4,1.541203886270523,38.66,1.8468889
+Pre-trained Model Sample Per Class 50,43,49.8,1.554441124200821,38.58,1.8432981
+Pre-trained Model Sample Per Class 50,44,52.8,1.5388376116752625,38.67,1.8463793
+Pre-trained Model Sample Per Class 50,45,52.4,1.549523025751114,38.67,1.8487997
+Pre-trained Model Sample Per Class 50,46,52.0,1.5130540132522583,38.63,1.8474822
+Pre-trained Model Sample Per Class 50,47,52.4,1.5320618450641632,38.62,1.84499
+Pre-trained Model Sample Per Class 50,48,48.6,1.5634883642196655,38.63,1.8509574
+Pre-trained Model Sample Per Class 50,49,49.4,1.5581867694854736,38.54,1.8478705
+Pre-trained Model Sample Per Class 50,50,51.6,1.5612478256225586,38.56,1.8500043
+Pre-trained Model Sample Per Class 50,51,48.2,1.5702974498271942,38.61,1.8517743
+Pre-trained Model Sample Per Class 50,52,49.8,1.5486425459384918,38.48,1.8496362
+Pre-trained Model Sample Per Class 50,53,48.0,1.5523209273815155,38.62,1.8448052
+Pre-trained Model Sample Per Class 50,54,48.2,1.568161427974701,38.61,1.8488339
+Pre-trained Model Sample Per Class 50,55,50.6,1.557115614414215,38.68,1.8487781
+Pre-trained Model Sample Per Class 50,56,53.6,1.5007094740867615,38.64,1.8458712
+Pre-trained Model Sample Per Class 50,57,55.2,1.4965900182724,38.67,1.8424437
+Pre-trained Model Sample Per Class 50,58,49.8,1.543486475944519,38.64,1.8395633
+Pre-trained Model Sample Per Class 50,59,51.6,1.5415225327014923,38.62,1.8423401
+Pre-trained Model Sample Per Class 50,60,49.2,1.5420675873756409,38.66,1.842407
+Pre-trained Model Sample Per Class 50,61,51.4,1.5508276224136353,38.67,1.8431585
+Pre-trained Model Sample Per Class 50,62,54.6,1.5197193026542664,38.5,1.8418996
+Pre-trained Model Sample Per Class 50,63,52.8,1.5170433819293976,38.6,1.8416995
+Pre-trained Model Sample Per Class 50,64,48.2,1.5528607666492462,38.54,1.8438616
+Pre-trained Model Sample Per Class 50,65,51.8,1.571520984172821,38.54,1.8465749
+Pre-trained Model Sample Per Class 50,66,51.6,1.5454438924789429,38.46,1.8435218
+Pre-trained Model Sample Per Class 50,67,50.4,1.5224688351154327,38.6,1.8442382
+Pre-trained Model Sample Per Class 50,68,51.2,1.5601603984832764,38.6,1.8443106
+Pre-trained Model Sample Per Class 50,69,50.6,1.5475342273712158,38.43,1.8402481
+Pre-trained Model Sample Per Class 50,70,53.8,1.5225202143192291,38.42,1.8410363
+Pre-trained Model Sample Per Class 50,71,50.6,1.5481846034526825,38.55,1.8408396
+Pre-trained Model Sample Per Class 50,72,54.0,1.4876661002635956,38.67,1.8387417
+Pre-trained Model Sample Per Class 50,73,52.0,1.5275643467903137,38.63,1.840215
+Pre-trained Model Sample Per Class 50,74,46.8,1.5649566352367401,38.49,1.842153
+Pre-trained Model Sample Per Class 50,75,50.2,1.5514764189720154,38.51,1.8460433
+Pre-trained Model Sample Per Class 50,76,52.0,1.5355560183525085,38.67,1.8459002
+Pre-trained Model Sample Per Class 50,77,51.0,1.5391815602779388,38.58,1.8406695
+Pre-trained Model Sample Per Class 50,78,50.2,1.5445686280727386,38.6,1.8430266
+Pre-trained Model Sample Per Class 50,79,49.2,1.5316143333911896,38.55,1.8423725
+Pre-trained Model Sample Per Class 50,80,54.2,1.5393254160881042,38.67,1.8398776
+Random Init Model Sample Per Class 50,1,12.2,4.4124040603637695,10.0,349307.84
+Random Init Model Sample Per Class 50,2,12.6,2.6869051456451416,10.0,23499.836
+Random Init Model Sample Per Class 50,3,13.8,2.6085346937179565,10.0,636.02954
+Random Init Model Sample Per Class 50,4,18.6,2.4129138588905334,10.22,142.81245
+Random Init Model Sample Per Class 50,5,18.4,2.348391532897949,14.8,16.359003
+Random Init Model Sample Per Class 50,6,21.6,2.2056220173835754,19.81,7.4401245
+Random Init Model Sample Per Class 50,7,20.4,2.181282639503479,22.36,5.697705
+Random Init Model Sample Per Class 50,8,24.4,2.123758316040039,17.58,4.7809987
+Random Init Model Sample Per Class 50,9,27.2,2.11669659614563,17.82,4.125703
+Random Init Model Sample Per Class 50,10,28.6,2.0956217646598816,20.73,2.7912374
+Random Init Model Sample Per Class 50,11,23.4,2.1095516681671143,21.73,2.1988554
+Random Init Model Sample Per Class 50,12,26.4,2.010489046573639,23.82,2.2828825
+Random Init Model Sample Per Class 50,13,28.8,2.022702068090439,25.3,2.2927418
+Random Init Model Sample Per Class 50,14,32.6,1.9383712708950043,23.52,2.231685
+Random Init Model Sample Per Class 50,15,31.8,1.9305850863456726,24.71,2.2896547
+Random Init Model Sample Per Class 50,16,31.6,1.932730346918106,26.26,2.1695077
+Random Init Model Sample Per Class 50,17,34.2,1.8760939538478851,27.84,2.0781937
+Random Init Model Sample Per Class 50,18,34.8,1.8703606128692627,27.72,2.0824213
+Random Init Model Sample Per Class 50,19,37.0,1.8679814636707306,25.7,2.1187208
+Random Init Model Sample Per Class 50,20,35.8,1.8452216982841492,26.42,2.0922332
+Random Init Model Sample Per Class 50,21,37.4,1.8195038735866547,28.37,2.0674224
+Random Init Model Sample Per Class 50,22,37.8,1.7969621419906616,28.38,2.0749516
+Random Init Model Sample Per Class 50,23,38.2,1.8061358332633972,29.11,2.0593631
+Random Init Model Sample Per Class 50,24,37.0,1.8244702517986298,28.44,2.053502
+Random Init Model Sample Per Class 50,25,36.6,1.8241490423679352,27.21,2.070476
+Random Init Model Sample Per Class 50,26,38.0,1.8109159469604492,28.93,2.0352488
+Random Init Model Sample Per Class 50,27,35.0,1.819141447544098,29.27,2.028229
+Random Init Model Sample Per Class 50,28,39.8,1.7625365257263184,29.05,2.0355318
+Random Init Model Sample Per Class 50,29,38.0,1.7784678041934967,28.5,2.0570142
+Random Init Model Sample Per Class 50,30,40.8,1.7401162981987,29.25,2.0481138
+Random Init Model Sample Per Class 50,31,39.8,1.7649924159049988,29.47,2.0450027
+Random Init Model Sample Per Class 50,32,40.6,1.7523305416107178,29.38,2.0502453
+Random Init Model Sample Per Class 50,33,40.0,1.7655743658542633,29.53,2.0430126
+Random Init Model Sample Per Class 50,34,41.4,1.7483730018138885,29.46,2.0459788
+Random Init Model Sample Per Class 50,35,40.0,1.7413099110126495,29.57,2.0428038
+Random Init Model Sample Per Class 50,36,42.8,1.7194874584674835,29.62,2.0391402
+Random Init Model Sample Per Class 50,37,41.4,1.732179194688797,29.81,2.0433455
+Random Init Model Sample Per Class 50,38,41.8,1.7276464402675629,29.88,2.0453925
+Random Init Model Sample Per Class 50,39,39.4,1.7316441237926483,30.11,2.0395284
+Random Init Model Sample Per Class 50,40,42.0,1.748439460992813,30.13,2.0427144
+Random Init Model Sample Per Class 50,41,39.4,1.7236079573631287,29.86,2.0629933
+Random Init Model Sample Per Class 50,42,39.4,1.7374249398708344,29.87,2.0586135
+Random Init Model Sample Per Class 50,43,41.8,1.7298927307128906,29.8,2.0758963
+Random Init Model Sample Per Class 50,44,41.6,1.7100377976894379,29.79,2.0708823
+Random Init Model Sample Per Class 50,45,42.6,1.7173260152339935,29.96,2.064791
+Random Init Model Sample Per Class 50,46,41.4,1.7312045693397522,30.07,2.0554492
+Random Init Model Sample Per Class 50,47,39.8,1.7213324010372162,29.95,2.0611615
+Random Init Model Sample Per Class 50,48,42.2,1.7204620838165283,30.16,2.0474086
+Random Init Model Sample Per Class 50,49,45.2,1.7172282040119171,30.15,2.0449595
+Random Init Model Sample Per Class 50,50,41.0,1.7233946323394775,30.09,2.0510824
+Random Init Model Sample Per Class 50,51,39.2,1.7549823224544525,30.1,2.0618105
+Random Init Model Sample Per Class 50,52,40.4,1.7322440147399902,30.05,2.064815
+Random Init Model Sample Per Class 50,53,42.6,1.7223349809646606,30.23,2.0499196
+Random Init Model Sample Per Class 50,54,42.0,1.726978063583374,30.15,2.0554085
+Random Init Model Sample Per Class 50,55,41.4,1.7278442680835724,30.2,2.0464513
+Random Init Model Sample Per Class 50,56,42.2,1.7059520483016968,30.34,2.0388095
+Random Init Model Sample Per Class 50,57,40.2,1.7081995904445648,30.14,2.0436077
+Random Init Model Sample Per Class 50,58,42.2,1.7264979779720306,30.17,2.0490496
+Random Init Model Sample Per Class 50,59,39.0,1.7139753699302673,29.98,2.0684676
+Random Init Model Sample Per Class 50,60,40.4,1.7143320441246033,30.13,2.0496116
+Random Init Model Sample Per Class 50,61,41.0,1.7319172322750092,30.11,2.0463517
+Random Init Model Sample Per Class 50,62,43.6,1.7200273275375366,30.12,2.0453398
+Random Init Model Sample Per Class 50,63,42.2,1.7175803184509277,30.03,2.057502
+Random Init Model Sample Per Class 50,64,41.4,1.7270662188529968,30.02,2.0663218
+Random Init Model Sample Per Class 50,65,42.6,1.702633649110794,29.87,2.0838566
+Random Init Model Sample Per Class 50,66,42.8,1.711085706949234,29.95,2.0679426
+Random Init Model Sample Per Class 50,67,42.0,1.7405092418193817,29.86,2.0749815
+Random Init Model Sample Per Class 50,68,40.0,1.7273822128772736,29.96,2.0688984
+Random Init Model Sample Per Class 50,69,43.8,1.7205048501491547,30.01,2.0615337
+Random Init Model Sample Per Class 50,70,42.2,1.7194414138793945,29.95,2.0624416
+Random Init Model Sample Per Class 50,71,42.2,1.7159061431884766,29.98,2.0667515
+Random Init Model Sample Per Class 50,72,42.0,1.7171728312969208,29.88,2.0739176
+Random Init Model Sample Per Class 50,73,41.4,1.7242244184017181,29.85,2.0790858
+Random Init Model Sample Per Class 50,74,40.6,1.7164232730865479,29.97,2.066208
+Random Init Model Sample Per Class 50,75,43.2,1.721951276063919,30.13,2.0494628
+Random Init Model Sample Per Class 50,76,42.2,1.737024039030075,30.06,2.0561898
+Random Init Model Sample Per Class 50,77,42.6,1.7213110327720642,30.06,2.0569665
+Random Init Model Sample Per Class 50,78,41.2,1.7273786664009094,30.14,2.0490763
+Random Init Model Sample Per Class 50,79,42.4,1.7264683544635773,29.94,2.065622
+Random Init Model Sample Per Class 50,80,41.4,1.6903908550739288,30.01,2.0662596
+Pre-trained Model Sample Per Class 100,1,15.7,2.25299870967865,18.44,2.1828525
+Pre-trained Model Sample Per Class 100,2,21.5,2.13216370344162,22.0,2.0974667
+Pre-trained Model Sample Per Class 100,3,25.9,2.0087385177612305,27.53,1.9983143
+Pre-trained Model Sample Per Class 100,4,32.1,1.9212860614061356,31.28,1.9534527
+Pre-trained Model Sample Per Class 100,5,31.5,1.8958704769611359,30.39,1.9442132
+Pre-trained Model Sample Per Class 100,6,36.4,1.837555170059204,34.64,1.8804098
+Pre-trained Model Sample Per Class 100,7,37.1,1.8187644630670547,35.06,1.8696641
+Pre-trained Model Sample Per Class 100,8,36.8,1.8156255632638931,34.99,1.8629724
+Pre-trained Model Sample Per Class 100,9,36.4,1.783274158835411,35.57,1.9177061
+Pre-trained Model Sample Per Class 100,10,42.5,1.7418871819972992,38.29,1.8234631
+Pre-trained Model Sample Per Class 100,11,41.3,1.698003426194191,39.73,1.7991549
+Pre-trained Model Sample Per Class 100,12,45.0,1.691343292593956,40.23,1.8021566
+Pre-trained Model Sample Per Class 100,13,45.8,1.6572362631559372,41.9,1.783287
+Pre-trained Model Sample Per Class 100,14,47.5,1.6261500269174576,40.01,1.8084974
+Pre-trained Model Sample Per Class 100,15,46.2,1.6378279030323029,42.44,1.7724347
+Pre-trained Model Sample Per Class 100,16,48.7,1.597963273525238,43.25,1.7464316
+Pre-trained Model Sample Per Class 100,17,50.3,1.5606533139944077,43.64,1.7354332
+Pre-trained Model Sample Per Class 100,18,50.5,1.549576222896576,44.15,1.7244785
+Pre-trained Model Sample Per Class 100,19,52.1,1.5364405810832977,44.27,1.7202258
+Pre-trained Model Sample Per Class 100,20,51.6,1.5257496684789658,44.44,1.7162774
+Pre-trained Model Sample Per Class 100,21,49.0,1.5457620024681091,44.16,1.7224942
+Pre-trained Model Sample Per Class 100,22,51.6,1.517555594444275,44.57,1.7206539
+Pre-trained Model Sample Per Class 100,23,52.8,1.5050919353961945,44.6,1.7188637
+Pre-trained Model Sample Per Class 100,24,51.9,1.509494125843048,44.89,1.7146897
+Pre-trained Model Sample Per Class 100,25,52.1,1.5333838760852814,44.92,1.7096411
+Pre-trained Model Sample Per Class 100,26,54.6,1.476494461297989,44.84,1.7133495
+Pre-trained Model Sample Per Class 100,27,53.5,1.4945374578237534,44.64,1.7168084
+Pre-trained Model Sample Per Class 100,28,52.9,1.5175395905971527,45.0,1.7162795
+Pre-trained Model Sample Per Class 100,29,53.3,1.4918579012155533,44.66,1.7179227
+Pre-trained Model Sample Per Class 100,30,53.8,1.4872689545154572,44.69,1.7187036
+Pre-trained Model Sample Per Class 100,31,54.2,1.478542074561119,44.52,1.7197474
+Pre-trained Model Sample Per Class 100,32,56.3,1.4494483470916748,44.68,1.7245442
+Pre-trained Model Sample Per Class 100,33,54.8,1.4718646258115768,44.78,1.7245821
+Pre-trained Model Sample Per Class 100,34,53.9,1.4818728268146515,44.76,1.7197607
+Pre-trained Model Sample Per Class 100,35,54.0,1.4611657708883286,44.98,1.7137026
+Pre-trained Model Sample Per Class 100,36,55.6,1.4775977581739426,44.9,1.7172287
+Pre-trained Model Sample Per Class 100,37,54.3,1.490165799856186,44.81,1.7157285
+Pre-trained Model Sample Per Class 100,38,52.9,1.4846715480089188,44.77,1.7187868
+Pre-trained Model Sample Per Class 100,39,53.2,1.4878424555063248,44.73,1.724971
+Pre-trained Model Sample Per Class 100,40,53.4,1.4934638738632202,44.89,1.716906
+Pre-trained Model Sample Per Class 100,41,54.9,1.4785530716180801,44.76,1.7217406
+Pre-trained Model Sample Per Class 100,42,53.6,1.4775947481393814,44.69,1.7192765
+Pre-trained Model Sample Per Class 100,43,54.2,1.4824017882347107,44.83,1.720256
+Pre-trained Model Sample Per Class 100,44,53.5,1.4600738734006882,44.82,1.7188914
+Pre-trained Model Sample Per Class 100,45,54.8,1.4759109318256378,44.9,1.7200297
+Pre-trained Model Sample Per Class 100,46,56.3,1.4391024857759476,44.91,1.7193868
+Pre-trained Model Sample Per Class 100,47,54.4,1.4636228829622269,44.82,1.7209741
+Pre-trained Model Sample Per Class 100,48,53.8,1.476076379418373,44.97,1.7200445
+Pre-trained Model Sample Per Class 100,49,52.9,1.473085656762123,44.98,1.7236003
+Pre-trained Model Sample Per Class 100,50,55.6,1.4557483196258545,44.93,1.7189372
+Pre-trained Model Sample Per Class 100,51,54.4,1.4686079770326614,44.76,1.7201537
+Pre-trained Model Sample Per Class 100,52,54.6,1.4584187269210815,44.68,1.7186521
+Pre-trained Model Sample Per Class 100,53,55.5,1.4531099498271942,45.0,1.7130244
+Pre-trained Model Sample Per Class 100,54,55.0,1.4647401720285416,44.79,1.7180221
+Pre-trained Model Sample Per Class 100,55,52.0,1.4881924837827682,44.92,1.719712
+Pre-trained Model Sample Per Class 100,56,54.3,1.4632125198841095,44.83,1.7209527
+Pre-trained Model Sample Per Class 100,57,54.5,1.479094237089157,45.01,1.7200246
+Pre-trained Model Sample Per Class 100,58,54.7,1.4824980050325394,45.1,1.7202094
+Pre-trained Model Sample Per Class 100,59,56.4,1.4578366875648499,44.92,1.7191092
+Pre-trained Model Sample Per Class 100,60,53.1,1.4655736088752747,45.0,1.7192441
+Pre-trained Model Sample Per Class 100,61,54.5,1.473830685019493,44.92,1.7170691
+Pre-trained Model Sample Per Class 100,62,54.8,1.4587244242429733,45.02,1.7186677
+Pre-trained Model Sample Per Class 100,63,54.6,1.4659198969602585,44.96,1.7178326
+Pre-trained Model Sample Per Class 100,64,54.0,1.4667367935180664,44.9,1.7232516
+Pre-trained Model Sample Per Class 100,65,54.2,1.4687306880950928,45.01,1.7213072
+Pre-trained Model Sample Per Class 100,66,54.0,1.4661586582660675,45.02,1.717553
+Pre-trained Model Sample Per Class 100,67,55.6,1.472321480512619,44.95,1.7210226
+Pre-trained Model Sample Per Class 100,68,52.0,1.4793214946985245,44.96,1.7213492
+Pre-trained Model Sample Per Class 100,69,56.2,1.4557784348726273,44.96,1.7207681
+Pre-trained Model Sample Per Class 100,70,53.7,1.4941525608301163,44.82,1.7191957
+Pre-trained Model Sample Per Class 100,71,55.0,1.4673744142055511,44.86,1.71995
+Pre-trained Model Sample Per Class 100,72,54.0,1.4936721175909042,44.87,1.7245255
+Pre-trained Model Sample Per Class 100,73,52.8,1.4775088876485825,44.84,1.7247624
+Pre-trained Model Sample Per Class 100,74,53.4,1.491551324725151,44.97,1.7206756
+Pre-trained Model Sample Per Class 100,75,54.0,1.4612785577774048,44.89,1.7191787
+Pre-trained Model Sample Per Class 100,76,54.4,1.475858360528946,44.96,1.7211841
+Pre-trained Model Sample Per Class 100,77,52.7,1.4719065129756927,44.83,1.7203465
+Pre-trained Model Sample Per Class 100,78,54.5,1.4684040546417236,44.95,1.7183583
+Pre-trained Model Sample Per Class 100,79,55.2,1.463784009218216,44.86,1.7205158
+Pre-trained Model Sample Per Class 100,80,55.7,1.4445194005966187,44.93,1.7181776
+Random Init Model Sample Per Class 100,1,10.2,3.5571917593479156,10.0,161345.61
+Random Init Model Sample Per Class 100,2,18.6,2.396522969007492,9.31,1583.1613
+Random Init Model Sample Per Class 100,3,22.0,2.2520050406455994,9.93,261.34848
+Random Init Model Sample Per Class 100,4,25.9,2.2147516012191772,13.78,38.532803
+Random Init Model Sample Per Class 100,5,25.2,2.119768977165222,23.87,4.081504
+Random Init Model Sample Per Class 100,6,28.1,2.105202168226242,28.31,2.4005063
+Random Init Model Sample Per Class 100,7,33.3,2.034557357430458,29.16,1.977805
+Random Init Model Sample Per Class 100,8,31.3,1.9644058048725128,31.13,1.988864
+Random Init Model Sample Per Class 100,9,33.2,1.9487385153770447,32.19,2.0597563
+Random Init Model Sample Per Class 100,10,32.4,1.9660499840974808,32.24,2.136498
+Random Init Model Sample Per Class 100,11,35.0,1.9340371042490005,32.8,1.9107109
+Random Init Model Sample Per Class 100,12,34.9,1.9223040789365768,30.69,2.5138566
+Random Init Model Sample Per Class 100,13,35.5,1.988117128610611,31.68,2.0796034
+Random Init Model Sample Per Class 100,14,36.5,1.8774495422840118,33.98,1.977291
+Random Init Model Sample Per Class 100,15,35.9,1.8672190457582474,33.55,2.6506846
+Random Init Model Sample Per Class 100,16,37.7,1.8435853719711304,35.1,2.0544014
+Random Init Model Sample Per Class 100,17,42.9,1.7585569471120834,35.51,1.8935829
+Random Init Model Sample Per Class 100,18,42.5,1.7112313508987427,36.59,1.8776193
+Random Init Model Sample Per Class 100,19,43.0,1.693642020225525,37.5,1.8841048
+Random Init Model Sample Per Class 100,20,45.1,1.6621827632188797,38.04,1.8807082
+Random Init Model Sample Per Class 100,21,43.8,1.6822750121355057,37.67,1.8661026
+Random Init Model Sample Per Class 100,22,46.2,1.6322858780622482,38.25,1.8572916
+Random Init Model Sample Per Class 100,23,45.3,1.649032860994339,37.73,1.8538136
+Random Init Model Sample Per Class 100,24,46.0,1.6205188632011414,38.07,1.858953
+Random Init Model Sample Per Class 100,25,46.8,1.6253999769687653,36.75,1.8846064
+Random Init Model Sample Per Class 100,26,45.3,1.6408898383378983,38.78,1.8568531
+Random Init Model Sample Per Class 100,27,46.3,1.6361806392669678,38.01,1.8508736
+Random Init Model Sample Per Class 100,28,48.5,1.5895848125219345,38.82,1.8292664
+Random Init Model Sample Per Class 100,29,47.8,1.5922962129116058,38.61,1.8293879
+Random Init Model Sample Per Class 100,30,46.3,1.595247507095337,39.24,1.8253016
+Random Init Model Sample Per Class 100,31,48.9,1.5850878953933716,38.95,1.8323166
+Random Init Model Sample Per Class 100,32,49.1,1.561783418059349,38.73,1.8469906
+Random Init Model Sample Per Class 100,33,49.8,1.5353124290704727,38.98,1.840993
+Random Init Model Sample Per Class 100,34,48.4,1.5505380183458328,38.87,1.8385948
+Random Init Model Sample Per Class 100,35,49.6,1.5451509356498718,38.7,1.8482131
+Random Init Model Sample Per Class 100,36,48.8,1.538780838251114,38.85,1.8396634
+Random Init Model Sample Per Class 100,37,50.6,1.5478583425283432,39.21,1.8402222
+Random Init Model Sample Per Class 100,38,50.8,1.5342979580163956,39.21,1.8313323
+Random Init Model Sample Per Class 100,39,49.3,1.5541876703500748,39.12,1.8349292
+Random Init Model Sample Per Class 100,40,49.4,1.5392452478408813,39.03,1.8505127
+Random Init Model Sample Per Class 100,41,50.2,1.5288775116205215,39.18,1.8340565
+Random Init Model Sample Per Class 100,42,50.1,1.5267483294010162,39.54,1.8339697
+Random Init Model Sample Per Class 100,43,51.1,1.5303715765476227,39.29,1.8369681
+Random Init Model Sample Per Class 100,44,50.9,1.5317686051130295,38.94,1.8479409
+Random Init Model Sample Per Class 100,45,49.7,1.5382984280586243,39.25,1.8333893
+Random Init Model Sample Per Class 100,46,49.8,1.5465896725654602,39.06,1.835394
+Random Init Model Sample Per Class 100,47,50.0,1.5388273000717163,39.36,1.8274201
+Random Init Model Sample Per Class 100,48,49.9,1.5404424220323563,39.44,1.8202543
+Random Init Model Sample Per Class 100,49,48.7,1.5576311498880386,39.27,1.8273438
+Random Init Model Sample Per Class 100,50,48.1,1.5645027160644531,39.07,1.8363987
+Random Init Model Sample Per Class 100,51,51.5,1.537224143743515,39.17,1.8309183
+Random Init Model Sample Per Class 100,52,51.7,1.5311518758535385,39.16,1.8353175
+Random Init Model Sample Per Class 100,53,51.0,1.5269595682621002,38.91,1.8438984
+Random Init Model Sample Per Class 100,54,50.4,1.532941147685051,39.08,1.8400041
+Random Init Model Sample Per Class 100,55,50.3,1.5392893999814987,39.14,1.8468373
+Random Init Model Sample Per Class 100,56,50.5,1.5184213668107986,39.28,1.8450087
+Random Init Model Sample Per Class 100,57,51.8,1.504041537642479,39.4,1.8347819
+Random Init Model Sample Per Class 100,58,50.1,1.5415070056915283,39.27,1.8295897
+Random Init Model Sample Per Class 100,59,50.0,1.5393092632293701,39.09,1.8398935
+Random Init Model Sample Per Class 100,60,50.3,1.5326362401247025,39.09,1.840002
+Random Init Model Sample Per Class 100,61,49.8,1.5500269085168839,38.96,1.8474017
+Random Init Model Sample Per Class 100,62,51.1,1.5213339179754257,39.19,1.8464272
+Random Init Model Sample Per Class 100,63,52.1,1.525101125240326,39.1,1.8421401
+Random Init Model Sample Per Class 100,64,51.2,1.5377096086740494,38.83,1.8519428
+Random Init Model Sample Per Class 100,65,52.0,1.5260842591524124,38.91,1.8620418
+Random Init Model Sample Per Class 100,66,50.5,1.5295113623142242,39.32,1.8373162
+Random Init Model Sample Per Class 100,67,51.4,1.5199552923440933,39.26,1.8402776
+Random Init Model Sample Per Class 100,68,50.9,1.5342196971178055,39.3,1.8329618
+Random Init Model Sample Per Class 100,69,49.7,1.5115030854940414,39.12,1.838521
+Random Init Model Sample Per Class 100,70,51.0,1.5324672758579254,39.25,1.8351302
+Random Init Model Sample Per Class 100,71,49.7,1.543604925274849,39.41,1.827663
+Random Init Model Sample Per Class 100,72,51.4,1.5235544592142105,39.24,1.8358645
+Random Init Model Sample Per Class 100,73,50.9,1.5197828114032745,39.3,1.8318992
+Random Init Model Sample Per Class 100,74,51.2,1.5096974670886993,39.38,1.8303695
+Random Init Model Sample Per Class 100,75,50.9,1.5336453020572662,39.27,1.8441721
+Random Init Model Sample Per Class 100,76,49.5,1.5466279685497284,39.33,1.8370432
+Random Init Model Sample Per Class 100,77,49.4,1.5269835442304611,39.25,1.8449363
+Random Init Model Sample Per Class 100,78,51.5,1.5386845767498016,39.19,1.8423729
+Random Init Model Sample Per Class 100,79,49.5,1.5386071354150772,39.38,1.8394384
+Random Init Model Sample Per Class 100,80,49.5,1.5360826700925827,39.36,1.8352678
+Pre-trained Model Sample Per Class 250,1,19.12,2.1525564908981325,22.94,2.0823987
+Pre-trained Model Sample Per Class 250,2,28.56,1.9775512635707855,31.8,1.9565815
+Pre-trained Model Sample Per Class 250,3,33.08,1.9067619800567628,36.11,1.8491149
+Pre-trained Model Sample Per Class 250,4,36.28,1.826418685913086,38.09,1.8301895
+Pre-trained Model Sample Per Class 250,5,40.8,1.7620982825756073,38.54,1.8103446
+Pre-trained Model Sample Per Class 250,6,42.2,1.74552321434021,40.58,1.756365
+Pre-trained Model Sample Per Class 250,7,43.32,1.7157892346382142,41.5,1.7785406
+Pre-trained Model Sample Per Class 250,8,43.92,1.6893366932868958,43.27,1.7128882
+Pre-trained Model Sample Per Class 250,9,45.84,1.6443273425102234,43.6,1.7336819
+Pre-trained Model Sample Per Class 250,10,45.44,1.6254482686519622,42.82,1.7565143
+Pre-trained Model Sample Per Class 250,11,48.52,1.614762794971466,44.04,1.7284335
+Pre-trained Model Sample Per Class 250,12,48.8,1.5934460699558257,45.7,1.6689891
+Pre-trained Model Sample Per Class 250,13,49.24,1.5731474936008454,45.27,1.70379
+Pre-trained Model Sample Per Class 250,14,49.76,1.5830733716487884,47.38,1.6546562
+Pre-trained Model Sample Per Class 250,15,49.08,1.579944795370102,47.12,1.6792172
+Pre-trained Model Sample Per Class 250,16,51.96,1.5295602262020112,49.43,1.6091063
+Pre-trained Model Sample Per Class 250,17,53.52,1.5072417497634887,49.95,1.5965207
+Pre-trained Model Sample Per Class 250,18,54.28,1.5037622630596161,49.68,1.5983818
+Pre-trained Model Sample Per Class 250,19,53.28,1.4952252686023713,49.6,1.5946951
+Pre-trained Model Sample Per Class 250,20,53.68,1.4924076795578003,49.79,1.5919443
+Pre-trained Model Sample Per Class 250,21,56.84,1.4640117406845092,50.61,1.5822629
+Pre-trained Model Sample Per Class 250,22,55.08,1.460540372133255,50.1,1.5903354
+Pre-trained Model Sample Per Class 250,23,55.28,1.4491252303123474,50.23,1.5873672
+Pre-trained Model Sample Per Class 250,24,54.84,1.4771282076835632,50.52,1.5785997
+Pre-trained Model Sample Per Class 250,25,54.2,1.455647474527359,50.54,1.5750765
+Pre-trained Model Sample Per Class 250,26,54.36,1.4593621969223023,50.43,1.581367
+Pre-trained Model Sample Per Class 250,27,55.4,1.4587408304214478,50.44,1.5809942
+Pre-trained Model Sample Per Class 250,28,54.32,1.464556211233139,50.7,1.5750823
+Pre-trained Model Sample Per Class 250,29,55.52,1.4517980575561524,50.56,1.57577
+Pre-trained Model Sample Per Class 250,30,56.76,1.435198140144348,50.61,1.5762055
+Pre-trained Model Sample Per Class 250,31,57.0,1.431249076128006,50.98,1.575623
+Pre-trained Model Sample Per Class 250,32,56.8,1.441810244321823,50.88,1.5724896
+Pre-trained Model Sample Per Class 250,33,55.52,1.4482474148273468,50.81,1.5723629
+Pre-trained Model Sample Per Class 250,34,55.32,1.4353241324424744,50.88,1.5760843
+Pre-trained Model Sample Per Class 250,35,55.28,1.436872088909149,50.88,1.5738925
+Pre-trained Model Sample Per Class 250,36,55.92,1.432024109363556,50.71,1.5750822
+Pre-trained Model Sample Per Class 250,37,56.4,1.4300790548324585,50.66,1.5751721
+Pre-trained Model Sample Per Class 250,38,55.0,1.4415647625923156,50.77,1.5742255
+Pre-trained Model Sample Per Class 250,39,57.88,1.4146133244037629,50.62,1.5739855
+Pre-trained Model Sample Per Class 250,40,57.24,1.4262337327003478,50.82,1.5768347
+Pre-trained Model Sample Per Class 250,41,55.96,1.428098165988922,50.94,1.5752211
+Pre-trained Model Sample Per Class 250,42,55.48,1.440785104036331,50.8,1.5786718
+Pre-trained Model Sample Per Class 250,43,56.28,1.442102462053299,50.92,1.5719254
+Pre-trained Model Sample Per Class 250,44,56.12,1.4302890241146087,50.85,1.569083
+Pre-trained Model Sample Per Class 250,45,56.32,1.4485182166099548,50.79,1.5750694
+Pre-trained Model Sample Per Class 250,46,56.12,1.4342780590057373,50.76,1.5781217
+Pre-trained Model Sample Per Class 250,47,56.88,1.442554587125778,50.81,1.5734394
+Pre-trained Model Sample Per Class 250,48,57.96,1.4196747243404388,50.69,1.5742121
+Pre-trained Model Sample Per Class 250,49,56.48,1.4396570801734925,50.83,1.5747752
+Pre-trained Model Sample Per Class 250,50,56.56,1.4211279988288879,50.64,1.5733378
+Pre-trained Model Sample Per Class 250,51,57.0,1.426589208841324,50.97,1.5729765
+Pre-trained Model Sample Per Class 250,52,56.24,1.4256456434726714,50.67,1.5744162
+Pre-trained Model Sample Per Class 250,53,57.36,1.4264337956905364,50.9,1.5712371
+Pre-trained Model Sample Per Class 250,54,57.0,1.4249192893505096,50.76,1.5762295
+Pre-trained Model Sample Per Class 250,55,54.04,1.4516804039478302,50.65,1.5722531
+Pre-trained Model Sample Per Class 250,56,55.88,1.4351898670196532,50.91,1.5709212
+Pre-trained Model Sample Per Class 250,57,56.32,1.428865098953247,50.68,1.5772171
+Pre-trained Model Sample Per Class 250,58,57.36,1.4271729052066804,50.87,1.5705386
+Pre-trained Model Sample Per Class 250,59,57.08,1.4152285933494568,50.67,1.574635
+Pre-trained Model Sample Per Class 250,60,55.0,1.4556209206581117,50.78,1.5732979
+Pre-trained Model Sample Per Class 250,61,57.2,1.4277178049087524,51.04,1.5726364
+Pre-trained Model Sample Per Class 250,62,55.48,1.4348829329013824,50.78,1.5752146
+Pre-trained Model Sample Per Class 250,63,55.72,1.4431452989578246,50.78,1.5740966
+Pre-trained Model Sample Per Class 250,64,55.64,1.4303464233875274,50.76,1.5711571
+Pre-trained Model Sample Per Class 250,65,56.24,1.432247281074524,50.68,1.5754477
+Pre-trained Model Sample Per Class 250,66,55.96,1.427851629257202,50.77,1.5713291
+Pre-trained Model Sample Per Class 250,67,56.16,1.4354667782783508,50.78,1.5746052
+Pre-trained Model Sample Per Class 250,68,57.28,1.429120773077011,50.72,1.5749315
+Pre-trained Model Sample Per Class 250,69,56.08,1.4231893301010132,50.76,1.5731211
+Pre-trained Model Sample Per Class 250,70,57.68,1.4255657374858857,50.97,1.5710019
+Pre-trained Model Sample Per Class 250,71,55.16,1.4468262434005736,50.75,1.5718944
+Pre-trained Model Sample Per Class 250,72,56.44,1.4357614517211914,50.83,1.5713224
+Pre-trained Model Sample Per Class 250,73,56.4,1.4386228978633882,50.6,1.5748446
+Pre-trained Model Sample Per Class 250,74,57.2,1.422934341430664,50.93,1.5743295
+Pre-trained Model Sample Per Class 250,75,56.28,1.4517433047294617,50.79,1.5727779
+Pre-trained Model Sample Per Class 250,76,56.4,1.4295614361763,50.81,1.5736963
+Pre-trained Model Sample Per Class 250,77,57.52,1.419766116142273,50.72,1.5712063
+Pre-trained Model Sample Per Class 250,78,56.44,1.4332807540893555,50.93,1.5734136
+Pre-trained Model Sample Per Class 250,79,56.36,1.4369574725627898,50.66,1.5750206
+Pre-trained Model Sample Per Class 250,80,57.84,1.4310726344585418,50.62,1.5760915
+Random Init Model Sample Per Class 250,1,16.4,2.9869820833206178,10.03,529.0407
+Random Init Model Sample Per Class 250,2,19.84,2.2804403781890867,18.45,6.143658
+Random Init Model Sample Per Class 250,3,24.88,2.1674041867256166,24.77,2.0481613
+Random Init Model Sample Per Class 250,4,28.52,2.0336962938308716,31.23,1.9790369
+Random Init Model Sample Per Class 250,5,31.24,1.9929556488990783,33.49,1.8810357
+Random Init Model Sample Per Class 250,6,34.56,1.96909157037735,28.95,2.021713
+Random Init Model Sample Per Class 250,7,32.64,1.9935064136981964,32.66,1.9491432
+Random Init Model Sample Per Class 250,8,35.68,1.9911541938781738,34.42,1.9101923
+Random Init Model Sample Per Class 250,9,34.68,1.928269350528717,31.37,4.342194
+Random Init Model Sample Per Class 250,10,34.48,1.8793192863464356,35.36,1.8648008
+Random Init Model Sample Per Class 250,11,37.76,1.8428036987781524,37.82,1.8912286
+Random Init Model Sample Per Class 250,12,39.88,1.7950834572315215,39.76,1.8960713
+Random Init Model Sample Per Class 250,13,41.4,1.7545093894004822,40.52,1.8203882
+Random Init Model Sample Per Class 250,14,40.76,1.753344291448593,40.08,1.7781984
+Random Init Model Sample Per Class 250,15,41.76,1.72378351688385,39.45,3.4146538
+Random Init Model Sample Per Class 250,16,47.24,1.6840064108371735,43.2,1.7233851
+Random Init Model Sample Per Class 250,17,48.8,1.5991361916065217,44.8,1.6899312
+Random Init Model Sample Per Class 250,18,49.56,1.5692322254180908,45.07,1.6762327
+Random Init Model Sample Per Class 250,19,50.36,1.5546863734722138,45.27,1.6938912
+Random Init Model Sample Per Class 250,20,50.76,1.543773889541626,45.75,1.675675
+Random Init Model Sample Per Class 250,21,50.44,1.5462914049625396,46.34,1.654045
+Random Init Model Sample Per Class 250,22,52.92,1.5257295429706574,45.73,1.6968786
+Random Init Model Sample Per Class 250,23,50.76,1.5420183718204499,45.96,1.6650804
+Random Init Model Sample Per Class 250,24,52.64,1.5116301715373992,46.56,1.6436292
+Random Init Model Sample Per Class 250,25,51.6,1.5352657854557037,47.36,1.639443
+Random Init Model Sample Per Class 250,26,53.92,1.4950907170772552,46.68,1.6660266
+Random Init Model Sample Per Class 250,27,54.12,1.4855715215206147,46.61,1.6667958
+Random Init Model Sample Per Class 250,28,52.72,1.4850278317928314,46.77,1.6582658
+Random Init Model Sample Per Class 250,29,55.56,1.4633627593517304,48.01,1.6520095
+Random Init Model Sample Per Class 250,30,55.44,1.4582685232162476,47.33,1.6456234
+Random Init Model Sample Per Class 250,31,56.88,1.4326644122600556,47.85,1.6360387
+Random Init Model Sample Per Class 250,32,56.28,1.435934591293335,48.26,1.6271474
+Random Init Model Sample Per Class 250,33,58.84,1.4109484493732452,48.16,1.6337763
+Random Init Model Sample Per Class 250,34,57.48,1.4159326016902924,48.04,1.6412672
+Random Init Model Sample Per Class 250,35,58.2,1.417056429386139,48.01,1.6434975
+Random Init Model Sample Per Class 250,36,57.24,1.4159872114658356,48.03,1.6395175
+Random Init Model Sample Per Class 250,37,56.88,1.4192535758018494,47.9,1.6395441
+Random Init Model Sample Per Class 250,38,57.28,1.433284854888916,48.11,1.639148
+Random Init Model Sample Per Class 250,39,58.48,1.414870935678482,48.36,1.6336781
+Random Init Model Sample Per Class 250,40,58.08,1.3974494576454162,48.12,1.6370467
+Random Init Model Sample Per Class 250,41,57.8,1.3987863183021545,48.15,1.6406069
+Random Init Model Sample Per Class 250,42,58.16,1.3954739689826965,48.73,1.639202
+Random Init Model Sample Per Class 250,43,58.72,1.396282720565796,48.08,1.6516923
+Random Init Model Sample Per Class 250,44,58.56,1.4021776497364045,48.04,1.6518668
+Random Init Model Sample Per Class 250,45,59.28,1.404553973674774,48.46,1.6371571
+Random Init Model Sample Per Class 250,46,58.32,1.394760525226593,47.91,1.6628044
+Random Init Model Sample Per Class 250,47,59.6,1.38887357711792,48.51,1.6338049
+Random Init Model Sample Per Class 250,48,59.28,1.3837045073509215,48.52,1.647503
+Random Init Model Sample Per Class 250,49,58.88,1.3921660006046295,48.17,1.6582444
+Random Init Model Sample Per Class 250,50,59.24,1.3976803779602052,48.35,1.6417186
+Random Init Model Sample Per Class 250,51,58.16,1.3865675389766694,48.52,1.6452808
+Random Init Model Sample Per Class 250,52,59.48,1.388238900899887,48.43,1.6502038
+Random Init Model Sample Per Class 250,53,59.64,1.3962982058525086,48.51,1.6403742
+Random Init Model Sample Per Class 250,54,58.72,1.3864736437797547,48.43,1.6447959
+Random Init Model Sample Per Class 250,55,59.6,1.3961400806903839,48.53,1.6348997
+Random Init Model Sample Per Class 250,56,59.24,1.4012475669384004,48.42,1.6445551
+Random Init Model Sample Per Class 250,57,59.08,1.379322749376297,48.42,1.6366787
+Random Init Model Sample Per Class 250,58,58.32,1.396433264017105,48.6,1.6418177
+Random Init Model Sample Per Class 250,59,59.56,1.3812309563159944,48.29,1.6382362
+Random Init Model Sample Per Class 250,60,59.92,1.3856304585933685,48.67,1.6415049
+Random Init Model Sample Per Class 250,61,59.8,1.3837078154087066,48.59,1.637789
+Random Init Model Sample Per Class 250,62,58.04,1.378502082824707,48.49,1.6480533
+Random Init Model Sample Per Class 250,63,59.76,1.3961306929588317,48.34,1.6512929
+Random Init Model Sample Per Class 250,64,58.48,1.3989323496818542,48.4,1.6504811
+Random Init Model Sample Per Class 250,65,58.72,1.3771066308021545,48.54,1.6386839
+Random Init Model Sample Per Class 250,66,58.2,1.3957531452178955,48.39,1.6424192
+Random Init Model Sample Per Class 250,67,58.04,1.3900945127010345,48.42,1.645461
+Random Init Model Sample Per Class 250,68,59.44,1.3951714396476746,48.53,1.6485038
+Random Init Model Sample Per Class 250,69,58.92,1.393284696340561,48.44,1.6413624
+Random Init Model Sample Per Class 250,70,58.64,1.3826615750789641,48.42,1.6518193
+Random Init Model Sample Per Class 250,71,58.44,1.3997645437717439,48.51,1.647352
+Random Init Model Sample Per Class 250,72,58.32,1.3962323427200318,48.7,1.6362207
+Random Init Model Sample Per Class 250,73,59.72,1.3754841148853303,48.52,1.6335952
+Random Init Model Sample Per Class 250,74,59.76,1.3785153329372406,48.69,1.6352882
+Random Init Model Sample Per Class 250,75,59.28,1.3824946403503418,48.65,1.6379305
+Random Init Model Sample Per Class 250,76,58.92,1.3935570538043975,48.43,1.6375104
+Random Init Model Sample Per Class 250,77,59.08,1.391724169254303,48.58,1.6326569
+Random Init Model Sample Per Class 250,78,59.36,1.3881668865680694,48.5,1.6457845
+Random Init Model Sample Per Class 250,79,59.72,1.393481969833374,48.52,1.6389426
+Random Init Model Sample Per Class 250,80,58.48,1.3862833082675934,48.39,1.634252
+Pre-trained Model Sample Per Class 400,1,22.2,2.102151308208704,28.48,2.0546753
+Pre-trained Model Sample Per Class 400,2,32.625,1.9086432792246342,35.91,1.8428869
+Pre-trained Model Sample Per Class 400,3,38.6,1.8096160255372524,39.9,1.7941803
+Pre-trained Model Sample Per Class 400,4,40.8,1.7531775310635567,39.91,1.8126645
+Pre-trained Model Sample Per Class 400,5,44.375,1.6963501051068306,43.8,1.7109829
+Pre-trained Model Sample Per Class 400,6,43.625,1.682807832956314,42.11,1.773438
+Pre-trained Model Sample Per Class 400,7,45.625,1.6545072570443153,44.23,1.7013475
+Pre-trained Model Sample Per Class 400,8,47.325,1.6333109140396118,47.42,1.6467791
+Pre-trained Model Sample Per Class 400,9,47.825,1.6166122555732727,46.98,1.6520652
+Pre-trained Model Sample Per Class 400,10,47.925,1.6002968810498714,47.86,1.6205122
+Pre-trained Model Sample Per Class 400,11,49.475,1.588037509471178,48.37,1.6137408
+Pre-trained Model Sample Per Class 400,12,50.025,1.5706681534647942,47.15,1.6400269
+Pre-trained Model Sample Per Class 400,13,51.2,1.5769731290638447,46.63,1.674155
+Pre-trained Model Sample Per Class 400,14,50.0,1.5667376890778542,48.34,1.6225122
+Pre-trained Model Sample Per Class 400,15,52.1,1.5241329111158848,47.72,1.6429249
+Pre-trained Model Sample Per Class 400,16,51.45,1.5262909308075905,51.15,1.559946
+Pre-trained Model Sample Per Class 400,17,52.975,1.5024768188595772,51.88,1.5488808
+Pre-trained Model Sample Per Class 400,18,53.875,1.4917769730091095,51.87,1.5437671
+Pre-trained Model Sample Per Class 400,19,53.575,1.4852060973644257,52.0,1.5457797
+Pre-trained Model Sample Per Class 400,20,53.9,1.4899283200502396,52.18,1.5378962
+Pre-trained Model Sample Per Class 400,21,54.9,1.4792958423495293,51.83,1.5387988
+Pre-trained Model Sample Per Class 400,22,54.725,1.4738705530762672,52.4,1.5323255
+Pre-trained Model Sample Per Class 400,23,55.55,1.455641221255064,52.35,1.5375305
+Pre-trained Model Sample Per Class 400,24,55.275,1.4501244649291039,52.72,1.5360733
+Pre-trained Model Sample Per Class 400,25,55.6,1.4599632807075977,52.7,1.5354303
+Pre-trained Model Sample Per Class 400,26,56.25,1.4474159814417362,52.72,1.5362684
+Pre-trained Model Sample Per Class 400,27,55.275,1.451385673135519,52.75,1.5368793
+Pre-trained Model Sample Per Class 400,28,56.375,1.4465107582509518,52.91,1.5330881
+Pre-trained Model Sample Per Class 400,29,54.975,1.4339901246130466,52.75,1.5276717
+Pre-trained Model Sample Per Class 400,30,55.6,1.449958872050047,53.0,1.524834
+Pre-trained Model Sample Per Class 400,31,55.55,1.4315601140260696,52.86,1.5285867
+Pre-trained Model Sample Per Class 400,32,56.275,1.4288135319948196,53.03,1.5240852
+Pre-trained Model Sample Per Class 400,33,55.275,1.4491061121225357,53.17,1.5271344
+Pre-trained Model Sample Per Class 400,34,55.55,1.456332691013813,53.07,1.5273416
+Pre-trained Model Sample Per Class 400,35,56.575,1.4424777999520302,52.87,1.528116
+Pre-trained Model Sample Per Class 400,36,56.6,1.433402732014656,52.81,1.5300132
+Pre-trained Model Sample Per Class 400,37,55.775,1.4585054814815521,53.22,1.5250143
+Pre-trained Model Sample Per Class 400,38,56.275,1.4438991881906986,53.34,1.5239437
+Pre-trained Model Sample Per Class 400,39,56.4,1.4421584196388721,53.2,1.5267931
+Pre-trained Model Sample Per Class 400,40,55.85,1.452304881066084,53.11,1.5219358
+Pre-trained Model Sample Per Class 400,41,56.1,1.4299052022397518,53.34,1.5227051
+Pre-trained Model Sample Per Class 400,42,55.8,1.4402100145816803,53.18,1.525468
+Pre-trained Model Sample Per Class 400,43,56.975,1.41938566416502,53.13,1.5253048
+Pre-trained Model Sample Per Class 400,44,56.675,1.4308914057910442,53.16,1.5207123
+Pre-trained Model Sample Per Class 400,45,55.95,1.4463485144078732,53.15,1.5280057
+Pre-trained Model Sample Per Class 400,46,56.25,1.4354786314070225,53.15,1.5229635
+Pre-trained Model Sample Per Class 400,47,55.95,1.444161344319582,53.31,1.5237849
+Pre-trained Model Sample Per Class 400,48,56.825,1.4312143065035343,53.03,1.5293239
+Pre-trained Model Sample Per Class 400,49,56.15,1.4441845193505287,53.11,1.526808
+Pre-trained Model Sample Per Class 400,50,56.875,1.4153469689190388,53.22,1.5251135
+Pre-trained Model Sample Per Class 400,51,56.025,1.4393030740320683,53.09,1.5290197
+Pre-trained Model Sample Per Class 400,52,56.55,1.426858376711607,53.02,1.5244331
+Pre-trained Model Sample Per Class 400,53,56.125,1.4301105216145515,53.03,1.5254606
+Pre-trained Model Sample Per Class 400,54,57.125,1.4190952517092228,53.26,1.5250757
+Pre-trained Model Sample Per Class 400,55,56.85,1.4236246384680271,53.17,1.526267
+Pre-trained Model Sample Per Class 400,56,56.1,1.4399987012147903,52.94,1.5289099
+Pre-trained Model Sample Per Class 400,57,56.375,1.4402667246758938,53.05,1.5267216
+Pre-trained Model Sample Per Class 400,58,55.825,1.4391468241810799,53.02,1.5240157
+Pre-trained Model Sample Per Class 400,59,56.475,1.4215939417481422,53.09,1.524893
+Pre-trained Model Sample Per Class 400,60,55.575,1.440490983426571,53.0,1.5286007
+Pre-trained Model Sample Per Class 400,61,55.625,1.4478337615728378,53.23,1.5215386
+Pre-trained Model Sample Per Class 400,62,56.075,1.45170421525836,53.12,1.5232366
+Pre-trained Model Sample Per Class 400,63,56.075,1.4410884827375412,53.2,1.5236458
+Pre-trained Model Sample Per Class 400,64,56.125,1.4328383952379227,53.21,1.5274473
+Pre-trained Model Sample Per Class 400,65,56.4,1.4384942725300789,53.04,1.525352
+Pre-trained Model Sample Per Class 400,66,56.725,1.4274893663823605,53.0,1.5316986
+Pre-trained Model Sample Per Class 400,67,57.0,1.4174306727945805,53.23,1.5233487
+Pre-trained Model Sample Per Class 400,68,56.95,1.4314211197197437,53.09,1.5299783
+Pre-trained Model Sample Per Class 400,69,56.025,1.4355344474315643,53.38,1.5218298
+Pre-trained Model Sample Per Class 400,70,56.95,1.4383672997355461,53.14,1.5239933
+Pre-trained Model Sample Per Class 400,71,56.45,1.4314993657171726,53.18,1.5245467
+Pre-trained Model Sample Per Class 400,72,57.275,1.4393573440611362,52.85,1.5240986
+Pre-trained Model Sample Per Class 400,73,56.95,1.4395765103399754,53.33,1.5219505
+Pre-trained Model Sample Per Class 400,74,57.0,1.434828706085682,53.37,1.5198373
+Pre-trained Model Sample Per Class 400,75,54.975,1.4380708821117878,53.12,1.5281731
+Pre-trained Model Sample Per Class 400,76,56.8,1.4259538128972054,53.5,1.5199556
+Pre-trained Model Sample Per Class 400,77,56.2,1.4319024756550789,53.19,1.5220021
+Pre-trained Model Sample Per Class 400,78,57.2,1.4343761056661606,53.26,1.5218356
+Pre-trained Model Sample Per Class 400,79,56.325,1.4476792439818382,53.07,1.5225182
+Pre-trained Model Sample Per Class 400,80,57.025,1.4225527942180634,53.24,1.5207468
+Random Init Model Sample Per Class 400,1,18.275,2.6147654950618744,16.11,3.0590992
+Random Init Model Sample Per Class 400,2,27.825,2.0868690945208073,31.87,2.5580342
+Random Init Model Sample Per Class 400,3,30.45,2.029951725155115,28.19,4.494414
+Random Init Model Sample Per Class 400,4,30.625,1.9999722093343735,34.45,1.8910357
+Random Init Model Sample Per Class 400,5,33.85,2.001040752977133,23.0,2.6763537
+Random Init Model Sample Per Class 400,6,34.075,1.9826896525919437,33.61,5.3890114
+Random Init Model Sample Per Class 400,7,36.625,1.8704476952552795,38.32,1.8760891
+Random Init Model Sample Per Class 400,8,39.15,1.8219350166618824,41.5,1.7284518
+Random Init Model Sample Per Class 400,9,39.5,1.8274760879576206,36.58,4.0771804
+Random Init Model Sample Per Class 400,10,41.55,1.7410516180098057,38.32,1.8261725
+Random Init Model Sample Per Class 400,11,42.55,1.7182439267635345,41.42,1.8038573
+Random Init Model Sample Per Class 400,12,42.85,1.7151386737823486,41.64,1.7448188
+Random Init Model Sample Per Class 400,13,45.675,1.6625159941613674,43.12,1.7586031
+Random Init Model Sample Per Class 400,14,47.675,1.6324421875178814,47.21,1.679982
+Random Init Model Sample Per Class 400,15,48.75,1.5914175882935524,47.67,1.6373863
+Random Init Model Sample Per Class 400,16,51.45,1.530947495251894,51.28,1.5541631
+Random Init Model Sample Per Class 400,17,55.75,1.4609128758311272,52.57,1.518116
+Random Init Model Sample Per Class 400,18,55.85,1.4489047713577747,52.41,1.5307037
+Random Init Model Sample Per Class 400,19,55.9,1.4321144595742226,52.96,1.5119663
+Random Init Model Sample Per Class 400,20,58.275,1.4139997325837612,53.42,1.5407264
+Random Init Model Sample Per Class 400,21,57.825,1.4126513227820396,53.49,1.5127956
+Random Init Model Sample Per Class 400,22,59.275,1.3939377181231976,54.5,1.4964333
+Random Init Model Sample Per Class 400,23,59.15,1.3840984366834164,53.98,1.5028355
+Random Init Model Sample Per Class 400,24,59.675,1.3549647144973278,54.6,1.5014718
+Random Init Model Sample Per Class 400,25,61.075,1.3594800420105457,54.73,1.494808
+Random Init Model Sample Per Class 400,26,61.025,1.348954901099205,54.61,1.5046222
+Random Init Model Sample Per Class 400,27,60.85,1.3469408266246319,55.61,1.4851906
+Random Init Model Sample Per Class 400,28,61.9,1.3370910808444023,55.22,1.4787748
+Random Init Model Sample Per Class 400,29,61.45,1.3117915950715542,56.4,1.4690325
+Random Init Model Sample Per Class 400,30,63.6,1.293888546526432,56.46,1.4737794
+Random Init Model Sample Per Class 400,31,65.35,1.2682611905038357,56.64,1.4722745
+Random Init Model Sample Per Class 400,32,65.525,1.2464922927320004,56.57,1.4711589
+Random Init Model Sample Per Class 400,33,66.2,1.2463136799633503,56.55,1.4758276
+Random Init Model Sample Per Class 400,34,66.45,1.2571348771452904,57.17,1.4708171
+Random Init Model Sample Per Class 400,35,66.225,1.244933396577835,57.07,1.4586115
+Random Init Model Sample Per Class 400,36,66.65,1.2290952689945698,56.83,1.4658705
+Random Init Model Sample Per Class 400,37,66.15,1.2443694062530994,56.81,1.4645457
+Random Init Model Sample Per Class 400,38,66.5,1.2421796582639217,56.91,1.4671041
+Random Init Model Sample Per Class 400,39,66.725,1.223024919629097,56.73,1.4687852
+Random Init Model Sample Per Class 400,40,67.525,1.2249962463974953,56.92,1.4725678
+Random Init Model Sample Per Class 400,41,67.25,1.2197032906115055,57.19,1.4699799
+Random Init Model Sample Per Class 400,42,66.925,1.2163617946207523,57.59,1.4579839
+Random Init Model Sample Per Class 400,43,66.55,1.2240548729896545,57.03,1.4735092
+Random Init Model Sample Per Class 400,44,67.025,1.2253710366785526,57.28,1.4740798
+Random Init Model Sample Per Class 400,45,66.825,1.2186210677027702,57.42,1.4594765
+Random Init Model Sample Per Class 400,46,68.0,1.203945904970169,57.28,1.4679424
+Random Init Model Sample Per Class 400,47,67.9,1.2128422893583775,57.18,1.4632092
+Random Init Model Sample Per Class 400,48,67.825,1.2096262127161026,57.33,1.468319
+Random Init Model Sample Per Class 400,49,67.725,1.2122564390301704,57.51,1.4652047
+Random Init Model Sample Per Class 400,50,67.225,1.2123248279094696,57.51,1.4632642
+Random Init Model Sample Per Class 400,51,67.9,1.2175895161926746,57.23,1.4754342
+Random Init Model Sample Per Class 400,52,67.375,1.2073024846613407,57.12,1.4727678
+Random Init Model Sample Per Class 400,53,68.175,1.212887056171894,57.29,1.4714655
+Random Init Model Sample Per Class 400,54,68.375,1.2067678458988667,57.48,1.4686911
+Random Init Model Sample Per Class 400,55,68.2,1.205581933259964,57.37,1.4631275
+Random Init Model Sample Per Class 400,56,67.65,1.201565720140934,57.51,1.4709649
+Random Init Model Sample Per Class 400,57,68.175,1.2047377936542034,57.52,1.4642091
+Random Init Model Sample Per Class 400,58,68.8,1.2065532729029655,57.41,1.4646728
+Random Init Model Sample Per Class 400,59,67.925,1.210218831896782,57.54,1.4662936
+Random Init Model Sample Per Class 400,60,68.7,1.2005884610116482,57.58,1.466198
+Random Init Model Sample Per Class 400,61,67.325,1.2117509320378304,57.31,1.463059
+Random Init Model Sample Per Class 400,62,67.625,1.198857817798853,57.34,1.4732556
+Random Init Model Sample Per Class 400,63,67.475,1.2126650512218475,57.32,1.4646318
+Random Init Model Sample Per Class 400,64,68.325,1.2060761637985706,57.53,1.4629639
+Random Init Model Sample Per Class 400,65,67.825,1.1971927657723427,57.44,1.4667891
+Random Init Model Sample Per Class 400,66,68.55,1.2067575938999653,57.49,1.4616709
+Random Init Model Sample Per Class 400,67,68.025,1.1987689584493637,57.17,1.4670014
+Random Init Model Sample Per Class 400,68,67.95,1.2038506679236889,57.21,1.4706978
+Random Init Model Sample Per Class 400,69,68.5,1.1985284462571144,57.15,1.4670918
+Random Init Model Sample Per Class 400,70,66.95,1.2255417220294476,57.61,1.4635626
+Random Init Model Sample Per Class 400,71,67.6,1.207314245402813,57.4,1.4698031
+Random Init Model Sample Per Class 400,72,67.925,1.2094782032072544,57.56,1.4613767
+Random Init Model Sample Per Class 400,73,67.7,1.1935185380280018,57.47,1.4672372
+Random Init Model Sample Per Class 400,74,68.15,1.2099356688559055,57.08,1.4729502
+Random Init Model Sample Per Class 400,75,67.8,1.207356944680214,57.41,1.4714513
+Random Init Model Sample Per Class 400,76,67.625,1.2093553580343723,57.14,1.4750746
+Random Init Model Sample Per Class 400,77,68.825,1.1880291551351547,57.5,1.4636807
+Random Init Model Sample Per Class 400,78,67.5,1.2054075971245766,57.3,1.4634002
+Random Init Model Sample Per Class 400,79,68.425,1.201079361140728,57.53,1.4656016
+Random Init Model Sample Per Class 400,80,67.55,1.206520214676857,57.47,1.4719691
+Pre-trained Model Sample Per Class 700,1,27.2,2.0194053064693103,33.73,1.8931118
+Pre-trained Model Sample Per Class 700,2,37.32857142857143,1.8252674297852949,39.63,1.7719465
+Pre-trained Model Sample Per Class 700,3,42.25714285714286,1.726174155148593,43.01,1.7365755
+Pre-trained Model Sample Per Class 700,4,44.357142857142854,1.6802782773971559,44.51,1.6823355
+Pre-trained Model Sample Per Class 700,5,46.44285714285714,1.6351018688895487,47.22,1.6326523
+Pre-trained Model Sample Per Class 700,6,47.5,1.610642537203702,48.63,1.6044344
+Pre-trained Model Sample Per Class 700,7,48.58571428571429,1.6055372606624256,48.84,1.5993255
+Pre-trained Model Sample Per Class 700,8,48.65714285714286,1.5904223377054387,50.11,1.5722512
+Pre-trained Model Sample Per Class 700,9,50.41428571428571,1.5681239063089545,49.22,1.5979536
+Pre-trained Model Sample Per Class 700,10,50.17142857142857,1.5623080795461481,51.27,1.5500947
+Pre-trained Model Sample Per Class 700,11,50.98571428571429,1.5547260652888906,50.84,1.5719179
+Pre-trained Model Sample Per Class 700,12,52.357142857142854,1.5404670238494873,50.83,1.5642333
+Pre-trained Model Sample Per Class 700,13,51.5,1.542815433848988,50.81,1.5663443
+Pre-trained Model Sample Per Class 700,14,52.67142857142857,1.5254686572334983,51.85,1.5478185
+Pre-trained Model Sample Per Class 700,15,52.15714285714286,1.531752254746177,50.99,1.555206
+Pre-trained Model Sample Per Class 700,16,53.72857142857143,1.4879084782166914,54.08,1.4992299
+Pre-trained Model Sample Per Class 700,17,54.957142857142856,1.4685991699045355,54.2,1.4941046
+Pre-trained Model Sample Per Class 700,18,55.2,1.4552891687913374,54.67,1.4916825
+Pre-trained Model Sample Per Class 700,19,55.77142857142857,1.4525089957497337,54.67,1.4832599
+Pre-trained Model Sample Per Class 700,20,55.17142857142857,1.4573398048227484,55.01,1.486345
+Pre-trained Model Sample Per Class 700,21,55.32857142857143,1.4574722051620483,55.0,1.4809906
+Pre-trained Model Sample Per Class 700,22,55.628571428571426,1.448280109058727,54.58,1.4813197
+Pre-trained Model Sample Per Class 700,23,56.4,1.4316622083837336,54.52,1.4870172
+Pre-trained Model Sample Per Class 700,24,56.628571428571426,1.4445333805951206,55.06,1.480077
+Pre-trained Model Sample Per Class 700,25,55.94285714285714,1.4382637132297862,54.78,1.4789332
+Pre-trained Model Sample Per Class 700,26,56.42857142857143,1.440105466409163,55.22,1.4744643
+Pre-trained Model Sample Per Class 700,27,56.385714285714286,1.43694345517592,55.05,1.4751447
+Pre-trained Model Sample Per Class 700,28,55.81428571428572,1.43056679205461,54.96,1.4820093
+Pre-trained Model Sample Per Class 700,29,57.2,1.4263170849193225,55.2,1.4800488
+Pre-trained Model Sample Per Class 700,30,56.5,1.429701560193842,55.18,1.4743123
+Pre-trained Model Sample Per Class 700,31,57.08571428571429,1.4200344172391024,55.25,1.4695708
+Pre-trained Model Sample Per Class 700,32,57.55714285714286,1.4147038112987171,55.17,1.4723325
+Pre-trained Model Sample Per Class 700,33,57.41428571428571,1.414408261125738,55.17,1.4735811
+Pre-trained Model Sample Per Class 700,34,57.05714285714286,1.4194551619616422,55.33,1.4709963
+Pre-trained Model Sample Per Class 700,35,56.628571428571426,1.4217972321943804,55.37,1.4730817
+Pre-trained Model Sample Per Class 700,36,56.7,1.4188549648631703,55.55,1.4725227
+Pre-trained Model Sample Per Class 700,37,56.885714285714286,1.4118801962245595,55.47,1.4688189
+Pre-trained Model Sample Per Class 700,38,57.17142857142857,1.4192634279077703,55.0,1.4719698
+Pre-trained Model Sample Per Class 700,39,56.857142857142854,1.4221011877059937,55.33,1.4704913
+Pre-trained Model Sample Per Class 700,40,57.32857142857143,1.4222163482145829,55.41,1.4685751
+Pre-trained Model Sample Per Class 700,41,57.02857142857143,1.4159484733234753,55.32,1.4720387
+Pre-trained Model Sample Per Class 700,42,57.8,1.410884404182434,55.05,1.4780121
+Pre-trained Model Sample Per Class 700,43,56.97142857142857,1.4194054170088335,55.4,1.4705824
+Pre-trained Model Sample Per Class 700,44,57.114285714285714,1.4263104937293314,55.61,1.469148
+Pre-trained Model Sample Per Class 700,45,57.614285714285714,1.415540424260226,55.33,1.4710662
+Pre-trained Model Sample Per Class 700,46,57.542857142857144,1.4216201045296408,55.28,1.4726384
+Pre-trained Model Sample Per Class 700,47,57.542857142857144,1.4165388930927623,55.14,1.471855
+Pre-trained Model Sample Per Class 700,48,57.957142857142856,1.4023683764717796,55.5,1.4712341
+Pre-trained Model Sample Per Class 700,49,56.9,1.416914835843173,55.32,1.471038
+Pre-trained Model Sample Per Class 700,50,57.77142857142857,1.4191137097098612,55.24,1.4697319
+Pre-trained Model Sample Per Class 700,51,56.0,1.4240140394731002,55.41,1.470363
+Pre-trained Model Sample Per Class 700,52,57.47142857142857,1.4127840453928167,55.35,1.4733759
+Pre-trained Model Sample Per Class 700,53,57.75714285714286,1.4162919196215542,55.28,1.4705337
+Pre-trained Model Sample Per Class 700,54,57.77142857142857,1.4121841018850154,55.38,1.4694419
+Pre-trained Model Sample Per Class 700,55,57.6,1.412290527603843,55.35,1.4707658
+Pre-trained Model Sample Per Class 700,56,57.3,1.4144071622328325,55.49,1.4720383
+Pre-trained Model Sample Per Class 700,57,57.7,1.4060254205356946,55.26,1.4721588
+Pre-trained Model Sample Per Class 700,58,57.72857142857143,1.413375787301497,55.55,1.4689051
+Pre-trained Model Sample Per Class 700,59,58.27142857142857,1.4059645999561656,55.5,1.4680012
+Pre-trained Model Sample Per Class 700,60,58.07142857142857,1.4016199068589643,55.34,1.472766
+Pre-trained Model Sample Per Class 700,61,57.628571428571426,1.416564696485346,55.43,1.4691577
+Pre-trained Model Sample Per Class 700,62,57.542857142857144,1.4098629821430553,55.29,1.4700525
+Pre-trained Model Sample Per Class 700,63,57.7,1.4109990033236417,55.28,1.4704939
+Pre-trained Model Sample Per Class 700,64,57.47142857142857,1.416263549978083,55.39,1.469004
+Pre-trained Model Sample Per Class 700,65,57.285714285714285,1.419392600926486,55.44,1.4691812
+Pre-trained Model Sample Per Class 700,66,57.4,1.414656004038724,55.39,1.4707317
+Pre-trained Model Sample Per Class 700,67,57.15714285714286,1.4192734956741333,55.17,1.4712627
+Pre-trained Model Sample Per Class 700,68,56.871428571428574,1.4198272835124623,55.33,1.4706451
+Pre-trained Model Sample Per Class 700,69,57.81428571428572,1.4147597377950496,55.42,1.468545
+Pre-trained Model Sample Per Class 700,70,57.9,1.4075059565630825,55.29,1.4726012
+Pre-trained Model Sample Per Class 700,71,56.91428571428571,1.4188070622357456,55.19,1.475075
+Pre-trained Model Sample Per Class 700,72,57.785714285714285,1.415826433355158,55.43,1.4708848
+Pre-trained Model Sample Per Class 700,73,57.857142857142854,1.410012802210721,55.34,1.4700398
+Pre-trained Model Sample Per Class 700,74,57.58571428571429,1.4147686113010753,55.43,1.4718403
+Pre-trained Model Sample Per Class 700,75,57.871428571428574,1.4048799341375178,55.34,1.4700028
+Pre-trained Model Sample Per Class 700,76,56.72857142857143,1.424200801415877,55.44,1.4694952
+Pre-trained Model Sample Per Class 700,77,57.871428571428574,1.4062275431372904,55.34,1.4691309
+Pre-trained Model Sample Per Class 700,78,56.97142857142857,1.4269724824211814,55.27,1.4703969
+Pre-trained Model Sample Per Class 700,79,57.31428571428572,1.4146149852059104,55.52,1.4670113
+Pre-trained Model Sample Per Class 700,80,57.785714285714285,1.4060689275914973,55.49,1.4718425
+Random Init Model Sample Per Class 700,1,18.185714285714287,2.5062024333260275,25.86,2.341975
+Random Init Model Sample Per Class 700,2,26.857142857142858,2.0787714221260765,30.27,1.9883802
+Random Init Model Sample Per Class 700,3,31.2,1.9940586306832053,33.61,2.8078783
+Random Init Model Sample Per Class 700,4,34.2,1.9499180707064543,31.22,3.2010038
+Random Init Model Sample Per Class 700,5,37.285714285714285,1.8410032857548106,39.2,1.8290957
+Random Init Model Sample Per Class 700,6,39.871428571428574,1.7978349360552701,41.97,1.7882199
+Random Init Model Sample Per Class 700,7,41.385714285714286,1.7669833768497814,38.81,1.7948213
+Random Init Model Sample Per Class 700,8,42.05714285714286,1.71822500445626,43.95,1.6683589
+Random Init Model Sample Per Class 700,9,44.77142857142857,1.6693587346510455,44.02,1.7057172
+Random Init Model Sample Per Class 700,10,47.41428571428571,1.6193689541383223,45.32,1.7024649
+Random Init Model Sample Per Class 700,11,48.9,1.5992088252847845,49.64,1.597051
+Random Init Model Sample Per Class 700,12,49.48571428571429,1.5685598265041005,51.04,1.5545466
+Random Init Model Sample Per Class 700,13,52.8,1.5270506273616444,51.68,1.5465709
+Random Init Model Sample Per Class 700,14,53.72857142857143,1.4962546218525279,51.37,1.5577363
+Random Init Model Sample Per Class 700,15,55.5,1.459743746844205,54.87,1.5616506
+Random Init Model Sample Per Class 700,16,60.65714285714286,1.3589203877882523,59.79,1.3796324
+Random Init Model Sample Per Class 700,17,62.68571428571428,1.3031015179374001,60.58,1.3695045
+Random Init Model Sample Per Class 700,18,64.3,1.2852109627290205,61.69,1.3499078
+Random Init Model Sample Per Class 700,19,64.94285714285714,1.2683198777112095,61.9,1.348061
+Random Init Model Sample Per Class 700,20,65.47142857142858,1.2513631994074041,62.49,1.3407954
+Random Init Model Sample Per Class 700,21,66.2,1.2343638225035234,62.34,1.3354832
+Random Init Model Sample Per Class 700,22,67.35714285714286,1.2253932909532026,62.7,1.336245
+Random Init Model Sample Per Class 700,23,66.94285714285714,1.2110246419906616,63.51,1.3220757
+Random Init Model Sample Per Class 700,24,68.38571428571429,1.1998370192267678,63.82,1.3109573
+Random Init Model Sample Per Class 700,25,68.22857142857143,1.1903290629386902,64.08,1.3040302
+Random Init Model Sample Per Class 700,26,69.47142857142858,1.1691181269558992,63.82,1.3194519
+Random Init Model Sample Per Class 700,27,70.57142857142857,1.1568075375123457,63.69,1.3211433
+Random Init Model Sample Per Class 700,28,70.34285714285714,1.1486721775748514,64.17,1.3129385
+Random Init Model Sample Per Class 700,29,70.57142857142857,1.1494262088428844,64.86,1.2936637
+Random Init Model Sample Per Class 700,30,71.27142857142857,1.13019605549899,64.95,1.2931691
+Random Init Model Sample Per Class 700,31,73.22857142857143,1.0937327460809187,65.69,1.2733879
+Random Init Model Sample Per Class 700,32,73.57142857142857,1.0895834825255655,66.01,1.2748786
+Random Init Model Sample Per Class 700,33,74.15714285714286,1.081784312291579,66.13,1.2766895
+Random Init Model Sample Per Class 700,34,74.52857142857142,1.0685100913047791,66.31,1.2816052
+Random Init Model Sample Per Class 700,35,74.31428571428572,1.0743856180797924,65.99,1.280184
+Random Init Model Sample Per Class 700,36,74.75714285714285,1.0611625649712302,66.18,1.278524
+Random Init Model Sample Per Class 700,37,74.84285714285714,1.0625764261592519,66.14,1.2776119
+Random Init Model Sample Per Class 700,38,75.31428571428572,1.0556129000403665,66.28,1.2778547
+Random Init Model Sample Per Class 700,39,75.05714285714286,1.0646498723463578,66.1,1.2813307
+Random Init Model Sample Per Class 700,40,75.34285714285714,1.0504848404364153,66.37,1.2783644
+Random Init Model Sample Per Class 700,41,75.77142857142857,1.0507920319383794,66.05,1.2782247
+Random Init Model Sample Per Class 700,42,75.6,1.0504326679489828,66.27,1.2769547
+Random Init Model Sample Per Class 700,43,75.87142857142857,1.044507092779333,66.11,1.2766596
+Random Init Model Sample Per Class 700,44,75.94285714285714,1.0415115453980186,66.24,1.2795101
+Random Init Model Sample Per Class 700,45,75.72857142857143,1.0448289795355363,66.16,1.2804421
+Random Init Model Sample Per Class 700,46,76.21428571428571,1.0337905352765864,66.36,1.2777648
+Random Init Model Sample Per Class 700,47,75.94285714285714,1.0436983867125078,66.33,1.2874775
+Random Init Model Sample Per Class 700,48,76.21428571428571,1.0386562130667947,66.35,1.2785032
+Random Init Model Sample Per Class 700,49,76.01428571428572,1.0342502117156982,66.43,1.279538
+Random Init Model Sample Per Class 700,50,76.28571428571429,1.0352131507613442,66.15,1.2814736
+Random Init Model Sample Per Class 700,51,75.82857142857142,1.0329979929057034,66.27,1.2779562
+Random Init Model Sample Per Class 700,52,76.57142857142857,1.0297074859792537,66.21,1.2816138
+Random Init Model Sample Per Class 700,53,76.0,1.0309527093713933,66.46,1.2801063
+Random Init Model Sample Per Class 700,54,76.64285714285714,1.0305475039915606,66.42,1.2769699
+Random Init Model Sample Per Class 700,55,75.82857142857142,1.0338620879433371,66.46,1.2758461
+Random Init Model Sample Per Class 700,56,75.61428571428571,1.0404763579368592,66.28,1.276706
+Random Init Model Sample Per Class 700,57,75.5,1.0467533740130337,66.45,1.2771266
+Random Init Model Sample Per Class 700,58,76.1,1.0395316308194942,66.48,1.2774099
+Random Init Model Sample Per Class 700,59,75.48571428571428,1.0357722184874796,66.36,1.2773894
+Random Init Model Sample Per Class 700,60,76.02857142857142,1.0357237653298812,66.31,1.2790656
+Random Init Model Sample Per Class 700,61,76.02857142857142,1.0297673550519075,66.38,1.2843177
+Random Init Model Sample Per Class 700,62,76.54285714285714,1.0323189301924272,66.43,1.2780851
+Random Init Model Sample Per Class 700,63,75.81428571428572,1.0402400612831115,66.45,1.2793186
+Random Init Model Sample Per Class 700,64,76.02857142857142,1.0376687732609835,66.39,1.2816855
+Random Init Model Sample Per Class 700,65,76.31428571428572,1.0321365128863942,66.44,1.2777346
+Random Init Model Sample Per Class 700,66,76.32857142857142,1.0331720265475186,66.34,1.2797154
+Random Init Model Sample Per Class 700,67,76.91428571428571,1.0293987588448958,66.48,1.2758447
+Random Init Model Sample Per Class 700,68,75.82857142857142,1.0417617201805114,66.48,1.28259
+Random Init Model Sample Per Class 700,69,76.07142857142857,1.0334487644108858,66.5,1.2849078
+Random Init Model Sample Per Class 700,70,76.44285714285714,1.024386844851754,66.27,1.2766286
+Random Init Model Sample Per Class 700,71,76.12857142857143,1.032287859916687,66.43,1.2751366
+Random Init Model Sample Per Class 700,72,76.05714285714286,1.0332491007718172,66.4,1.2796215
+Random Init Model Sample Per Class 700,73,76.35714285714286,1.027372407913208,66.29,1.2784793
+Random Init Model Sample Per Class 700,74,76.2,1.0356816064227712,66.33,1.2786876
+Random Init Model Sample Per Class 700,75,75.92857142857143,1.034248907999559,66.48,1.2759796
+Random Init Model Sample Per Class 700,76,76.4,1.035096869685433,66.59,1.2770025
+Random Init Model Sample Per Class 700,77,75.74285714285715,1.0428323539820585,66.35,1.2856313
+Random Init Model Sample Per Class 700,78,76.34285714285714,1.0267200578342786,66.53,1.2810888
+Random Init Model Sample Per Class 700,79,76.85714285714286,1.0282230799848384,66.2,1.2800467
+Random Init Model Sample Per Class 700,80,75.84285714285714,1.034781400723891,66.48,1.2760818
+Pre-trained Model Sample Per Class 1000,1,28.77,1.9863367774818517,37.9,1.8184246
+Pre-trained Model Sample Per Class 1000,2,38.78,1.7808932880812054,43.94,1.6973901
+Pre-trained Model Sample Per Class 1000,3,44.55,1.6826546433605725,44.57,1.6792892
+Pre-trained Model Sample Per Class 1000,4,46.47,1.646420825885821,48.24,1.6076721
+Pre-trained Model Sample Per Class 1000,5,47.61,1.6294970361492302,48.39,1.6097437
+Pre-trained Model Sample Per Class 1000,6,47.29,1.6252242009850997,50.1,1.5714263
+Pre-trained Model Sample Per Class 1000,7,49.08,1.596391360970992,50.04,1.5914028
+Pre-trained Model Sample Per Class 1000,8,49.18,1.583715082723883,48.09,1.6221743
+Pre-trained Model Sample Per Class 1000,9,50.51,1.5706539953811258,50.55,1.5680983
+Pre-trained Model Sample Per Class 1000,10,50.28,1.5582165853886665,52.26,1.5270065
+Pre-trained Model Sample Per Class 1000,11,50.81,1.5573685712452177,51.54,1.5589597
+Pre-trained Model Sample Per Class 1000,12,51.12,1.5558150071132033,51.38,1.5548658
+Pre-trained Model Sample Per Class 1000,13,51.76,1.5383309729491608,51.86,1.5284753
+Pre-trained Model Sample Per Class 1000,14,52.06,1.5397643982609617,53.03,1.5133471
+Pre-trained Model Sample Per Class 1000,15,51.96,1.5297730572615997,52.08,1.5416441
+Pre-trained Model Sample Per Class 1000,16,53.42,1.49864628797845,55.29,1.4732167
+Pre-trained Model Sample Per Class 1000,17,54.32,1.474584789215764,55.05,1.4692806
+Pre-trained Model Sample Per Class 1000,18,55.26,1.461360626582858,55.68,1.4654002
+Pre-trained Model Sample Per Class 1000,19,54.96,1.472549803649323,55.47,1.4596051
+Pre-trained Model Sample Per Class 1000,20,55.55,1.4600858899611462,55.65,1.4584857
+Pre-trained Model Sample Per Class 1000,21,55.16,1.462577228304706,55.63,1.4568784
+Pre-trained Model Sample Per Class 1000,22,55.08,1.462566912928714,55.72,1.4584247
+Pre-trained Model Sample Per Class 1000,23,56.16,1.4558042182198054,55.72,1.4581122
+Pre-trained Model Sample Per Class 1000,24,55.6,1.4504583032825324,55.74,1.4536785
+Pre-trained Model Sample Per Class 1000,25,56.42,1.4459150305277184,55.99,1.4548489
+Pre-trained Model Sample Per Class 1000,26,55.88,1.4472898501384108,55.77,1.4534175
+Pre-trained Model Sample Per Class 1000,27,56.43,1.436992114103293,55.54,1.4547505
+Pre-trained Model Sample Per Class 1000,28,55.94,1.449238338047945,55.71,1.4545599
+Pre-trained Model Sample Per Class 1000,29,56.15,1.439104701899275,56.18,1.4526404
+Pre-trained Model Sample Per Class 1000,30,56.82,1.4248619728450533,56.23,1.4493074
+Pre-trained Model Sample Per Class 1000,31,56.27,1.4330943113640895,56.42,1.4437422
+Pre-trained Model Sample Per Class 1000,32,56.29,1.4282366082638125,56.17,1.4480684
+Pre-trained Model Sample Per Class 1000,33,56.63,1.437794345843641,55.95,1.4588059
+Pre-trained Model Sample Per Class 1000,34,57.0,1.4292710778079456,56.14,1.4485933
+Pre-trained Model Sample Per Class 1000,35,55.79,1.4287541365321679,56.09,1.4483575
+Pre-trained Model Sample Per Class 1000,36,56.8,1.4246237851396393,56.09,1.44838
+Pre-trained Model Sample Per Class 1000,37,56.15,1.4348844335049014,55.96,1.4484352
+Pre-trained Model Sample Per Class 1000,38,56.73,1.431265929077245,56.12,1.4501681
+Pre-trained Model Sample Per Class 1000,39,57.53,1.4313983117477804,55.96,1.4522958
+Pre-trained Model Sample Per Class 1000,40,56.81,1.433190855798842,56.27,1.4497973
+Pre-trained Model Sample Per Class 1000,41,56.41,1.4256795871106884,56.19,1.4474924
+Pre-trained Model Sample Per Class 1000,42,56.55,1.4280785216560847,56.06,1.446727
+Pre-trained Model Sample Per Class 1000,43,56.53,1.4288438332231739,56.01,1.453183
+Pre-trained Model Sample Per Class 1000,44,56.91,1.4240511006946805,56.37,1.4461802
+Pre-trained Model Sample Per Class 1000,45,56.85,1.4283824449853053,56.19,1.4472283
+Pre-trained Model Sample Per Class 1000,46,56.68,1.4350966260403017,56.42,1.44084
+Pre-trained Model Sample Per Class 1000,47,57.85,1.41389816471293,56.49,1.4425846
+Pre-trained Model Sample Per Class 1000,48,57.07,1.4218311596520339,56.28,1.4441743
+Pre-trained Model Sample Per Class 1000,49,57.39,1.420074895967411,56.15,1.4481348
+Pre-trained Model Sample Per Class 1000,50,56.43,1.439103668249106,56.27,1.4464864
+Pre-trained Model Sample Per Class 1000,51,56.81,1.4314190632180324,56.19,1.4459885
+Pre-trained Model Sample Per Class 1000,52,56.07,1.4297314761560174,56.26,1.4437683
+Pre-trained Model Sample Per Class 1000,53,57.45,1.4288437532473215,56.34,1.4471594
+Pre-trained Model Sample Per Class 1000,54,56.26,1.431732047962237,56.13,1.4463636
+Pre-trained Model Sample Per Class 1000,55,56.31,1.4349819572666023,56.01,1.4481039
+Pre-trained Model Sample Per Class 1000,56,56.75,1.4232059988794448,56.23,1.4447073
+Pre-trained Model Sample Per Class 1000,57,56.58,1.438551365574704,56.21,1.448021
+Pre-trained Model Sample Per Class 1000,58,56.98,1.4276707444009902,56.24,1.4450097
+Pre-trained Model Sample Per Class 1000,59,57.35,1.4213841534868072,56.21,1.4467217
+Pre-trained Model Sample Per Class 1000,60,56.92,1.4305553375920164,56.25,1.443403
+Pre-trained Model Sample Per Class 1000,61,56.69,1.4266423122792304,56.5,1.4418122
+Pre-trained Model Sample Per Class 1000,62,56.93,1.422215132773677,56.08,1.4445611
+Pre-trained Model Sample Per Class 1000,63,56.67,1.4296171333216414,56.26,1.4457597
+Pre-trained Model Sample Per Class 1000,64,56.89,1.4234944838511794,56.11,1.4465586
+Pre-trained Model Sample Per Class 1000,65,56.98,1.421151577671872,56.28,1.4441162
+Pre-trained Model Sample Per Class 1000,66,56.87,1.4309515832345696,56.08,1.4491197
+Pre-trained Model Sample Per Class 1000,67,56.84,1.4264079362531252,56.31,1.4471383
+Pre-trained Model Sample Per Class 1000,68,56.43,1.4357219768475882,56.16,1.4484057
+Pre-trained Model Sample Per Class 1000,69,57.14,1.4261309693131266,56.15,1.4485208
+Pre-trained Model Sample Per Class 1000,70,56.88,1.4222915082038203,55.97,1.4463155
+Pre-trained Model Sample Per Class 1000,71,56.86,1.4268226970600177,56.06,1.4504433
+Pre-trained Model Sample Per Class 1000,72,56.79,1.43028349514249,56.6,1.4424574
+Pre-trained Model Sample Per Class 1000,73,56.69,1.4240814809557758,55.97,1.4449606
+Pre-trained Model Sample Per Class 1000,74,57.33,1.4212030926837196,55.99,1.4471914
+Pre-trained Model Sample Per Class 1000,75,56.33,1.4332642193082012,56.2,1.4458455
+Pre-trained Model Sample Per Class 1000,76,57.15,1.4222204956827285,56.21,1.4472501
+Pre-trained Model Sample Per Class 1000,77,56.76,1.4333450235897982,56.1,1.4471774
+Pre-trained Model Sample Per Class 1000,78,57.12,1.4274487812307817,56.26,1.4466469
+Pre-trained Model Sample Per Class 1000,79,57.43,1.4239425825167307,56.14,1.4469827
+Pre-trained Model Sample Per Class 1000,80,57.22,1.4222157906882371,56.19,1.4451402
+Random Init Model Sample Per Class 1000,1,20.79,2.408675465402724,25.91,2.086031
+Random Init Model Sample Per Class 1000,2,29.42,2.05396994608867,23.06,2.2659466
+Random Init Model Sample Per Class 1000,3,33.95,1.9252769268011745,36.24,1.9184892
+Random Init Model Sample Per Class 1000,4,34.91,1.9245882713342015,35.12,1.9265263
+Random Init Model Sample Per Class 1000,5,33.29,1.9109604569930065,39.45,1.7822896
+Random Init Model Sample Per Class 1000,6,40.97,1.7627490683446956,44.36,1.7103212
+Random Init Model Sample Per Class 1000,7,43.68,1.6951635019688667,44.47,1.7043809
+Random Init Model Sample Per Class 1000,8,45.59,1.660195231437683,49.16,1.5926516
+Random Init Model Sample Per Class 1000,9,48.05,1.618434042870244,45.64,1.6561972
+Random Init Model Sample Per Class 1000,10,49.48,1.575660768943497,49.06,1.6258144
+Random Init Model Sample Per Class 1000,11,52.13,1.5320607197435596,54.17,1.5010722
+Random Init Model Sample Per Class 1000,12,52.63,1.5193892143949677,53.08,1.5376711
+Random Init Model Sample Per Class 1000,13,54.86,1.4753863253170931,53.4,1.5130906
+Random Init Model Sample Per Class 1000,14,56.24,1.4594710039187082,48.96,1.6971691
+Random Init Model Sample Per Class 1000,15,47.98,1.6365128272696385,50.75,1.5876528
+Random Init Model Sample Per Class 1000,16,56.42,1.4361230844183812,58.1,1.4183878
+Random Init Model Sample Per Class 1000,17,58.87,1.3936613918859748,58.52,1.4084281
+Random Init Model Sample Per Class 1000,18,60.11,1.366425482532646,59.4,1.383988
+Random Init Model Sample Per Class 1000,19,61.47,1.3476492347596567,60.37,1.3714291
+Random Init Model Sample Per Class 1000,20,62.08,1.3344541350497474,61.35,1.356313
+Random Init Model Sample Per Class 1000,21,62.22,1.3175790536252758,61.31,1.3532845
+Random Init Model Sample Per Class 1000,22,62.73,1.3190202743192263,61.01,1.35121
+Random Init Model Sample Per Class 1000,23,63.33,1.3069339130498185,61.96,1.3445698
+Random Init Model Sample Per Class 1000,24,63.89,1.279170958301689,63.0,1.3199872
+Random Init Model Sample Per Class 1000,25,64.79,1.2702255445190622,62.07,1.3396319
+Random Init Model Sample Per Class 1000,26,64.78,1.2621965891198268,63.61,1.3104982
+Random Init Model Sample Per Class 1000,27,66.39,1.245381150064589,63.35,1.313137
+Random Init Model Sample Per Class 1000,28,66.92,1.2287882385374624,64.4,1.2931144
+Random Init Model Sample Per Class 1000,29,66.88,1.225954233845578,64.28,1.2946804
+Random Init Model Sample Per Class 1000,30,67.23,1.218975954417941,64.24,1.3045694
+Random Init Model Sample Per Class 1000,31,68.76,1.1836844607244563,65.39,1.2737685
+Random Init Model Sample Per Class 1000,32,69.21,1.1806671408158314,65.67,1.27298
+Random Init Model Sample Per Class 1000,33,70.16,1.176647056507159,65.68,1.2719707
+Random Init Model Sample Per Class 1000,34,69.5,1.1733366945121861,65.77,1.2662191
+Random Init Model Sample Per Class 1000,35,69.64,1.1691427638259115,65.76,1.2641999
+Random Init Model Sample Per Class 1000,36,69.73,1.1656068352204334,65.78,1.2640488
+Random Init Model Sample Per Class 1000,37,70.14,1.1617390988748284,65.92,1.2669927
+Random Init Model Sample Per Class 1000,38,70.42,1.1572398445274257,65.58,1.268705
+Random Init Model Sample Per Class 1000,39,70.53,1.1565345042868505,65.97,1.2668469
+Random Init Model Sample Per Class 1000,40,70.28,1.1562939369225804,65.55,1.2673569
+Random Init Model Sample Per Class 1000,41,70.35,1.1577772701842874,65.82,1.2651229
+Random Init Model Sample Per Class 1000,42,69.99,1.156827670109423,65.83,1.2680365
+Random Init Model Sample Per Class 1000,43,69.95,1.1544469217710858,66.28,1.2615225
+Random Init Model Sample Per Class 1000,44,70.29,1.1515236670457865,66.29,1.2601135
+Random Init Model Sample Per Class 1000,45,71.28,1.146725689308553,66.18,1.263416
+Random Init Model Sample Per Class 1000,46,70.73,1.1425934803636768,66.07,1.260002
+Random Init Model Sample Per Class 1000,47,70.75,1.1425177417223966,66.19,1.2594413
+Random Init Model Sample Per Class 1000,48,71.02,1.1405472476271135,66.01,1.2570641
+Random Init Model Sample Per Class 1000,49,70.91,1.1460986642897883,66.22,1.2619171
+Random Init Model Sample Per Class 1000,50,70.63,1.1385853298102753,66.24,1.2605326
+Random Init Model Sample Per Class 1000,51,71.04,1.1425776858873005,66.27,1.263691
+Random Init Model Sample Per Class 1000,52,71.32,1.1376209470290173,65.94,1.2654994
+Random Init Model Sample Per Class 1000,53,71.12,1.1382232165034813,66.21,1.2621701
+Random Init Model Sample Per Class 1000,54,70.88,1.143270293368569,65.98,1.2644248
+Random Init Model Sample Per Class 1000,55,70.66,1.1457039751584017,66.48,1.2601873
+Random Init Model Sample Per Class 1000,56,70.37,1.1498071936112415,65.99,1.2601789
+Random Init Model Sample Per Class 1000,57,71.35,1.1335281269459785,66.11,1.2585903
+Random Init Model Sample Per Class 1000,58,71.07,1.1423656065252763,66.09,1.2635837
+Random Init Model Sample Per Class 1000,59,70.8,1.1444587300095377,66.18,1.2597098
+Random Init Model Sample Per Class 1000,60,70.74,1.1484537652776212,66.49,1.2610465
+Random Init Model Sample Per Class 1000,61,70.74,1.1493317711202404,66.26,1.2623
+Random Init Model Sample Per Class 1000,62,71.09,1.1405782639225828,66.19,1.2597466
+Random Init Model Sample Per Class 1000,63,71.38,1.1296825567378272,66.17,1.2583215
+Random Init Model Sample Per Class 1000,64,71.23,1.1404562735859352,66.28,1.2591405
+Random Init Model Sample Per Class 1000,65,70.37,1.142979925191855,65.97,1.2602041
+Random Init Model Sample Per Class 1000,66,71.1,1.1500913538510287,66.05,1.2632883
+Random Init Model Sample Per Class 1000,67,71.33,1.1462014475955238,66.1,1.2599111
+Random Init Model Sample Per Class 1000,68,70.69,1.1399597261525407,66.28,1.25989
+Random Init Model Sample Per Class 1000,69,71.05,1.1463564573963987,66.32,1.2579753
+Random Init Model Sample Per Class 1000,70,70.57,1.1408354285397106,65.98,1.2580113
+Random Init Model Sample Per Class 1000,71,71.34,1.141766996323308,66.2,1.2601731
+Random Init Model Sample Per Class 1000,72,70.84,1.1458652939977525,66.32,1.2598943
+Random Init Model Sample Per Class 1000,73,71.06,1.1441398232798032,66.08,1.2607492
+Random Init Model Sample Per Class 1000,74,71.52,1.1390317889708508,66.1,1.2604357
+Random Init Model Sample Per Class 1000,75,70.94,1.1468804818165452,66.24,1.2566333
+Random Init Model Sample Per Class 1000,76,71.73,1.1307484364207787,66.19,1.2603923
+Random Init Model Sample Per Class 1000,77,71.45,1.1436113405831252,66.03,1.2631817
+Random Init Model Sample Per Class 1000,78,70.58,1.1498143657853332,65.91,1.2632935
+Random Init Model Sample Per Class 1000,79,71.04,1.1398616350149806,65.96,1.2615163
+Random Init Model Sample Per Class 1000,80,71.25,1.1424566009376622,66.27,1.264508
