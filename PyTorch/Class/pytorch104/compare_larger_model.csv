@@ -5,15 +5,15 @@ Resnet34 Self-Supervise Rotation Model,3,43.228,1.2620608885879712,49.93,1.17997
 Resnet34 Self-Supervise Rotation Model,4,51.926,1.1643470882454796,55.63,1.1158056
 Resnet34 Self-Supervise Rotation Model,5,55.328,1.1168575852423372,57.12,1.0905938
 Resnet34 Self-Supervise Rotation Model,6,57.612,1.0838390187839109,59.17,1.0577382
-Resnet34 Self-Supervise Rotation Model,7,59.634,1.0561089969961845,61.9,1.0261657
-Resnet34 Self-Supervise Rotation Model,8,61.162,1.0307887550205221,60.32,1.0469183
-Resnet34 Self-Supervise Rotation Model,9,62.546,1.0101301705136019,63.2,1.0035534
+Resnet34 Self-Supervise Rotation Model,7,59.634,1.0561089969961843,61.9,1.0261657
+Resnet34 Self-Supervise Rotation Model,8,61.162,1.030788755020522,60.32,1.0469183
+Resnet34 Self-Supervise Rotation Model,9,62.546,1.010130170513602,63.2,1.0035534
 Resnet34 Self-Supervise Rotation Model,10,63.578,0.994305394494625,64.91,0.9718114
 Resnet34 Self-Supervise Rotation Model,11,64.454,0.97838004059194,65.85,0.95473254
 Resnet34 Self-Supervise Rotation Model,12,65.664,0.9595404370971348,65.73,0.9612636
 Resnet34 Self-Supervise Rotation Model,13,66.106,0.9516912343556924,66.7,0.9322665
 Resnet34 Self-Supervise Rotation Model,14,67.03,0.9389788348351598,68.66,0.91122824
-Resnet34 Self-Supervise Rotation Model,15,67.962,0.9251303259673935,68.28,0.91475904
+Resnet34 Self-Supervise Rotation Model,15,67.962,0.9251303259673936,68.28,0.91475904
 Resnet34 Self-Supervise Rotation Model,16,70.794,0.8757250026973618,72.23,0.8429637
 Resnet34 Self-Supervise Rotation Model,17,71.652,0.8602348078242348,73.44,0.8343795
 Resnet34 Self-Supervise Rotation Model,18,72.526,0.8493441370746974,73.53,0.82991487
@@ -79,7 +79,7 @@ Resnet34 Self-Supervise Rotation Model,77,77.228,0.7663011892372386,77.2,0.76771
 Resnet34 Self-Supervise Rotation Model,78,77.3,0.7659906014761961,77.68,0.7620421
 Resnet34 Self-Supervise Rotation Model,79,77.276,0.7691913957486067,77.51,0.76472384
 Resnet34 Self-Supervise Rotation Model,80,77.242,0.7661182906316675,77.84,0.7577047
-Resnet50 Self-Supervise Rotation Model,1,34.398,1.6675820725653179,42.94,1.2683173
+Resnet50 Self-Supervise Rotation Model,1,34.398,1.667582072565318,42.94,1.2683173
 Resnet50 Self-Supervise Rotation Model,2,45.396,1.2653348958095931,49.48,1.2151669
 Resnet50 Self-Supervise Rotation Model,3,49.902,1.187965972344284,54.04,1.1448727
 Resnet50 Self-Supervise Rotation Model,4,53.49,1.1465083613724965,56.69,1.1117221
@@ -91,9 +91,9 @@ Resnet50 Self-Supervise Rotation Model,9,61.09,1.032089915269476,61.22,1.0384029
 Resnet50 Self-Supervise Rotation Model,10,61.814,1.0183837596717698,62.16,1.0273737
 Resnet50 Self-Supervise Rotation Model,11,62.962,1.0017711802211868,64.41,0.98588383
 Resnet50 Self-Supervise Rotation Model,12,63.586,0.9980332592259282,65.6,0.9673379
-Resnet50 Self-Supervise Rotation Model,13,64.358,0.9814760192580845,65.07,0.9616545
+Resnet50 Self-Supervise Rotation Model,13,64.358,0.9814760192580844,65.07,0.9616545
 Resnet50 Self-Supervise Rotation Model,14,65.184,0.9688997721428152,66.42,0.95475674
-Resnet50 Self-Supervise Rotation Model,15,65.816,0.9572068882720245,65.31,0.966077
+Resnet50 Self-Supervise Rotation Model,15,65.816,0.9572068882720244,65.31,0.966077
 Resnet50 Self-Supervise Rotation Model,16,69.176,0.9020075666934938,70.82,0.87650317
 Resnet50 Self-Supervise Rotation Model,17,70.556,0.8802933354511895,71.62,0.8574862
 Resnet50 Self-Supervise Rotation Model,18,71.02,0.8718473138406758,71.64,0.86341286
@@ -159,10 +159,10 @@ Resnet50 Self-Supervise Rotation Model,77,78.642,0.7421211754269612,78.07,0.7460
 Resnet50 Self-Supervise Rotation Model,78,78.398,0.7479536841287637,78.05,0.7456936
 Resnet50 Self-Supervise Rotation Model,79,78.514,0.7461719058663644,78.71,0.73895824
 Resnet50 Self-Supervise Rotation Model,80,78.45,0.7475619340491721,78.33,0.7441191
-Resnet34 Fine-tuning Pre-trained Model,1,35.7,1.8623352980674686,43.08,1.7530003
+Resnet34 Fine-tuning Pre-trained Model,1,35.7,1.8623352980674688,43.08,1.7530003
 Resnet34 Fine-tuning Pre-trained Model,2,42.176,1.7304728579948017,43.93,1.7094817
 Resnet34 Fine-tuning Pre-trained Model,3,44.124,1.692969390803286,45.64,1.6587301
-Resnet34 Fine-tuning Pre-trained Model,4,45.428,1.6691332595122745,46.59,1.646521
+Resnet34 Fine-tuning Pre-trained Model,4,45.428,1.6691332595122743,46.59,1.646521
 Resnet34 Fine-tuning Pre-trained Model,5,45.984,1.6539548851949784,47.78,1.6238515
 Resnet34 Fine-tuning Pre-trained Model,6,46.756,1.6437552667334867,47.41,1.6372991
 Resnet34 Fine-tuning Pre-trained Model,7,47.1,1.6365455215239464,49.07,1.5994425
@@ -178,7 +178,7 @@ Resnet34 Fine-tuning Pre-trained Model,16,51.41,1.5482708596817367,52.27,1.52879
 Resnet34 Fine-tuning Pre-trained Model,17,51.378,1.5484738859069316,52.3,1.522209
 Resnet34 Fine-tuning Pre-trained Model,18,51.67,1.542316318777821,52.39,1.5230659
 Resnet34 Fine-tuning Pre-trained Model,19,51.692,1.541333357391455,52.41,1.5236429
-Resnet34 Fine-tuning Pre-trained Model,20,52.014,1.5392219480651115,52.59,1.5262483
+Resnet34 Fine-tuning Pre-trained Model,20,52.014,1.5392219480651117,52.59,1.5262483
 Resnet34 Fine-tuning Pre-trained Model,21,51.666,1.5380253285703147,52.96,1.5121684
 Resnet34 Fine-tuning Pre-trained Model,22,51.846,1.533671919342197,52.88,1.512669
 Resnet34 Fine-tuning Pre-trained Model,23,51.858,1.534107393620874,52.9,1.513422
@@ -195,38 +195,38 @@ Resnet34 Fine-tuning Pre-trained Model,33,52.236,1.5295696956727205,52.56,1.5148
 Resnet34 Fine-tuning Pre-trained Model,34,52.1,1.527845706171392,52.8,1.5122614
 Resnet34 Fine-tuning Pre-trained Model,35,52.252,1.526531614001145,52.92,1.5108895
 Resnet34 Fine-tuning Pre-trained Model,36,52.272,1.5289363955597743,52.67,1.5116258
-Resnet34 Fine-tuning Pre-trained Model,37,52.16,1.5298195607826839,52.84,1.5130528
+Resnet34 Fine-tuning Pre-trained Model,37,52.16,1.529819560782684,52.84,1.5130528
 Resnet34 Fine-tuning Pre-trained Model,38,52.32,1.5259254868987882,52.85,1.5120829
-Resnet34 Fine-tuning Pre-trained Model,39,52.206,1.5284263124246427,52.64,1.5133617
+Resnet34 Fine-tuning Pre-trained Model,39,52.206,1.5284263124246429,52.64,1.5133617
 Resnet34 Fine-tuning Pre-trained Model,40,52.108,1.5277060447141642,52.98,1.509402
 Resnet34 Fine-tuning Pre-trained Model,41,52.106,1.5272727881551094,52.9,1.5086193
 Resnet34 Fine-tuning Pre-trained Model,42,52.154,1.5277329168051406,52.67,1.5133243
-Resnet34 Fine-tuning Pre-trained Model,43,52.392,1.5268595996110335,52.82,1.5111357
+Resnet34 Fine-tuning Pre-trained Model,43,52.392,1.5268595996110337,52.82,1.5111357
 Resnet34 Fine-tuning Pre-trained Model,44,52.31,1.5293955531571528,52.91,1.5102427
 Resnet34 Fine-tuning Pre-trained Model,45,52.314,1.527022331876828,52.44,1.5141181
 Resnet34 Fine-tuning Pre-trained Model,46,52.164,1.529201623728818,52.84,1.507095
 Resnet34 Fine-tuning Pre-trained Model,47,52.186,1.5291243700115271,52.87,1.5112085
-Resnet34 Fine-tuning Pre-trained Model,48,52.402,1.5280100655982563,52.74,1.512605
+Resnet34 Fine-tuning Pre-trained Model,48,52.402,1.5280100655982565,52.74,1.512605
 Resnet34 Fine-tuning Pre-trained Model,49,52.146,1.52748184069953,52.9,1.508069
 Resnet34 Fine-tuning Pre-trained Model,50,52.204,1.526446265027956,52.67,1.5131149
 Resnet34 Fine-tuning Pre-trained Model,51,52.162,1.5310271383856264,52.93,1.5098766
-Resnet34 Fine-tuning Pre-trained Model,52,51.95,1.5286794531985621,52.62,1.5123168
-Resnet34 Fine-tuning Pre-trained Model,53,52.172,1.5274324819559941,52.76,1.5112057
+Resnet34 Fine-tuning Pre-trained Model,52,51.95,1.528679453198562,52.62,1.5123168
+Resnet34 Fine-tuning Pre-trained Model,53,52.172,1.527432481955994,52.76,1.5112057
 Resnet34 Fine-tuning Pre-trained Model,54,52.244,1.5277363958261203,52.77,1.5115547
 Resnet34 Fine-tuning Pre-trained Model,55,52.344,1.5244906860239364,52.64,1.5131677
 Resnet34 Fine-tuning Pre-trained Model,56,52.236,1.526515160070356,52.9,1.512653
-Resnet34 Fine-tuning Pre-trained Model,57,52.37,1.5279665188411313,52.73,1.515317
+Resnet34 Fine-tuning Pre-trained Model,57,52.37,1.527966518841131,52.73,1.515317
 Resnet34 Fine-tuning Pre-trained Model,58,52.254,1.5283402052072004,52.79,1.5131735
 Resnet34 Fine-tuning Pre-trained Model,59,52.254,1.527700019614471,52.95,1.5128291
-Resnet34 Fine-tuning Pre-trained Model,60,52.392,1.5278718843484473,52.82,1.5113704
+Resnet34 Fine-tuning Pre-trained Model,60,52.392,1.5278718843484471,52.82,1.5113704
 Resnet34 Fine-tuning Pre-trained Model,61,51.994,1.5312092978021372,52.81,1.5125328
 Resnet34 Fine-tuning Pre-trained Model,62,52.154,1.5300780443279334,52.63,1.5133432
 Resnet34 Fine-tuning Pre-trained Model,63,52.098,1.5289323104312047,52.95,1.5103962
-Resnet34 Fine-tuning Pre-trained Model,64,52.344,1.5288315264465253,52.61,1.514148
+Resnet34 Fine-tuning Pre-trained Model,64,52.344,1.528831526446525,52.61,1.514148
 Resnet34 Fine-tuning Pre-trained Model,65,52.304,1.5266704940430038,52.72,1.5112317
-Resnet34 Fine-tuning Pre-trained Model,66,52.042,1.5309655233417325,52.77,1.5132965
+Resnet34 Fine-tuning Pre-trained Model,66,52.042,1.5309655233417323,52.77,1.5132965
 Resnet34 Fine-tuning Pre-trained Model,67,52.22,1.530321455672574,52.86,1.5087134
-Resnet34 Fine-tuning Pre-trained Model,68,51.872,1.5312072276459325,52.62,1.5142018
+Resnet34 Fine-tuning Pre-trained Model,68,51.872,1.5312072276459323,52.62,1.5142018
 Resnet34 Fine-tuning Pre-trained Model,69,52.174,1.5283381874908877,52.73,1.5116705
 Resnet34 Fine-tuning Pre-trained Model,70,52.19,1.5295993589684176,52.89,1.5136098
 Resnet34 Fine-tuning Pre-trained Model,71,52.088,1.5297999720439277,52.78,1.5125805
@@ -239,7 +239,7 @@ Resnet34 Fine-tuning Pre-trained Model,77,52.518,1.5262971906101002,52.8,1.51010
 Resnet34 Fine-tuning Pre-trained Model,78,52.06,1.5281941171192452,52.8,1.5113312
 Resnet34 Fine-tuning Pre-trained Model,79,52.278,1.53085259982692,52.78,1.5133654
 Resnet34 Fine-tuning Pre-trained Model,80,52.034,1.5296131387695937,52.9,1.5126475
-Resnet50 Fine-tuning Pre-trained Model,1,37.288,1.8441113712232742,42.79,1.8030565
+Resnet50 Fine-tuning Pre-trained Model,1,37.288,1.8441113712232744,42.79,1.8030565
 Resnet50 Fine-tuning Pre-trained Model,2,45.0,1.682981324317815,48.8,1.6199743
 Resnet50 Fine-tuning Pre-trained Model,3,46.99,1.645027476198533,49.88,1.6051524
 Resnet50 Fine-tuning Pre-trained Model,4,47.926,1.6237473524439976,50.22,1.5661213
@@ -257,12 +257,12 @@ Resnet50 Fine-tuning Pre-trained Model,15,55.756,1.4549405074790311,57.12,1.4388
 Resnet50 Fine-tuning Pre-trained Model,16,55.93,1.4534723569669992,57.09,1.4346509
 Resnet50 Fine-tuning Pre-trained Model,17,56.036,1.4492335953675877,57.15,1.4305736
 Resnet50 Fine-tuning Pre-trained Model,18,56.236,1.4493076026896992,57.24,1.4336447
-Resnet50 Fine-tuning Pre-trained Model,19,56.162,1.4475873653846019,57.03,1.4389298
+Resnet50 Fine-tuning Pre-trained Model,19,56.162,1.447587365384602,57.03,1.4389298
 Resnet50 Fine-tuning Pre-trained Model,20,56.196,1.4436547033622136,57.37,1.4304078
-Resnet50 Fine-tuning Pre-trained Model,21,56.7,1.4358383648840667,57.33,1.4224563
+Resnet50 Fine-tuning Pre-trained Model,21,56.7,1.435838364884067,57.33,1.4224563
 Resnet50 Fine-tuning Pre-trained Model,22,56.67,1.4333198244309486,57.38,1.4196349
-Resnet50 Fine-tuning Pre-trained Model,23,56.964,1.4343084999362525,57.42,1.426802
-Resnet50 Fine-tuning Pre-trained Model,24,56.986,1.4304869882286053,57.47,1.4241655
+Resnet50 Fine-tuning Pre-trained Model,23,56.964,1.4343084999362523,57.42,1.426802
+Resnet50 Fine-tuning Pre-trained Model,24,56.986,1.430486988228605,57.47,1.4241655
 Resnet50 Fine-tuning Pre-trained Model,25,56.828,1.4325464713908826,57.43,1.4208659
 Resnet50 Fine-tuning Pre-trained Model,26,56.878,1.4301301841540714,57.6,1.4245548
 Resnet50 Fine-tuning Pre-trained Model,27,56.784,1.4334789356002418,57.67,1.4254867
@@ -276,9 +276,9 @@ Resnet50 Fine-tuning Pre-trained Model,34,56.8,1.4326489865017669,57.82,1.425117
 Resnet50 Fine-tuning Pre-trained Model,35,57.194,1.4271879397389833,57.73,1.4158461
 Resnet50 Fine-tuning Pre-trained Model,36,56.916,1.429029462587498,57.34,1.4472042
 Resnet50 Fine-tuning Pre-trained Model,37,56.924,1.4310889777625004,57.39,1.4455816
-Resnet50 Fine-tuning Pre-trained Model,38,57.276,1.4270432391739867,57.61,1.4252443
+Resnet50 Fine-tuning Pre-trained Model,38,57.276,1.427043239173987,57.61,1.4252443
 Resnet50 Fine-tuning Pre-trained Model,39,57.078,1.430687672036993,57.72,1.414808
-Resnet50 Fine-tuning Pre-trained Model,40,56.75,1.4287791267380385,57.72,1.4137341
+Resnet50 Fine-tuning Pre-trained Model,40,56.75,1.4287791267380383,57.72,1.4137341
 Resnet50 Fine-tuning Pre-trained Model,41,57.036,1.428150180355667,57.83,1.4242755
 Resnet50 Fine-tuning Pre-trained Model,42,56.886,1.4293005317068466,57.88,1.423361
 Resnet50 Fine-tuning Pre-trained Model,43,56.762,1.43133090280206,57.67,1.4312257
@@ -286,119 +286,119 @@ Resnet50 Fine-tuning Pre-trained Model,44,57.2,1.4281689715202508,57.94,1.416628
 Resnet50 Fine-tuning Pre-trained Model,45,57.044,1.4297217834940956,57.75,1.4133444
 Resnet50 Fine-tuning Pre-trained Model,46,57.02,1.431661912547353,57.78,1.4207432
 Resnet50 Fine-tuning Pre-trained Model,47,57.132,1.4262156824931465,57.61,1.4132713
-Resnet50 Fine-tuning Pre-trained Model,48,57.098,1.4293300901227595,57.64,1.4222252
+Resnet50 Fine-tuning Pre-trained Model,48,57.098,1.4293300901227597,57.64,1.4222252
 Resnet50 Fine-tuning Pre-trained Model,49,57.058,1.4279839483368428,57.73,1.4128202
 Resnet50 Fine-tuning Pre-trained Model,50,57.156,1.4291020491543938,57.73,1.4146099
-Resnet50 Fine-tuning Pre-trained Model,51,57.03,1.4310130396157579,57.65,1.4211103
+Resnet50 Fine-tuning Pre-trained Model,51,57.03,1.431013039615758,57.65,1.4211103
 Resnet50 Fine-tuning Pre-trained Model,52,57.204,1.4273092728441634,57.8,1.4286203
 Resnet50 Fine-tuning Pre-trained Model,53,57.048,1.4265510627375844,57.88,1.4222881
 Resnet50 Fine-tuning Pre-trained Model,54,57.174,1.429832977712002,57.85,1.415008
 Resnet50 Fine-tuning Pre-trained Model,55,57.232,1.428113684020079,57.73,1.4186558
-Resnet50 Fine-tuning Pre-trained Model,56,57.174,1.4246790180425815,57.78,1.4212208
+Resnet50 Fine-tuning Pre-trained Model,56,57.174,1.4246790180425817,57.78,1.4212208
 Resnet50 Fine-tuning Pre-trained Model,57,57.414,1.4297653890936577,57.76,1.4182789
 Resnet50 Fine-tuning Pre-trained Model,58,56.816,1.4302861748449027,57.63,1.4200271
 Resnet50 Fine-tuning Pre-trained Model,59,56.654,1.4311582414085602,57.7,1.4194831
 Resnet50 Fine-tuning Pre-trained Model,60,57.038,1.4307682907489865,57.7,1.4182931
 Resnet50 Fine-tuning Pre-trained Model,61,57.18,1.4266028346308053,57.56,1.4357731
-Resnet50 Fine-tuning Pre-trained Model,62,57.148,1.4258398573721767,57.65,1.4200038
+Resnet50 Fine-tuning Pre-trained Model,62,57.148,1.4258398573721769,57.65,1.4200038
 Resnet50 Fine-tuning Pre-trained Model,63,57.058,1.4293478318797352,57.66,1.4261159
 Resnet50 Fine-tuning Pre-trained Model,64,56.998,1.4309137617535603,57.79,1.4148121
 Resnet50 Fine-tuning Pre-trained Model,65,57.068,1.4261874439161453,57.69,1.4133168
 Resnet50 Fine-tuning Pre-trained Model,66,56.898,1.4299258822980134,57.75,1.430962
 Resnet50 Fine-tuning Pre-trained Model,67,56.878,1.433661571853911,57.9,1.418314
 Resnet50 Fine-tuning Pre-trained Model,68,57.178,1.424663909560884,57.84,1.4159191
-Resnet50 Fine-tuning Pre-trained Model,69,57.13,1.4301380681259859,57.5,1.4223309
+Resnet50 Fine-tuning Pre-trained Model,69,57.13,1.430138068125986,57.5,1.4223309
 Resnet50 Fine-tuning Pre-trained Model,70,57.24,1.4302159675856685,57.64,1.4205043
 Resnet50 Fine-tuning Pre-trained Model,71,57.364,1.4264318924730697,57.65,1.4167988
 Resnet50 Fine-tuning Pre-trained Model,72,56.996,1.4287373803155807,57.72,1.4186709
 Resnet50 Fine-tuning Pre-trained Model,73,57.026,1.4300950753414416,57.78,1.4220344
-Resnet50 Fine-tuning Pre-trained Model,74,56.934,1.4298615717826901,57.7,1.4289201
+Resnet50 Fine-tuning Pre-trained Model,74,56.934,1.42986157178269,57.7,1.4289201
 Resnet50 Fine-tuning Pre-trained Model,75,57.044,1.429201530983381,57.58,1.4292917
 Resnet50 Fine-tuning Pre-trained Model,76,56.876,1.4299010425577383,57.85,1.4200116
 Resnet50 Fine-tuning Pre-trained Model,77,56.948,1.4282568540719465,57.71,1.4195355
 Resnet50 Fine-tuning Pre-trained Model,78,57.414,1.429787261711667,57.73,1.4145626
 Resnet50 Fine-tuning Pre-trained Model,79,56.89,1.430803693164035,57.72,1.4322463
 Resnet50 Fine-tuning Pre-trained Model,80,56.73,1.4350423276271966,57.71,1.4214988
-Resnet34 Fine-tuning Randomly Initialized Model,1,23.144,2.2459261670441886,28.03,2.0525656
+Resnet34 Fine-tuning Randomly Initialized Model,1,23.144,2.245926167044189,28.03,2.0525656
 Resnet34 Fine-tuning Randomly Initialized Model,2,26.434,2.069359270508027,29.83,2.0077517
-Resnet34 Fine-tuning Randomly Initialized Model,3,27.656,2.0425956548022492,31.01,1.9805441
-Resnet34 Fine-tuning Randomly Initialized Model,4,28.408,2.0310237544881717,31.56,1.9751092
+Resnet34 Fine-tuning Randomly Initialized Model,3,27.656,2.042595654802249,31.01,1.9805441
+Resnet34 Fine-tuning Randomly Initialized Model,4,28.408,2.031023754488172,31.56,1.9751092
 Resnet34 Fine-tuning Randomly Initialized Model,5,28.984,2.0171797671891234,32.15,1.9685996
 Resnet34 Fine-tuning Randomly Initialized Model,6,29.488,2.014033507812968,32.02,1.9711818
 Resnet34 Fine-tuning Randomly Initialized Model,7,30.122,2.002654667705526,31.88,1.9647238
 Resnet34 Fine-tuning Randomly Initialized Model,8,30.018,2.000253096565871,31.44,1.9703771
-Resnet34 Fine-tuning Randomly Initialized Model,9,30.0,1.9988717865151213,32.82,1.9559815
+Resnet34 Fine-tuning Randomly Initialized Model,9,30.0,1.998871786515121,32.82,1.9559815
 Resnet34 Fine-tuning Randomly Initialized Model,10,30.618,1.9901465293391587,32.94,1.9494476
 Resnet34 Fine-tuning Randomly Initialized Model,11,31.464,1.9706374108029143,33.69,1.932026
 Resnet34 Fine-tuning Randomly Initialized Model,12,32.366,1.9568769913500228,33.82,1.9271029
 Resnet34 Fine-tuning Randomly Initialized Model,13,32.322,1.9525639632778704,33.79,1.9266186
-Resnet34 Fine-tuning Randomly Initialized Model,14,32.498,1.9512735379626378,33.79,1.9174309
-Resnet34 Fine-tuning Randomly Initialized Model,15,32.312,1.9512005943776396,34.19,1.91419
+Resnet34 Fine-tuning Randomly Initialized Model,14,32.498,1.9512735379626376,33.79,1.9174309
+Resnet34 Fine-tuning Randomly Initialized Model,15,32.312,1.95120059437764,34.19,1.91419
 Resnet34 Fine-tuning Randomly Initialized Model,16,32.628,1.943523394482215,34.62,1.9116772
-Resnet34 Fine-tuning Randomly Initialized Model,17,32.938,1.9424958177234815,34.27,1.9177117
-Resnet34 Fine-tuning Randomly Initialized Model,18,33.01,1.9409431069708236,34.56,1.9084786
+Resnet34 Fine-tuning Randomly Initialized Model,17,32.938,1.9424958177234812,34.27,1.9177117
+Resnet34 Fine-tuning Randomly Initialized Model,18,33.01,1.940943106970824,34.56,1.9084786
 Resnet34 Fine-tuning Randomly Initialized Model,19,32.91,1.9422449711948404,34.69,1.9071854
-Resnet34 Fine-tuning Randomly Initialized Model,20,32.874,1.9407339513759174,34.48,1.9047949
-Resnet34 Fine-tuning Randomly Initialized Model,21,33.452,1.9334259258816615,34.75,1.9041146
-Resnet34 Fine-tuning Randomly Initialized Model,22,33.554,1.9324452764237934,35.14,1.9006624
+Resnet34 Fine-tuning Randomly Initialized Model,20,32.874,1.9407339513759172,34.48,1.9047949
+Resnet34 Fine-tuning Randomly Initialized Model,21,33.452,1.9334259258816613,34.75,1.9041146
+Resnet34 Fine-tuning Randomly Initialized Model,22,33.554,1.9324452764237932,35.14,1.9006624
 Resnet34 Fine-tuning Randomly Initialized Model,23,33.138,1.9336446282808737,35.02,1.9033401
-Resnet34 Fine-tuning Randomly Initialized Model,24,33.386,1.9323411015293481,35.03,1.9001156
+Resnet34 Fine-tuning Randomly Initialized Model,24,33.386,1.932341101529348,35.03,1.9001156
 Resnet34 Fine-tuning Randomly Initialized Model,25,33.334,1.9332546995728828,34.97,1.9016353
 Resnet34 Fine-tuning Randomly Initialized Model,26,33.502,1.9262017606164488,35.12,1.90042
 Resnet34 Fine-tuning Randomly Initialized Model,27,33.698,1.9327039496063272,35.22,1.9012548
-Resnet34 Fine-tuning Randomly Initialized Model,28,33.472,1.9308915430932398,35.15,1.8992791
-Resnet34 Fine-tuning Randomly Initialized Model,29,33.588,1.9303135472490354,35.03,1.9006017
-Resnet34 Fine-tuning Randomly Initialized Model,30,33.562,1.9295263046498798,35.18,1.9004221
-Resnet34 Fine-tuning Randomly Initialized Model,31,33.144,1.9307327868078676,34.99,1.8992107
-Resnet34 Fine-tuning Randomly Initialized Model,32,33.276,1.9321784470087426,34.89,1.8999046
+Resnet34 Fine-tuning Randomly Initialized Model,28,33.472,1.93089154309324,35.15,1.8992791
+Resnet34 Fine-tuning Randomly Initialized Model,29,33.588,1.9303135472490356,35.03,1.9006017
+Resnet34 Fine-tuning Randomly Initialized Model,30,33.562,1.92952630464988,35.18,1.9004221
+Resnet34 Fine-tuning Randomly Initialized Model,31,33.144,1.930732786807868,34.99,1.8992107
+Resnet34 Fine-tuning Randomly Initialized Model,32,33.276,1.9321784470087424,34.89,1.8999046
 Resnet34 Fine-tuning Randomly Initialized Model,33,33.488,1.9297843022114785,35.01,1.897142
 Resnet34 Fine-tuning Randomly Initialized Model,34,33.56,1.9303331186094552,35.04,1.8973364
 Resnet34 Fine-tuning Randomly Initialized Model,35,33.448,1.929940965169531,35.12,1.8986996
 Resnet34 Fine-tuning Randomly Initialized Model,36,33.526,1.928592709629127,35.05,1.9009767
 Resnet34 Fine-tuning Randomly Initialized Model,37,33.542,1.9258453845977783,34.92,1.8994911
-Resnet34 Fine-tuning Randomly Initialized Model,38,33.706,1.9272646757647813,35.05,1.8970578
+Resnet34 Fine-tuning Randomly Initialized Model,38,33.706,1.927264675764781,35.05,1.8970578
 Resnet34 Fine-tuning Randomly Initialized Model,39,33.142,1.9305980345782112,35.01,1.8987191
 Resnet34 Fine-tuning Randomly Initialized Model,40,33.414,1.9289990712309737,34.95,1.9010236
-Resnet34 Fine-tuning Randomly Initialized Model,41,33.642,1.9279303556817877,35.15,1.8988427
-Resnet34 Fine-tuning Randomly Initialized Model,42,33.668,1.9271847573692535,34.94,1.8994749
-Resnet34 Fine-tuning Randomly Initialized Model,43,33.534,1.9286671901297996,34.98,1.8985181
+Resnet34 Fine-tuning Randomly Initialized Model,41,33.642,1.927930355681788,35.15,1.8988427
+Resnet34 Fine-tuning Randomly Initialized Model,42,33.668,1.927184757369253,34.94,1.8994749
+Resnet34 Fine-tuning Randomly Initialized Model,43,33.534,1.9286671901298,34.98,1.8985181
 Resnet34 Fine-tuning Randomly Initialized Model,44,33.512,1.927793271096466,35.1,1.898373
-Resnet34 Fine-tuning Randomly Initialized Model,45,33.752,1.9283771240497793,35.14,1.8994036
-Resnet34 Fine-tuning Randomly Initialized Model,46,33.538,1.9291642450005806,35.12,1.8970549
+Resnet34 Fine-tuning Randomly Initialized Model,45,33.752,1.9283771240497796,35.14,1.8994036
+Resnet34 Fine-tuning Randomly Initialized Model,46,33.538,1.9291642450005808,35.12,1.8970549
 Resnet34 Fine-tuning Randomly Initialized Model,47,33.8,1.9239145157587192,35.06,1.8982728
-Resnet34 Fine-tuning Randomly Initialized Model,48,33.636,1.9277880185705316,35.03,1.8994483
-Resnet34 Fine-tuning Randomly Initialized Model,49,33.616,1.9245590611796854,35.22,1.897993
+Resnet34 Fine-tuning Randomly Initialized Model,48,33.636,1.927788018570532,35.03,1.8994483
+Resnet34 Fine-tuning Randomly Initialized Model,49,33.616,1.9245590611796852,35.22,1.897993
 Resnet34 Fine-tuning Randomly Initialized Model,50,33.416,1.931077760503725,35.09,1.8990705
-Resnet34 Fine-tuning Randomly Initialized Model,51,33.47,1.9316099909565332,35.09,1.8980494
+Resnet34 Fine-tuning Randomly Initialized Model,51,33.47,1.9316099909565327,35.09,1.8980494
 Resnet34 Fine-tuning Randomly Initialized Model,52,33.57,1.9269232707255333,35.01,1.8991113
 Resnet34 Fine-tuning Randomly Initialized Model,53,33.436,1.931195992033195,34.98,1.8972863
-Resnet34 Fine-tuning Randomly Initialized Model,54,33.656,1.9252616438414434,34.91,1.9007605
+Resnet34 Fine-tuning Randomly Initialized Model,54,33.656,1.9252616438414436,34.91,1.9007605
 Resnet34 Fine-tuning Randomly Initialized Model,55,33.834,1.9253748502877668,35.04,1.8979679
 Resnet34 Fine-tuning Randomly Initialized Model,56,33.284,1.931314240331235,34.9,1.8994858
-Resnet34 Fine-tuning Randomly Initialized Model,57,33.654,1.9286749914783956,35.02,1.9024321
-Resnet34 Fine-tuning Randomly Initialized Model,58,33.598,1.9271954191310325,35.15,1.8984783
+Resnet34 Fine-tuning Randomly Initialized Model,57,33.654,1.928674991478396,35.02,1.9024321
+Resnet34 Fine-tuning Randomly Initialized Model,58,33.598,1.9271954191310323,35.15,1.8984783
 Resnet34 Fine-tuning Randomly Initialized Model,59,33.428,1.9333870310307768,35.11,1.9008107
 Resnet34 Fine-tuning Randomly Initialized Model,60,33.498,1.930227599180568,34.79,1.9027056
-Resnet34 Fine-tuning Randomly Initialized Model,61,33.568,1.9276471327028006,35.06,1.8978584
-Resnet34 Fine-tuning Randomly Initialized Model,62,33.558,1.9273828386955554,35.04,1.8993002
+Resnet34 Fine-tuning Randomly Initialized Model,61,33.568,1.9276471327028009,35.06,1.8978584
+Resnet34 Fine-tuning Randomly Initialized Model,62,33.558,1.9273828386955556,35.04,1.8993002
 Resnet34 Fine-tuning Randomly Initialized Model,63,33.47,1.9298436891697253,34.86,1.8962373
-Resnet34 Fine-tuning Randomly Initialized Model,64,33.91,1.9249078745732222,35.18,1.8969721
+Resnet34 Fine-tuning Randomly Initialized Model,64,33.91,1.9249078745732224,35.18,1.8969721
 Resnet34 Fine-tuning Randomly Initialized Model,65,33.54,1.9324800507796696,35.12,1.9019376
 Resnet34 Fine-tuning Randomly Initialized Model,66,33.362,1.9295615771847308,35.02,1.9003304
 Resnet34 Fine-tuning Randomly Initialized Model,67,33.58,1.929802538488832,35.09,1.8969655
-Resnet34 Fine-tuning Randomly Initialized Model,68,33.532,1.9325290522002199,34.98,1.8980871
+Resnet34 Fine-tuning Randomly Initialized Model,68,33.532,1.93252905220022,34.98,1.8980871
 Resnet34 Fine-tuning Randomly Initialized Model,69,33.778,1.9265490151427287,35.02,1.8988435
-Resnet34 Fine-tuning Randomly Initialized Model,70,33.356,1.9319737820369203,35.26,1.8975194
+Resnet34 Fine-tuning Randomly Initialized Model,70,33.356,1.9319737820369205,35.26,1.8975194
 Resnet34 Fine-tuning Randomly Initialized Model,71,33.626,1.9286649538123088,34.85,1.8999057
-Resnet34 Fine-tuning Randomly Initialized Model,72,33.512,1.9294966297686253,34.83,1.9001664
-Resnet34 Fine-tuning Randomly Initialized Model,73,33.856,1.9280499299164013,34.97,1.8991215
+Resnet34 Fine-tuning Randomly Initialized Model,72,33.512,1.9294966297686251,34.83,1.9001664
+Resnet34 Fine-tuning Randomly Initialized Model,73,33.856,1.9280499299164011,34.97,1.8991215
 Resnet34 Fine-tuning Randomly Initialized Model,74,33.85,1.92714839945059,34.9,1.9003283
-Resnet34 Fine-tuning Randomly Initialized Model,75,33.806,1.9286192789711916,35.01,1.8974428
+Resnet34 Fine-tuning Randomly Initialized Model,75,33.806,1.928619278971192,35.01,1.8974428
 Resnet34 Fine-tuning Randomly Initialized Model,76,33.102,1.931503636757736,35.31,1.8979093
 Resnet34 Fine-tuning Randomly Initialized Model,77,33.55,1.9293083495191297,34.91,1.898128
-Resnet34 Fine-tuning Randomly Initialized Model,78,33.692,1.9280643417402301,34.9,1.9011605
-Resnet34 Fine-tuning Randomly Initialized Model,79,33.642,1.9278867830095998,35.22,1.8969651
-Resnet34 Fine-tuning Randomly Initialized Model,80,33.42,1.9325458283924386,34.99,1.8991957
+Resnet34 Fine-tuning Randomly Initialized Model,78,33.692,1.92806434174023,34.9,1.9011605
+Resnet34 Fine-tuning Randomly Initialized Model,79,33.642,1.9278867830096,35.22,1.8969651
+Resnet34 Fine-tuning Randomly Initialized Model,80,33.42,1.9325458283924384,34.99,1.8991957
 Resnet50 Fine-tuning Randomly Initialized Model,1,17.886,2.731211326921078,20.53,2.1719317
 Resnet50 Fine-tuning Randomly Initialized Model,2,21.58,2.1555979690893228,23.65,2.08567
 Resnet50 Fine-tuning Randomly Initialized Model,3,22.53,2.117579249164942,25.49,2.0671957
@@ -411,7 +411,7 @@ Resnet50 Fine-tuning Randomly Initialized Model,9,25.632,2.0715772593417743,27.2
 Resnet50 Fine-tuning Randomly Initialized Model,10,25.502,2.0728383375250776,28.19,2.020235
 Resnet50 Fine-tuning Randomly Initialized Model,11,26.85,2.050985352767398,29.31,2.002321
 Resnet50 Fine-tuning Randomly Initialized Model,12,26.976,2.047518417048637,29.63,1.9975771
-Resnet50 Fine-tuning Randomly Initialized Model,13,27.318,2.0423515364337153,29.43,1.994261
+Resnet50 Fine-tuning Randomly Initialized Model,13,27.318,2.0423515364337157,29.43,1.994261
 Resnet50 Fine-tuning Randomly Initialized Model,14,27.408,2.0385566367517653,30.22,1.9904095
 Resnet50 Fine-tuning Randomly Initialized Model,15,27.658,2.038144539689164,30.01,1.9895581
 Resnet50 Fine-tuning Randomly Initialized Model,16,27.812,2.037911416929396,30.6,1.9884474
@@ -421,7 +421,7 @@ Resnet50 Fine-tuning Randomly Initialized Model,19,27.752,2.030064353552621,30.7
 Resnet50 Fine-tuning Randomly Initialized Model,20,27.972,2.0274528237559912,31.23,1.9763942
 Resnet50 Fine-tuning Randomly Initialized Model,21,28.314,2.024258558402586,30.82,1.9744195
 Resnet50 Fine-tuning Randomly Initialized Model,22,28.126,2.0250227856818976,31.26,1.9723582
-Resnet50 Fine-tuning Randomly Initialized Model,23,28.158,2.0262707337698975,30.62,1.9764212
+Resnet50 Fine-tuning Randomly Initialized Model,23,28.158,2.026270733769897,30.62,1.9764212
 Resnet50 Fine-tuning Randomly Initialized Model,24,28.324,2.02309458883827,30.72,1.9739068
 Resnet50 Fine-tuning Randomly Initialized Model,25,27.996,2.025261884150298,30.81,1.9749428
 Resnet50 Fine-tuning Randomly Initialized Model,26,28.292,2.0199970720369187,30.84,1.9753983
@@ -433,19 +433,19 @@ Resnet50 Fine-tuning Randomly Initialized Model,31,28.216,2.0210988375232044,31.
 Resnet50 Fine-tuning Randomly Initialized Model,32,28.622,2.017309412931847,31.34,1.9709294
 Resnet50 Fine-tuning Randomly Initialized Model,33,28.256,2.0219126412325807,31.46,1.9684414
 Resnet50 Fine-tuning Randomly Initialized Model,34,28.562,2.019598190436888,30.98,1.9715968
-Resnet50 Fine-tuning Randomly Initialized Model,35,28.392,2.0193742352068575,31.35,1.9709278
+Resnet50 Fine-tuning Randomly Initialized Model,35,28.392,2.019374235206857,31.35,1.9709278
 Resnet50 Fine-tuning Randomly Initialized Model,36,28.366,2.017910322264942,31.46,1.969061
 Resnet50 Fine-tuning Randomly Initialized Model,37,28.658,2.0185808293959675,31.21,1.9714981
 Resnet50 Fine-tuning Randomly Initialized Model,38,28.502,2.019423432057471,31.18,1.968718
-Resnet50 Fine-tuning Randomly Initialized Model,39,28.196,2.0186880677557357,31.37,1.9700187
+Resnet50 Fine-tuning Randomly Initialized Model,39,28.196,2.018688067755736,31.37,1.9700187
 Resnet50 Fine-tuning Randomly Initialized Model,40,28.258,2.019447860815336,31.22,1.9699299
 Resnet50 Fine-tuning Randomly Initialized Model,41,28.648,2.018592841180084,31.26,1.9729534
 Resnet50 Fine-tuning Randomly Initialized Model,42,28.35,2.0183485051250214,31.3,1.9691806
 Resnet50 Fine-tuning Randomly Initialized Model,43,28.344,2.0216897488250147,31.01,1.9723837
 Resnet50 Fine-tuning Randomly Initialized Model,44,28.52,2.01713231183074,31.16,1.9684666
-Resnet50 Fine-tuning Randomly Initialized Model,45,28.446,2.0191410298237713,30.9,1.9697695
+Resnet50 Fine-tuning Randomly Initialized Model,45,28.446,2.0191410298237717,30.9,1.9697695
 Resnet50 Fine-tuning Randomly Initialized Model,46,28.638,2.020405744347731,30.95,1.9756991
-Resnet50 Fine-tuning Randomly Initialized Model,47,28.534,2.0195376101662132,31.52,1.9672576
+Resnet50 Fine-tuning Randomly Initialized Model,47,28.534,2.019537610166213,31.52,1.9672576
 Resnet50 Fine-tuning Randomly Initialized Model,48,28.49,2.017415582981256,31.58,1.9691261
 Resnet50 Fine-tuning Randomly Initialized Model,49,28.31,2.017266265876458,30.94,1.9718406
 Resnet50 Fine-tuning Randomly Initialized Model,50,28.546,2.016769420460362,31.48,1.9719399
@@ -461,34 +461,34 @@ Resnet50 Fine-tuning Randomly Initialized Model,59,28.422,2.022788796583405,31.4
 Resnet50 Fine-tuning Randomly Initialized Model,60,28.428,2.019124449976265,31.05,1.9707292
 Resnet50 Fine-tuning Randomly Initialized Model,61,28.626,2.016820371303412,31.17,1.969065
 Resnet50 Fine-tuning Randomly Initialized Model,62,28.624,2.01758756966847,31.34,1.9670581
-Resnet50 Fine-tuning Randomly Initialized Model,63,28.748,2.0191895839808236,31.43,1.9685773
+Resnet50 Fine-tuning Randomly Initialized Model,63,28.748,2.019189583980824,31.43,1.9685773
 Resnet50 Fine-tuning Randomly Initialized Model,64,28.184,2.0215377411269166,30.99,1.9709303
 Resnet50 Fine-tuning Randomly Initialized Model,65,28.37,2.0203708169405417,31.2,1.9729596
-Resnet50 Fine-tuning Randomly Initialized Model,66,28.692,2.0190301831725916,31.14,1.9718817
-Resnet50 Fine-tuning Randomly Initialized Model,67,28.574,2.0193232386313436,31.3,1.9702682
-Resnet50 Fine-tuning Randomly Initialized Model,68,28.632,2.0165473527615636,31.24,1.9717255
-Resnet50 Fine-tuning Randomly Initialized Model,69,28.534,2.0195243273244796,31.07,1.971195
+Resnet50 Fine-tuning Randomly Initialized Model,66,28.692,2.019030183172592,31.14,1.9718817
+Resnet50 Fine-tuning Randomly Initialized Model,67,28.574,2.019323238631344,31.3,1.9702682
+Resnet50 Fine-tuning Randomly Initialized Model,68,28.632,2.016547352761564,31.24,1.9717255
+Resnet50 Fine-tuning Randomly Initialized Model,69,28.534,2.01952432732448,31.07,1.971195
 Resnet50 Fine-tuning Randomly Initialized Model,70,28.62,2.019165296993597,31.39,1.9702265
 Resnet50 Fine-tuning Randomly Initialized Model,71,28.548,2.021259883480609,31.08,1.9677029
 Resnet50 Fine-tuning Randomly Initialized Model,72,28.854,2.0150051799881488,31.02,1.9695634
 Resnet50 Fine-tuning Randomly Initialized Model,73,28.53,2.0194141639163123,31.4,1.9682719
-Resnet50 Fine-tuning Randomly Initialized Model,74,28.512,2.0192667270255518,31.58,1.9678053
+Resnet50 Fine-tuning Randomly Initialized Model,74,28.512,2.019266727025552,31.58,1.9678053
 Resnet50 Fine-tuning Randomly Initialized Model,75,28.39,2.02096001906773,31.58,1.9690722
-Resnet50 Fine-tuning Randomly Initialized Model,76,28.484,2.0184648948557236,31.3,1.9696285
+Resnet50 Fine-tuning Randomly Initialized Model,76,28.484,2.018464894855724,31.3,1.9696285
 Resnet50 Fine-tuning Randomly Initialized Model,77,28.542,2.0204705448101854,31.61,1.9685498
 Resnet50 Fine-tuning Randomly Initialized Model,78,28.576,2.0203069619205603,31.14,1.9688622
 Resnet50 Fine-tuning Randomly Initialized Model,79,28.268,2.0191783286116616,31.19,1.97074
 Resnet50 Fine-tuning Randomly Initialized Model,80,28.5,2.018584728850733,31.09,1.9692981
-Resnet34 Supervised Pre-trained Model,1,54.326,1.4811601324764359,64.35,1.2883474
+Resnet34 Supervised Pre-trained Model,1,54.326,1.481160132476436,64.35,1.2883474
 Resnet34 Supervised Pre-trained Model,2,66.498,1.2472304331372157,66.27,1.2909825
 Resnet34 Supervised Pre-trained Model,3,70.826,1.1559945233642597,72.15,1.122322
-Resnet34 Supervised Pre-trained Model,4,73.504,1.1004675963650579,73.84,1.1064503
+Resnet34 Supervised Pre-trained Model,4,73.504,1.100467596365058,73.84,1.1064503
 Resnet34 Supervised Pre-trained Model,5,75.426,1.056804489144279,74.57,1.0884464
 Resnet34 Supervised Pre-trained Model,6,77.04,1.0219889649039948,76.71,1.0411624
-Resnet34 Supervised Pre-trained Model,7,78.0,0.9982418142011403,78.69,0.9886606
-Resnet34 Supervised Pre-trained Model,8,79.304,0.9706480445154487,78.15,1.0048964
-Resnet34 Supervised Pre-trained Model,9,80.21,0.9506474740974739,77.23,1.0245658
-Resnet34 Supervised Pre-trained Model,10,81.002,0.9337934595544625,77.73,1.0188981
+Resnet34 Supervised Pre-trained Model,7,78.0,0.9982418142011404,78.69,0.9886606
+Resnet34 Supervised Pre-trained Model,8,79.304,0.9706480445154488,78.15,1.0048964
+Resnet34 Supervised Pre-trained Model,9,80.21,0.950647474097474,77.23,1.0245658
+Resnet34 Supervised Pre-trained Model,10,81.002,0.9337934595544624,77.73,1.0188981
 Resnet34 Supervised Pre-trained Model,11,84.122,0.8548260625366055,82.4,0.9004064
 Resnet34 Supervised Pre-trained Model,12,85.516,0.8312984965646358,82.89,0.8916779
 Resnet34 Supervised Pre-trained Model,13,85.896,0.8191093957942465,82.89,0.8896571
@@ -559,13 +559,13 @@ Resnet34 Supervised Pre-trained Model,77,88.648,0.7580947193038433,83.82,0.87217
 Resnet34 Supervised Pre-trained Model,78,88.412,0.7617143403233775,83.99,0.8714021
 Resnet34 Supervised Pre-trained Model,79,88.664,0.7596094262264573,83.86,0.87189406
 Resnet34 Supervised Pre-trained Model,80,88.608,0.7585101679462911,83.84,0.8749611
-Resnet50 Supervised Pre-trained Model,1,45.898,1.6681458428692635,53.28,1.5855538
+Resnet50 Supervised Pre-trained Model,1,45.898,1.6681458428692637,53.28,1.5855538
 Resnet50 Supervised Pre-trained Model,2,59.358,1.3969206209377865,64.28,1.3000795
 Resnet50 Supervised Pre-trained Model,3,66.02,1.2541043855954923,66.95,1.2281584
 Resnet50 Supervised Pre-trained Model,4,69.106,1.1904867277730762,68.22,1.2206515
 Resnet50 Supervised Pre-trained Model,5,71.436,1.1395861594878194,71.8,1.1323444
 Resnet50 Supervised Pre-trained Model,6,73.7,1.0942090135401168,72.67,1.1334754
-Resnet50 Supervised Pre-trained Model,7,75.274,1.0593078073943059,74.01,1.0967917
+Resnet50 Supervised Pre-trained Model,7,75.274,1.059307807394306,74.01,1.0967917
 Resnet50 Supervised Pre-trained Model,8,76.432,1.0363808838302826,76.02,1.0542588
 Resnet50 Supervised Pre-trained Model,9,77.646,1.0117143464210394,76.58,1.0357143
 Resnet50 Supervised Pre-trained Model,10,78.574,0.9902127738803854,77.48,1.0199759
@@ -640,7 +640,7 @@ Resnet50 Supervised Pre-trained Model,78,87.232,0.7894335567493878,84.19,0.87514
 Resnet50 Supervised Pre-trained Model,79,87.404,0.7877180792791459,83.97,0.886808
 Resnet50 Supervised Pre-trained Model,80,87.17,0.788795869826051,83.72,0.8996242
 Resnet34 Supervised Randomly Initialized Model,1,26.768,2.125784514200352,37.09,1.9323044
-Resnet34 Supervised Randomly Initialized Model,2,42.116,1.7247389963520763,44.13,1.751621
+Resnet34 Supervised Randomly Initialized Model,2,42.116,1.7247389963520765,44.13,1.751621
 Resnet34 Supervised Randomly Initialized Model,3,51.688,1.539348961142323,56.34,1.4539375
 Resnet34 Supervised Randomly Initialized Model,4,57.966,1.4171772719649098,54.43,1.6406809
 Resnet34 Supervised Randomly Initialized Model,5,62.052,1.3399164042509426,65.75,1.4251771
@@ -649,11 +649,11 @@ Resnet34 Supervised Randomly Initialized Model,7,68.928,1.1931172898968163,70.63
 Resnet34 Supervised Randomly Initialized Model,8,70.752,1.1532597214059757,73.24,1.1260846
 Resnet34 Supervised Randomly Initialized Model,9,72.942,1.1077169407054286,74.11,1.0874996
 Resnet34 Supervised Randomly Initialized Model,10,74.436,1.0728817786402105,74.66,1.0952541
-Resnet34 Supervised Randomly Initialized Model,11,78.91,0.9713961579610625,79.88,0.96544784
-Resnet34 Supervised Randomly Initialized Model,12,80.412,0.9387226456876301,80.0,0.963217
+Resnet34 Supervised Randomly Initialized Model,11,78.91,0.9713961579610624,79.88,0.96544784
+Resnet34 Supervised Randomly Initialized Model,12,80.412,0.93872264568763,80.0,0.963217
 Resnet34 Supervised Randomly Initialized Model,13,81.114,0.9251480149795942,80.53,0.97164994
-Resnet34 Supervised Randomly Initialized Model,14,81.48,0.9147194454737027,80.39,0.9449603
-Resnet34 Supervised Randomly Initialized Model,15,81.93,0.9050990975726291,80.6,0.94275403
+Resnet34 Supervised Randomly Initialized Model,14,81.48,0.9147194454737028,80.39,0.9449603
+Resnet34 Supervised Randomly Initialized Model,15,81.93,0.9050990975726292,80.6,0.94275403
 Resnet34 Supervised Randomly Initialized Model,16,82.326,0.8964042076674263,80.77,0.9494299
 Resnet34 Supervised Randomly Initialized Model,17,82.796,0.8868018335393627,81.01,0.95883346
 Resnet34 Supervised Randomly Initialized Model,18,83.414,0.8730406883122671,81.52,0.9370979
@@ -728,7 +728,7 @@ Resnet50 Supervised Randomly Initialized Model,6,57.654,1.4267261122803554,58.54
 Resnet50 Supervised Randomly Initialized Model,7,61.406,1.3437155661985392,61.84,1.4395118
 Resnet50 Supervised Randomly Initialized Model,8,64.534,1.2844392146600787,64.81,1.2908766
 Resnet50 Supervised Randomly Initialized Model,9,66.174,1.2501446743450506,66.95,1.4099437
-Resnet50 Supervised Randomly Initialized Model,10,66.438,1.2469724630150953,63.89,1.4162748
+Resnet50 Supervised Randomly Initialized Model,10,66.438,1.2469724630150951,63.89,1.4162748
 Resnet50 Supervised Randomly Initialized Model,11,72.124,1.1208039516073358,74.71,1.1085515
 Resnet50 Supervised Randomly Initialized Model,12,74.652,1.0635556596929154,74.86,1.1091939
 Resnet50 Supervised Randomly Initialized Model,13,75.932,1.0360491669086545,76.74,1.0680234
@@ -736,7 +736,7 @@ Resnet50 Supervised Randomly Initialized Model,14,76.346,1.0278281115205086,76.5
 Resnet50 Supervised Randomly Initialized Model,15,77.426,1.0077055323764186,77.63,1.0285178
 Resnet50 Supervised Randomly Initialized Model,16,77.552,0.9980410390802662,77.33,1.0419993
 Resnet50 Supervised Randomly Initialized Model,17,78.122,0.9897873098283168,73.74,1.3912623
-Resnet50 Supervised Randomly Initialized Model,18,78.868,0.9726596499038169,78.33,1.1545655
+Resnet50 Supervised Randomly Initialized Model,18,78.868,0.9726596499038168,78.33,1.1545655
 Resnet50 Supervised Randomly Initialized Model,19,78.668,0.9793541780518144,78.42,1.0398589
 Resnet50 Supervised Randomly Initialized Model,20,79.494,0.9625890700103682,77.32,1.0811073
 Resnet50 Supervised Randomly Initialized Model,21,80.38,0.9385469635124402,78.71,1.1244376
@@ -744,7 +744,7 @@ Resnet50 Supervised Randomly Initialized Model,22,80.886,0.9208573784364764,79.2
 Resnet50 Supervised Randomly Initialized Model,23,81.516,0.9139362508073792,78.88,1.1717021
 Resnet50 Supervised Randomly Initialized Model,24,81.396,0.9149881508344274,79.7,1.0286298
 Resnet50 Supervised Randomly Initialized Model,25,81.786,0.9078278969925688,79.92,1.0182314
-Resnet50 Supervised Randomly Initialized Model,26,81.94,0.9052114163518257,79.62,1.0818112
+Resnet50 Supervised Randomly Initialized Model,26,81.94,0.9052114163518256,79.62,1.0818112
 Resnet50 Supervised Randomly Initialized Model,27,82.226,0.9005960479111927,79.22,1.3438877
 Resnet50 Supervised Randomly Initialized Model,28,82.16,0.898456962669597,79.98,1.0910797
 Resnet50 Supervised Randomly Initialized Model,29,82.122,0.8970690644000803,80.31,1.0252887
@@ -799,3 +799,403 @@ Resnet50 Supervised Randomly Initialized Model,77,82.516,0.8885200898665602,80.2
 Resnet50 Supervised Randomly Initialized Model,78,82.732,0.885362188681922,80.3,1.1759359
 Resnet50 Supervised Randomly Initialized Model,79,82.762,0.8872711313959888,80.04,1.3037596
 Resnet50 Supervised Randomly Initialized Model,80,82.596,0.889509712796077,80.3,1.1049142
+Resnet18 Self-Supervise Rotation Model,1,57.588,1.0848100104600267,58.16,1.0874538
+Resnet18 Self-Supervise Rotation Model,2,59.974,1.0509677881474995,61.22,1.032257
+Resnet18 Self-Supervise Rotation Model,3,61.694,1.0215688169459858,62.99,0.9882933
+Resnet18 Self-Supervise Rotation Model,4,62.962,1.0021932394913091,65.19,0.96558326
+Resnet18 Self-Supervise Rotation Model,5,64.326,0.9824704950118004,64.45,0.9855003
+Resnet18 Self-Supervise Rotation Model,6,65.31,0.9671042611836778,65.79,0.9550518
+Resnet18 Self-Supervise Rotation Model,7,66.28,0.950166696477729,67.91,0.9229693
+Resnet18 Self-Supervise Rotation Model,8,66.956,0.9396506273533072,68.02,0.9153967
+Resnet18 Self-Supervise Rotation Model,9,67.802,0.9235744018993719,67.73,0.938488
+Resnet18 Self-Supervise Rotation Model,10,68.636,0.9115927283416319,69.97,0.8909288
+Resnet18 Self-Supervise Rotation Model,11,69.596,0.8970465663144046,70.09,0.88277835
+Resnet18 Self-Supervise Rotation Model,12,70.202,0.8869199487559326,71.37,0.87741214
+Resnet18 Self-Supervise Rotation Model,13,71.258,0.872597051246087,72.39,0.8482307
+Resnet18 Self-Supervise Rotation Model,14,72.174,0.8609819704919215,69.87,0.8886693
+Resnet18 Self-Supervise Rotation Model,15,72.75,0.8492819410760689,73.83,0.8316065
+Resnet18 Self-Supervise Rotation Model,16,75.168,0.8027997811127197,76.61,0.77986395
+Resnet18 Self-Supervise Rotation Model,17,76.296,0.7847757491919086,76.93,0.7693242
+Resnet18 Self-Supervise Rotation Model,18,76.866,0.7795229136486492,77.38,0.7594915
+Resnet18 Self-Supervise Rotation Model,19,76.82,0.7764465010074704,77.25,0.7635013
+Resnet18 Self-Supervise Rotation Model,20,77.358,0.7673403922554172,77.84,0.7588206
+Resnet18 Self-Supervise Rotation Model,21,77.41,0.7659006129445323,78.05,0.7485403
+Resnet18 Self-Supervise Rotation Model,22,77.642,0.7595191294579859,77.87,0.7539923
+Resnet18 Self-Supervise Rotation Model,23,77.902,0.7588890560752596,78.3,0.7460688
+Resnet18 Self-Supervise Rotation Model,24,78.032,0.7558632250637045,78.29,0.74224305
+Resnet18 Self-Supervise Rotation Model,25,78.158,0.754028822454955,78.1,0.7495966
+Resnet18 Self-Supervise Rotation Model,26,78.376,0.7496603184648792,78.97,0.74152166
+Resnet18 Self-Supervise Rotation Model,27,78.556,0.7468342531062758,78.08,0.742124
+Resnet18 Self-Supervise Rotation Model,28,78.7,0.7420703194025532,78.52,0.7415044
+Resnet18 Self-Supervise Rotation Model,29,78.766,0.7428621724438484,78.45,0.7438847
+Resnet18 Self-Supervise Rotation Model,30,78.854,0.7388891381071047,79.18,0.7377655
+Resnet18 Self-Supervise Rotation Model,31,79.156,0.7339165681768256,79.26,0.73154986
+Resnet18 Self-Supervise Rotation Model,32,79.428,0.7308688573825085,79.14,0.72948146
+Resnet18 Self-Supervise Rotation Model,33,79.3,0.7322043992979143,79.21,0.72996324
+Resnet18 Self-Supervise Rotation Model,34,79.526,0.7296128622101395,78.95,0.73133826
+Resnet18 Self-Supervise Rotation Model,35,79.738,0.7255060253545756,79.17,0.7305887
+Resnet18 Self-Supervise Rotation Model,36,79.786,0.7266590878786638,79.2,0.7317231
+Resnet18 Self-Supervise Rotation Model,37,79.822,0.726614402992951,79.15,0.72952217
+Resnet18 Self-Supervise Rotation Model,38,79.67,0.7273820147794836,79.47,0.7287003
+Resnet18 Self-Supervise Rotation Model,39,79.718,0.7265547186212467,79.42,0.7269008
+Resnet18 Self-Supervise Rotation Model,40,79.544,0.7278634318915169,79.2,0.72269416
+Resnet18 Self-Supervise Rotation Model,41,79.526,0.7261096385433851,79.22,0.7252257
+Resnet18 Self-Supervise Rotation Model,42,79.726,0.7261225677207302,79.36,0.72844183
+Resnet18 Self-Supervise Rotation Model,43,79.87,0.7244909116069375,79.48,0.72581893
+Resnet18 Self-Supervise Rotation Model,44,79.708,0.7254575445219074,79.14,0.72704625
+Resnet18 Self-Supervise Rotation Model,45,79.972,0.722695416806604,79.11,0.7252039
+Resnet18 Self-Supervise Rotation Model,46,79.668,0.7263727845133418,79.49,0.7270358
+Resnet18 Self-Supervise Rotation Model,47,79.954,0.7220149346629677,79.09,0.7327362
+Resnet18 Self-Supervise Rotation Model,48,79.782,0.7244825043031932,79.13,0.72737443
+Resnet18 Self-Supervise Rotation Model,49,79.71,0.7251545956067722,79.52,0.73007035
+Resnet18 Self-Supervise Rotation Model,50,79.79,0.7229820104206309,79.11,0.7289724
+Resnet18 Self-Supervise Rotation Model,51,79.634,0.7245170272829587,79.05,0.7282495
+Resnet18 Self-Supervise Rotation Model,52,79.928,0.7233298155657776,79.19,0.7291849
+Resnet18 Self-Supervise Rotation Model,53,79.834,0.7231725327803961,79.47,0.7240743
+Resnet18 Self-Supervise Rotation Model,54,79.984,0.7217074390262594,79.09,0.73040324
+Resnet18 Self-Supervise Rotation Model,55,80.032,0.7216486194554497,79.65,0.726646
+Resnet18 Self-Supervise Rotation Model,56,79.896,0.7232401017337808,79.59,0.7227421
+Resnet18 Self-Supervise Rotation Model,57,79.994,0.7230749415314716,79.51,0.7225491
+Resnet18 Self-Supervise Rotation Model,58,79.73,0.7247533683886613,79.6,0.72689223
+Resnet18 Self-Supervise Rotation Model,59,79.762,0.7237672885055737,79.11,0.7285484
+Resnet18 Self-Supervise Rotation Model,60,80.096,0.7226831705673881,79.13,0.72725415
+Resnet18 Self-Supervise Rotation Model,61,80.008,0.7219172112472222,79.35,0.7236568
+Resnet18 Self-Supervise Rotation Model,62,79.848,0.7231447111310252,79.38,0.7251945
+Resnet18 Self-Supervise Rotation Model,63,79.896,0.7234417806805857,79.24,0.7254484
+Resnet18 Self-Supervise Rotation Model,64,79.758,0.7260072362392455,79.37,0.72476906
+Resnet18 Self-Supervise Rotation Model,65,79.7,0.7240251067959135,78.98,0.7258072
+Resnet18 Self-Supervise Rotation Model,66,79.898,0.7216451204646274,79.13,0.7275137
+Resnet18 Self-Supervise Rotation Model,67,79.974,0.7223542305209752,79.49,0.72754973
+Resnet18 Self-Supervise Rotation Model,68,79.882,0.7217055255799647,79.13,0.72277915
+Resnet18 Self-Supervise Rotation Model,69,79.886,0.7208007432310782,78.92,0.7288619
+Resnet18 Self-Supervise Rotation Model,70,79.84,0.7229232730158149,79.62,0.72392654
+Resnet18 Self-Supervise Rotation Model,71,80.22,0.7204076550195894,79.21,0.72522956
+Resnet18 Self-Supervise Rotation Model,72,79.908,0.723452163169451,79.15,0.73086613
+Resnet18 Self-Supervise Rotation Model,73,79.81,0.7236339045912409,79.11,0.72987247
+Resnet18 Self-Supervise Rotation Model,74,79.824,0.7221854202582708,79.61,0.72461635
+Resnet18 Self-Supervise Rotation Model,75,79.876,0.7217650584247716,79.58,0.7224075
+Resnet18 Self-Supervise Rotation Model,76,80.154,0.7205142375758237,79.44,0.7260038
+Resnet18 Self-Supervise Rotation Model,77,80.006,0.7213996164024333,79.4,0.72348833
+Resnet18 Self-Supervise Rotation Model,78,79.764,0.7230105072336124,79.43,0.7289464
+Resnet18 Self-Supervise Rotation Model,79,79.992,0.7227439362069835,78.94,0.72696763
+Resnet18 Self-Supervise Rotation Model,80,79.732,0.7237005079798686,79.27,0.7297793
+Resnet18 Fine-tuning Pre-trained Model,1,42.396,1.7330740595717564,49.33,1.5897323
+Resnet18 Fine-tuning Pre-trained Model,2,49.702,1.582371992223403,51.82,1.5341771
+Resnet18 Fine-tuning Pre-trained Model,3,51.686,1.546809091897267,53.17,1.5102648
+Resnet18 Fine-tuning Pre-trained Model,4,52.588,1.5265546616385965,55.76,1.4660203
+Resnet18 Fine-tuning Pre-trained Model,5,53.214,1.5102134302753927,55.6,1.4625111
+Resnet18 Fine-tuning Pre-trained Model,6,53.928,1.5005432321592365,54.57,1.4895025
+Resnet18 Fine-tuning Pre-trained Model,7,54.584,1.4856571343243885,56.03,1.4559762
+Resnet18 Fine-tuning Pre-trained Model,8,54.974,1.477760871657935,56.96,1.4393427
+Resnet18 Fine-tuning Pre-trained Model,9,55.14,1.4704945066091044,55.65,1.4714315
+Resnet18 Fine-tuning Pre-trained Model,10,55.482,1.4637182374744464,56.68,1.4442271
+Resnet18 Fine-tuning Pre-trained Model,11,57.604,1.41679561229618,59.37,1.3801531
+Resnet18 Fine-tuning Pre-trained Model,12,57.936,1.4049644040329683,60.13,1.3731694
+Resnet18 Fine-tuning Pre-trained Model,13,58.18,1.40421170529807,60.25,1.372706
+Resnet18 Fine-tuning Pre-trained Model,14,58.382,1.3969388983743576,60.2,1.3696984
+Resnet18 Fine-tuning Pre-trained Model,15,58.586,1.393721048789256,60.19,1.3678623
+Resnet18 Fine-tuning Pre-trained Model,16,58.93,1.388801893614747,60.44,1.3681924
+Resnet18 Fine-tuning Pre-trained Model,17,58.912,1.3888062339304659,60.3,1.3691812
+Resnet18 Fine-tuning Pre-trained Model,18,58.798,1.3888007661570674,60.49,1.3646868
+Resnet18 Fine-tuning Pre-trained Model,19,58.932,1.383949621559104,60.37,1.3644942
+Resnet18 Fine-tuning Pre-trained Model,20,58.846,1.3853369539655993,60.56,1.358033
+Resnet18 Fine-tuning Pre-trained Model,21,59.404,1.3816152490923166,61.19,1.3546176
+Resnet18 Fine-tuning Pre-trained Model,22,59.302,1.3800524506727447,60.96,1.3548446
+Resnet18 Fine-tuning Pre-trained Model,23,59.526,1.3743027683414157,60.96,1.3556257
+Resnet18 Fine-tuning Pre-trained Model,24,59.774,1.3733381523805506,61.16,1.3544369
+Resnet18 Fine-tuning Pre-trained Model,25,59.156,1.3796870891395432,61.08,1.3536859
+Resnet18 Fine-tuning Pre-trained Model,26,59.656,1.3774208318242027,61.16,1.3532727
+Resnet18 Fine-tuning Pre-trained Model,27,59.566,1.372914237744363,60.94,1.3554804
+Resnet18 Fine-tuning Pre-trained Model,28,59.788,1.3730756599275047,60.61,1.3611447
+Resnet18 Fine-tuning Pre-trained Model,29,59.552,1.3725508161822852,61.05,1.3527328
+Resnet18 Fine-tuning Pre-trained Model,30,59.514,1.3726891321904213,61.11,1.3546898
+Resnet18 Fine-tuning Pre-trained Model,31,59.484,1.3759011194834014,61.01,1.3554994
+Resnet18 Fine-tuning Pre-trained Model,32,59.382,1.375520791544024,60.7,1.3564065
+Resnet18 Fine-tuning Pre-trained Model,33,59.764,1.376291330208254,61.15,1.3531129
+Resnet18 Fine-tuning Pre-trained Model,34,59.706,1.3720271901401413,61.26,1.3507062
+Resnet18 Fine-tuning Pre-trained Model,35,59.612,1.3745842522672376,60.97,1.3539453
+Resnet18 Fine-tuning Pre-trained Model,36,59.74,1.3716718504191054,60.84,1.3576583
+Resnet18 Fine-tuning Pre-trained Model,37,59.62,1.3754817521785532,60.98,1.3533413
+Resnet18 Fine-tuning Pre-trained Model,38,59.668,1.3724792826815944,60.89,1.3541232
+Resnet18 Fine-tuning Pre-trained Model,39,59.492,1.3754827372558283,61.11,1.3519131
+Resnet18 Fine-tuning Pre-trained Model,40,59.866,1.3703733938734244,60.78,1.3552088
+Resnet18 Fine-tuning Pre-trained Model,41,59.636,1.368624767988844,61.09,1.3501605
+Resnet18 Fine-tuning Pre-trained Model,42,59.592,1.3740132592828072,60.96,1.3532428
+Resnet18 Fine-tuning Pre-trained Model,43,59.732,1.369791265338888,61.13,1.3503932
+Resnet18 Fine-tuning Pre-trained Model,44,59.858,1.3697202416027294,60.76,1.3585963
+Resnet18 Fine-tuning Pre-trained Model,45,59.598,1.372296710453375,61.14,1.3513987
+Resnet18 Fine-tuning Pre-trained Model,46,59.662,1.3721601347179364,60.91,1.354524
+Resnet18 Fine-tuning Pre-trained Model,47,59.606,1.3740614192260197,61.15,1.3529935
+Resnet18 Fine-tuning Pre-trained Model,48,59.83,1.3707012800914247,60.87,1.3532239
+Resnet18 Fine-tuning Pre-trained Model,49,59.828,1.3708217735485653,60.89,1.35738
+Resnet18 Fine-tuning Pre-trained Model,50,59.686,1.374361569924123,60.68,1.3592433
+Resnet18 Fine-tuning Pre-trained Model,51,59.534,1.3766192700856787,61.11,1.3532941
+Resnet18 Fine-tuning Pre-trained Model,52,59.768,1.3705167474649143,61.17,1.352538
+Resnet18 Fine-tuning Pre-trained Model,53,59.696,1.3739525665102712,61.04,1.3559861
+Resnet18 Fine-tuning Pre-trained Model,54,59.668,1.373219403464471,60.84,1.3519503
+Resnet18 Fine-tuning Pre-trained Model,55,59.72,1.3722746460638997,61.19,1.3526607
+Resnet18 Fine-tuning Pre-trained Model,56,59.554,1.3708979976756492,60.89,1.3539053
+Resnet18 Fine-tuning Pre-trained Model,57,59.708,1.3732559229711743,61.16,1.3516778
+Resnet18 Fine-tuning Pre-trained Model,58,59.534,1.373609677605007,61.19,1.3508267
+Resnet18 Fine-tuning Pre-trained Model,59,59.724,1.3709652884232113,60.85,1.353631
+Resnet18 Fine-tuning Pre-trained Model,60,59.504,1.37670803527393,60.65,1.3561403
+Resnet18 Fine-tuning Pre-trained Model,61,59.642,1.371136974190812,61.03,1.3511896
+Resnet18 Fine-tuning Pre-trained Model,62,59.498,1.3744363434174482,61.08,1.3522086
+Resnet18 Fine-tuning Pre-trained Model,63,59.43,1.3719704477378474,61.27,1.3487307
+Resnet18 Fine-tuning Pre-trained Model,64,59.732,1.3697078267631628,60.8,1.3595085
+Resnet18 Fine-tuning Pre-trained Model,65,59.51,1.373812727001317,61.06,1.352846
+Resnet18 Fine-tuning Pre-trained Model,66,59.554,1.3734071626687598,61.1,1.3527465
+Resnet18 Fine-tuning Pre-trained Model,67,59.632,1.3718635477983128,60.96,1.3543761
+Resnet18 Fine-tuning Pre-trained Model,68,59.734,1.3717434241643647,61.04,1.352964
+Resnet18 Fine-tuning Pre-trained Model,69,59.608,1.3744322021903894,60.81,1.3581588
+Resnet18 Fine-tuning Pre-trained Model,70,59.78,1.3706464243057135,60.92,1.3564308
+Resnet18 Fine-tuning Pre-trained Model,71,59.496,1.373593223979101,60.82,1.3560846
+Resnet18 Fine-tuning Pre-trained Model,72,59.43,1.3760142579407948,61.17,1.3503358
+Resnet18 Fine-tuning Pre-trained Model,73,59.65,1.372472236528421,61.17,1.3491888
+Resnet18 Fine-tuning Pre-trained Model,74,59.368,1.3709643667616198,61.26,1.3513685
+Resnet18 Fine-tuning Pre-trained Model,75,59.468,1.3750431604702453,61.1,1.3549181
+Resnet18 Fine-tuning Pre-trained Model,76,59.564,1.3725174979480637,60.94,1.3522956
+Resnet18 Fine-tuning Pre-trained Model,77,59.632,1.3746361845289654,61.13,1.351595
+Resnet18 Fine-tuning Pre-trained Model,78,59.376,1.373515391593699,60.81,1.3573899
+Resnet18 Fine-tuning Pre-trained Model,79,59.918,1.3712062399710536,61.15,1.3545204
+Resnet18 Fine-tuning Pre-trained Model,80,59.468,1.3741491276894688,61.16,1.3526049
+Resnet18 Fine-tuning Randomly Initialized Model,1,29.862,2.068416810096682,37.23,1.8478916
+Resnet18 Fine-tuning Randomly Initialized Model,2,34.746,1.9039833121897314,38.23,1.8246278
+Resnet18 Fine-tuning Randomly Initialized Model,3,36.496,1.8696450385291252,39.51,1.8020172
+Resnet18 Fine-tuning Randomly Initialized Model,4,37.548,1.8481040357628746,40.79,1.7878932
+Resnet18 Fine-tuning Randomly Initialized Model,5,38.344,1.8335198685336296,40.53,1.7869393
+Resnet18 Fine-tuning Randomly Initialized Model,6,38.804,1.820942091210114,41.64,1.769619
+Resnet18 Fine-tuning Randomly Initialized Model,7,39.502,1.8095300161015346,41.34,1.764083
+Resnet18 Fine-tuning Randomly Initialized Model,8,40.054,1.8009493533912522,41.59,1.7575402
+Resnet18 Fine-tuning Randomly Initialized Model,9,40.138,1.7966387256636949,42.61,1.7402908
+Resnet18 Fine-tuning Randomly Initialized Model,10,40.564,1.7888998171252668,43.14,1.7379748
+Resnet18 Fine-tuning Randomly Initialized Model,11,42.114,1.7573414248273806,44.18,1.7116172
+Resnet18 Fine-tuning Randomly Initialized Model,12,42.806,1.740518683667683,44.45,1.7059464
+Resnet18 Fine-tuning Randomly Initialized Model,13,43.326,1.731654665964034,44.38,1.7007974
+Resnet18 Fine-tuning Randomly Initialized Model,14,43.504,1.7286216474859917,44.82,1.6942714
+Resnet18 Fine-tuning Randomly Initialized Model,15,43.746,1.7228479214641443,45.09,1.6948358
+Resnet18 Fine-tuning Randomly Initialized Model,16,43.82,1.7189739405956415,45.11,1.6936189
+Resnet18 Fine-tuning Randomly Initialized Model,17,44.05,1.71713274427692,45.11,1.6924894
+Resnet18 Fine-tuning Randomly Initialized Model,18,44.3,1.7144917173458791,45.41,1.688274
+Resnet18 Fine-tuning Randomly Initialized Model,19,44.27,1.7110083008666173,45.82,1.6851542
+Resnet18 Fine-tuning Randomly Initialized Model,20,44.432,1.7065665645672536,45.59,1.682778
+Resnet18 Fine-tuning Randomly Initialized Model,21,45.168,1.6973849053273116,45.68,1.6783276
+Resnet18 Fine-tuning Randomly Initialized Model,22,44.952,1.6970567514219552,45.77,1.6794668
+Resnet18 Fine-tuning Randomly Initialized Model,23,44.92,1.6976300435297935,45.64,1.6833051
+Resnet18 Fine-tuning Randomly Initialized Model,24,45.218,1.6938504291617351,45.49,1.6812412
+Resnet18 Fine-tuning Randomly Initialized Model,25,44.938,1.696403305548841,45.54,1.6817052
+Resnet18 Fine-tuning Randomly Initialized Model,26,44.604,1.6999901978256147,45.84,1.6767759
+Resnet18 Fine-tuning Randomly Initialized Model,27,44.756,1.6972724376127237,45.79,1.678097
+Resnet18 Fine-tuning Randomly Initialized Model,28,44.806,1.698048091300613,45.68,1.6805062
+Resnet18 Fine-tuning Randomly Initialized Model,29,44.96,1.6976224680995697,45.58,1.6815151
+Resnet18 Fine-tuning Randomly Initialized Model,30,44.88,1.6945539331802018,45.75,1.6816742
+Resnet18 Fine-tuning Randomly Initialized Model,31,44.924,1.694132520109796,45.65,1.6787187
+Resnet18 Fine-tuning Randomly Initialized Model,32,44.88,1.6943202189472326,45.6,1.680657
+Resnet18 Fine-tuning Randomly Initialized Model,33,45.094,1.6950733182985154,45.89,1.6804887
+Resnet18 Fine-tuning Randomly Initialized Model,34,44.966,1.6974273340781327,45.5,1.6838503
+Resnet18 Fine-tuning Randomly Initialized Model,35,44.64,1.7015910063253339,45.71,1.6808248
+Resnet18 Fine-tuning Randomly Initialized Model,36,44.85,1.699759929076485,45.77,1.6792427
+Resnet18 Fine-tuning Randomly Initialized Model,37,44.788,1.6951576443889258,45.78,1.6759995
+Resnet18 Fine-tuning Randomly Initialized Model,38,45.238,1.693313675463352,45.82,1.6793156
+Resnet18 Fine-tuning Randomly Initialized Model,39,45.124,1.6943894332022313,45.75,1.6775632
+Resnet18 Fine-tuning Randomly Initialized Model,40,45.26,1.6925273691601765,45.71,1.677111
+Resnet18 Fine-tuning Randomly Initialized Model,41,45.178,1.6934597101967659,45.69,1.6804513
+Resnet18 Fine-tuning Randomly Initialized Model,42,45.228,1.6929370555121575,45.53,1.6784871
+Resnet18 Fine-tuning Randomly Initialized Model,43,45.114,1.689838692660222,45.43,1.6780608
+Resnet18 Fine-tuning Randomly Initialized Model,44,45.416,1.6911067584591448,45.73,1.6786624
+Resnet18 Fine-tuning Randomly Initialized Model,45,45.028,1.6935695632339438,45.77,1.681658
+Resnet18 Fine-tuning Randomly Initialized Model,46,44.922,1.698148977421129,45.52,1.6775603
+Resnet18 Fine-tuning Randomly Initialized Model,47,45.29,1.691294909743092,45.81,1.6780398
+Resnet18 Fine-tuning Randomly Initialized Model,48,45.01,1.6948580845542576,45.69,1.681267
+Resnet18 Fine-tuning Randomly Initialized Model,49,45.042,1.6967708165078517,45.6,1.6792376
+Resnet18 Fine-tuning Randomly Initialized Model,50,45.01,1.6928091628472213,45.75,1.679941
+Resnet18 Fine-tuning Randomly Initialized Model,51,44.83,1.6979489756362212,45.44,1.6789412
+Resnet18 Fine-tuning Randomly Initialized Model,52,45.54,1.6924004429746466,45.68,1.6789844
+Resnet18 Fine-tuning Randomly Initialized Model,53,45.182,1.6930794194531258,45.87,1.6781082
+Resnet18 Fine-tuning Randomly Initialized Model,54,45.106,1.6899700978832781,45.8,1.6778964
+Resnet18 Fine-tuning Randomly Initialized Model,55,45.116,1.6950827696744133,45.5,1.6785926
+Resnet18 Fine-tuning Randomly Initialized Model,56,44.848,1.6944362498305339,45.77,1.6769832
+Resnet18 Fine-tuning Randomly Initialized Model,57,44.83,1.6974283334849132,45.75,1.6773435
+Resnet18 Fine-tuning Randomly Initialized Model,58,44.9,1.6962147634047682,45.7,1.6795824
+Resnet18 Fine-tuning Randomly Initialized Model,59,45.272,1.6929127468782312,45.64,1.6782819
+Resnet18 Fine-tuning Randomly Initialized Model,60,44.774,1.6957619546929283,45.72,1.6784549
+Resnet18 Fine-tuning Randomly Initialized Model,61,45.026,1.694716498674944,45.5,1.6797886
+Resnet18 Fine-tuning Randomly Initialized Model,62,44.912,1.6995255331249188,45.82,1.6785678
+Resnet18 Fine-tuning Randomly Initialized Model,63,45.07,1.694341262892994,45.61,1.6778944
+Resnet18 Fine-tuning Randomly Initialized Model,64,45.106,1.6952052518839726,45.78,1.6781626
+Resnet18 Fine-tuning Randomly Initialized Model,65,44.888,1.6935967213052618,45.59,1.680038
+Resnet18 Fine-tuning Randomly Initialized Model,66,45.132,1.6927728710881889,45.8,1.6782383
+Resnet18 Fine-tuning Randomly Initialized Model,67,45.182,1.694030543422455,45.81,1.6805547
+Resnet18 Fine-tuning Randomly Initialized Model,68,45.15,1.6926035701161455,45.83,1.6799812
+Resnet18 Fine-tuning Randomly Initialized Model,69,45.31,1.6909419737203653,45.8,1.678174
+Resnet18 Fine-tuning Randomly Initialized Model,70,45.106,1.6937183300247582,45.69,1.680692
+Resnet18 Fine-tuning Randomly Initialized Model,71,45.042,1.6912918462777686,46.05,1.6770754
+Resnet18 Fine-tuning Randomly Initialized Model,72,45.02,1.6946906293444621,45.72,1.6811862
+Resnet18 Fine-tuning Randomly Initialized Model,73,44.9,1.6950215765887209,45.77,1.6801116
+Resnet18 Fine-tuning Randomly Initialized Model,74,44.988,1.693727164622158,45.76,1.6773268
+Resnet18 Fine-tuning Randomly Initialized Model,75,45.048,1.6925383632445274,45.95,1.6767186
+Resnet18 Fine-tuning Randomly Initialized Model,76,45.032,1.695071300582203,45.78,1.6794225
+Resnet18 Fine-tuning Randomly Initialized Model,77,45.17,1.6965002873364616,45.87,1.6794432
+Resnet18 Fine-tuning Randomly Initialized Model,78,45.118,1.6938091232953474,45.53,1.6811607
+Resnet18 Fine-tuning Randomly Initialized Model,79,45.298,1.6937971023647376,45.75,1.6793848
+Resnet18 Fine-tuning Randomly Initialized Model,80,45.162,1.6898477300048789,45.84,1.6777043
+Resnet18 Supervised Pre-trained Model,1,58.534,1.409290362197115,66.26,1.2565955
+Resnet18 Supervised Pre-trained Model,2,69.58,1.1826579881751018,70.74,1.1804715
+Resnet18 Supervised Pre-trained Model,3,73.096,1.1074883709173373,73.34,1.1193986
+Resnet18 Supervised Pre-trained Model,4,75.386,1.0573188142703318,77.32,1.0181662
+Resnet18 Supervised Pre-trained Model,5,77.16,1.0152533400394117,77.57,1.0171229
+Resnet18 Supervised Pre-trained Model,6,78.326,0.993725593132741,78.37,0.99841505
+Resnet18 Supervised Pre-trained Model,7,79.69,0.9634386201953644,79.89,0.95817584
+Resnet18 Supervised Pre-trained Model,8,80.416,0.9476940337654269,79.52,0.97096586
+Resnet18 Supervised Pre-trained Model,9,81.18,0.9287238128654792,80.59,0.9431409
+Resnet18 Supervised Pre-trained Model,10,81.884,0.9132680918859399,78.09,1.0162358
+Resnet18 Supervised Pre-trained Model,11,84.976,0.8407492773307254,82.95,0.8845367
+Resnet18 Supervised Pre-trained Model,12,86.174,0.8118859212416822,83.41,0.8789465
+Resnet18 Supervised Pre-trained Model,13,86.344,0.8060657656406198,83.56,0.8764388
+Resnet18 Supervised Pre-trained Model,14,86.972,0.7970488332116695,83.74,0.871974
+Resnet18 Supervised Pre-trained Model,15,87.174,0.7922126435867661,83.73,0.86954397
+Resnet18 Supervised Pre-trained Model,16,87.286,0.7884908150833891,84.27,0.867008
+Resnet18 Supervised Pre-trained Model,17,87.67,0.7827164157272299,83.91,0.8663979
+Resnet18 Supervised Pre-trained Model,18,87.944,0.7774003375216824,84.2,0.868211
+Resnet18 Supervised Pre-trained Model,19,88.198,0.7712515557513517,84.18,0.8665263
+Resnet18 Supervised Pre-trained Model,20,88.272,0.7682449258196994,84.39,0.86313224
+Resnet18 Supervised Pre-trained Model,21,88.578,0.7600254945437926,84.51,0.86088824
+Resnet18 Supervised Pre-trained Model,22,88.8,0.7557794997454299,84.5,0.8608454
+Resnet18 Supervised Pre-trained Model,23,88.854,0.7556721453776445,84.5,0.86017793
+Resnet18 Supervised Pre-trained Model,24,88.702,0.7547268619012955,84.48,0.8594096
+Resnet18 Supervised Pre-trained Model,25,88.938,0.7528092566963351,84.64,0.8596319
+Resnet18 Supervised Pre-trained Model,26,88.878,0.7541068397519534,84.47,0.861666
+Resnet18 Supervised Pre-trained Model,27,89.008,0.7513568864758972,84.46,0.8614138
+Resnet18 Supervised Pre-trained Model,28,88.86,0.7539196889418776,84.58,0.8596946
+Resnet18 Supervised Pre-trained Model,29,89.086,0.751005378982905,84.58,0.86153483
+Resnet18 Supervised Pre-trained Model,30,88.912,0.7518876007450815,84.49,0.86025965
+Resnet18 Supervised Pre-trained Model,31,88.994,0.7500120861755918,84.45,0.86111337
+Resnet18 Supervised Pre-trained Model,32,88.974,0.7504721709224574,84.39,0.8607075
+Resnet18 Supervised Pre-trained Model,33,89.108,0.7488544171728442,84.52,0.85923487
+Resnet18 Supervised Pre-trained Model,34,89.094,0.746922611732922,84.52,0.86105245
+Resnet18 Supervised Pre-trained Model,35,89.172,0.7475021815360965,84.62,0.859377
+Resnet18 Supervised Pre-trained Model,36,89.076,0.749107302912056,84.49,0.8598681
+Resnet18 Supervised Pre-trained Model,37,89.068,0.7510153741178001,84.6,0.8603466
+Resnet18 Supervised Pre-trained Model,38,89.08,0.7474372626265602,84.55,0.85970324
+Resnet18 Supervised Pre-trained Model,39,89.028,0.7507801630612835,84.6,0.8601369
+Resnet18 Supervised Pre-trained Model,40,89.192,0.745727517568242,84.66,0.86116457
+Resnet18 Supervised Pre-trained Model,41,89.048,0.7488191434184609,84.43,0.85921687
+Resnet18 Supervised Pre-trained Model,42,89.074,0.749093505275219,84.52,0.8617519
+Resnet18 Supervised Pre-trained Model,43,89.066,0.7499989885503374,84.61,0.85944456
+Resnet18 Supervised Pre-trained Model,44,89.184,0.747687015844428,84.49,0.86030143
+Resnet18 Supervised Pre-trained Model,45,89.158,0.7461687198380376,84.5,0.8599868
+Resnet18 Supervised Pre-trained Model,46,89.114,0.7497742828505728,84.39,0.85987675
+Resnet18 Supervised Pre-trained Model,47,89.136,0.748522914431589,84.66,0.8589653
+Resnet18 Supervised Pre-trained Model,48,89.126,0.7463317364073165,84.5,0.8593378
+Resnet18 Supervised Pre-trained Model,49,88.918,0.7518400638304708,84.52,0.8605546
+Resnet18 Supervised Pre-trained Model,50,89.14,0.7469826006828366,84.54,0.85915303
+Resnet18 Supervised Pre-trained Model,51,89.146,0.7492416743427286,84.44,0.859354
+Resnet18 Supervised Pre-trained Model,52,89.108,0.7477474976378633,84.61,0.860118
+Resnet18 Supervised Pre-trained Model,53,88.936,0.7502659758948305,84.6,0.8598097
+Resnet18 Supervised Pre-trained Model,54,88.874,0.7500181890204739,84.37,0.86145097
+Resnet18 Supervised Pre-trained Model,55,89.112,0.747320419839581,84.53,0.8609457
+Resnet18 Supervised Pre-trained Model,56,89.188,0.7474987846811104,84.55,0.86097014
+Resnet18 Supervised Pre-trained Model,57,89.122,0.748174036555278,84.57,0.86087584
+Resnet18 Supervised Pre-trained Model,58,89.136,0.7479856567614523,84.5,0.8609863
+Resnet18 Supervised Pre-trained Model,59,89.044,0.7505457701585482,84.48,0.8599882
+Resnet18 Supervised Pre-trained Model,60,89.128,0.749039772678824,84.68,0.8593574
+Resnet18 Supervised Pre-trained Model,61,89.158,0.7478005876931388,84.49,0.85975033
+Resnet18 Supervised Pre-trained Model,62,89.048,0.7497958832079797,84.56,0.85925674
+Resnet18 Supervised Pre-trained Model,63,88.884,0.7498731361630627,84.55,0.8593673
+Resnet18 Supervised Pre-trained Model,64,89.168,0.747888298900536,84.48,0.86068934
+Resnet18 Supervised Pre-trained Model,65,89.124,0.7500131191195124,84.7,0.85973805
+Resnet18 Supervised Pre-trained Model,66,89.1,0.7499877241871241,84.56,0.86026454
+Resnet18 Supervised Pre-trained Model,67,89.038,0.7488302128089358,84.66,0.8604223
+Resnet18 Supervised Pre-trained Model,68,89.034,0.7492238112422817,84.53,0.85965294
+Resnet18 Supervised Pre-trained Model,69,89.14,0.7495046079616108,84.54,0.86032385
+Resnet18 Supervised Pre-trained Model,70,89.12,0.7487730420458957,84.64,0.86004347
+Resnet18 Supervised Pre-trained Model,71,89.146,0.748639007968366,84.46,0.86118525
+Resnet18 Supervised Pre-trained Model,72,89.062,0.7480540373136321,84.49,0.859768
+Resnet18 Supervised Pre-trained Model,73,89.08,0.747831625859146,84.52,0.85936046
+Resnet18 Supervised Pre-trained Model,74,89.182,0.7466544187282358,84.36,0.8612048
+Resnet18 Supervised Pre-trained Model,75,88.96,0.750770709856087,84.46,0.86109763
+Resnet18 Supervised Pre-trained Model,76,89.034,0.7487355572793185,84.55,0.86039835
+Resnet18 Supervised Pre-trained Model,77,88.958,0.75239385561565,84.49,0.85973823
+Resnet18 Supervised Pre-trained Model,78,89.23,0.7462580217729748,84.42,0.8608545
+Resnet18 Supervised Pre-trained Model,79,89.07,0.7499040787482201,84.52,0.85958153
+Resnet18 Supervised Pre-trained Model,80,89.054,0.7480255844038161,84.46,0.86011785
+Resnet18 Supervised Randomly Initialized Model,1,32.536,1.9898753580839739,45.18,1.7315974
+Resnet18 Supervised Randomly Initialized Model,2,48.182,1.6194437998335074,53.97,1.5043969
+Resnet18 Supervised Randomly Initialized Model,3,57.092,1.4359628849322228,60.46,1.3775961
+Resnet18 Supervised Randomly Initialized Model,4,62.868,1.3219880374801127,64.89,1.2826753
+Resnet18 Supervised Randomly Initialized Model,5,66.306,1.2487895388127592,67.98,1.237613
+Resnet18 Supervised Randomly Initialized Model,6,69.322,1.1889379484879086,71.09,1.1552346
+Resnet18 Supervised Randomly Initialized Model,7,71.93,1.1318901618728248,72.83,1.1157844
+Resnet18 Supervised Randomly Initialized Model,8,73.482,1.09439010876219,74.32,1.08865
+Resnet18 Supervised Randomly Initialized Model,9,74.918,1.0652356086789494,74.84,1.0709198
+Resnet18 Supervised Randomly Initialized Model,10,76.454,1.0344109797416745,76.79,1.0341116
+Resnet18 Supervised Randomly Initialized Model,11,80.568,0.9381465177096979,80.05,0.9464628
+Resnet18 Supervised Randomly Initialized Model,12,81.706,0.9125362684964524,80.79,0.932146
+Resnet18 Supervised Randomly Initialized Model,13,82.504,0.8955263990880279,81.18,0.9216707
+Resnet18 Supervised Randomly Initialized Model,14,82.914,0.8846604497841252,81.35,0.91895396
+Resnet18 Supervised Randomly Initialized Model,15,83.262,0.8776377982190807,81.63,0.9116552
+Resnet18 Supervised Randomly Initialized Model,16,83.622,0.8693000636137355,81.62,0.9093158
+Resnet18 Supervised Randomly Initialized Model,17,84.128,0.8593412684967451,81.84,0.90707195
+Resnet18 Supervised Randomly Initialized Model,18,84.334,0.8537305418182822,81.95,0.90554345
+Resnet18 Supervised Randomly Initialized Model,19,84.608,0.8454652687777644,82.17,0.900698
+Resnet18 Supervised Randomly Initialized Model,20,84.906,0.8409725281283679,82.22,0.8988123
+Resnet18 Supervised Randomly Initialized Model,21,85.576,0.8223406652660321,82.53,0.89312637
+Resnet18 Supervised Randomly Initialized Model,22,86.024,0.8189322324969884,82.46,0.89153904
+Resnet18 Supervised Randomly Initialized Model,23,85.952,0.8172547451370512,82.7,0.8891065
+Resnet18 Supervised Randomly Initialized Model,24,86.188,0.8108031964667922,82.56,0.8887081
+Resnet18 Supervised Randomly Initialized Model,25,86.098,0.813354110473867,82.55,0.89027596
+Resnet18 Supervised Randomly Initialized Model,26,86.126,0.8123082489613682,82.72,0.88831437
+Resnet18 Supervised Randomly Initialized Model,27,86.304,0.8106400916338576,82.75,0.8892453
+Resnet18 Supervised Randomly Initialized Model,28,86.458,0.8081938664016821,82.81,0.889159
+Resnet18 Supervised Randomly Initialized Model,29,86.308,0.8081438800562983,82.78,0.88831645
+Resnet18 Supervised Randomly Initialized Model,30,86.434,0.8082641529305207,82.8,0.88834035
+Resnet18 Supervised Randomly Initialized Model,31,86.35,0.8071224773326493,82.83,0.88784075
+Resnet18 Supervised Randomly Initialized Model,32,86.458,0.8058061409179512,82.71,0.8881483
+Resnet18 Supervised Randomly Initialized Model,33,86.308,0.807154743567757,82.76,0.887677
+Resnet18 Supervised Randomly Initialized Model,34,86.53,0.804125995587205,82.85,0.88870096
+Resnet18 Supervised Randomly Initialized Model,35,86.498,0.8050487492700367,83.06,0.88823795
+Resnet18 Supervised Randomly Initialized Model,36,86.544,0.8040739878669114,82.84,0.8881446
+Resnet18 Supervised Randomly Initialized Model,37,86.424,0.803518275775568,82.85,0.88684875
+Resnet18 Supervised Randomly Initialized Model,38,86.438,0.8041825875296922,82.72,0.88824344
+Resnet18 Supervised Randomly Initialized Model,39,86.442,0.8061884650793831,82.68,0.88861436
+Resnet18 Supervised Randomly Initialized Model,40,86.562,0.8050369784960052,82.8,0.8875571
+Resnet18 Supervised Randomly Initialized Model,41,86.422,0.8055258356701688,82.8,0.8880596
+Resnet18 Supervised Randomly Initialized Model,42,86.394,0.8055817617479798,82.76,0.8888157
+Resnet18 Supervised Randomly Initialized Model,43,86.446,0.8053970515270672,82.96,0.8867276
+Resnet18 Supervised Randomly Initialized Model,44,86.308,0.8051795069214023,82.98,0.8872604
+Resnet18 Supervised Randomly Initialized Model,45,86.616,0.8012805427126872,82.96,0.8875803
+Resnet18 Supervised Randomly Initialized Model,46,86.542,0.8034023775164124,82.85,0.88744056
+Resnet18 Supervised Randomly Initialized Model,47,86.392,0.8064790743086344,82.85,0.88772434
+Resnet18 Supervised Randomly Initialized Model,48,86.56,0.803234780993303,83.02,0.8873446
+Resnet18 Supervised Randomly Initialized Model,49,86.53,0.8032737831630365,82.96,0.8870159
+Resnet18 Supervised Randomly Initialized Model,50,86.43,0.8039997698705824,82.78,0.88706917
+Resnet18 Supervised Randomly Initialized Model,51,86.474,0.8038985000546935,82.8,0.8895103
+Resnet18 Supervised Randomly Initialized Model,52,86.614,0.8030548083507801,82.89,0.88764167
+Resnet18 Supervised Randomly Initialized Model,53,86.492,0.8035462154146961,82.72,0.88899434
+Resnet18 Supervised Randomly Initialized Model,54,86.686,0.8020289935114439,82.83,0.8879404
+Resnet18 Supervised Randomly Initialized Model,55,86.562,0.8004759795525495,82.83,0.88761216
+Resnet18 Supervised Randomly Initialized Model,56,86.432,0.8036709923268585,82.79,0.8884836
+Resnet18 Supervised Randomly Initialized Model,57,86.506,0.804721750109397,82.9,0.8868648
+Resnet18 Supervised Randomly Initialized Model,58,86.674,0.8008071175011833,82.72,0.8872598
+Resnet18 Supervised Randomly Initialized Model,59,86.75,0.8027090649775532,82.75,0.89002615
+Resnet18 Supervised Randomly Initialized Model,60,86.472,0.803144925390668,82.84,0.8877267
+Resnet18 Supervised Randomly Initialized Model,61,86.454,0.8050686575262748,82.76,0.8888105
+Resnet18 Supervised Randomly Initialized Model,62,86.566,0.8039559324074279,82.67,0.8900882
+Resnet18 Supervised Randomly Initialized Model,63,86.522,0.8040827947199497,82.76,0.887505
+Resnet18 Supervised Randomly Initialized Model,64,86.486,0.8038882770196861,82.89,0.88714164
+Resnet18 Supervised Randomly Initialized Model,65,86.484,0.8038107845789332,82.89,0.8867727
+Resnet18 Supervised Randomly Initialized Model,66,86.59,0.8028703726770933,82.79,0.88799787
+Resnet18 Supervised Randomly Initialized Model,67,86.564,0.8036562614428723,82.69,0.8882055
+Resnet18 Supervised Randomly Initialized Model,68,86.512,0.8031483783441431,82.9,0.8877923
+Resnet18 Supervised Randomly Initialized Model,69,86.572,0.8051439182227834,82.81,0.8881484
+Resnet18 Supervised Randomly Initialized Model,70,86.508,0.8052212940457532,82.81,0.8871618
+Resnet18 Supervised Randomly Initialized Model,71,86.698,0.8025002670105156,82.95,0.8874159
+Resnet18 Supervised Randomly Initialized Model,72,86.578,0.8009552722391875,82.88,0.88746876
+Resnet18 Supervised Randomly Initialized Model,73,86.578,0.804128205227425,82.91,0.8879359
+Resnet18 Supervised Randomly Initialized Model,74,86.5,0.8042702385226784,82.68,0.8903362
+Resnet18 Supervised Randomly Initialized Model,75,86.684,0.8037206073246344,82.95,0.8878726
+Resnet18 Supervised Randomly Initialized Model,76,86.47,0.8021457561141695,82.97,0.88772964
+Resnet18 Supervised Randomly Initialized Model,77,86.754,0.8002182649224615,82.69,0.88736534
+Resnet18 Supervised Randomly Initialized Model,78,86.514,0.8035576912143346,82.76,0.8874803
+Resnet18 Supervised Randomly Initialized Model,79,86.692,0.8031438425983615,82.86,0.8877868
+Resnet18 Supervised Randomly Initialized Model,80,86.62,0.8014626089874131,83.03,0.8856803
