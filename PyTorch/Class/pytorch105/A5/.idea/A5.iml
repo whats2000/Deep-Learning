@@ -6,15 +6,7 @@
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
   <component name="PyDocumentationSettings">
-    <option name="format" value="PLAIN" />
-    <option name="myDocStringFormat" value="Plain" />
-  </component>
-  <component name="PyNamespacePackagesService">
-    <option name="namespacePackageFolders">
-      <list>
-        <option value="$MODULE_DIR$/A5/src" />
-        <option value="$MODULE_DIR$/A5/yolov5_src" />
-      </list>
-    </option>
+    <option name="format" value="GOOGLE" />
+    <option name="myDocStringFormat" value="Google" />
   </component>
 </module>

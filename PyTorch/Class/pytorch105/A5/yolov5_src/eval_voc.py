@@ -171,7 +171,7 @@ def evaluate(model, val_dataset_file, img_root, val_loader=None):
     aps = voc_eval(preds, targets, VOC_CLASSES=VOC_CLASSES)
     return aps
 
-def test_evaluate(model, test_dataset_file, img_root):
+def test_evaluate(model, test_dataset_file, img_root, test_loader=None):
     targets = defaultdict(list)
     preds = defaultdict(list)
     preds_submission = defaultdict(list)
