@@ -3,6 +3,18 @@ import torch.nn as nn
 import torch.nn.functional as F
 from torch.autograd import Variable
 
+class FocalLoss(nn.Module):
+    def __init__(self, gamma=2.0, alpha=None):
+        super(FocalLoss, self).__init__()
+        self.gamma = gamma
+        self.alpha = alpha
+
+    def forward(self, inputs, targets):
+        bce_loss = F.binary_cross_entropy_with_logits(inputs, targets, reduction='none')
+        pt = torch.exp(-bce_loss)
+        f_loss = self.alpha * (1-pt)**self.gamma * bce_loss
+
+        return f_loss.mean()
 
 def compute_iou(box1, box2):
     """Compute the intersection over union of two set of boxes, each box is [x1,y1,x2,y2].
