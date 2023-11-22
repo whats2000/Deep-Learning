@@ -12,7 +12,7 @@ from src.config import VOC_IMG_MEAN
 
 
 class VocDetectorDataset(DataLoader.Dataset):
-    image_size = 640
+    image_size = 448
 
     def __init__(
         self,
