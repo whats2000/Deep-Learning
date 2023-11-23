@@ -23,8 +23,6 @@ class ConvBNSiLu(nn.Module):
 
     Attributes:
         conv (nn.Conv2d): Convolutional layer.
-        bn (nn.BatchNorm2d): Batch normalization layer.
-        act (nn.SiLU): SiLU (Sigmoid Linear Unit) activation function.
     """
 
     def __init__(self, in_channels: int, out_channels: int, kernel_size: int, stride: int = 1, padding: int = 0):
@@ -40,9 +38,11 @@ class ConvBNSiLu(nn.Module):
         """
         super(ConvBNSiLu, self).__init__()
 
-        self.conv = nn.Conv2d(in_channels, out_channels, kernel_size, stride, padding, bias=False)
-        self.bn = nn.BatchNorm2d(out_channels, eps=1e-3, momentum=0.03)
-        self.act = nn.SiLU()  # SiLU activation function
+        self.conv = nn.Sequential(
+            nn.Conv2d(in_channels, out_channels, kernel_size, stride, padding),
+            # nn.BatchNorm2d(out_channels, eps=1e-3, momentum=0.03),
+            nn.SiLU(inplace=True)
+        )
 
     def forward(self, x: torch.Tensor) -> torch.Tensor:
         """
@@ -54,10 +54,10 @@ class ConvBNSiLu(nn.Module):
         Returns:
             torch.Tensor: Output tensor after applying the convolution, batch normalization, and activation function.
         """
-        x = self.conv(x)
-        x = self.bn(x)
-        x = self.act(x)
-        return x
+        # Apply the convolution, batch normalization, and activation function
+        out = self.conv(x)
+
+        return out
 
 
 class BottleNeck(nn.Module):
@@ -129,30 +129,31 @@ class C3(nn.Module):
             is_backbone (bool): Indicates whether the block is part of the backbone and should use skip connections in the bottlenecks.
         """
         super(C3, self).__init__()
+        hidden_channels = int(in_channels * width_multiplier)
 
         # The first convolutional layer for a path 'a'
-        self.conv1_a = ConvBNSiLu(in_channels, int(in_channels * width_multiplier), kernel_size=1, stride=1, padding=0)
+        self.conv1 = ConvBNSiLu(in_channels, hidden_channels, kernel_size=1, stride=1, padding=0)
 
         # The second convolutional layer for path 'b'
-        self.conv1_b = ConvBNSiLu(in_channels, int(in_channels * width_multiplier), kernel_size=1, stride=1, padding=0)
+        self.conv2 = ConvBNSiLu(in_channels, hidden_channels, kernel_size=1, stride=1, padding=0)
+
+        # Final convolutional layer after concatenation
+        self.final_conv = ConvBNSiLu(2 * hidden_channels, out_channels, kernel_size=1, stride=1,
+                                     padding=0)
 
         # Bottleneck layers for path 'a'
         self.bottlenecks = nn.Sequential(
-            *[BottleNeck(int(in_channels * width_multiplier), width_multiplier=width_multiplier,
+            *[BottleNeck(hidden_channels, width_multiplier=1,
                          skip_connection=is_backbone) for _ in range(number_of_bottlenecks)]
         )
-
-        # Final convolutional layer after concatenation
-        self.final_conv = ConvBNSiLu(int(in_channels * width_multiplier) * 2, out_channels, kernel_size=1, stride=1,
-                                     padding=0)
 
     def forward(self, x):
         """
         Forward pass of the C3 block.
         """
         # Apply the first convolutional layers to get 'a' and 'b'
-        a = self.conv1_a(x)
-        b = self.conv1_b(x)
+        a = self.conv1(x)
+        b = self.conv2(x)
 
         # Apply the bottleneck blocks to 'a'
         a = self.bottlenecks(a)
@@ -212,50 +213,6 @@ class SPPF(nn.Module):
         x = self.final_conv(x_cat)
 
         return x
-
-
-class DetectionHead(nn.Module):
-    """
-    Prediction head for an object detection model like YOLO.
-    """
-
-    def __init__(self, in_channels, num_classes, num_anchors):
-        """
-        Initializes the DetectionHead block.
-
-        Args:
-            in_channels (int): Number of channels in the input tensor from the neck.
-            num_classes (int): Number of class predictions to make for each bounding box.
-            num_anchors (int): Number of anchors used for prediction per grid cell.
-        """
-        super(DetectionHead, self).__init__()
-
-        # Convolutional layers for bounding box predictions
-        self.bbox_conv = ConvBNSiLu(in_channels, num_anchors * 4, kernel_size=3, stride=1, padding=1)
-
-        # Convolutional layers for objectness score predictions
-        self.obj_conv = ConvBNSiLu(in_channels, num_anchors, kernel_size=3, stride=1, padding=1)
-
-        # Convolutional layers for class score predictions
-        self.class_conv = ConvBNSiLu(in_channels, num_anchors * num_classes, kernel_size=3, stride=1, padding=1)
-
-    def forward(self, x):
-        """
-        Forward pass of the DetectionHead block.
-        """
-        # Predict bounding boxes
-        bbox_pred = self.bbox_conv(x)
-
-        # Predict objectness scores
-        obj_pred = self.obj_conv(x)
-
-        # Predict class scores
-        class_pred = self.class_conv(x)
-
-        # Combine the predictions into one tensor
-        pred = torch.cat([bbox_pred, obj_pred, class_pred], dim=1)
-
-        return pred
 
 
 # Copyright (c) 2023 Alessandro Mondin
@@ -354,3 +311,28 @@ class YOLOv5m(nn.Module):
 
         return self.head(outputs)
 # End of code derived from the YOLOv5m implementation by Alessandro Mondin
+
+
+def load_pretrained_weights(model: nn.Module) -> nn.Module:
+    """
+    Loads the pretrained weights into the model.
+
+    Args:
+        model (nn.Module): The model to load the weights into.
+    """
+    # Load the pretrained YOLOv5 model
+    pretrained_model = torch.hub.load('ultralytics/yolov5', 'yolov5m', pretrained=True)
+
+    # Counter check all layer loads correctly
+    loaded_layer = 0
+
+    # Iterate over your model's state dictionary and transfer weights based on shape
+    for ((name_m, param_m), (name_p, param_p)) in zip(model.state_dict().items(), pretrained_model.state_dict().items()):
+        if param_m.shape == param_p.shape:
+            param_m.data.copy_(param_p.data)
+            loaded_layer += 1
+        else:
+            print(f"Skipped parameter: {name_m} | MisMatched Shapes: {param_m.shape} vs {param_p.shape}")
+
+    print(f'Loaded {loaded_layer} layers successfully, total {len(pretrained_model.state_dict().items())} layers in pretrained model.')
+    return model
