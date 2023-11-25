@@ -19,7 +19,6 @@ class VocDetectorDataset640(DataLoader.Dataset):
         root_img_dir,
         dataset_file,
         train,
-        S,
         preproc=True,
         return_image_id=False,
         encode_target=True,
@@ -32,7 +31,6 @@ class VocDetectorDataset640(DataLoader.Dataset):
         self.boxes = []
         self.labels = []
         self.mean = VOC_IMG_MEAN
-        self.S = S
 
         self.return_image_id = return_image_id
         self.encode_target = encode_target
@@ -86,16 +84,18 @@ class VocDetectorDataset640(DataLoader.Dataset):
         for t in self.transform:
             img = t(img)
 
-        # Encoding target (if needed)
+        # Encoding and adjusting target format
         if self.encode_target:
-            target_boxes, target_cls, has_object_map = self.encoder(boxes, labels)  # SxSx(B*5+C)
+            targets = self.encoder(boxes, labels)  # Targets for each scale
+            # Adjust the targets to match model output
+            targets = [target.permute(2, 0, 1, 3) for target in targets]  # Transpose to [B, S, S, 5 + C]
         else:
-            target = list(boxes[:, 0:4]).clone()
+            targets = boxes[:, 0:4].clone()
 
         if self.return_image_id:
-            return img, target, fname
+            return img, targets, fname
 
-        return img, target_boxes, target_cls, has_object_map
+        return img, *targets  # Unpack the adjusted targets for each scale
 
     def resize_image_and_boxes(self, img, boxes, new_size):
         """Resize image and adjust bounding boxes for the new image size."""
@@ -122,35 +122,40 @@ class VocDetectorDataset640(DataLoader.Dataset):
 
     def encoder(self, boxes, labels):
         """
-        This function takes as input bounding boxes and corresponding labels for a particular image
-        sample and outputs a target tensor of size SxSx(5xB+C)
-
-        boxes (tensor) [[x1,y1,x2,y2],[]]
-        labels (tensor) [...]
-        return SxSx(5xB+C) (14x14x30 in our case)
+        Adjusted encoder for YOLOv5 to output target tensors for three different scales: 80x80, 40x40, and 20x20.
+        Each scale has a depth of 25 (4 for bbox, 1 for objectness score, and 20 for class probabilities).
         """
-        grid_num = self.S
-        target = torch.zeros((grid_num, grid_num, 25))
-        cell_size = 1.0 / grid_num
-        wh = boxes[:, 2:] - boxes[:, :2]
-        center_xy_all = (boxes[:, 2:] + boxes[:, :2]) / 2
-        for i in range(center_xy_all.size()[0]):
-            center_xy = center_xy_all[i]
-            ij = (center_xy / cell_size).ceil() - 1
-            # confidence represents iou between predicted and ground truth
-            target[int(ij[1]), int(ij[0]), 4] = 1  # confidence of box 1
-            target[int(ij[1]), int(ij[0]), int(labels[i]) + 4] = 1
-            xy = ij * cell_size  # coordinates of upper left corner
-            delta_xy = (center_xy - xy) / cell_size
-            target[int(ij[1]), int(ij[0]), 2:4] = wh[i]
-            target[int(ij[1]), int(ij[0]), :2] = delta_xy
+        S = [80, 40, 20]  # Three scales
+        B = 3  # Number of anchors
+        C = 20  # Number of classes for VOC2007
+        targets = [torch.zeros((s, s, B, 5 + C)) for s in S]  # 5 for bbox (4) and objectness score (1)
 
-        target_boxes = target[:, :, :4]
-        has_object_map = (target[:, :, 4:5]) > 0
-        has_object_map = has_object_map.squeeze()
-        target_cls = target[:, :, 5:]
+        for box, label in zip(boxes, labels):
+            # Normalize box coordinates
+            gx, gy, gw, gh = self.normalize_box(box)
 
-        return target_boxes, target_cls, has_object_map
+            # Assign targets for each scale
+            for i, s in enumerate(S):
+                # Compute grid cell indices
+                cell_size = 1 / s
+                grid_x, grid_y = int(gx // cell_size), int(gy // cell_size)
+
+                # Assign target
+                target = targets[i]
+                target[grid_y, grid_x, :, :4] = torch.tensor([gx, gy, gw, gh])
+                target[grid_y, grid_x, :, 4] = 1  # Objectness score
+                target[grid_y, grid_x, :, 5 + label] = 1  # Class label
+
+        return targets
+
+    def normalize_box(self, box):
+        """
+        Normalize bounding box coordinates to be in range [0, 1].
+        """
+        x1, y1, x2, y2 = box
+        gw, gh = x2 - x1, y2 - y1  # width and height of box
+        gx, gy = x1 + gw / 2, y1 + gh / 2  # center of box
+        return gx, gy, gw, gh
 
     def random_shift(self, img, boxes, labels):
         # Augment data with a small translational shift

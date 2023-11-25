@@ -227,10 +227,8 @@ class Heads(nn.Module):
         self.stride = [8, 16, 32]
 
         # anchors are divided by the stride (anchors_for_head_1/8, anchors_for_head_1/16 etc.)
-        anchors_ = torch.tensor(anchors).float().view(self.nl, -1, 2) / torch.tensor(self.stride).repeat(6,
-                                                                                                         1).T.reshape(3,
-                                                                                                                      3,
-                                                                                                                      2)
+        anchors_ = torch.tensor(anchors).float().view(self.nl, -1, 2) / torch.tensor(self.stride) \
+            .repeat(6, 1).T.reshape(3, 3, 2)
         self.register_buffer('anchors', anchors_)
 
         self.out_convs = nn.ModuleList()
@@ -246,6 +244,7 @@ class Heads(nn.Module):
             x[i] = x[i].view(bs, self.naxs, (5 + self.nc), grid_y, grid_x).permute(0, 1, 3, 4, 2).contiguous()
 
         return x
+
 
 class YOLOv5m(nn.Module):
     def __init__(self, first_out, nc=10, anchors=(), ch=(), inference=False):
@@ -269,13 +268,17 @@ class YOLOv5m(nn.Module):
         self.neck = nn.ModuleList()
         self.neck += [
             ConvBNSiLu(in_channels=first_out * 16, out_channels=first_out * 8, kernel_size=1, stride=1, padding=0),
-            C3(in_channels=first_out * 16, out_channels=first_out * 8, width_multiplier=0.25, number_of_bottlenecks=2, is_backbone=False),
+            C3(in_channels=first_out * 16, out_channels=first_out * 8, width_multiplier=0.25, number_of_bottlenecks=2,
+               is_backbone=False),
             ConvBNSiLu(in_channels=first_out * 8, out_channels=first_out * 4, kernel_size=1, stride=1, padding=0),
-            C3(in_channels=first_out * 8, out_channels=first_out * 4, width_multiplier=0.25, number_of_bottlenecks=2, is_backbone=False),
+            C3(in_channels=first_out * 8, out_channels=first_out * 4, width_multiplier=0.25, number_of_bottlenecks=2,
+               is_backbone=False),
             ConvBNSiLu(in_channels=first_out * 4, out_channels=first_out * 4, kernel_size=3, stride=2, padding=1),
-            C3(in_channels=first_out * 8, out_channels=first_out * 8, width_multiplier=0.5, number_of_bottlenecks=2, is_backbone=False),
+            C3(in_channels=first_out * 8, out_channels=first_out * 8, width_multiplier=0.5, number_of_bottlenecks=2,
+               is_backbone=False),
             ConvBNSiLu(in_channels=first_out * 8, out_channels=first_out * 8, kernel_size=3, stride=2, padding=1),
-            C3(in_channels=first_out * 16, out_channels=first_out * 16, width_multiplier=0.5, number_of_bottlenecks=2, is_backbone=False)
+            C3(in_channels=first_out * 16, out_channels=first_out * 16, width_multiplier=0.5, number_of_bottlenecks=2,
+               is_backbone=False)
         ]
 
         self.head = Heads(nc=nc, anchors=anchors, ch=ch)
@@ -310,6 +313,8 @@ class YOLOv5m(nn.Module):
                 x = layer(x)
 
         return self.head(outputs)
+
+
 # End of code derived from the YOLOv5m implementation by Alessandro Mondin
 
 
@@ -323,16 +328,18 @@ def load_pretrained_weights(model: nn.Module) -> nn.Module:
     # Load the pretrained YOLOv5 model
     pretrained_model = torch.hub.load('ultralytics/yolov5', 'yolov5m', pretrained=True)
 
-    # Counter check all layer loads correctly
+    # Counter check all layers loads correctly
     loaded_layer = 0
 
     # Iterate over your model's state dictionary and transfer weights based on shape
-    for ((name_m, param_m), (name_p, param_p)) in zip(model.state_dict().items(), pretrained_model.state_dict().items()):
+    for ((name_m, param_m), (name_p, param_p)) in zip(model.state_dict().items(),
+                                                      pretrained_model.state_dict().items()):
         if param_m.shape == param_p.shape:
             param_m.data.copy_(param_p.data)
             loaded_layer += 1
         else:
             print(f"Skipped parameter: {name_m} | MisMatched Shapes: {param_m.shape} vs {param_p.shape}")
 
-    print(f'Loaded {loaded_layer} layers successfully, total {len(pretrained_model.state_dict().items())} layers in pretrained model.')
+    print(
+        f'Loaded {loaded_layer} layers successfully, total {len(pretrained_model.state_dict().items())} layers in pretrained model.')
     return model
