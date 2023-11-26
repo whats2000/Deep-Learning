@@ -3,8 +3,6 @@
 # https://github.com/aladdinpersson/Machine-Learning-Collection/blob/master/ML/Pytorch/object_detection/YOLOv3/
 import torch
 import torch.nn as nn
-import torch.nn.functional as F
-from ultralytics import YOLO
 
 """ 
 Information about architecture config:

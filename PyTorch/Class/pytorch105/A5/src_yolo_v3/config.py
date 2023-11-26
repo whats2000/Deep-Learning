@@ -6,7 +6,6 @@ import cv2
 import torch
 
 from albumentations.pytorch import ToTensorV2
-from utils import seed_everything
 
 DATASET = 'PASCAL_VOC'
 DEVICE = "cuda" if torch.cuda.is_available() else "cpu"

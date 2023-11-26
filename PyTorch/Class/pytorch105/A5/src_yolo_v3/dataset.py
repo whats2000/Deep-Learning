@@ -5,15 +5,20 @@
 Creates a Pytorch dataset to load the Pascal VOC & MS COCO datasets
 """
 
-import os
-
+import src_yolo_v3.config as config
 import numpy as np
+import os
 import pandas as pd
 import torch
-from PIL import Image, ImageFile
-from torch.utils.data import Dataset
-from utils import iou_width_height as iou
 
+from PIL import Image, ImageFile
+from torch.utils.data import Dataset, DataLoader
+from src_yolo_v3.utils import (
+    cells_to_bboxes,
+    iou_width_height as iou,
+    non_max_suppression as nms,
+    plot_image
+)
 
 ImageFile.LOAD_TRUNCATED_IMAGES = True
 
@@ -21,42 +26,50 @@ class YOLODataset(Dataset):
     def __init__(
         self,
         img_dir,
-        label_dir,
+        label_file,
         anchors,
         image_size=416,
-        s=None,
-        c=20,
+        S=[13, 26, 52],
+        C=20,
         transform=None,
     ):
-        if s is None:
-            s = [13, 26, 52]
-
         self.img_dir = img_dir
-        self.label_dir = label_dir
         self.image_size = image_size
         self.transform = transform
-        self.S = s
-        self.anchors = torch.tensor(anchors[0] + anchors[1] + anchors[2])
+        self.S = S
+        self.anchors = torch.tensor(anchors[0] + anchors[1] + anchors[2])  # for all 3 scales
         self.num_anchors = self.anchors.shape[0]
         self.num_anchors_per_scale = self.num_anchors // 3
-        self.C = c
+        self.C = C
         self.ignore_iou_thresh = 0.5
 
-        self.image_files = [os.path.join(img_dir, file) for file in os.listdir(img_dir) if file.endswith(('.jpg', '.png', '.jpeg'))]
-        self.label_files = [os.path.join(label_dir, os.path.splitext(os.path.basename(file))[0] + '.txt') for file in self.image_files]
+        # Read data from the label file
+        self.labels = []
+        with open(label_file, 'r') as file:
+            self.labels = file.readlines()
 
     def __len__(self):
-        return len(self.image_files)
+        return len(self.labels)
 
     def __getitem__(self, index):
-        img_path = self.image_files[index]
-        label_path = self.label_files[index]
+        line = self.labels[index].strip().split()
+        img_path = os.path.join(self.img_dir, line[0])
+        image = Image.open(img_path).convert("RGB")
 
-        image = np.array(Image.open(img_path).convert("RGB"))
-        bboxes = np.roll(np.loadtxt(fname=label_path, delimiter=" ", ndmin=2), 4, axis=1).tolist()
+        # Process bounding boxes
+        boxes = []
+        for i in range(1, len(line), 5):
+            x1, y1, x2, y2, class_label = map(int, line[i:i + 5])
+            x = ((x1 + x2) / 2) / image.width  # Normalized Center x coordinate
+            y = ((y1 + y2) / 2) / image.height  # Normalized Center y coordinate
+            w = (x2 - x1) / image.width  # Normalized Width
+            h = (y2 - y1) / image.height  # Normalized Height
+            boxes.append([x, y, w, h, class_label])
+
+        image = np.array(image)
 
         if self.transform:
-            augmentations = self.transform(image=image, bboxes=bboxes)
+            augmentations = self.transform(image=image, bboxes=boxes)
             image = augmentations["image"]
             bboxes = augmentations["bboxes"]
 
@@ -91,3 +104,39 @@ class YOLODataset(Dataset):
                     targets[scale_idx][anchor_on_scale, i, j, 0] = -1  # ignore prediction
 
         return image, tuple(targets)
+
+
+def test():
+    anchors = config.ANCHORS
+
+    transform = config.train_transforms
+
+    dataset = YOLODataset(
+        img_dir='C:/Users/eddie/GitHub/Deep-Learning/PyTorch/Class/pytorch105/A5/data/VOCdevkit_2007/VOC2007/JPEGImages',
+        label_file='C:/Users/eddie/GitHub/Deep-Learning/PyTorch/Class/pytorch105/A5/data/voc2007train.txt',
+        S=[13, 26, 52],
+        anchors=anchors,
+        transform=transform,
+    )
+    S = [13, 26, 52]
+    scaled_anchors = torch.tensor(anchors) / (
+        1 / torch.tensor(S).unsqueeze(1).unsqueeze(1).repeat(1, 3, 2)
+    )
+    loader = DataLoader(dataset=dataset, batch_size=1, shuffle=True)
+    for x, y in loader:
+        boxes = []
+
+        for i in range(y[0].shape[1]):
+            anchor = scaled_anchors[i]
+            print(anchor.shape)
+            print(y[i].shape)
+            boxes += cells_to_bboxes(
+                y[i], is_preds=False, S=y[i].shape[2], anchors=anchor
+            )[0]
+        boxes = nms(boxes, iou_threshold=1, threshold=0.7, box_format="midpoint")
+        print(boxes)
+        plot_image(x[0].permute(1, 2, 0).to("cpu"), boxes)
+
+
+if __name__ == "__main__":
+    test()

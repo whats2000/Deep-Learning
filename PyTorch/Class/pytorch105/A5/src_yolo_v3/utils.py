@@ -1,7 +1,6 @@
 # Copyright (c) 2023 Aladdin Persson
 # The following code is derived from the YOLOv3 implementation by Aladdin Persson available at
 # https://github.com/aladdinpersson/Machine-Learning-Collection/blob/master/ML/Pytorch/object_detection/YOLOv3/
-import config
 import matplotlib.pyplot as plt
 import matplotlib.patches as patches
 import numpy as np
@@ -12,6 +11,8 @@ import torch
 from collections import Counter
 from torch.utils.data import DataLoader
 from tqdm import tqdm
+
+from src_yolo_v3 import config
 
 
 def iou_width_height(boxes1, boxes2):
