@@ -81,7 +81,7 @@ def intersection_over_union(boxes_preds, boxes_labels, box_format="midpoint"):
     return intersection / (box1_area + box2_area - intersection + 1e-6)
 
 
-def non_max_suppression(bboxes, iou_threshold, threshold, box_format="corners"):
+def non_max_suppression(bboxes, iou_threshold, threshold, box_format="corners", max_cal=300):
     """
     Video explanation of this function:
     https://youtu.be/YDkjWEN8jNA
@@ -94,6 +94,7 @@ def non_max_suppression(bboxes, iou_threshold, threshold, box_format="corners"):
         iou_threshold (float): threshold where predicted bboxes is correct
         threshold (float): threshold to remove predicted bboxes (independent of IoU)
         box_format (str): "midpoint" or "corners" used to specify bboxes
+        max_cal: maximum number of bboxes to calculate NMS for
 
     Returns:
         list: bboxes after performing NMS given a specific IoU threshold
@@ -104,6 +105,9 @@ def non_max_suppression(bboxes, iou_threshold, threshold, box_format="corners"):
     bboxes = [box for box in bboxes if box[1] > threshold]
     bboxes = sorted(bboxes, key=lambda x: x[1], reverse=True)
     bboxes_after_nms = []
+
+    # Limit to the top 'max_boxes' bboxes
+    bboxes = bboxes[:max_cal]
 
     while bboxes:
         chosen_box = bboxes.pop(0)

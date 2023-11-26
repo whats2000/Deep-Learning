@@ -125,7 +125,7 @@ def voc_eval(
     return aps
 
 
-def evaluate(model, val_dataset_file, img_root, val_loader=None):
+def evaluate(model, val_dataset_file, img_root):
     targets = defaultdict(list)
     preds = defaultdict(list)
     image_list = []  # image path list
@@ -157,7 +157,7 @@ def evaluate(model, val_dataset_file, img_root, val_loader=None):
     sys.stdout.flush()
     model.eval()
     for image_path in tqdm(image_list):
-        result = predict_image(model, image_path, root_img_directory=img_root)
+        result = predict_image_yolo_v5(model, image_path, root_img_directory=img_root)
         for (
             (x1, y1),
             (x2, y2),
@@ -203,7 +203,7 @@ def test_evaluate(model, test_dataset_file, img_root):
     sys.stdout.flush()
     model.eval()
     for image_path in tqdm(image_list):
-        result = predict_image(model, image_path, root_img_directory=img_root)
+        result = predict_image_yolo_v5(model, image_path, root_img_directory=img_root)
         for (
             (x1, y1),
             (x2, y2),

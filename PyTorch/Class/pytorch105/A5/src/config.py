@@ -22,6 +22,7 @@ VOC_CLASSES = (  # always index 0
 )
 
 VOC_IMG_MEAN = (123, 117, 104)  # RGB
+VOC_IMG_STD = [58.395, 57.120, 57.375]  # Replace with your actual std values if different
 
 COLORS = [
     [0, 0, 0],
