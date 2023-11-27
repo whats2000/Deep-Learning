@@ -260,9 +260,13 @@ def plot_image(image, boxes):
     for box in boxes:
         assert len(box) == 6, "box should contain class pred, confidence, x, y, width, height"
         class_pred = box[0]
+        conf = box[1]
         box = box[2:]
         upper_left_x = box[0] - box[2] / 2
         upper_left_y = box[1] - box[3] / 2
+        lower_right_x = box[0] + box[2] / 2
+        lower_right_y = box[1] + box[3] / 2
+
         rect = patches.Rectangle(
             (upper_left_x * width, upper_left_y * height),
             box[2] * width,
@@ -276,7 +280,7 @@ def plot_image(image, boxes):
         plt.text(
             upper_left_x * width,
             upper_left_y * height,
-            s=class_labels[int(class_pred)],
+            s=f'{class_labels[int(class_pred)]}: {conf:.2f}',
             color="white",
             verticalalignment="top",
             bbox={"color": colors[int(class_pred)], "pad": 0},
@@ -340,6 +344,52 @@ def get_evaluation_bboxes(
 
     model.train()
     return all_pred_boxes, all_true_boxes
+
+def get_predict_bboxes(
+    loader,
+    model,
+    iou_threshold,
+    anchors,
+    threshold,
+    box_format="midpoint",
+    device="cuda",
+):
+    # make sure model is in eval before get bboxes
+    model.eval()
+    train_idx = 0
+    all_pred_boxes = []
+    for batch_idx, (x, labels) in enumerate(tqdm(loader)):
+        x = x.to(device)
+
+        with torch.no_grad():
+            predictions = model(x)
+
+        batch_size = x.shape[0]
+        bboxes = [[] for _ in range(batch_size)]
+        for i in range(3):
+            S = predictions[i].shape[2]
+            anchor = torch.tensor([*anchors[i]]).to(device) * S
+            boxes_scale_i = cells_to_bboxes(
+                predictions[i], anchor, S=S, is_preds=True
+            )
+            for idx, (box) in enumerate(boxes_scale_i):
+                bboxes[idx] += box
+
+        for idx in range(batch_size):
+            nms_boxes = non_max_suppression(
+                bboxes[idx],
+                iou_threshold=iou_threshold,
+                threshold=threshold,
+                box_format=box_format,
+            )
+
+            for nms_box in nms_boxes:
+                all_pred_boxes.append([train_idx] + nms_box)
+
+            train_idx += 1
+
+    model.train()
+    return all_pred_boxes
 
 
 def cells_to_bboxes(predictions, anchors, S, is_preds=True):
@@ -528,7 +578,32 @@ def plot_couple_examples(model, loader, thresh, iou_thresh, anchors):
         nms_boxes = non_max_suppression(
             bboxes[i], iou_threshold=iou_thresh, threshold=thresh, box_format="midpoint",
         )
+        print(nms_boxes)
         plot_image(x[i].permute(1,2,0).detach().cpu(), nms_boxes)
+
+def test_evaluate(model, loader, thresh, iou_thresh, anchors):
+    model.eval()
+    x, y = next(iter(loader))
+    x = x.to("cuda")
+    with torch.no_grad():
+        out = model(x)
+        bboxes = [[] for _ in range(x.shape[0])]
+        for i in range(3):
+            batch_size, A, S, _, _ = out[i].shape
+            anchor = anchors[i]
+            boxes_scale_i = cells_to_bboxes(
+                out[i], anchor, S=S, is_preds=True
+            )
+            for idx, (box) in enumerate(boxes_scale_i):
+                bboxes[idx] += box
+
+        model.train()
+
+    for i in range(batch_size):
+        nms_boxes = non_max_suppression(
+            bboxes[i], iou_threshold=iou_thresh, threshold=thresh, box_format="midpoint",
+        )
+        print(nms_boxes)
 
 
 

@@ -126,7 +126,7 @@ def voc_eval(
     return aps
 
 
-def evaluate(model, val_dataset_file, img_root, val_loader=None):
+def evaluate(model, val_dataset_file, img_root):
     targets = defaultdict(list)
     preds = defaultdict(list)
     image_list = []  # image path list
