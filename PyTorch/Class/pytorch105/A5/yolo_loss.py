@@ -2,7 +2,38 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 
-from src_yolo_v3.utils import intersection_over_union
+
+def intersection_over_union(boxes_preds, boxes_labels):
+    """
+    Video explanation and the function from the video:
+    https://youtu.be/XXYG5ZWtjj0
+
+    This function calculates intersection over union (iou) given pred boxes
+    and target boxes and each box is [x, y, w, h].
+
+    Parameters:
+        boxes_preds (tensor): Predictions of Bounding Boxes (BATCH_SIZE, 4)
+        boxes_labels (tensor): Correct labels of Bounding Boxes (BATCH_SIZE, 4)
+
+    Returns:
+        tensor: Intersection over union for all examples
+    """
+    # Calculate corners of the predicted and label boxes
+    box1_x1, box1_y1 = boxes_preds[..., 0] - boxes_preds[..., 2] / 2, boxes_preds[..., 1] - boxes_preds[..., 3] / 2
+    box1_x2, box1_y2 = boxes_preds[..., 0] + boxes_preds[..., 2] / 2, boxes_preds[..., 1] + boxes_preds[..., 3] / 2
+    box2_x1, box2_y1 = boxes_labels[..., 0] - boxes_labels[..., 2] / 2, boxes_labels[..., 1] - boxes_labels[..., 3] / 2
+    box2_x2, box2_y2 = boxes_labels[..., 0] + boxes_labels[..., 2] / 2, boxes_labels[..., 1] + boxes_labels[..., 3] / 2
+
+    # Calculate the intersection area
+    x1, y1 = torch.max(box1_x1, box2_x1), torch.max(box1_y1, box2_y1)
+    x2, y2 = torch.min(box1_x2, box2_x2), torch.min(box1_y2, box2_y2)
+    intersection = (x2 - x1).clamp(min=0) * (y2 - y1).clamp(min=0)
+
+    # Calculate areas
+    box1_area = abs((box1_x2 - box1_x1) * (box1_y2 - box1_y1))
+    box2_area = abs((box2_x2 - box2_x1) * (box2_y2 - box2_y1))
+
+    return intersection / (box1_area + box2_area - intersection + 1e-6)
 
 
 def compute_iou(box1, box2):
@@ -284,6 +315,7 @@ class YoloLoss(nn.Module):
         }
         return loss_dict
 
+
 class YoloLossV3(nn.Module):
     def __init__(self):
         super().__init__()
@@ -349,13 +381,16 @@ class YoloLossV3(nn.Module):
         Returns:
             loss of the cells with objects
         """
-        # For the cells with objects, compute the loss for the confidence scores
+        # Concatenate the sigmoid-scaled predicted centers and the exponential-scaled predicted dimensions,
+        # multiplied by anchors
         box_preds = torch.cat([F.sigmoid(prediction[..., 1:3]), torch.exp(prediction[..., 3:5]) * anchors], dim=-1)
 
-        # For the target zoom in to the cells with objects and extract the box coordinates
+        # Calculate the Intersection over Union (IoU) between predicted boxes and ground truth,
+        # focusing on cells with objects
         ious = intersection_over_union(box_preds[object_mask], target[..., 1:5][object_mask]).detach()
 
-        # Compute the loss
+        # Compute the mean squared error between the predicted objectness scores
+        # (sigmoid-scaled) and the IoU scaled by ground truth objectness scores
         object_loss = F.mse_loss(F.sigmoid(prediction[..., 0:1][object_mask]), ious * target[..., 0:1][object_mask])
 
         return object_loss
@@ -373,13 +408,14 @@ class YoloLossV3(nn.Module):
         Returns:
             loss of the cells with objects
         """
-        # For the cells with objects, compute the loss for the box coordinates
+        # Apply sigmoid to the predicted center coordinates x, y to ensure they are between 0 and 1
         prediction[..., 1:3] = F.sigmoid(prediction[..., 1:3])
 
-        # For the target zoom in to the cells with objects and extract the box coordinates
+        # Adjust the scale of target width and height dimensions by dividing with anchors and taking the log
         target[..., 3:5] = torch.log((1e-16 + target[..., 3:5] / anchors))
 
-        # Compute the loss
+        # Calculate the mean squared error between the predicted and target bounding boxes,
+        # focusing only on cells with objects
         box_loss = F.mse_loss(prediction[..., 1:5][object_mask], target[..., 1:5][object_mask])
 
         return box_loss
@@ -399,7 +435,9 @@ class YoloLossV3(nn.Module):
         loss_distribution = {"no_obj": 0, "obj": 0, "box": 0, "cls": 0}
         loss_count = {"no_obj": 0, "obj": 0, "box": 0, "cls": 0}
 
-        for predictions, target, anchors, weight in zip(predictions_list, target_list, anchors_list, self.balance_weight):
+        # Iterate through the predictions for each grid and compute the loss
+        for predictions, target, anchors, weight in zip(predictions_list, target_list, anchors_list,
+                                                        self.balance_weight):
             if target.sum() == 0:
                 continue
             # Check where obj and noobj (we ignore if target == -1)
@@ -429,7 +467,8 @@ class YoloLossV3(nn.Module):
                 loss_count[key] += 1
 
             # compute total loss
-            total_loss += weight * (self.lambda_box * box_loss + self.lambda_obj * object_loss + self.lambda_noobj * no_obj_loss + self.lambda_class * cls_loss)
+            total_loss += weight * (
+                    self.lambda_box * box_loss + self.lambda_obj * object_loss + self.lambda_noobj * no_obj_loss + self.lambda_class * cls_loss)
 
         # Calculate average losses
         average_losses = {k: loss_distribution[k] / loss_count[k] for k in loss_distribution}
