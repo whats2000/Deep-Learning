@@ -19,10 +19,10 @@ def intersection_over_union(boxes_preds, boxes_labels):
         tensor: Intersection over union for all examples
     """
     # Calculate corners of the predicted and label boxes
-    box1_x1, box1_y1 = boxes_preds[..., 0] - boxes_preds[..., 2] / 2, boxes_preds[..., 1] - boxes_preds[..., 3] / 2
-    box1_x2, box1_y2 = boxes_preds[..., 0] + boxes_preds[..., 2] / 2, boxes_preds[..., 1] + boxes_preds[..., 3] / 2
-    box2_x1, box2_y1 = boxes_labels[..., 0] - boxes_labels[..., 2] / 2, boxes_labels[..., 1] - boxes_labels[..., 3] / 2
-    box2_x2, box2_y2 = boxes_labels[..., 0] + boxes_labels[..., 2] / 2, boxes_labels[..., 1] + boxes_labels[..., 3] / 2
+    box1_x1, box1_y1 = boxes_preds[..., 0:1] - boxes_preds[..., 2:3] / 2, boxes_preds[..., 1:2] - boxes_preds[..., 3:4] / 2
+    box1_x2, box1_y2 = boxes_preds[..., 0:1] + boxes_preds[..., 2:3] / 2, boxes_preds[..., 1:2] + boxes_preds[..., 3:4] / 2
+    box2_x1, box2_y1 = boxes_labels[..., 0:1] - boxes_labels[..., 2:3] / 2, boxes_labels[..., 1:2] - boxes_labels[..., 3:4] / 2
+    box2_x2, box2_y2 = boxes_labels[..., 0:1] + boxes_labels[..., 2:3] / 2, boxes_labels[..., 1:2] + boxes_labels[..., 3:4] / 2
 
     # Calculate the intersection area
     x1, y1 = torch.max(box1_x1, box2_x1), torch.max(box1_y1, box2_y1)
