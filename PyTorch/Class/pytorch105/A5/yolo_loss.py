@@ -349,8 +349,13 @@ class YoloLossV3(nn.Module):
         Returns:
             loss of the cells with objects
         """
+        # For the cells with objects, compute the loss for the confidence scores
         box_preds = torch.cat([F.sigmoid(prediction[..., 1:3]), torch.exp(prediction[..., 3:5]) * anchors], dim=-1)
+
+        # For the target zoom in to the cells with objects and extract the box coordinates
         ious = intersection_over_union(box_preds[object_mask], target[..., 1:5][object_mask]).detach()
+
+        # Compute the loss
         object_loss = F.mse_loss(F.sigmoid(prediction[..., 0:1][object_mask]), ious * target[..., 0:1][object_mask])
 
         return object_loss
