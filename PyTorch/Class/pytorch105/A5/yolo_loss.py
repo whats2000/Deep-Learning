@@ -3,7 +3,7 @@ import torch.nn as nn
 import torch.nn.functional as F
 
 
-def intersection_over_union(boxes_preds, boxes_labels):
+def intersection_over_union(boxes_preds, boxes_labels, giou=False):
     """
     Video explanation and the function from the video:
     https://youtu.be/XXYG5ZWtjj0
@@ -19,21 +19,35 @@ def intersection_over_union(boxes_preds, boxes_labels):
         tensor: Intersection over union for all examples
     """
     # Calculate corners of the predicted and label boxes
-    box1_x1, box1_y1 = boxes_preds[..., 0:1] - boxes_preds[..., 2:3] / 2, boxes_preds[..., 1:2] - boxes_preds[..., 3:4] / 2
-    box1_x2, box1_y2 = boxes_preds[..., 0:1] + boxes_preds[..., 2:3] / 2, boxes_preds[..., 1:2] + boxes_preds[..., 3:4] / 2
-    box2_x1, box2_y1 = boxes_labels[..., 0:1] - boxes_labels[..., 2:3] / 2, boxes_labels[..., 1:2] - boxes_labels[..., 3:4] / 2
-    box2_x2, box2_y2 = boxes_labels[..., 0:1] + boxes_labels[..., 2:3] / 2, boxes_labels[..., 1:2] + boxes_labels[..., 3:4] / 2
+    box1_x1, box1_y1 = boxes_preds[..., 0:1] - boxes_preds[...,
+                                                           2:3] / 2, boxes_preds[..., 1:2] - boxes_preds[..., 3:4] / 2
+    box1_x2, box1_y2 = boxes_preds[..., 0:1] + boxes_preds[...,
+                                                           2:3] / 2, boxes_preds[..., 1:2] + boxes_preds[..., 3:4] / 2
+    box2_x1, box2_y1 = boxes_labels[..., 0:1] - boxes_labels[...,
+                                                             2:3] / 2, boxes_labels[..., 1:2] - boxes_labels[..., 3:4] / 2
+    box2_x2, box2_y2 = boxes_labels[..., 0:1] + boxes_labels[...,
+                                                             2:3] / 2, boxes_labels[..., 1:2] + boxes_labels[..., 3:4] / 2
 
     # Calculate the intersection area
     x1, y1 = torch.max(box1_x1, box2_x1), torch.max(box1_y1, box2_y1)
     x2, y2 = torch.min(box1_x2, box2_x2), torch.min(box1_y2, box2_y2)
-    intersection = (x2 - x1).clamp(min=0) * (y2 - y1).clamp(min=0)
 
     # Calculate areas
     box1_area = abs((box1_x2 - box1_x1) * (box1_y2 - box1_y1))
     box2_area = abs((box2_x2 - box2_x1) * (box2_y2 - box2_y1))
+    intersection = (x2 - x1).clamp(min=0) * (y2 - y1).clamp(min=0)
+    union = box1_area + box2_area - intersection + 1e-7
+    iou = intersection / union
+    
+    # GIoU Paper https://arxiv.org/pdf/1902.09630.pdf
+    if giou:
+        cw = torch.max(box1_x2, box2_x2) - torch.min(box1_x1, box2_x1)  # convex (smallest enclosing box) width
+        ch = torch.max(box1_y2, box2_y2) - torch.min(box1_y1, box2_y1)
+        c_area = cw * ch + 1e-7  # convex height
+        return iou - (c_area - union) / c_area
+    
 
-    return intersection / (box1_area + box2_area - intersection + 1e-6)
+    return iou
 
 
 def compute_iou(box1, box2):
@@ -48,13 +62,17 @@ def compute_iou(box1, box2):
     M = box2.size(0)
 
     lt = torch.max(
-        box1[:, :2].unsqueeze(1).expand(N, M, 2),  # [N,2] -> [N,1,2] -> [N,M,2]
-        box2[:, :2].unsqueeze(0).expand(N, M, 2),  # [M,2] -> [1,M,2] -> [N,M,2]
+        # [N,2] -> [N,1,2] -> [N,M,2]
+        box1[:, :2].unsqueeze(1).expand(N, M, 2),
+        # [M,2] -> [1,M,2] -> [N,M,2]
+        box2[:, :2].unsqueeze(0).expand(N, M, 2),
     )
 
     rb = torch.min(
-        box1[:, 2:].unsqueeze(1).expand(N, M, 2),  # [N,2] -> [N,1,2] -> [N,M,2]
-        box2[:, 2:].unsqueeze(0).expand(N, M, 2),  # [M,2] -> [1,M,2] -> [N,M,2]
+        # [N,2] -> [N,1,2] -> [N,M,2]
+        box1[:, 2:].unsqueeze(1).expand(N, M, 2),
+        # [M,2] -> [1,M,2] -> [N,M,2]
+        box2[:, 2:].unsqueeze(0).expand(N, M, 2),
     )
 
     wh = rb - lt  # [N,M,2]
@@ -138,7 +156,8 @@ class YoloLoss(nn.Module):
             ious = []
             for box_pred in box_pred_list:
                 box_pred_xyxy = self.xywh2xyxy(box_pred[:, :4])
-                iou = compute_iou(box_pred_xyxy[i].unsqueeze(0), box_target[i].unsqueeze(0))
+                iou = compute_iou(box_pred_xyxy[i].unsqueeze(
+                    0), box_target[i].unsqueeze(0))
                 ious.append(iou.squeeze())
 
             # Find the maximum IOU and the corresponding predicted box
@@ -188,10 +207,12 @@ class YoloLoss(nn.Module):
         not_object_mask = ~has_object_map
 
         # Repeat the mask for each bounding box prediction in the list
-        repeated_not_object_mask = not_object_mask.unsqueeze(-1).repeat(1, 1, 1, self.B).reshape(-1)
+        repeated_not_object_mask = not_object_mask.unsqueeze(
+            -1).repeat(1, 1, 1, self.B).reshape(-1)
 
         # Concatenate all prediction confidence scores and reshape
-        flat_pred_conf = torch.cat([pred_boxes[..., 4].reshape(-1) for pred_boxes in pred_boxes_list], dim=0)
+        flat_pred_conf = torch.cat(
+            [pred_boxes[..., 4].reshape(-1) for pred_boxes in pred_boxes_list], dim=0)
 
         # Apply the mask to focus on no-object confidence scores
         pred_conf_no_obj = flat_pred_conf[repeated_not_object_mask]
@@ -200,7 +221,8 @@ class YoloLoss(nn.Module):
         target_conf_no_obj = torch.zeros_like(pred_conf_no_obj)
 
         # Compute Mean Squared Error loss
-        no_obj_loss = F.mse_loss(pred_conf_no_obj, target_conf_no_obj, reduction='sum')
+        no_obj_loss = F.mse_loss(
+            pred_conf_no_obj, target_conf_no_obj, reduction='sum')
 
         return no_obj_loss
 
@@ -217,10 +239,11 @@ class YoloLoss(nn.Module):
         The box_target_conf should be treated as ground truth, i.e., no gradient
 
         """
-        ### CODE
+        # CODE
         # your code here
         # Use mean squared error loss
-        contain_conf_loss = F.mse_loss(box_pred_conf, box_target_conf, reduction='sum')
+        contain_conf_loss = F.mse_loss(
+            box_pred_conf, box_target_conf, reduction='sum')
 
         return contain_conf_loss
 
@@ -235,15 +258,17 @@ class YoloLoss(nn.Module):
         Returns:
         reg_loss : scalar
         """
-        ### CODE
+        # CODE
         # your code here
         # Use Mean Squared Error loss for regression
         # Ensure both tensors are on the same device
         if box_pred_response.device != box_target_response.device:
-            box_pred_response = box_pred_response.to(box_target_response.device)
+            box_pred_response = box_pred_response.to(
+                box_target_response.device)
 
         # Compute the Mean Squared Error loss for center coordinates
-        center_loss = F.mse_loss(box_pred_response[:, :2], box_target_response[:, :2], reduction='sum')
+        center_loss = F.mse_loss(
+            box_pred_response[:, :2], box_target_response[:, :2], reduction='sum')
 
         # Compute the Mean Squared Error loss for dimensions, comparing square roots to emphasize smaller boxes
         dimension_loss = F.mse_loss(torch.sqrt(box_pred_response[:, 2:4]), torch.sqrt(box_target_response[:, 2:4]),
@@ -277,33 +302,40 @@ class YoloLoss(nn.Module):
         # split the pred tensor from an entity to separate tensors:
         # -- pred_boxes_list: a list containing all bbox prediction (list) [(tensor) size (N, S, S, 5)  for B pred_boxes]
         # -- pred_cls (containing all classification predictions)
-        pred_boxes_list = [pred_tensor[:, :, :, i * 5:(i + 1) * 5] for i in range(self.B)]
+        pred_boxes_list = [pred_tensor[:, :, :, i *
+                                       5:(i + 1) * 5] for i in range(self.B)]
         pred_cls = pred_tensor[:, :, :, self.B * 5:]  # (N, S, S, 20)
 
         # compute classification loss
-        cls_loss = self.get_class_prediction_loss(pred_cls, target_cls, has_object_map) * inv_n
+        cls_loss = self.get_class_prediction_loss(
+            pred_cls, target_cls, has_object_map) * inv_n
 
         # compute no-object loss
-        no_obj_loss = self.get_no_object_loss(pred_boxes_list, has_object_map) * inv_n
+        no_obj_loss = self.get_no_object_loss(
+            pred_boxes_list, has_object_map) * inv_n
 
         # Re-shape boxes in pred_boxes_list and target_boxes to meet the following desires
         # 1) only keep having-object cells
         # 2) vectorize all dimensions except for the last one for faster computation
-        pred_boxes_list = [pred_boxes[has_object_map] for pred_boxes in pred_boxes_list]
+        pred_boxes_list = [pred_boxes[has_object_map]
+                           for pred_boxes in pred_boxes_list]
         target_boxes = target_boxes[has_object_map].view(-1, 4)
 
         # compute regression loss between the found best bbox and GT bbox for all the cell containing objects
-        best_ious, best_boxes = self.find_best_iou_boxes(pred_boxes_list, target_boxes)
+        best_ious, best_boxes = self.find_best_iou_boxes(
+            pred_boxes_list, target_boxes)
 
         # compute contain_object_loss
         containing_obj_loss = self.get_contain_conf_loss(best_boxes[..., 4].unsqueeze(-1),
                                                          torch.ones_like(best_ious)) * inv_n
 
         # compute regression loss
-        reg_loss = self.get_regression_loss(best_boxes[..., :4], target_boxes[..., :4]) * inv_n
+        reg_loss = self.get_regression_loss(
+            best_boxes[..., :4], target_boxes[..., :4]) * inv_n
 
         # compute final loss
-        total_loss = cls_loss + self.l_noobj * no_obj_loss + self.l_coord * reg_loss + containing_obj_loss
+        total_loss = cls_loss + self.l_noobj * no_obj_loss + \
+            self.l_coord * reg_loss + containing_obj_loss
 
         # construct return loss_dict
         loss_dict = {
@@ -317,14 +349,15 @@ class YoloLoss(nn.Module):
 
 
 class YoloLossV3(nn.Module):
-    def __init__(self):
+    def __init__(self, balance_weight=None):
         super().__init__()
         # Constants signifying how much to pay for each respective part of the loss
         self.lambda_class = 1
         self.lambda_noobj = 10
         self.lambda_obj = 1
         self.lambda_box = 2.5
-        self.balance_weight = [1, 1, 1]
+        self.balance_weight = balance_weight if balance_weight is not None else [
+            1, 1, 1]
 
     @staticmethod
     def get_no_object_loss(prediction, target, not_object_mask):
@@ -343,7 +376,8 @@ class YoloLossV3(nn.Module):
         target_conf_not_obj = target[..., 0][not_object_mask]
 
         # Compute the loss
-        no_object_loss = F.binary_cross_entropy_with_logits(pred_conf_not_obj, target_conf_not_obj)
+        no_object_loss = F.binary_cross_entropy_with_logits(
+            pred_conf_not_obj, target_conf_not_obj)
 
         return no_object_loss
 
@@ -383,15 +417,18 @@ class YoloLossV3(nn.Module):
         """
         # Concatenate the sigmoid-scaled predicted centers and the exponential-scaled predicted dimensions,
         # multiplied by anchors
-        box_preds = torch.cat([F.sigmoid(prediction[..., 1:3]), torch.exp(prediction[..., 3:5]) * anchors], dim=-1)
+        box_preds = torch.cat([F.sigmoid(prediction[..., 1:3]), torch.exp(
+            prediction[..., 3:5]) * anchors], dim=-1)
 
         # Calculate the Intersection over Union (IoU) between predicted boxes and ground truth,
         # focusing on cells with objects
-        ious = intersection_over_union(box_preds[object_mask], target[..., 1:5][object_mask]).detach()
+        ious = intersection_over_union(
+            box_preds[object_mask], target[..., 1:5][object_mask]).detach()
 
         # Compute the mean squared error between the predicted objectness scores
         # (sigmoid-scaled) and the IoU scaled by ground truth objectness scores
-        object_loss = F.mse_loss(F.sigmoid(prediction[..., 0:1][object_mask]), ious * target[..., 0:1][object_mask])
+        object_loss = F.mse_loss(F.sigmoid(
+            prediction[..., 0:1][object_mask]), ious * target[..., 0:1][object_mask])
 
         return object_loss
 
@@ -416,7 +453,8 @@ class YoloLossV3(nn.Module):
 
         # Calculate the mean squared error between the predicted and target bounding boxes,
         # focusing only on cells with objects
-        box_loss = F.mse_loss(prediction[..., 1:5][object_mask], target[..., 1:5][object_mask])
+        box_loss = F.mse_loss(
+            prediction[..., 1:5][object_mask], target[..., 1:5][object_mask])
 
         return box_loss
 
@@ -446,16 +484,20 @@ class YoloLossV3(nn.Module):
             anchors = anchors.reshape(1, 3, 1, 1, 2)
 
             # compute no-object loss
-            no_obj_loss = self.get_no_object_loss(predictions, target, not_object_mask)
+            no_obj_loss = self.get_no_object_loss(
+                predictions, target, not_object_mask)
 
             # compute object loss
-            object_loss = self.get_object_loss(predictions, target, object_mask, anchors)
+            object_loss = self.get_object_loss(
+                predictions, target, object_mask, anchors)
 
             # compute box coordinate loss
-            box_loss = self.get_box_coordination_loss(predictions, target, object_mask, anchors)
+            box_loss = self.get_box_coordination_loss(
+                predictions, target, object_mask, anchors)
 
             # compute classification loss
-            cls_loss = self.get_class_prediction_loss(predictions, target, object_mask)
+            cls_loss = self.get_class_prediction_loss(
+                predictions, target, object_mask)
 
             # Update loss sums and counts
             loss_distribution["no_obj"] += no_obj_loss.item()
@@ -467,10 +509,161 @@ class YoloLossV3(nn.Module):
                 loss_count[key] += 1
 
             # compute total loss
-            total_loss += weight * (
-                    self.lambda_box * box_loss + self.lambda_obj * object_loss + self.lambda_noobj * no_obj_loss + self.lambda_class * cls_loss)
+            total_loss += self.lambda_box * box_loss + weight * self.lambda_obj * object_loss + weight * self.lambda_noobj * no_obj_loss + self.lambda_class * cls_loss
 
         # Calculate average losses
-        average_losses = {k: loss_distribution[k] / loss_count[k] for k in loss_distribution}
+        average_losses = {
+            k: loss_distribution[k] / loss_count[k] for k in loss_distribution}
+
+        return total_loss, average_losses
+
+
+"""
+Below code is still in progress
+"""
+class YoloLossV5(nn.Module):
+    def __init__(self, model, balance_weight=None):
+        super().__init__()
+        # Constants signifying how much to pay for each respective part of the loss
+        self.lambda_class = 0.5 * (model.head.nc / 80 * 3 / model.head.nl)
+        self.lambda_obj = 1 * (3 / model.head.nl)
+        self.lambda_box = 0.05 * (3 / model.head.nl)
+        
+        self.balance_weight = balance_weight \
+            if balance_weight is not None else [4.0, 1.0, 0.4]
+            
+        print(f"lambda_class: {self.lambda_class}, lambda_obj: {self.lambda_obj}, lambda_box: {self.lambda_box}")
+
+    @staticmethod
+    def get_box_coordination_loss(prediction, target, object_mask, anchors):
+        """
+        Compute the loss for the cells with objects
+        Args:
+            prediction: size(batch, 3, S, S, 25) in conf, x, y, w, h, class (20 classes)
+            target: size(batch, 3, S, S, 6) in conf, x, y, w, h, class
+            object_mask: size(batch, 3, S, S)
+            anchors: size(batch, 3, 2)
+
+        Returns:
+            iou, loss of the cells with objects
+        """
+        # Concatenate the sigmoid-scaled predicted centers and the exponential-scaled predicted dimensions,
+        # multiplied by anchors
+        box_preds = torch.cat([F.sigmoid(prediction[..., 1:3]), torch.exp(
+            prediction[..., 3:5]) * anchors], dim=-1)
+
+        # Calculate the Generalized Intersection over Union (GoU) between predicted boxes and ground truth,
+        # focusing on cells with objects
+        ious = intersection_over_union(
+            box_preds[object_mask], target[..., 1:5][object_mask], giou=True).squeeze()
+
+        box_loss = (1.0 - ious).mean()
+
+        return ious, box_loss
+    
+    @staticmethod
+    def get_object_score(prediction, target, object_mask, ious, weight):
+        """
+        Compute the object loss, focusing on the objectness score of the bounding box.
+
+        Args:
+            prediction (Tensor): Predicted output from the model. Size: (batch, 3, S, S, 25)
+            target (Tensor): Ground truth labels. Size: (batch, 3, S, S, 6)
+            object_mask: size(batch, 3, S, S)
+            ious (Tensor): Intersection over Union scores. Size: (N,)
+            weight (float): The balancing weight for object loss.
+
+        Returns:
+            Tensor: The computed object loss.
+        """
+        # Extract the objectness score from predictions and targets
+        pred_objectness = prediction[..., 0:1][object_mask]
+        target_objectness = target[..., 0:1][object_mask]
+
+        # Reshape ious to match the shape of pred_objectness and target_objectness
+        ious = ious.unsqueeze(-1).clamp(0)  # Adds an extra dimension to match the shape
+
+        # Use Binary Cross Entropy with logits for objectness score
+        object_loss = F.binary_cross_entropy_with_logits(
+            pred_objectness, ious * target_objectness
+        )
+
+        # Scale the loss with the provided weight
+        object_loss *= weight
+
+        return object_loss
+
+    
+    @staticmethod
+    def get_class_prediction_loss(prediction, target, object_mask):
+        """
+        Compute the loss for the cells with objects
+        Args:
+            prediction: size(batch, 3, S, S, 25)
+            target: size(batch, 3, S, S, 6)
+            object_mask: size(batch, 3, S, S)
+
+        Returns:
+            loss of the cells with objects
+        """
+        # Extract the class predictions for the cells with objects
+        pred_class = prediction[..., 5:][object_mask]
+        target_class = target[..., 5][object_mask].long()
+
+        # Compute the loss
+        class_loss = F.cross_entropy(pred_class, target_class)
+
+        return class_loss
+
+
+    def forward(self, predictions_list, target_list, anchors_list):
+        """
+        Compute the loss for the anchor boxes
+        Args:
+            predictions_list: [size(batch, 3, 80, 80, 25), size(batch, 3, 40, 40, 25), size(batch, 3, 20, 20, 25)] while 25 is [conf, x, y, w, h, class (20 classes)]
+            target_list: [size(batch, 3, 80, 80, 6), size(batch, 3, 40, 40, 6), size(batch, 3, 20, 20, 6)] while 6 is [conf, x, y, w, h, class]
+            anchors_list: [size(3, 2), size(3, 2), size(3, 2)]
+
+        Returns:
+            total loss of the boxes
+        """
+        total_loss = 0
+        loss_distribution = {"obj": 0, "box": 0, "cls": 0}
+        loss_count = {"obj": 0, "box": 0, "cls": 0}
+
+        # Iterate through the predictions for each grid and compute the loss
+        for predictions, target, anchors, weight in zip(predictions_list, target_list, anchors_list,
+                                                        self.balance_weight):
+            if target.sum() == 0:
+                continue
+            # Check where obj and noobj (we ignore if target == -1)
+            object_mask = target[..., 0] == 1
+            anchors = anchors.reshape(1, 3, 1, 1, 2)
+
+            # compute iou and box loss
+            ious, box_loss = self.get_box_coordination_loss(
+                predictions, target, object_mask, anchors)
+            
+            # Compute the score of object
+            object_loss = self.get_object_score(predictions, target, object_mask, ious, weight)
+            
+            # compute classification loss
+            cls_loss = self.get_class_prediction_loss(
+                predictions, target, object_mask)
+
+            # Update loss sums and counts
+            loss_distribution["obj"] += object_loss.item()
+            loss_distribution["box"] += box_loss.item()
+            loss_distribution["cls"] += cls_loss.item()
+
+            for key in loss_count:
+                loss_count[key] += 1
+
+            # compute total loss
+            total_loss += (self.lambda_box * box_loss + self.lambda_obj * object_loss + self.lambda_class * cls_loss) * predictions.shape[0]
+
+        # Calculate average losses
+        average_losses = {
+            k: loss_distribution[k] / loss_count[k] for k in loss_distribution}
 
         return total_loss, average_losses

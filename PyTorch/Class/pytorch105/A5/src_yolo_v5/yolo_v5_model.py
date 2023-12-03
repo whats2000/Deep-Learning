@@ -246,9 +246,9 @@ class Heads(nn.Module):
         return x
 
 
-class YOLOv5m(nn.Module):
-    def __init__(self, first_out, nc=10, anchors=(), ch=(), inference=False):
-        super(YOLOv5m, self).__init__()
+class YOLOv5(nn.Module):
+    def __init__(self, first_out, nc=20, anchors=(), ch=(), inference=False):
+        super(YOLOv5, self).__init__()
         self.inference = inference
 
         self.backbone = nn.ModuleList()
@@ -318,28 +318,41 @@ class YOLOv5m(nn.Module):
 # End of code derived from the YOLOv5m implementation by Alessandro Mondin
 
 
-def load_pretrained_weights(model: nn.Module) -> nn.Module:
+def load_pretrained_weights(model: nn.Module, model_name='yolov5m') -> nn.Module:
     """
     Loads the pretrained weights into the model.
 
     Args:
+        model_name: The name of the model, ex: 'yolov5m'
         model (nn.Module): The model to load the weights into.
     """
-    # Load the pretrained YOLOv5 model
-    pretrained_model = torch.hub.load('ultralytics/yolov5', 'yolov5m', pretrained=True)
+    pretrained_model = torch.hub.load('ultralytics/yolov5', model_name, pretrained=True)
 
-    # Counter check all layers loads correctly
+    model_state_dict = model.state_dict()
+    pretrained_state_dict = pretrained_model.state_dict()
+
+    model_iter = iter(model_state_dict)
+    pretrained_iter = iter(pretrained_state_dict)
     loaded_layer = 0
 
-    # Iterate over your model's state dictionary and transfer weights based on shape
-    for ((name_m, param_m), (name_p, param_p)) in zip(model.state_dict().items(),
-                                                      pretrained_model.state_dict().items()):
-        if param_m.shape == param_p.shape:
-            param_m.data.copy_(param_p.data)
-            loaded_layer += 1
-        else:
-            print(f"Skipped parameter: {name_m} | MisMatched Shapes: {param_m.shape} vs {param_p.shape}")
+    while True:
+        try:
+            model_key = next(model_iter)
+            pretrained_key = next(pretrained_iter)
 
+            # Skip batch normalization layers in your model
+            while 'bn' in model_key:
+                model_key = next(model_iter)
+
+            if model_state_dict[model_key].shape == pretrained_state_dict[pretrained_key].shape:
+                model_state_dict[model_key] = pretrained_state_dict[pretrained_key]
+                loaded_layer += 1
+            else:
+                print(f"Shape mismatch at {model_key} and {pretrained_key}, skipping")
+        except StopIteration:
+            break
+
+    model.load_state_dict(model_state_dict)
     print(
         f'Loaded {loaded_layer} layers successfully, total {len(pretrained_model.state_dict().items())} layers in pretrained model.')
     return model
