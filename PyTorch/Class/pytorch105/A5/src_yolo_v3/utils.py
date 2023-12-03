@@ -27,7 +27,8 @@ def iou_width_height(boxes1, boxes2):
         boxes1[..., 1], boxes2[..., 1]
     )
     union = (
-        boxes1[..., 0] * boxes1[..., 1] + boxes2[..., 0] * boxes2[..., 1] - intersection
+        boxes1[..., 0] * boxes1[..., 1] +
+        boxes2[..., 0] * boxes2[..., 1] - intersection
     )
     return intersection / union
 
@@ -147,7 +148,8 @@ def mean_average_precision(
         num_classes (int): number of classes
 
     Returns:
-        float: mAP value across all classes given a specific IoU threshold
+        float: mean mAP value across all classes given a specific IoU threshold
+        dict: mAP values for each class
     """
 
     # list storing all AP for respective classes
@@ -155,6 +157,8 @@ def mean_average_precision(
 
     # used for numerical stability later on
     epsilon = 1e-6
+
+    class_map = {}
 
     for c in range(num_classes):
         detections = []
@@ -237,13 +241,17 @@ def mean_average_precision(
         # torch.trapz for numerical integration
         average_precisions.append(torch.trapz(precisions, recalls))
 
-    return sum(average_precisions) / len(average_precisions)
+        class_map[c] = average_precisions[-1]
+
+    mean_map = sum(average_precisions) / len(average_precisions)
+
+    return mean_map, class_map
 
 
 def plot_image(image, boxes):
     """Plots predicted bounding boxes on the image"""
     cmap = plt.get_cmap("tab20b")
-    class_labels = config.COCO_LABELS if config.DATASET=='COCO' else config.PASCAL_CLASSES
+    class_labels = config.COCO_LABELS if config.DATASET == 'COCO' else config.PASCAL_CLASSES
     colors = [cmap(i) for i in np.linspace(0, 1, len(class_labels))]
     im = np.array(image)
     height, width, _ = im.shape
@@ -258,7 +266,8 @@ def plot_image(image, boxes):
 
     # Create a Rectangle patch
     for box in boxes:
-        assert len(box) == 6, "box should contain class pred, confidence, x, y, width, height"
+        assert len(
+            box) == 6, "box should contain class pred, confidence, x, y, width, height"
         class_pred = box[0]
         conf = box[1]
         box = box[2:]
@@ -345,6 +354,7 @@ def get_evaluation_bboxes(
     model.train()
     return all_pred_boxes, all_true_boxes
 
+
 def get_predict_bboxes(
     loader,
     model,
@@ -412,7 +422,8 @@ def cells_to_bboxes(predictions, anchors, S, is_preds=True):
     if is_preds:
         anchors = anchors.reshape(1, len(anchors), 1, 1, 2)
         box_predictions[..., 0:2] = torch.sigmoid(box_predictions[..., 0:2])
-        box_predictions[..., 2:] = torch.exp(box_predictions[..., 2:]) * anchors
+        box_predictions[..., 2:] = torch.exp(
+            box_predictions[..., 2:]) * anchors
         scores = torch.sigmoid(predictions[..., 0:1])
         best_class = torch.argmax(predictions[..., 5:], dim=-1).unsqueeze(-1)
     else:
@@ -426,10 +437,13 @@ def cells_to_bboxes(predictions, anchors, S, is_preds=True):
         .to(predictions.device)
     )
     x = 1 / S * (box_predictions[..., 0:1] + cell_indices)
-    y = 1 / S * (box_predictions[..., 1:2] + cell_indices.permute(0, 1, 3, 2, 4))
+    y = 1 / S * (box_predictions[..., 1:2] +
+                 cell_indices.permute(0, 1, 3, 2, 4))
     w_h = 1 / S * box_predictions[..., 2:4]
-    converted_bboxes = torch.cat((best_class, scores, x, y, w_h), dim=-1).reshape(BATCH_SIZE, num_anchors * S * S, 6)
+    converted_bboxes = torch.cat(
+        (best_class, scores, x, y, w_h), dim=-1).reshape(BATCH_SIZE, num_anchors * S * S, 6)
     return converted_bboxes.tolist()
+
 
 def check_class_accuracy(model, loader, threshold):
     model.eval()
@@ -444,7 +458,7 @@ def check_class_accuracy(model, loader, threshold):
 
         for i in range(3):
             y[i] = y[i].to(config.DEVICE)
-            obj = y[i][..., 0] == 1 # in paper this is Iobj_i
+            obj = y[i][..., 0] == 1  # in paper this is Iobj_i
             noobj = y[i][..., 0] == 0  # in paper this is Iobj_i
 
             correct_class += torch.sum(
@@ -458,7 +472,8 @@ def check_class_accuracy(model, loader, threshold):
             correct_noobj += torch.sum(obj_preds[noobj] == y[i][..., 0][noobj])
             tot_noobj += torch.sum(noobj)
 
-    print(f"Class accuracy is: {(correct_class/(tot_class_preds+1e-16))*100:2f}%")
+    print(
+        f"Class accuracy is: {(correct_class/(tot_class_preds+1e-16))*100:2f}%")
     print(f"No obj accuracy is: {(correct_noobj/(tot_noobj+1e-16))*100:2f}%")
     print(f"Obj accuracy is: {(correct_obj/(tot_obj+1e-16))*100:2f}%")
     model.train()
@@ -556,6 +571,7 @@ def get_loaders(train_csv_path, test_csv_path):
 
     return train_loader, test_loader, train_eval_loader
 
+
 def plot_couple_examples(model, loader, thresh, iou_thresh, anchors):
     model.eval()
     x, y = next(iter(loader))
@@ -579,7 +595,8 @@ def plot_couple_examples(model, loader, thresh, iou_thresh, anchors):
             bboxes[i], iou_threshold=iou_thresh, threshold=thresh, box_format="midpoint",
         )
         print(nms_boxes)
-        plot_image(x[i].permute(1,2,0).detach().cpu(), nms_boxes)
+        plot_image(x[i].permute(1, 2, 0).detach().cpu(), nms_boxes)
+
 
 def test_evaluate(model, loader, thresh, iou_thresh, anchors):
     model.eval()
@@ -604,7 +621,6 @@ def test_evaluate(model, loader, thresh, iou_thresh, anchors):
             bboxes[i], iou_threshold=iou_thresh, threshold=thresh, box_format="midpoint",
         )
         print(nms_boxes)
-
 
 
 def seed_everything(seed=42):
