@@ -82,7 +82,7 @@ def intersection_over_union(boxes_preds, boxes_labels, box_format="midpoint"):
     return intersection / (box1_area + box2_area - intersection + 1e-6)
 
 
-def non_max_suppression(bboxes, iou_threshold, threshold, box_format="corners", max_cal=300):
+def non_max_suppression(bboxes, iou_threshold, threshold, box_format="corners", max_cal=3000):
     """
     Video explanation of this function:
     https://youtu.be/YDkjWEN8jNA

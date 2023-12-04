@@ -245,9 +245,8 @@ class Heads(nn.Module):
 
         return x
 
-
 class YOLOv5(nn.Module):
-    def __init__(self, first_out, nc=20, anchors=(), ch=(), inference=False):
+    def __init__(self, first_out, nc=20, anchors=(), ch=(), depth_multiple=0.67, inference=False):
         super(YOLOv5, self).__init__()
         self.inference = inference
 
@@ -255,29 +254,29 @@ class YOLOv5(nn.Module):
         self.backbone += [
             ConvBNSiLu(in_channels=3, out_channels=first_out, kernel_size=6, stride=2, padding=2),
             ConvBNSiLu(in_channels=first_out, out_channels=first_out * 2, kernel_size=3, stride=2, padding=1),
-            C3(in_channels=first_out * 2, out_channels=first_out * 2, width_multiplier=0.5, number_of_bottlenecks=2),
+            C3(in_channels=first_out * 2, out_channels=first_out * 2, width_multiplier=0.5, number_of_bottlenecks=int(3 * depth_multiple)),
             ConvBNSiLu(in_channels=first_out * 2, out_channels=first_out * 4, kernel_size=3, stride=2, padding=1),
-            C3(in_channels=first_out * 4, out_channels=first_out * 4, width_multiplier=0.5, number_of_bottlenecks=4),
+            C3(in_channels=first_out * 4, out_channels=first_out * 4, width_multiplier=0.5, number_of_bottlenecks=int(6 * depth_multiple)),
             ConvBNSiLu(in_channels=first_out * 4, out_channels=first_out * 8, kernel_size=3, stride=2, padding=1),
-            C3(in_channels=first_out * 8, out_channels=first_out * 8, width_multiplier=0.5, number_of_bottlenecks=6),
+            C3(in_channels=first_out * 8, out_channels=first_out * 8, width_multiplier=0.5, number_of_bottlenecks=int(9 * depth_multiple)),
             ConvBNSiLu(in_channels=first_out * 8, out_channels=first_out * 16, kernel_size=3, stride=2, padding=1),
-            C3(in_channels=first_out * 16, out_channels=first_out * 16, width_multiplier=0.5, number_of_bottlenecks=2),
+            C3(in_channels=first_out * 16, out_channels=first_out * 16, width_multiplier=0.5, number_of_bottlenecks=int(3 * depth_multiple)),
             SPPF(in_channels=first_out * 16)
         ]
 
         self.neck = nn.ModuleList()
         self.neck += [
             ConvBNSiLu(in_channels=first_out * 16, out_channels=first_out * 8, kernel_size=1, stride=1, padding=0),
-            C3(in_channels=first_out * 16, out_channels=first_out * 8, width_multiplier=0.25, number_of_bottlenecks=2,
+            C3(in_channels=first_out * 16, out_channels=first_out * 8, width_multiplier=0.25, number_of_bottlenecks=int(3 * depth_multiple),
                is_backbone=False),
             ConvBNSiLu(in_channels=first_out * 8, out_channels=first_out * 4, kernel_size=1, stride=1, padding=0),
-            C3(in_channels=first_out * 8, out_channels=first_out * 4, width_multiplier=0.25, number_of_bottlenecks=2,
+            C3(in_channels=first_out * 8, out_channels=first_out * 4, width_multiplier=0.25, number_of_bottlenecks=int(3 * depth_multiple),
                is_backbone=False),
             ConvBNSiLu(in_channels=first_out * 4, out_channels=first_out * 4, kernel_size=3, stride=2, padding=1),
-            C3(in_channels=first_out * 8, out_channels=first_out * 8, width_multiplier=0.5, number_of_bottlenecks=2,
+            C3(in_channels=first_out * 8, out_channels=first_out * 8, width_multiplier=0.5, number_of_bottlenecks=int(3 * depth_multiple),
                is_backbone=False),
             ConvBNSiLu(in_channels=first_out * 8, out_channels=first_out * 8, kernel_size=3, stride=2, padding=1),
-            C3(in_channels=first_out * 16, out_channels=first_out * 16, width_multiplier=0.5, number_of_bottlenecks=2,
+            C3(in_channels=first_out * 16, out_channels=first_out * 16, width_multiplier=0.5, number_of_bottlenecks=int(3 * depth_multiple),
                is_backbone=False)
         ]
 
@@ -314,7 +313,6 @@ class YOLOv5(nn.Module):
 
         return self.head(outputs)
 
-
 # End of code derived from the YOLOv5m implementation by Alessandro Mondin
 
 
@@ -348,7 +346,7 @@ def load_pretrained_weights(model: nn.Module, model_name='yolov5m') -> nn.Module
                 model_state_dict[model_key] = pretrained_state_dict[pretrained_key]
                 loaded_layer += 1
             else:
-                print(f"Shape mismatch at {model_key} and {pretrained_key}, skipping")
+                print(f"Shape mismatch at {model_key} and {pretrained_key}, skipping shape [{model_state_dict[model_key].shape}] != [{pretrained_state_dict[pretrained_key].shape}]")
         except StopIteration:
             break
 
