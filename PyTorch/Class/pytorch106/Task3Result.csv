@@ -1,8 +1,8 @@
-Template	Demonstrations	Verbalizer	1	2	4
-`It was [Mask] ..` (Auto)	Tempalte After Sample Text (Auto)	like/ great (Auto)	0.91147		
-`It was [Mask] ..` (Auto)	Tempalte After Sample Text (Auto)	bad/awesome (Auto)		0.91967	
-`It was [Mask] . ` (Auto)	Tempalte After Sample Text (Auto)	horrible/awesome (Auto)			0.92295
-`It was [Mask]. `	Tempalte After Sample Text	terrible/great	0.89672	0.89508	0.89508
-`This sentence is [Mask].`	Tempalte After Sample Text	bad/good	0.92786	0.93114	0.89836
-`Sentence for analyze: This sentence is [Mask]. `	Tempalte After Sample Text	negative/positive	0.93934	0.92295	0.90819
-None	None	None	0.51147	0.61639	0.67868
+Template	Demonstrations	Verbalizer	1	2	4	8	16
+`It was [Mask] ..` (Auto)	Tempalte After Sample Text (Auto)	like/ great (Auto)	0.91147				
+`It was [Mask] ..` (Auto)	Tempalte After Sample Text (Auto)	bad/awesome (Auto)		0.91967			
+`It was [Mask] . ` (Auto)	Tempalte After Sample Text (Auto)	horrible/awesome (Auto)			0.92295		
+`It was [Mask]. `	Tempalte After Sample Text	terrible/great	0.89672	0.89508	0.89508		
+`This sentence is [Mask].`	Tempalte After Sample Text	bad/good	0.92786	0.93114	0.89836		
+`Sentence for analyze: This sentence is [Mask]. `	Tempalte After Sample Text	negative/positive	0.93934	0.92295	0.90819		
+None	None	None	0.51147	0.61639	0.67868	0.63278	0.69508
