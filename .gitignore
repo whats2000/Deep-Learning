@@ -1,5 +1,10 @@
 /PyTorch/Class/pytorch105/A5/data/VOCdevkit_2007/VOC2007/JPEGImages/
 /PyTorch/Class/pytorch105/A5/data/VOCdevkit_2007/VOC2007test/JPEGImages/
+/PyTorch/Class/pytorch107/BCSS/test/
+/PyTorch/Class/pytorch107/BCSS/train/
+/PyTorch/Class/pytorch107/BCSS/val/
+/PyTorch/Class/pytorch107/BCSS/train_mask/
+/PyTorch/Class/pytorch107/BCSS/val_mask/
 PyTorch/Class/pytorch102/fashion-mnist_train.csv
 PyTorch/Class/pytorch104/data/cifar-10-python.tar.gz
 PyTorch/Class/pytorch104/data/imagenette2-320.zip
