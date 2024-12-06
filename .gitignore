@@ -15,3 +15,10 @@ PyTorch/SelfLearning/Audioclassification/data/spectrograms/no/no.zip
 PyTorch/SelfLearning/Audioclassification/data/spectrograms.zip
 PyTorch/Class/pytorch106/ckpts/
 PyTorch/SelfLearning/EfficientCapsNet/numbers
+/PyTorch/SelfLearning/data
+*.zip
+/PyTorch/SelfLearning/NaturalLanguageProcessing/.idea
+/PyTorch/SelfLearning/Audioclassification/.idea
+/.idea
+/PyTorch/Class/pytorch105/A5/data
+/.idea
